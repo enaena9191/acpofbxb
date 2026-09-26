@@ -1,0 +1,434 @@
+{
+  "latest_id": 4820,
+  "last_change_at": "2026-09-24T07:03:09+00:00",
+  "rss": {
+    "yokoku_MachinaHeartBeating": {
+      "pubDate": "Wed, 10 Jun 2026 18:00:00 +0900",
+      "id": 4717
+    },
+    "balance_202606": {
+      "pubDate": "Wed, 10 Jun 2026 16:00:00 +0900",
+      "id": 4716
+    },
+    "g_827": {
+      "pubDate": "Tue, 09 Jun 2026 16:00:00 +0900",
+      "id": 4715
+    },
+    "info_4koma_578": {
+      "pubDate": "Mon, 08 Jun 2026 19:00:00 +0900",
+      "id": 4713
+    },
+    "c_wedding_2026": {
+      "pubDate": "Fri, 26 Jun 2026 14:30:51 +0900",
+      "id": 4712
+    },
+    "info_4koma_577": {
+      "pubDate": "Wed, 03 Jun 2026 19:00:00 +0900",
+      "id": 4710
+    },
+    "event_1259_main": {
+      "pubDate": "Wed, 03 Jun 2026 16:00:00 +0900",
+      "id": 4709
+    },
+    "g_826": {
+      "pubDate": "Tue, 02 Jun 2026 16:00:00 +0900",
+      "id": 4708
+    },
+    "ridy_room_081": {
+      "pubDate": "Mon, 01 Jun 2026 19:00:00 +0900",
+      "id": 4707
+    },
+    "advance_diapack_20260601": {
+      "pubDate": "Mon, 01 Jun 2026 16:00:00 +0900",
+      "id": 4706
+    },
+    "loginbonus_202606": {
+      "pubDate": "Mon, 01 Jun 2026 00:00:00 +0900",
+      "id": 4705
+    },
+    "update_20260529": {
+      "pubDate": "Fri, 29 May 2026 16:00:00 +0900",
+      "id": 4704
+    },
+    "event_1257_main": {
+      "pubDate": "Thu, 28 May 2026 16:00:00 +0900",
+      "id": 4703
+    },
+    "info_4koma_576": {
+      "pubDate": "Wed, 27 May 2026 19:00:00 +0900",
+      "id": 4701
+    },
+    "g_825": {
+      "pubDate": "Tue, 26 May 2026 16:00:00 +0900",
+      "id": 4700
+    },
+    "medal_202605": {
+      "pubDate": "Sun, 24 May 2026 16:00:00 +0900",
+      "id": 4698
+    },
+    "guildbattle_260522": {
+      "pubDate": "Fri, 22 May 2026 16:00:00 +0900",
+      "id": 4699
+    },
+    "balance_202605": {
+      "pubDate": "Thu, 21 May 2026 16:00:00 +0900",
+      "id": 4697
+    },
+    "info_4koma_575": {
+      "pubDate": "Wed, 20 May 2026 19:00:00 +0900",
+      "id": 4695
+    },
+    "info_kaini_202605": {
+      "pubDate": "Wed, 20 May 2026 16:00:00 +0900",
+      "id": 4694
+    },
+    "event_1260_main": {
+      "pubDate": "Thu, 11 Jun 2026 16:00:00 +0900",
+      "id": 4718
+    },
+    "g_828": {
+      "pubDate": "Tue, 16 Jun 2026 16:00:00 +0900",
+      "id": 4719
+    },
+    "info_kaini_202606": {
+      "pubDate": "Wed, 17 Jun 2026 16:00:00 +0900",
+      "id": 4720
+    },
+    "info_4koma_579": {
+      "pubDate": "Wed, 17 Jun 2026 19:00:00 +0900",
+      "id": 4721
+    },
+    "guildbattle_260619": {
+      "pubDate": "Fri, 19 Jun 2026 16:00:00 +0900",
+      "id": 4723
+    },
+    "yokoku_829": {
+      "pubDate": "Sat, 20 Jun 2026 00:00:00 +0900",
+      "id": 4724
+    },
+    "g_829": {
+      "pubDate": "Tue, 23 Jun 2026 16:00:00 +0900",
+      "id": 4725
+    },
+    "medal_202606": {
+      "pubDate": "Wed, 24 Jun 2026 16:00:00 +0900",
+      "id": 4726
+    },
+    "info_4koma_580": {
+      "pubDate": "Wed, 24 Jun 2026 19:00:00 +0900",
+      "id": 4727
+    },
+    "update_20260625": {
+      "pubDate": "Thu, 25 Jun 2026 16:00:00 +0900",
+      "id": 4729
+    },
+    "g_831": {
+      "pubDate": "Tue, 30 Jun 2026 16:00:00 +0900",
+      "id": 4730
+    },
+    "loginbonus_202607": {
+      "pubDate": "Wed, 01 Jul 2026 00:00:00 +0900",
+      "id": 4731
+    },
+    "advance_diapack_20260701": {
+      "pubDate": "Wed, 01 Jul 2026 16:00:00 +0900",
+      "id": 4733
+    },
+    "info_4koma_581": {
+      "pubDate": "Wed, 01 Jul 2026 19:00:00 +0900",
+      "id": 4734
+    },
+    "event_1262_main": {
+      "pubDate": "Thu, 02 Jul 2026 16:00:00 +0900",
+      "id": 4736
+    },
+    "c_BigBang_2026": {
+      "pubDate": "Thu, 02 Jul 2026 18:00:00 +0900",
+      "id": 4737
+    },
+    "ridy_room_082": {
+      "pubDate": "Mon, 06 Jul 2026 19:00:00 +0900",
+      "id": 4738
+    },
+    "g_830": {
+      "pubDate": "Tue, 07 Jul 2026 16:00:00 +0900",
+      "id": 4739
+    },
+    "balance_202607": {
+      "pubDate": "Wed, 08 Jul 2026 16:00:00 +0900",
+      "id": 4740
+    },
+    "yokoku_MasakanoHyoryu": {
+      "pubDate": "Wed, 08 Jul 2026 18:00:00 +0900",
+      "id": 4741
+    },
+    "info_4koma_582": {
+      "pubDate": "Wed, 08 Jul 2026 19:00:00 +0900",
+      "id": 4742
+    },
+    "event_1264_main": {
+      "pubDate": "Thu, 09 Jul 2026 16:00:00 +0900",
+      "id": 4744
+    },
+    "update_v2_5_35": {
+      "pubDate": "Fri, 10 Jul 2026 15:00:00 +0900",
+      "id": 4745
+    },
+    "guildbattle_260710": {
+      "pubDate": "Mon, 13 Jul 2026 14:18:03 +0900",
+      "id": 4746
+    },
+    "nama_vol_11": {
+      "pubDate": "Fri, 10 Jul 2026 18:00:00 +0900",
+      "id": 4747
+    },
+    "g_832": {
+      "pubDate": "Tue, 14 Jul 2026 16:00:00 +0900",
+      "id": 4748
+    },
+    "info_kaini_202607": {
+      "pubDate": "Wed, 15 Jul 2026 18:56:17 +0900",
+      "id": 4749
+    },
+    "info_4koma_583": {
+      "pubDate": "Wed, 15 Jul 2026 19:00:00 +0900",
+      "id": 4750
+    },
+    "g_833": {
+      "pubDate": "Tue, 21 Jul 2026 16:00:00 +0900",
+      "id": 4752
+    },
+    "info_4koma_584": {
+      "pubDate": "Wed, 22 Jul 2026 19:00:00 +0900",
+      "id": 4753
+    },
+    "medal_202607": {
+      "pubDate": "Fri, 24 Jul 2026 16:00:00 +0900",
+      "id": 4755
+    },
+    "event_summer2026": {
+      "pubDate": "Fri, 24 Jul 2026 18:00:00 +0900",
+      "id": 4756
+    },
+    "c_summer_fes_20260801": {
+      "pubDate": "Fri, 31 Jul 2026 17:02:56 +0900",
+      "id": 4757
+    },
+    "g_834": {
+      "pubDate": "Tue, 28 Jul 2026 16:00:00 +0900",
+      "id": 4758
+    },
+    "info_4koma_585": {
+      "pubDate": "Wed, 29 Jul 2026 19:00:00 +0900",
+      "id": 4759
+    },
+    "update_20260731": {
+      "pubDate": "Fri, 31 Jul 2026 16:00:00 +0900",
+      "id": 4761
+    },
+    "yokoku_FaceYourTrueEnd": {
+      "pubDate": "Fri, 31 Jul 2026 18:00:00 +0900",
+      "id": 4762
+    },
+    "loginbonus_202608": {
+      "pubDate": "Sat, 01 Aug 2026 00:00:00 +0900",
+      "id": 4763
+    },
+    "advance_diapack_20260801": {
+      "pubDate": "Sat, 01 Aug 2026 16:00:00 +0900",
+      "id": 4764
+    },
+    "event_1266_main": {
+      "pubDate": "Sat, 01 Aug 2026 16:00:00 +0900",
+      "id": 4765
+    },
+    "yokoku_836": {
+      "pubDate": "Mon, 03 Aug 2026 16:00:00 +0900",
+      "id": 4766
+    },
+    "g_836": {
+      "pubDate": "Tue, 04 Aug 2026 16:00:00 +0900",
+      "id": 4767
+    },
+    "g_835": {
+      "pubDate": "Tue, 04 Aug 2026 16:00:00 +0900",
+      "id": 4768
+    },
+    "info_4koma_586": {
+      "pubDate": "Wed, 05 Aug 2026 19:00:00 +0900",
+      "id": 4769
+    },
+    "g_837": {
+      "pubDate": "Tue, 11 Aug 2026 16:00:00 +0900",
+      "id": 4771
+    },
+    "yokoku_FaceYourTrueEnd_LatterHalf": {
+      "pubDate": "Wed, 12 Aug 2026 16:00:00 +0900",
+      "id": 4772
+    },
+    "info_4koma_587": {
+      "pubDate": "Wed, 12 Aug 2026 19:00:00 +0900",
+      "id": 4773
+    },
+    "event_1267_main": {
+      "pubDate": "Thu, 13 Aug 2026 16:00:00 +0900",
+      "id": 4775
+    },
+    "event_1269_yokoku": {
+      "pubDate": "Fri, 14 Aug 2026 16:00:00 +0900",
+      "id": 4776
+    },
+    "ridy_room_083": {
+      "pubDate": "Fri, 14 Aug 2026 19:00:00 +0900",
+      "id": 4779
+    },
+    "event_1268_main": {
+      "pubDate": "Sat, 15 Aug 2026 10:30:00 +0900",
+      "id": 4778
+    },
+    "event_1269_main": {
+      "pubDate": "Thu, 03 Sep 2026 12:00:37 +0900",
+      "id": 4777
+    },
+    "yokoku_839": {
+      "pubDate": "Mon, 17 Aug 2026 16:00:00 +0900",
+      "id": 4780
+    },
+    "g_839": {
+      "pubDate": "Tue, 18 Aug 2026 16:00:00 +0900",
+      "id": 4781
+    },
+    "info_kaini_202608": {
+      "pubDate": "Wed, 19 Aug 2026 16:00:00 +0900",
+      "id": 4782
+    },
+    "info_4koma_588": {
+      "pubDate": "Wed, 19 Aug 2026 19:00:00 +0900",
+      "id": 4783
+    },
+    "ridy_room_summer_01": {
+      "pubDate": "Thu, 20 Aug 2026 19:00:00 +0900",
+      "id": 4785
+    },
+    "guildbattle_260821": {
+      "pubDate": "Fri, 21 Aug 2026 16:00:00 +0900",
+      "id": 4786
+    },
+    "medal_202608": {
+      "pubDate": "Mon, 24 Aug 2026 16:00:00 +0900",
+      "id": 4787
+    },
+    "g_840": {
+      "pubDate": "Tue, 25 Aug 2026 16:00:00 +0900",
+      "id": 4788
+    },
+    "ridy_room_summer_02": {
+      "pubDate": "Wed, 26 Aug 2026 19:00:00 +0900",
+      "id": 4789
+    },
+    "info_4koma_589": {
+      "pubDate": "Wed, 26 Aug 2026 19:00:00 +0900",
+      "id": 4790
+    },
+    "event_1272_main": {
+      "pubDate": "Thu, 27 Aug 2026 16:00:00 +0900",
+      "id": 4792
+    },
+    "balance_202608": {
+      "pubDate": "Mon, 31 Aug 2026 16:00:00 +0900",
+      "id": 4793
+    },
+    "ridy_room_084": {
+      "pubDate": "Mon, 31 Aug 2026 19:00:00 +0900",
+      "id": 4794
+    },
+    "loginbonus_202609": {
+      "pubDate": "Tue, 01 Sep 2026 00:00:00 +0900",
+      "id": 4795
+    },
+    "event_1273_main": {
+      "pubDate": "Thu, 03 Sep 2026 16:00:00 +0900",
+      "id": 4796
+    },
+    "g_843": {
+      "pubDate": "Tue, 01 Sep 2026 16:00:00 +0900",
+      "id": 4797
+    },
+    "advance_diapack_20260901": {
+      "pubDate": "Tue, 01 Sep 2026 16:00:01 +0900",
+      "id": 4798
+    },
+    "g_841": {
+      "pubDate": "Tue, 01 Sep 2026 16:00:00 +0900",
+      "id": 4799
+    },
+    "info_4koma_590": {
+      "pubDate": "Wed, 02 Sep 2026 19:00:00 +0900",
+      "id": 4800
+    },
+    "c_agent_2026": {
+      "pubDate": "Thu, 03 Sep 2026 18:00:00 +0900",
+      "id": 4802
+    },
+    "balance_202609": {
+      "pubDate": "Tue, 08 Sep 2026 16:00:00 +0900",
+      "id": 4803
+    },
+    "g_842": {
+      "pubDate": "Tue, 08 Sep 2026 16:00:00 +0900",
+      "id": 4804
+    },
+    "yokoku_DaredemoKiseki": {
+      "pubDate": "Wed, 09 Sep 2026 16:00:00 +0900",
+      "id": 4805
+    },
+    "info_4koma_591": {
+      "pubDate": "Wed, 09 Sep 2026 19:00:00 +0900",
+      "id": 4806
+    },
+    "ridy_room_summer_03": {
+      "pubDate": "Wed, 09 Sep 2026 20:00:00 +0900",
+      "id": 4808
+    },
+    "event_1274_main": {
+      "pubDate": "Thu, 10 Sep 2026 16:00:00 +0900",
+      "id": 4809
+    },
+    "g_844": {
+      "pubDate": "Tue, 15 Sep 2026 16:00:00 +0900",
+      "id": 4810
+    },
+    "info_kaini_202609": {
+      "pubDate": "Wed, 16 Sep 2026 16:00:00 +0900",
+      "id": 4811
+    },
+    "info_4koma_592": {
+      "pubDate": "Wed, 16 Sep 2026 19:00:00 +0900",
+      "id": 4812
+    },
+    "c_summergoods_2026": {
+      "pubDate": "Thu, 17 Sep 2026 18:00:00 +0900",
+      "id": 4814
+    },
+    "ridy_room_summer_04": {
+      "pubDate": "Thu, 17 Sep 2026 19:00:00 +0900",
+      "id": 4815
+    },
+    "guildbattle_260918": {
+      "pubDate": "Fri, 18 Sep 2026 16:00:00 +0900",
+      "id": 4816
+    },
+    "g_845": {
+      "pubDate": "Tue, 22 Sep 2026 16:00:00 +0900",
+      "id": 4817
+    },
+    "info_4koma_593": {
+      "pubDate": "Wed, 23 Sep 2026 19:00:00 +0900",
+      "id": 4818
+    },
+    "medal_202609": {
+      "pubDate": "Thu, 24 Sep 2026 16:00:00 +0900",
+      "id": 4820
+    }
+  }
+}
