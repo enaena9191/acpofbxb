@@ -1,0 +1,140 @@
+name: update
+
+on:
+  workflow_dispatch:
+
+concurrency:
+  group: update
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+
+env:
+  PYTHONIOENCODING: utf-8
+  PYTHONUTF8: '1'
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    env:
+      AWS_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
+      AWS_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
+      AWS_DEFAULT_REGION: auto
+      R2_ENDPOINT: ${{ secrets.R2_ENDPOINT }}
+      R2_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
+      R2_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
+      R2_DATA_BUCKET: ${{ vars.R2_DATA_BUCKET }}
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: actions/setup-python@v7
+        with:
+          python-version: '3.12'
+          cache: pip
+
+      - name: Install deps
+        run: pip install -r requirements.txt
+
+      - name: Fetch api_client + WARP pool
+        run: |
+          B="s3://${{ vars.R2_ACCOUNTS_BUCKET }}"; E="$R2_ENDPOINT"
+          mkdir -p scripts bin warp_pool
+          aws s3 cp "$B/routines/scripts/api_client.py" scripts/api_client.py --endpoint-url "$E"
+          aws s3 cp "$B/routines/scripts/ratelimit.py" scripts/ratelimit.py --endpoint-url "$E"
+          aws s3 cp "$B/routines/daily/warp_pool.py" update/warp_pool.py --endpoint-url "$E"
+          aws s3 cp "$B/routines/bin/wireproxy" bin/wireproxy --endpoint-url "$E" && chmod +x bin/wireproxy
+          aws s3 cp "$B/warp/" warp_pool/ --recursive --endpoint-url "$E" || true
+          echo "warp pool: $(ls warp_pool/*.conf 2>/dev/null | wc -l) configs"
+
+      - name: Pull baseline
+        run: python update/r2_state.py pull
+
+      - name: Run update
+        env:
+          BXB_UNIQUE_KEY: ${{ secrets.BXB_UNIQUE_KEY }}
+          BXB_BOOTSTRAP_KEY: ${{ secrets.BXB_BOOTSTRAP_KEY }}
+          BXB_APP_VERSION: ${{ vars.BXB_APP_VERSION }}
+          BXB_UNITY_VERSION: ${{ vars.BXB_UNITY_VERSION }}
+          BXB_MASTER_TABLES: ${{ github.workspace }}/mt
+          BXB_NPC_MOTIONS: ${{ github.workspace }}/wiki/_npc_motions.json
+          BXB_ICONS_INDEX: ${{ github.workspace }}/wiki/icons_index.txt
+          BXB_ASSETS_OUT: ${{ github.workspace }}/assets_out
+          RUNNER_TEMP: ${{ runner.temp }}
+          BXB_WARP_POOL_DIR: warp_pool
+          BXB_WIREPROXY_BIN: bin/wireproxy
+          BXB_WARP_BURNED: warp_burned.txt
+        run: python update/run_update.py
+
+      - name: Delete burned WARP configs from R2
+        if: always()
+        run: |
+          if [ -s warp_burned.txt ]; then
+            B="s3://${{ vars.R2_ACCOUNTS_BUCKET }}"; E="$R2_ENDPOINT"
+            while read -r f; do
+              [ -n "$f" ] && aws s3 rm "$B/warp/$f" --endpoint-url "$E" || true
+            done < warp_burned.txt
+          fi
+
+      - name: Load summary
+        id: sum
+        run: |
+          F="${{ runner.temp }}/ci_update_summary.json"
+          echo "snapshot_status=$(jq -r '.snapshot_status // "none"' "$F")" >> "$GITHUB_OUTPUT"
+          echo "snapshot_folder=$(jq -r '.snapshot_folder // ""' "$F")" >> "$GITHUB_OUTPUT"
+          echo "asset_version_status=$(jq -r '.asset_version_status // "none"' "$F")" >> "$GITHUB_OUTPUT"
+          echo "scenario_status=$(jq -r '.scenario_status // "none"' "$F")" >> "$GITHUB_OUTPUT"
+          echo "scenario_version=$(jq -r '.scenario_version // ""' "$F")" >> "$GITHUB_OUTPUT"
+
+      - name: Refresh rarity4 ids on R2
+        if: steps.sum.outputs.snapshot_status == 'archived'
+        run: |
+          B="s3://${{ vars.R2_ACCOUNTS_BUCKET }}"; E="$R2_ENDPOINT"
+          K="$B/routines/data/rarity4_base_ids.json"
+          aws s3 cp "$K" old_rarity4.json --endpoint-url "$E" || true
+          python update/build_rarity4_ids.py \
+            --snapshot-dir "${{ steps.sum.outputs.snapshot_folder }}" \
+            --old old_rarity4.json --out new_rarity4.json
+          if [ -f new_rarity4.json ]; then
+            aws s3 cp new_rarity4.json "$K" --endpoint-url "$E"
+          fi
+
+      - name: Notify Telegram (scenario)
+        if: steps.sum.outputs.scenario_status == 'archived'
+        continue-on-error: true
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: python update/notify.py scenario "${{ steps.sum.outputs.scenario_version }}" "${{ runner.temp }}/ci_update_summary.json"
+
+      - name: Notify Telegram (master_data changelog)
+        if: steps.sum.outputs.snapshot_status == 'archived'
+        continue-on-error: true
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          TELEGRAPH_TOKEN: ${{ secrets.TELEGRAPH_TOKEN }}
+          BXB_MASTER_TABLES: ${{ github.workspace }}/mt
+        run: python update/notify.py master_data
+
+      - name: Notify Telegram (asset_version 图册)
+        if: steps.sum.outputs.asset_version_status == 'archived'
+        continue-on-error: true
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          TELEGRAPH_TOKEN: ${{ secrets.TELEGRAPH_TOKEN }}
+          BXB_MASTER_TABLES: ${{ github.workspace }}/mt
+          R2_BUCKET: ${{ vars.R2_BUCKET }}
+          R2_PUBLIC_BASE_URL: ${{ vars.R2_PUBLIC_BASE_URL }}
+        run: python update/notify.py asset_version
+
+      - name: Push baseline
+        run: python update/r2_state.py push
+
+      - name: Trigger downstream
+        env:
+          DOWNSTREAM_URL: ${{ secrets.DOWNSTREAM_TRIGGER_URL }}
+        run: |
+          if [ -z "$DOWNSTREAM_URL" ]; then echo "未配置 DOWNSTREAM_TRIGGER_URL、跳过"; exit 0; fi
+          curl -fsS --retry 3 "$DOWNSTREAM_URL"

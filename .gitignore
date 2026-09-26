@@ -1,0 +1,23 @@
+__pycache__/
+*.pyc
+
+# workflow 运行时从 R2 拉的
+/scripts/
+/update/warp_pool.py
+/bin/
+/warp_pool/
+warp_burned.txt
+
+# R2 基准 / 交接工作区
+/mt/
+/wiki/
+/assets_out/
+/.r2_state.json
+old_rarity4.json
+new_rarity4.json
+
+# 本机:调度 Worker 源码与部署记录
+/cloudflare/
+
+# 本机笔记
+/LOCAL_NOTES.md

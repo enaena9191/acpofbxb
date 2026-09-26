@@ -1,0 +1,10 @@
+# update / repost-telegraph 依赖
+pycryptodome      # api_client AES-256-CBC (login/master_data 加解密)
+msgpack           # master/manifest msgpack
+requests          # API + 资源 CDN HTTP + Telegram/Telegraph
+UnityPy           # .dat → PNG (图标源) / npc-motion 时长 / scenario TSV
+Pillow            # PNG 编码
+numpy             # extract_assets luma/chroma → YCoCg 合成
+boto3             # r2_state 基准同步 + notify asset_version 图传 R2
+pycryptoplus      # sync_scenario: scenario.mu3 Rijndael-256-CBC 解密 (256-bit block、pycryptodome 不支持)
+setuptools<81     # pycryptoplus 依赖 pkg_resources;setuptools 81 已移除 → 锁 <81
