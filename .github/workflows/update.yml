@@ -8,7 +8,7 @@ concurrency:
   cancel-in-progress: false
 
 permissions:
-  contents: read
+  contents: write
 
 env:
   PYTHONIOENCODING: utf-8
@@ -138,3 +138,22 @@ jobs:
         run: |
           if [ -z "$DOWNSTREAM_URL" ]; then echo "未配置 DOWNSTREAM_TRIGGER_URL、跳过"; exit 0; fi
           curl -fsS --retry 3 "$DOWNSTREAM_URL"
+
+      - name: Checkout archive
+        uses: actions/checkout@v7
+        with:
+          ref: data/master-tables
+          path: _archive
+          fetch-depth: 1
+
+      - name: Commit archive
+        working-directory: _archive
+        run: |
+          cp -a ../mt/. .
+          git add -A
+          if git diff --cached --quiet; then echo "archive 无变更"; exit 0; fi
+          git config user.name "bxb-db-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -q -m "data(master-tables): sync $(date -u +%FT%TZ)"
+          git pull --rebase origin data/master-tables || true
+          git push origin HEAD:data/master-tables
