@@ -1,0 +1,322 @@
+{
+  "master_data": {
+    "2026_06_19_00_00_00": {
+      "path": "master-data-changelog-2026-06-18-16-00-00--2026-06-19-00-00-00-06-18",
+      "url": "https://telegra.ph/master-data-changelog-2026-06-18-16-00-00--2026-06-19-00-00-00-06-18"
+    },
+    "2026_06_19_16_00_00": {
+      "path": "master-data-changelog-2026-06-19-00-00-00--2026-06-19-16-00-00-06-19",
+      "url": "https://telegra.ph/master-data-changelog-2026-06-19-00-00-00--2026-06-19-16-00-00-06-19"
+    },
+    "2026_06_23_16_00_00": {
+      "path": "master-data-changelog-2026-06-19-16-00-00--2026-06-23-16-00-00-06-23",
+      "url": "https://telegra.ph/master-data-changelog-2026-06-19-16-00-00--2026-06-23-16-00-00-06-23"
+    },
+    "2026_06_24_16_00_00": {
+      "path": "master-data-changelog-2026-06-23-16-00-00--2026-06-24-16-00-00-06-24",
+      "url": "https://telegra.ph/master-data-changelog-2026-06-23-16-00-00--2026-06-24-16-00-00-06-24"
+    },
+    "2026_06_25_16_00_00": {
+      "path": "master-data-changelog-2026-06-24-16-00-00--2026-06-25-16-00-00-06-25",
+      "url": "https://telegra.ph/master-data-changelog-2026-06-24-16-00-00--2026-06-25-16-00-00-06-25"
+    },
+    "2026_06_26_16_00_00": {
+      "path": "master-data-changelog-2026-06-25-16-00-00--2026-06-26-16-00-00-06-26",
+      "url": "https://telegra.ph/master-data-changelog-2026-06-25-16-00-00--2026-06-26-16-00-00-06-26"
+    },
+    "2026_06_29_16_00_00": {
+      "path": "master-data-changelog-2026-06-26-16-00-00--2026-06-29-16-00-00-06-29",
+      "url": "https://telegra.ph/master-data-changelog-2026-06-26-16-00-00--2026-06-29-16-00-00-06-29"
+    },
+    "2026_06_30_16_00_00": {
+      "path": "master-data-changelog-2026-06-29-16-00-00--2026-06-30-16-00-00-06-30",
+      "url": "https://telegra.ph/master-data-changelog-2026-06-29-16-00-00--2026-06-30-16-00-00-06-30"
+    },
+    "2026_07_01_16_00_00": {
+      "path": "master-data-changelog-2026-06-30-16-00-00--2026-07-01-16-00-00-07-01",
+      "url": "https://telegra.ph/master-data-changelog-2026-06-30-16-00-00--2026-07-01-16-00-00-07-01"
+    },
+    "2026_07_03_00_00_00": {
+      "path": "master-data-changelog-2026-07-02-16-00-00--2026-07-03-00-00-00-07-02",
+      "url": "https://telegra.ph/master-data-changelog-2026-07-02-16-00-00--2026-07-03-00-00-00-07-02"
+    },
+    "2026_07_03_16_00_00": {
+      "path": "master-data-changelog-2026-07-03-00-00-00--2026-07-03-16-00-00-07-03",
+      "url": "https://telegra.ph/master-data-changelog-2026-07-03-00-00-00--2026-07-03-16-00-00-07-03"
+    },
+    "2026_07_07_16_00_00": {
+      "path": "master-data-changelog-2026-07-03-16-00-00--2026-07-07-16-00-00-07-07",
+      "url": "https://telegra.ph/master-data-changelog-2026-07-03-16-00-00--2026-07-07-16-00-00-07-07"
+    },
+    "2026_07_08_16_00_00": {
+      "path": "master-data-changelog-2026-07-07-16-00-00--2026-07-08-16-00-00-07-08",
+      "url": "https://telegra.ph/master-data-changelog-2026-07-07-16-00-00--2026-07-08-16-00-00-07-08"
+    },
+    "2026_07_19_16_00_00": {
+      "path": "master-data-changelog-2026-07-09-16-00-00--2026-07-19-16-00-00-07-19",
+      "url": "https://telegra.ph/master-data-changelog-2026-07-09-16-00-00--2026-07-19-16-00-00-07-19"
+    },
+    "2026_07_21_16_00_00": {
+      "path": "master-data-changelog-2026-07-19-16-00-00--2026-07-21-16-00-00-07-21",
+      "url": "https://telegra.ph/master-data-changelog-2026-07-19-16-00-00--2026-07-21-16-00-00-07-21"
+    },
+    "2026_07_23_16_00_00": {
+      "path": "master-data-changelog-2026-07-21-16-00-00--2026-07-23-16-00-00-07-23",
+      "url": "https://telegra.ph/master-data-changelog-2026-07-21-16-00-00--2026-07-23-16-00-00-07-23"
+    },
+    "2026_07_24_16_00_00": {
+      "path": "master-data-changelog-2026-07-23-16-00-00--2026-07-24-16-00-00-07-24",
+      "url": "https://telegra.ph/master-data-changelog-2026-07-23-16-00-00--2026-07-24-16-00-00-07-24"
+    },
+    "2026_07_25_00_00_00": {
+      "path": "master-data-changelog-2026-07-24-16-00-00--2026-07-25-00-00-00-07-24",
+      "url": "https://telegra.ph/master-data-changelog-2026-07-24-16-00-00--2026-07-25-00-00-00-07-24"
+    },
+    "2026_07_28_16_00_00": {
+      "path": "master-data-changelog-2026-07-25-00-00-00--2026-07-28-16-00-00-07-28",
+      "url": "https://telegra.ph/master-data-changelog-2026-07-25-00-00-00--2026-07-28-16-00-00-07-28"
+    },
+    "2026_07_31_16_00_00": {
+      "path": "master-data-changelog-2026-07-30-16-00-00--2026-07-31-16-00-00-07-31",
+      "url": "https://telegra.ph/master-data-changelog-2026-07-30-16-00-00--2026-07-31-16-00-00-07-31"
+    },
+    "2026_08_01_00_00_00": {
+      "path": "master-data-changelog-2026-07-31-16-00-00--2026-08-01-00-00-00-07-31",
+      "url": "https://telegra.ph/master-data-changelog-2026-07-31-16-00-00--2026-08-01-00-00-00-07-31"
+    },
+    "2026_08_04_16_00_00": {
+      "path": "master-data-changelog-2026-08-01-00-00-00--2026-08-04-16-00-00-08-04",
+      "url": "https://telegra.ph/master-data-changelog-2026-08-01-00-00-00--2026-08-04-16-00-00-08-04"
+    },
+    "2026_08_07_16_00_00": {
+      "path": "master-data-changelog-2026-08-04-16-00-00--2026-08-07-16-00-00-08-07",
+      "url": "https://telegra.ph/master-data-changelog-2026-08-04-16-00-00--2026-08-07-16-00-00-08-07"
+    },
+    "2026_08_11_00_00_00": {
+      "path": "master-data-changelog-2026-08-07-16-00-00--2026-08-11-00-00-00-08-10",
+      "url": "https://telegra.ph/master-data-changelog-2026-08-07-16-00-00--2026-08-11-00-00-00-08-10"
+    },
+    "2026_08_11_16_00_00": {
+      "path": "master-data-changelog-2026-08-11-00-00-00--2026-08-11-16-00-00-08-11",
+      "url": "https://telegra.ph/master-data-changelog-2026-08-11-00-00-00--2026-08-11-16-00-00-08-11"
+    },
+    "2026_08_13_16_00_00": {
+      "path": "master-data-changelog-2026-08-11-16-00-00--2026-08-13-16-00-00-08-13",
+      "url": "https://telegra.ph/master-data-changelog-2026-08-11-16-00-00--2026-08-13-16-00-00-08-13"
+    },
+    "2026_08_14_16_00_00": {
+      "path": "master-data-changelog-2026-08-13-16-00-00--2026-08-14-16-00-00-08-14",
+      "url": "https://telegra.ph/master-data-changelog-2026-08-13-16-00-00--2026-08-14-16-00-00-08-14"
+    },
+    "2026_08_15_16_00_00": {
+      "path": "master-data-changelog-2026-08-14-16-00-00--2026-08-15-16-00-00-08-15",
+      "url": "https://telegra.ph/master-data-changelog-2026-08-14-16-00-00--2026-08-15-16-00-00-08-15"
+    },
+    "2026_08_18_16_00_00": {
+      "path": "master-data-changelog-2026-08-15-16-00-00--2026-08-18-16-00-00-08-18",
+      "url": "https://telegra.ph/master-data-changelog-2026-08-15-16-00-00--2026-08-18-16-00-00-08-18"
+    },
+    "2026_08_19_16_00_00": {
+      "path": "master-data-changelog-2026-08-18-16-00-00--2026-08-19-16-00-00-08-19",
+      "url": "https://telegra.ph/master-data-changelog-2026-08-18-16-00-00--2026-08-19-16-00-00-08-19"
+    },
+    "2026_08_21_16_00_00": {
+      "path": "master-data-changelog-2026-08-19-16-00-00--2026-08-21-16-00-00-08-21",
+      "url": "https://telegra.ph/master-data-changelog-2026-08-19-16-00-00--2026-08-21-16-00-00-08-21"
+    },
+    "2026_08_24_16_00_00": {
+      "path": "master-data-changelog-2026-08-21-16-00-00--2026-08-24-16-00-00-08-24",
+      "url": "https://telegra.ph/master-data-changelog-2026-08-21-16-00-00--2026-08-24-16-00-00-08-24"
+    },
+    "2026_08_25_16_00_00": {
+      "path": "master-data-changelog-2026-08-24-16-00-00--2026-08-25-16-00-00-08-25",
+      "url": "https://telegra.ph/master-data-changelog-2026-08-24-16-00-00--2026-08-25-16-00-00-08-25"
+    },
+    "2026_08_27_16_00_00": {
+      "path": "master-data-changelog-2026-08-25-16-00-00--2026-08-27-16-00-00-08-27",
+      "url": "https://telegra.ph/master-data-changelog-2026-08-25-16-00-00--2026-08-27-16-00-00-08-27"
+    },
+    "2026_08_28_16_00_00": {
+      "path": "master-data-changelog-2026-08-27-16-00-00--2026-08-28-16-00-00-08-28",
+      "url": "https://telegra.ph/master-data-changelog-2026-08-27-16-00-00--2026-08-28-16-00-00-08-28"
+    },
+    "2026_08_31_16_00_00": {
+      "path": "master-data-changelog-2026-08-28-16-00-00--2026-08-31-16-00-00-08-31",
+      "url": "https://telegra.ph/master-data-changelog-2026-08-28-16-00-00--2026-08-31-16-00-00-08-31"
+    },
+    "2026_09_01_16_00_00": {
+      "path": "master-data-changelog-2026-08-31-16-00-00--2026-09-01-16-00-00-09-01",
+      "url": "https://telegra.ph/master-data-changelog-2026-08-31-16-00-00--2026-09-01-16-00-00-09-01"
+    },
+    "2026_09_03_16_00_00": {
+      "path": "master-data-changelog-2026-09-01-16-00-00--2026-09-03-16-00-00-09-03",
+      "url": "https://telegra.ph/master-data-changelog-2026-09-01-16-00-00--2026-09-03-16-00-00-09-03"
+    },
+    "2026_09_04_16_00_00": {
+      "path": "master-data-changelog-2026-09-03-16-00-00--2026-09-04-16-00-00-09-04",
+      "url": "https://telegra.ph/master-data-changelog-2026-09-03-16-00-00--2026-09-04-16-00-00-09-04"
+    },
+    "2026_09_08_00_00_00": {
+      "path": "master-data-changelog-2026-09-04-16-00-00--2026-09-08-00-00-00-09-07",
+      "url": "https://telegra.ph/master-data-changelog-2026-09-04-16-00-00--2026-09-08-00-00-00-09-07"
+    },
+    "2026_09_08_16_00_00": {
+      "path": "master-data-changelog-2026-09-08-00-00-00--2026-09-08-16-00-00-09-08",
+      "url": "https://telegra.ph/master-data-changelog-2026-09-08-00-00-00--2026-09-08-16-00-00-09-08"
+    },
+    "2026_09_11_16_00_00": {
+      "path": "master-data-changelog-2026-09-10-16-00-00--2026-09-11-16-00-00-09-11",
+      "url": "https://telegra.ph/master-data-changelog-2026-09-10-16-00-00--2026-09-11-16-00-00-09-11"
+    },
+    "2026_09_15_16_00_00": {
+      "path": "master-data-changelog-2026-09-11-16-00-00--2026-09-15-16-00-00-09-15",
+      "url": "https://telegra.ph/master-data-changelog-2026-09-11-16-00-00--2026-09-15-16-00-00-09-15"
+    },
+    "2026_09_16_16_00_00": {
+      "path": "master-data-changelog-2026-09-15-16-00-00--2026-09-16-16-00-00-09-16",
+      "url": "https://telegra.ph/master-data-changelog-2026-09-15-16-00-00--2026-09-16-16-00-00-09-16"
+    },
+    "2026_09_18_00_00_00": {
+      "path": "master-data-changelog-2026-09-16-16-00-00--2026-09-18-00-00-00-09-17",
+      "url": "https://telegra.ph/master-data-changelog-2026-09-16-16-00-00--2026-09-18-00-00-00-09-17"
+    },
+    "2026_09_18_16_00_00": {
+      "path": "master-data-changelog-2026-09-18-00-00-00--2026-09-18-16-00-00-09-18",
+      "url": "https://telegra.ph/master-data-changelog-2026-09-18-00-00-00--2026-09-18-16-00-00-09-18"
+    },
+    "2026_09_18_18_04_34": {
+      "path": "master-data-changelog-2026-09-18-16-00-00--2026-09-18-18-04-34-09-18",
+      "url": "https://telegra.ph/master-data-changelog-2026-09-18-16-00-00--2026-09-18-18-04-34-09-18"
+    },
+    "2026_09_21_00_00_00": {
+      "path": "master-data-changelog-2026-09-18-18-04-34--2026-09-21-00-00-00-09-20",
+      "url": "https://telegra.ph/master-data-changelog-2026-09-18-18-04-34--2026-09-21-00-00-00-09-20"
+    },
+    "2026_09_24_16_00_00": {
+      "path": "master-data-changelog-2026-09-21-00-00-00--2026-09-24-16-00-00-09-24",
+      "url": "https://telegra.ph/master-data-changelog-2026-09-21-00-00-00--2026-09-24-16-00-00-09-24"
+    },
+    "2026_09_25_16_00_00": {
+      "path": "master-data-changelog-2026-09-24-16-00-00--2026-09-25-16-00-00-09-25",
+      "url": "https://telegra.ph/master-data-changelog-2026-09-24-16-00-00--2026-09-25-16-00-00-09-25"
+    }
+  },
+  "asset_version": {
+    "12483": {
+      "path": "asset-version-12483-新增调整-06-19",
+      "url": "https://telegra.ph/asset-version-12483-新增调整-06-19"
+    },
+    "12491": {
+      "path": "asset-version-12491-新增调整-06-23",
+      "url": "https://telegra.ph/asset-version-12491-新增调整-06-23"
+    },
+    "12493": {
+      "path": "asset-version-12493-新增调整-06-24",
+      "url": "https://telegra.ph/asset-version-12493-新增调整-06-24"
+    },
+    "12502": {
+      "path": "asset-version-12502-新增调整-06-26",
+      "url": "https://telegra.ph/asset-version-12502-新增调整-06-26"
+    },
+    "12514": {
+      "path": "asset-version-12514-新增调整-06-30",
+      "url": "https://telegra.ph/asset-version-12514-新增调整-06-30"
+    },
+    "12516": {
+      "path": "asset-version-12516-新增调整-07-02",
+      "url": "https://telegra.ph/asset-version-12516-新增调整-07-02"
+    },
+    "12530": {
+      "path": "asset-version-12530-新增调整-07-07",
+      "url": "https://telegra.ph/asset-version-12530-新增调整-07-07"
+    },
+    "12535": {
+      "path": "asset-version-12535-新增调整-07-09",
+      "url": "https://telegra.ph/asset-version-12535-新增调整-07-09"
+    },
+    "12545": {
+      "path": "asset-version-12545-新增调整-07-19",
+      "url": "https://telegra.ph/asset-version-12545-新增调整-07-19"
+    },
+    "12550": {
+      "path": "asset-version-12550-新增调整-07-23",
+      "url": "https://telegra.ph/asset-version-12550-新增调整-07-23"
+    },
+    "12555": {
+      "path": "asset-version-12555-新增调整-07-24",
+      "url": "https://telegra.ph/asset-version-12555-新增调整-07-24"
+    },
+    "12565": {
+      "path": "asset-version-12565-新增调整-07-28",
+      "url": "https://telegra.ph/asset-version-12565-新增调整-07-28"
+    },
+    "12586": {
+      "path": "asset-version-12586-新增调整-07-31",
+      "url": "https://telegra.ph/asset-version-12586-新增调整-07-31"
+    },
+    "12597": {
+      "path": "asset-version-12597-新增调整-08-04",
+      "url": "https://telegra.ph/asset-version-12597-新增调整-08-04"
+    },
+    "12619": {
+      "path": "asset-version-12619-新增调整-08-10",
+      "url": "https://telegra.ph/asset-version-12619-新增调整-08-10"
+    },
+    "12625": {
+      "path": "asset-version-12625-新增调整-08-13",
+      "url": "https://telegra.ph/asset-version-12625-新增调整-08-13"
+    },
+    "12628": {
+      "path": "asset-version-12628-新增调整-08-14",
+      "url": "https://telegra.ph/asset-version-12628-新增调整-08-14"
+    },
+    "12631": {
+      "path": "asset-version-12631-新增调整-08-18",
+      "url": "https://telegra.ph/asset-version-12631-新增调整-08-18"
+    },
+    "12635": {
+      "path": "asset-version-12635-新增调整-08-19",
+      "url": "https://telegra.ph/asset-version-12635-新增调整-08-19"
+    },
+    "12640": {
+      "path": "asset-version-12640-新增调整-08-21",
+      "url": "https://telegra.ph/asset-version-12640-新增调整-08-21"
+    },
+    "12643": {
+      "path": "asset-version-12643-新增调整-08-24",
+      "url": "https://telegra.ph/asset-version-12643-新增调整-08-24"
+    },
+    "12644": {
+      "path": "asset-version-12644-新增调整-08-25",
+      "url": "https://telegra.ph/asset-version-12644-新增调整-08-25"
+    },
+    "12655": {
+      "path": "asset-version-12655-新增调整-08-27",
+      "url": "https://telegra.ph/asset-version-12655-新增调整-08-27"
+    },
+    "12663": {
+      "path": "asset-version-12663-新增调整-09-01",
+      "url": "https://telegra.ph/asset-version-12663-新增调整-09-01"
+    },
+    "12673": {
+      "path": "asset-version-12673-新增调整-09-03",
+      "url": "https://telegra.ph/asset-version-12673-新增调整-09-03"
+    },
+    "12684": {
+      "path": "asset-version-12684-新增调整-09-08",
+      "url": "https://telegra.ph/asset-version-12684-新增调整-09-08"
+    },
+    "12691": {
+      "path": "asset-version-12691-新增调整-09-10",
+      "url": "https://telegra.ph/asset-version-12691-新增调整-09-10"
+    },
+    "12703": {
+      "path": "asset-version-12703-新增调整-09-15",
+      "url": "https://telegra.ph/asset-version-12703-新增调整-09-15"
+    },
+    "12709": {
+      "path": "asset-version-12709-新增调整-09-16",
+      "url": "https://telegra.ph/asset-version-12709-新增调整-09-16"
+    }
+  }
+}
