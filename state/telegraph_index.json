@@ -199,6 +199,10 @@
     "2026_09_25_16_00_00": {
       "path": "master-data-changelog-2026-09-24-16-00-00--2026-09-25-16-00-00-09-25",
       "url": "https://telegra.ph/master-data-changelog-2026-09-24-16-00-00--2026-09-25-16-00-00-09-25"
+    },
+    "2026_09_29_16_00_00": {
+      "path": "master-data-changelog-2026-09-25-16-00-00--2026-09-29-16-00-00-09-29",
+      "url": "https://telegra.ph/master-data-changelog-2026-09-25-16-00-00--2026-09-29-16-00-00-09-29"
     }
   },
   "asset_version": {
@@ -317,6 +321,10 @@
     "12709": {
       "path": "asset-version-12709-新增调整-09-16",
       "url": "https://telegra.ph/asset-version-12709-新增调整-09-16"
+    },
+    "12723": {
+      "path": "asset-version-12723-新增调整-09-29",
+      "url": "https://telegra.ph/asset-version-12723-新增调整-09-29"
     }
   }
 }
