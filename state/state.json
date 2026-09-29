@@ -1,6 +1,6 @@
 {
-  "latest_id": 4820,
-  "last_change_at": "2026-09-24T07:03:09+00:00",
+  "latest_id": 4821,
+  "last_change_at": "2026-09-29T07:02:30+00:00",
   "rss": {
     "yokoku_MachinaHeartBeating": {
       "pubDate": "Wed, 10 Jun 2026 18:00:00 +0900",
@@ -429,6 +429,10 @@
     "medal_202609": {
       "pubDate": "Thu, 24 Sep 2026 16:00:00 +0900",
       "id": 4820
+    },
+    "g_848": {
+      "pubDate": "Tue, 29 Sep 2026 16:00:00 +0900",
+      "id": 4821
     }
   }
 }
