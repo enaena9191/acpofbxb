@@ -1840,5 +1840,17 @@
         "ts_source": "rss"
       }
     ]
+  },
+  "4822": {
+    "slug": "update_v2_5_36",
+    "canonical": "04822_20260930.html",
+    "versions": [
+      {
+        "ts": "2026/09/30 16:00:00",
+        "file": "04822_20260930.html",
+        "hash": "08b826d92e7fa18f3eb794e0d1647c82ab52c6708a3ebae126f7f7b6d30c4fcc",
+        "ts_source": "rss"
+      }
+    ]
   }
 }
