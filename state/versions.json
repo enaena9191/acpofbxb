@@ -1876,5 +1876,17 @@
         "ts_source": "page_time"
       }
     ]
+  },
+  "4823": {
+    "slug": "loginbonus_202610",
+    "canonical": "04823_20261001.html",
+    "versions": [
+      {
+        "ts": "2026/10/01 00:00:00",
+        "file": "04823_20261001.html",
+        "hash": "a1696e7877169bda876e47deec8499e89795207bbbbb404ba4c34de2b2ea8fdd",
+        "ts_source": "rss"
+      }
+    ]
   }
 }
