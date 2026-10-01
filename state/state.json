@@ -1,6 +1,6 @@
 {
-  "latest_id": 4825,
-  "last_change_at": "2026-09-30T15:06:59+00:00",
+  "latest_id": 4827,
+  "last_change_at": "2026-10-01T07:03:07+00:00",
   "rss": {
     "yokoku_MachinaHeartBeating": {
       "pubDate": "Wed, 10 Jun 2026 18:00:00 +0900",
@@ -445,6 +445,14 @@
     "loginbonus_202610": {
       "pubDate": "Thu, 01 Oct 2026 00:00:00 +0900",
       "id": 4823
+    },
+    "advance_diapack_20261001": {
+      "pubDate": "Thu, 01 Oct 2026 16:00:00 +0900",
+      "id": 4826
+    },
+    "event_1276_main": {
+      "pubDate": "Thu, 01 Oct 2026 16:00:00 +0900",
+      "id": 4827
     }
   }
 }

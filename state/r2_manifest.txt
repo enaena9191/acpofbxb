@@ -4805,6 +4805,14 @@ bxb-assets/images/topics/events/1274/leaflet_11274_8.jpg
 bxb-assets/images/topics/events/1274/leaflet_11274_9.jpg
 bxb-assets/images/topics/events/1274/title.jpg
 bxb-assets/images/topics/events/1274/yokoku_DaredemoKiseki.jpg
+bxb-assets/images/topics/events/1276/leaflet_11276_1.jpg
+bxb-assets/images/topics/events/1276/leaflet_11276_2.jpg
+bxb-assets/images/topics/events/1276/leaflet_11276_3.jpg
+bxb-assets/images/topics/events/1276/leaflet_11276_4.jpg
+bxb-assets/images/topics/events/1276/leaflet_11276_5.jpg
+bxb-assets/images/topics/events/1276/leaflet_11276_6.jpg
+bxb-assets/images/topics/events/1276/leaflet_11276_7.jpg
+bxb-assets/images/topics/events/1276/title.jpg
 bxb-assets/images/topics/events/2001/title_2001.jpg
 bxb-assets/images/topics/events/2001/title_2001_1.jpg
 bxb-assets/images/topics/events/2001/title_2001_3.jpg
@@ -10387,6 +10395,7 @@ bxb-assets/images/topics/materials/52050071/large.png
 bxb-assets/images/topics/materials/52050073/large.png
 bxb-assets/images/topics/materials/52050074/large.png
 bxb-assets/images/topics/materials/52050075/large.png
+bxb-assets/images/topics/materials/52050076/large.png
 bxb-assets/images/topics/materials/52060005/large.png
 bxb-assets/images/topics/materials/52060006/large.png
 bxb-assets/images/topics/materials/52080014/large.png
@@ -11225,6 +11234,7 @@ bxb-assets/images/topics/picture/2045_sample.jpg
 bxb-assets/images/topics/picture/2046_sample.jpg
 bxb-assets/images/topics/picture/2047_sample.jpg
 bxb-assets/images/topics/picture/2048_sample.jpg
+bxb-assets/images/topics/picture/2049_sample.jpg
 bxb-assets/images/topics/picture/4009_sample.jpg
 bxb-assets/images/topics/picture/4010_sample.jpg
 bxb-assets/images/topics/picture/4013_sample.jpg
@@ -11761,6 +11771,7 @@ bxb-assets/images/topics/updates/common/update_news_041.jpg
 bxb-assets/images/topics/updates/premium/title_50002_1.jpg
 bxb-assets/images/topics/updates/premium/title_50002_2.jpg
 bxb-assets/images/topics/updates/premium/title_510100.jpg
+bxb-assets/images/topics/updates/premium/title_510101.jpg
 bxb-assets/images/topics/updates/premium/title_51027.jpg
 bxb-assets/images/topics/updates/premium/title_51029.jpg
 bxb-assets/images/topics/updates/premium/title_51030.jpg

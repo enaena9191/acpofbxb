@@ -1888,5 +1888,29 @@
         "ts_source": "rss"
       }
     ]
+  },
+  "4826": {
+    "slug": "advance_diapack_20261001",
+    "canonical": "04826_20261001.html",
+    "versions": [
+      {
+        "ts": "2026/10/01 16:00:00",
+        "file": "04826_20261001.html",
+        "hash": "51260a1829b2145c3e00401236e5095edecf97981c4bfa42761f856d01b54b15",
+        "ts_source": "rss"
+      }
+    ]
+  },
+  "4827": {
+    "slug": "event_1276_main",
+    "canonical": "04827_20261001.html",
+    "versions": [
+      {
+        "ts": "2026/10/01 16:00:00",
+        "file": "04827_20261001.html",
+        "hash": "7c494f19f8ab8cef59a2c0acad39700ae8306bd84205e201766071a7eff996e2",
+        "ts_source": "rss"
+      }
+    ]
   }
 }
