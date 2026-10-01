@@ -2351,6 +2351,19 @@ bxb-assets/images/topics/campaign/1277/title_1277.jpg
 bxb-assets/images/topics/campaign/1277/title_1277_01.jpg
 bxb-assets/images/topics/campaign/1277/title_1277_02.jpg
 bxb-assets/images/topics/campaign/1277/title_1277_03.jpg
+bxb-assets/images/topics/campaign/1278/banner_1278_1.jpg
+bxb-assets/images/topics/campaign/1278/banner_1278_2.jpg
+bxb-assets/images/topics/campaign/1278/banner_1278_3.jpg
+bxb-assets/images/topics/campaign/1278/banner_1278_4.jpg
+bxb-assets/images/topics/campaign/1278/banner_1278_5.jpg
+bxb-assets/images/topics/campaign/1278/banner_1278_6.jpg
+bxb-assets/images/topics/campaign/1278/title_1278.jpg
+bxb-assets/images/topics/campaign/1278/title_1278_01.jpg
+bxb-assets/images/topics/campaign/1278/title_1278_02.jpg
+bxb-assets/images/topics/campaign/1278/title_1278_03.jpg
+bxb-assets/images/topics/campaign/1278/title_1278_04.jpg
+bxb-assets/images/topics/campaign/1278/title_1278_05.jpg
+bxb-assets/images/topics/campaign/1278/title_1278_06.jpg
 bxb-assets/images/topics/campaign/20200214_info/title_v_01.jpg
 bxb-assets/images/topics/campaign/20200214_info/title_v_02.jpg
 bxb-assets/images/topics/campaign/20200214_info/title_v_03.jpg
@@ -10692,6 +10705,7 @@ bxb-assets/images/topics/materials/56040018/large.png
 bxb-assets/images/topics/materials/56050008/large.png
 bxb-assets/images/topics/materials/56050012/large.png
 bxb-assets/images/topics/materials/56050013/large.png
+bxb-assets/images/topics/materials/56050014/large.png
 bxb-assets/images/topics/materials/56060009/large.png
 bxb-assets/images/topics/materials/56060012/large.png
 bxb-assets/images/topics/materials/56070001/large.png

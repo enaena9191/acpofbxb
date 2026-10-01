@@ -1912,5 +1912,17 @@
         "ts_source": "rss"
       }
     ]
+  },
+  "4828": {
+    "slug": "c_Halloween_2026",
+    "canonical": "04828_20261001.html",
+    "versions": [
+      {
+        "ts": "2026/10/01 18:00:00",
+        "file": "04828_20261001.html",
+        "hash": "f4331b716de7a37ea2de4c298909acecc8a8d095cd9dca2709df2d0dcba1e2bc",
+        "ts_source": "rss"
+      }
+    ]
   }
 }

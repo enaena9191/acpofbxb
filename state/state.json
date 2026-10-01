@@ -1,6 +1,6 @@
 {
-  "latest_id": 4827,
-  "last_change_at": "2026-10-01T07:03:07+00:00",
+  "latest_id": 4828,
+  "last_change_at": "2026-10-01T09:02:47+00:00",
   "rss": {
     "yokoku_MachinaHeartBeating": {
       "pubDate": "Wed, 10 Jun 2026 18:00:00 +0900",
@@ -453,6 +453,10 @@
     "event_1276_main": {
       "pubDate": "Thu, 01 Oct 2026 16:00:00 +0900",
       "id": 4827
+    },
+    "c_Halloween_2026": {
+      "pubDate": "Thu, 01 Oct 2026 18:00:00 +0900",
+      "id": 4828
     }
   }
 }
