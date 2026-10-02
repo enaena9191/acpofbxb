@@ -1930,5 +1930,17 @@
         "ts_source": "rss"
       }
     ]
+  },
+  "4829": {
+    "slug": "c_summergoods_2026_2",
+    "canonical": "04829_20261002.html",
+    "versions": [
+      {
+        "ts": "2026/10/02 19:00:00",
+        "file": "04829_20261002.html",
+        "hash": "c694a98675873f217fd0f35239b87af1dea6f0aba3ecbaa91304567f0711f40e",
+        "ts_source": "rss"
+      }
+    ]
   }
 }
