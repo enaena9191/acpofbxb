@@ -1937,8 +1937,14 @@
     "versions": [
       {
         "ts": "2026/10/02 19:00:00",
-        "file": "04829_20261002.html",
+        "file": "04829_20261002_v20261002190000.html",
         "hash": "c694a98675873f217fd0f35239b87af1dea6f0aba3ecbaa91304567f0711f40e",
+        "ts_source": "rss"
+      },
+      {
+        "ts": "2026/10/06 12:30:35",
+        "file": "04829_20261002.html",
+        "hash": "9bbd01cfcf259ed3cfb3299707eb5b21655a998c6b77f2d179bf14335bc85b6b",
         "ts_source": "rss"
       }
     ]
