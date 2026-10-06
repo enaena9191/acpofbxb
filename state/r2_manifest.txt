@@ -9011,6 +9011,11 @@ bxb-assets/images/topics/gachas/845/title_845_1.jpg
 bxb-assets/images/topics/gachas/845/title_845_2.jpg
 bxb-assets/images/topics/gachas/845/title_845_3.jpg
 bxb-assets/images/topics/gachas/845/title_845_4.jpg
+bxb-assets/images/topics/gachas/847/title_847_1.jpg
+bxb-assets/images/topics/gachas/847/title_847_2.jpg
+bxb-assets/images/topics/gachas/847/title_847_3.jpg
+bxb-assets/images/topics/gachas/847/title_847_4.jpg
+bxb-assets/images/topics/gachas/847/title_847_5.jpg
 bxb-assets/images/topics/gachas/848/title_848_1.jpg
 bxb-assets/images/topics/gachas/848/title_848_2.jpg
 bxb-assets/images/topics/gachas/848/title_848_3.jpg
@@ -9637,6 +9642,7 @@ bxb-assets/images/topics/item/1476001/icon.png
 bxb-assets/images/topics/item/1477036/icon.png
 bxb-assets/images/topics/item/1479005/icon.png
 bxb-assets/images/topics/item/1480001/icon.png
+bxb-assets/images/topics/item/1480004/icon.png
 bxb-assets/images/topics/item/1480011/icon.png
 bxb-assets/images/topics/item/1481011/icon.png
 bxb-assets/images/topics/item/1481704/icon.png
@@ -9783,6 +9789,7 @@ bxb-assets/images/topics/item/1585001/icon.png
 bxb-assets/images/topics/item/1587001/icon.png
 bxb-assets/images/topics/item/1588006/icon.png
 bxb-assets/images/topics/item/1589004/icon.png
+bxb-assets/images/topics/item/1590004/icon.png
 bxb-assets/images/topics/item/1590008/icon.png
 bxb-assets/images/topics/item/1590041/icon.png
 bxb-assets/images/topics/item/1591011/icon.png
@@ -14971,6 +14978,7 @@ bxb-assets/images/topics/weapons/147901.jpg
 bxb-assets/images/topics/weapons/147902.jpg
 bxb-assets/images/topics/weapons/147903.jpg
 bxb-assets/images/topics/weapons/1480001.jpg
+bxb-assets/images/topics/weapons/1480004.jpg
 bxb-assets/images/topics/weapons/148001.jpg
 bxb-assets/images/topics/weapons/1480011.jpg
 bxb-assets/images/topics/weapons/148002.jpg
@@ -15348,6 +15356,7 @@ bxb-assets/images/topics/weapons/1589004.jpg
 bxb-assets/images/topics/weapons/158901.jpg
 bxb-assets/images/topics/weapons/158902.jpg
 bxb-assets/images/topics/weapons/1589030.jpg
+bxb-assets/images/topics/weapons/1590004.jpg
 bxb-assets/images/topics/weapons/1590008.jpg
 bxb-assets/images/topics/weapons/159001.jpg
 bxb-assets/images/topics/weapons/159002.jpg
