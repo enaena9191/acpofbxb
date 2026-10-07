@@ -1996,5 +1996,29 @@
         "ts_source": "rss"
       }
     ]
+  },
+  "4833": {
+    "slug": "yokoku_SeponeSampo",
+    "canonical": "04833_20261007.html",
+    "versions": [
+      {
+        "ts": "2026/10/07 18:00:00",
+        "file": "04833_20261007.html",
+        "hash": "1376305e65fe56106ee5d55bbdda3d886a2688eb981f712c181bdf1360407be3",
+        "ts_source": "rss"
+      }
+    ]
+  },
+  "4835": {
+    "slug": null,
+    "canonical": "04835_20261007.html",
+    "versions": [
+      {
+        "ts": "2026/10/07 18:00:00",
+        "file": "04835_20261007.html",
+        "hash": "539e6a45647caf3fd419195456945aa6e7aebd2982909141a63065d9e4ef681a",
+        "ts_source": "page_time"
+      }
+    ]
   }
 }

@@ -1,6 +1,6 @@
 {
-  "latest_id": 4832,
-  "last_change_at": "2026-10-07T07:02:48+00:00",
+  "latest_id": 4835,
+  "last_change_at": "2026-10-07T09:02:46+00:00",
   "rss": {
     "yokoku_MachinaHeartBeating": {
       "pubDate": "Wed, 10 Jun 2026 18:00:00 +0900",
@@ -473,6 +473,10 @@
     "balance_202610": {
       "pubDate": "Wed, 07 Oct 2026 16:00:00 +0900",
       "id": 4832
+    },
+    "yokoku_SeponeSampo": {
+      "pubDate": "Wed, 07 Oct 2026 18:00:00 +0900",
+      "id": 4833
     }
   }
 }
