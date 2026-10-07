@@ -1,0 +1,279 @@
+# master_data changelog: 2026_10_06_16_00_00 → 2026_10_07_16_00_00
+
+## 总览
+
+| 表 | 新增 | 删除 | 调整 |
+|---|---:|---:|---:|
+| weapons | 0 | 0 | 17 |
+| materials | 6 | 0 | 0 |
+
+## weapons
+
+### 调整 (17)
+
+- [`100402`](weapons.json#L1416) リヴァイアサン【極】
+  - base_name: リヴァイアサン (costume: 極魔装)
+  - element=水(2) / type=騎槍(8) / rarity=S(3) / cv=木村珠莉
+  - max stats: HP=10822 / ATK=8060 / DEF=11050 / SPD=12 / BREAK=6110
+  - hit_counts=[2, 2, 5] (3段)  motion_speed=[4.0/4.0/1.0]  mp=109
+  - three_size=84/56/82 / initial_slot=5
+  - BD: タイダルウェイブ (arts_id=4)
+    - description: 敵全体に超強力な20連ダメージ＆敵を強制ブレイク
+    - cost=2 / hit_count=20 / value=1.845 / additional_value=0.0
+  - innate skills (3):
+    - **新增: Attack Multiply ×1.75 — 水属性の魔剣の攻撃力が絶大にアップ**
+    - **新增: Enemy_BreakAttack Multiply ×2.0 — ブレイク時に自身の攻撃力が2倍にアップ**
+    - **新增: DamageLimitBreak Addition +1000000000.0 — 自身のダメージ上限が10億アップ**
+    - **删除: Attack Multiply ×1.5 — 水属性の魔剣の攻撃力が大幅にアップ**
+- [`100403`](weapons.json#L1592) リヴァイアサン【極弐】
+  - base_name: リヴァイアサン (costume: 極弐魔装)
+  - element=水(2) / type=騎槍(8) / rarity=S(3) / cv=木村珠莉
+  - max stats: HP=14070 / ATK=9880 / DEF=14370 / SPD=14 / BREAK=8450
+  - hit_counts=[3, 3, 5] (3段)  motion_speed=[4.0/4.0/2.0]  mp=122
+  - three_size=84/56/82 / initial_slot=6
+  - BD: ジェネシスフラッド (arts_id=10004)
+    - description: 敵全体に超強力な20連ダメージ＆敵を強制ブレイク
+    - cost=2 / hit_count=20 / value=1.845 / additional_value=0.0
+  - innate skills (4):
+    - **新增: Attack Multiply ×1.74232 — 水属性の魔剣の攻撃力が絶大にアップ【熟度UPにつれてさらに効果値UP】**
+    - InstantDeath Repel_Percent ×100.0 — 即死特性の攻撃を完全回避する
+    - **新增: Enemy_BreakAttack Multiply ×2.0 — ブレイク時に自身の攻撃力が2倍にアップ**
+    - **新增: DamageLimitBreak Addition +1000000000.0 — 自身のダメージ上限が10億アップ**
+    - **删除: Attack Multiply ×1.5 — 水属性の魔剣の攻撃力が大幅にアップ**
+- [`108301`](weapons.json#L32753) アルカード
+  - base_name: アルカード (costume: 魔装)
+  - element=闇(5) / type=連弩(6) / rarity=S(3) / cv=田澤茉純
+  - max stats: HP=8400 / ATK=2650 / DEF=9000 / SPD=35 / BREAK=1900
+  - hit_counts=[6, 6, 6] (3段)  motion_speed=[4.0/4.0/1.0]  mp=111
+  - three_size=69/56/74 / initial_slot=1
+  - BD: ヘヴン†オア†ヘル (arts_id=83)
+    - description: 敵全体に超強力な32連ダメージ＆防御力+500
+    - cost=4 / hit_count=32 / value=2.41875 / additional_value=0.0
+  - innate skills (3):
+    - GuardDefense Multiply ×0.875 — 闇属性の魔剣のガード時の防御力がかなりアップ
+    - **新增: Vitality_Attack Multiply ×1.4 — 闇属性の味方全体が、残HPが多いほど攻撃力がかなりアップ**
+    - **新增: Vitality_MotionSpeed Multiply ×1.5 — 闇属性の味方全体が、残HPが多いほどモーション速度が加速**
+- [`108302`](weapons.json#L32929) アルカード【極】
+  - base_name: アルカード (costume: 極魔装)
+  - element=闇(5) / type=連弩(6) / rarity=S(3) / cv=田澤茉純
+  - max stats: HP=10920 / ATK=3445 / DEF=11700 / SPD=35 / BREAK=2470
+  - hit_counts=[7, 6, 9] (3段)  motion_speed=[4.0/4.0/1.0]  mp=111
+  - three_size=69/56/74 / initial_slot=2
+  - BD: ヘヴン†オア†ヘル (arts_id=83)
+    - description: 敵全体に超強力な32連ダメージ＆防御力+500
+    - cost=4 / hit_count=32 / value=2.41875 / additional_value=0.0
+  - innate skills (3):
+    - **新增: GuardDefense Multiply ×0.75 — 闇属性の魔剣のガード時の防御力が大幅にアップ**
+    - **新增: Vitality_Attack Multiply ×1.7469 — 闇属性の味方全体が、残HPが多いほど攻撃力が大幅にアップ【熟度UPにつれてさらに効果値UP】**
+    - **新增: Vitality_MotionSpeed Multiply ×2.0 — 闇属性の味方全体が、残HPが多いほどモーション速度がかなり加速**
+    - **删除: GuardDefense Multiply ×0.875 — 闇属性の魔剣のガード時の防御力がかなりアップ**
+- [`108303`](weapons.json#L33105) アルカード【極弐】
+  - base_name: アルカード (costume: 極弐魔装)
+  - element=闇(5) / type=連弩(6) / rarity=S(3) / cv=田澤茉純
+  - max stats: HP=14200 / ATK=8270 / DEF=18140 / SPD=38 / BREAK=3220
+  - hit_counts=[8, 7, 9] (3段)  motion_speed=[3.0/2.4/1.4]  mp=123
+  - three_size=69/56/74 / initial_slot=3
+  - BD: エターナル†レッド†ムーンナイト (arts_id=10083)
+    - description: 敵全体に超強力な32連ダメージ＆防御力+500
+    - cost=4 / hit_count=32 / value=2.41875 / additional_value=0.0
+  - innate skills (3):
+    - **新增: GuardDefense Multiply ×0.625 — 闇属性の魔剣のガード時の防御力が絶大にアップ**
+    - **新增: Vitality_Attack Multiply ×1.99232 — 闇属性の味方全体が、残HPが多いほど攻撃力が絶大にアップ【熟度UPにつれてさらに効果値UP】**
+    - **新增: Vitality_MotionSpeed Multiply ×2.33 — 闇属性の味方全体が、残HPが多いほどモーション速度が大幅に加速**
+    - **删除: GuardDefense Multiply ×0.75 — 闇属性の魔剣のガード時の防御力が大幅にアップ**
+- [`121101`](weapons.json#L85761) 不倶戴天華
+  - base_name: 不倶戴天華 (costume: 魔装)
+  - element=光(4) / type=太刀(3) / rarity=S(3) / cv=井澤詩織
+  - max stats: HP=10200 / ATK=5200 / DEF=7700 / SPD=44 / BREAK=2060
+  - hit_counts=[3, 3, 6] (3段)  motion_speed=[3.0/3.0/3.0]  mp=170
+  - three_size=74/58/76 / **initial_slot=2 → 3**
+  - BD: 征海絶獄天華祭 (arts_id=211)
+    - description: 敵全体に超強力な39連ダメージ＆1waveヒット数が+6
+    - cost=5 / hit_count=39 / value=3.0 / additional_value=0.0
+  - innate skills (3):
+    - BlazeAbsorb Repel_Percent ×50.0 — 勇気分解の発生を確率で回避する
+    - **新增: RemHP_Speed Multiply ×1.8 — 残HPが少ないほどスピードが大幅にアップ**
+    - **新增: RemHP_Attack Multiply ×1.1 — 残HPが少ないほど攻撃力が少しアップ**
+    - **删除: RemHP_Speed Multiply ×1.3 — 残HPが少ないほどスピードがかなりアップ**
+- [`121102`](weapons.json#L85937) 不倶戴天華【極】
+  - base_name: 不倶戴天華 (costume: 極魔装)
+  - element=光(4) / type=太刀(3) / rarity=S(3) / cv=井澤詩織
+  - max stats: HP=13260 / ATK=6760 / DEF=10010 / SPD=44 / BREAK=2680
+  - hit_counts=[4, 3, 9] (3段)  motion_speed=[3.0/3.0/3.0]  mp=170
+  - three_size=74/58/76 / **initial_slot=3 → 4**
+  - BD: 征海絶獄天華祭 (arts_id=211)
+    - description: 敵全体に超強力な39連ダメージ＆1waveヒット数が+6
+    - cost=5 / hit_count=39 / value=3.0 / additional_value=0.0
+  - innate skills (4):
+    - BlazeAbsorb Repel_Percent ×100.0 — 勇気分解の発生を完全回避する
+    - **新增: RemHP_Speed Multiply ×2.25 — 残HPが少ないほどスピードが絶大にアップ**
+    - **新增: RemHP_Attack Multiply ×1.2 — 残HPが少ないほど攻撃力がアップ**
+    - **新增: DamageLimitBreak Addition +1000000000.0 — 自身のダメージ上限が10億アップ**
+    - **删除: RemHP_Speed Multiply ×1.8 — 残HPが少ないほどスピードが大幅にアップ**
+- [`121103`](weapons.json#L86132) 不倶戴天華【極弐】
+  - base_name: 不倶戴天華 (costume: 極弐魔装)
+  - element=光(4) / type=太刀(3) / rarity=S(3) / cv=井澤詩織
+  - max stats: HP=15920 / ATK=8120 / DEF=12020 / SPD=48 / BREAK=3220
+  - hit_counts=[5, 4, 9] (3段)  motion_speed=[2.2/2.0/1.5]  mp=175
+  - three_size=74/58/76 / **initial_slot=4 → 5**
+  - BD: 超絶天華覇煌祭 (arts_id=10211)
+    - description: 敵全体に超強力な39連ダメージ＆1waveヒット数が+6
+    - cost=5 / hit_count=39 / value=3.0 / additional_value=0.0
+  - innate skills (4):
+    - BlazeAbsorb Repel_Percent ×100.0 — 勇気分解の発生を完全回避する
+    - **新增: RemHP_Speed Multiply ×2.2455 — 残HPが少ないほどスピードが絶大にアップ【熟度UPにつれてさらに効果値UP】**
+    - **新增: RemHP_Attack Multiply ×1.3 — 残HPが少ないほど攻撃力がかなりアップ**
+    - **新增: DamageLimitBreak Addition +1000000000.0 — 自身のダメージ上限が10億アップ**
+    - **删除: RemHP_Speed Multiply ×2.25 — 残HPが少ないほどスピードが絶大にアップ**
+- [`125401`](weapons.json#L104292) ハイペリオン
+  - base_name: ハイペリオン (costume: 魔装)
+  - element=火(1) / type=連弩(6) / rarity=S(3) / cv=山本希望
+  - max stats: HP=11000 / ATK=9600 / DEF=4550 / SPD=32 / BREAK=1300
+  - hit_counts=[3, 4, 4] (3段)  motion_speed=[3.0/3.0/3.0]  mp=190
+  - three_size=104/66/91 / **initial_slot=2 → 3**
+  - BD: ゴッドメイドフレア (arts_id=254)
+    - description: 敵全体に超絶強力な60連ダメージ＆15秒ﾓｰｼｮﾝ50%高速化
+    - cost=7 / hit_count=60 / value=14.0 / additional_value=0.0
+  - innate skills (2):
+    - JustGuard_MinDamage Multiply ×0.07 — 火属性でジャストガード時に魔導バリアをかなり強化
+    - BlazeAttack Multiply ×2.0 — 火属性の魔剣のB.D.攻撃力がかなりアップ
+- [`125402`](weapons.json#L104449) ハイペリオン【極】
+  - base_name: ハイペリオン (costume: 極魔装)
+  - element=火(1) / type=連弩(6) / rarity=S(3) / cv=山本希望
+  - max stats: HP=14300 / ATK=12480 / DEF=5920 / SPD=32 / BREAK=1690
+  - hit_counts=[4, 4, 7] (3段)  motion_speed=[3.0/3.0/3.0]  mp=190
+  - three_size=104/66/91 / **initial_slot=3 → 4**
+  - BD: ゴッドメイドフレア (arts_id=254)
+    - description: 敵全体に超絶強力な60連ダメージ＆15秒ﾓｰｼｮﾝ50%高速化
+    - cost=7 / hit_count=60 / value=14.0 / additional_value=0.0
+  - innate skills (3):
+    - JustGuard_MinDamage Multiply ×0.025 — 火属性でジャストガード時に魔導バリアを大幅に強化
+    - BlazeAttack Multiply ×2.5 — 火属性の魔剣のB.D.攻撃力が大幅にアップ
+    - **新增: DamageLimitBreak Addition +1600000000.0 — 自身のダメージ上限が16億アップ**
+- [`125403`](weapons.json#L104625) ハイペリオン【極弐】
+  - base_name: ハイペリオン (costume: 極弐魔装)
+  - element=火(1) / type=連弩(6) / rarity=S(3) / cv=山本希望
+  - max stats: HP=18590 / ATK=16230 / DEF=7700 / SPD=36 / BREAK=2200
+  - hit_counts=[5, 5, 7] (3段)  motion_speed=[3.0/3.0/3.0]  mp=210
+  - three_size=107/66/91 / **initial_slot=4 → 5**
+  - BD: ディバインメガプロミネンス (arts_id=10254)
+    - description: 敵全体に超絶強力な60連ダメージ＆15秒ﾓｰｼｮﾝ50%高速化
+    - cost=7 / hit_count=60 / value=18.0 / additional_value=0.0
+  - innate skills (3):
+    - JustGuard_MinDamage Multiply ×0.025 — 火属性でジャストガード時に魔導バリアを大幅に強化
+    - BlazeAttack Multiply ×3.0 — 火属性の魔剣のB.D.攻撃力が絶大にアップ
+    - **新增: DamageLimitBreak Addition +1600000000.0 — 自身のダメージ上限が16億アップ**
+- [`126701`](weapons.json#L110465) ムーンサレナ
+  - base_name: ムーンサレナ (costume: 魔装)
+  - element=闇(5) / type=杖棒(4) / rarity=S(3) / cv=永野愛理
+  - max stats: HP=11500 / ATK=3800 / DEF=3500 / SPD=38 / BREAK=150
+  - hit_counts=[8, 7, 10] (3段)  motion_speed=[2.0/2.0/1.0]  mp=180
+  - three_size=62/54/66 / initial_slot=2
+  - BD: 虚世の狂気と純潔の愛 (arts_id=267)
+    - description: 敵全体に超強力な20連ダメージ＆スピード50%UP
+    - cost=5 / hit_count=20 / value=4.95 / additional_value=0.0
+  - innate skills (3):
+    - AllTarget Multiply ×0.6 — 攻撃力は下がるが自分の攻撃範囲が敵全体になる
+    - SapphireDrop Multiply ×2.0 — 自分の獲得するサファイアの量がかなり増加
+    - **新增: Attack Multiply ×1.1 — 全属性の魔剣の攻撃力がアップ**
+- [`126702`](weapons.json#L110641) ムーンサレナ【極】
+  - base_name: ムーンサレナ (costume: 極魔装)
+  - element=闇(5) / type=杖棒(4) / rarity=S(3) / cv=永野愛理
+  - max stats: HP=14950 / ATK=4940 / DEF=4550 / SPD=38 / BREAK=200
+  - hit_counts=[9, 7, 13] (3段)  motion_speed=[2.0/2.0/1.0]  mp=180
+  - three_size=62/54/66 / initial_slot=3
+  - BD: 虚世の狂気と純潔の愛 (arts_id=267)
+    - description: 敵全体に超強力な20連ダメージ＆スピード50%UP
+    - cost=5 / hit_count=20 / value=4.95 / additional_value=0.0
+  - innate skills (5):
+    - AllTarget Multiply ×0.8 — 攻撃力はやや下がるが自分の攻撃範囲が敵全体になる
+    - SapphireDrop Multiply ×3.0 — 自分の獲得するサファイアの量が大幅に増加
+    - **新增: Attack Multiply ×1.25 — 全属性の魔剣の攻撃力がかなりアップ**
+    - **新增: HitCount Addition +1.0 — 杖棒の魔剣の1撃目2撃目3撃目のヒット数を+1する**
+    - **新增: DamageLimitBreak Addition +600000000.0 — 杖棒の魔剣のダメージ上限が6億アップ**
+- [`126703`](weapons.json#L110855) ムーンサレナ【極弐】
+  - base_name: ムーンサレナ (costume: 極弐魔装)
+  - element=闇(5) / type=杖棒(4) / rarity=S(3) / cv=永野愛理
+  - max stats: HP=19440 / ATK=6430 / DEF=5920 / SPD=44 / BREAK=260
+  - hit_counts=[10, 8, 13] (3段)  motion_speed=[3.0/3.0/1.3]  mp=185
+  - three_size=62/54/66 / initial_slot=4
+  - BD: 純愛結ぶは狂月煌華 (arts_id=10267)
+    - description: 敵全体に超強力な20連ダメージ＆スピード50%UP
+    - cost=5 / hit_count=20 / value=4.95 / additional_value=0.0
+  - innate skills (5):
+    - AllTarget Multiply ×1.0 — 攻撃力を下げずに自分の攻撃範囲が敵全体になる
+    - SapphireDrop Multiply ×3.0 — 自分の獲得するサファイアの量が大幅に増加
+    - **新增: Attack Multiply ×1.5 — 全属性の魔剣の攻撃力が大幅にアップ**
+    - **新增: HitCount Addition +1.0 — 杖棒の魔剣の1撃目2撃目3撃目のヒット数を+1する**
+    - **新增: DamageLimitBreak Addition +600000000.0 — 杖棒の魔剣のダメージ上限が6億アップ**
+- [`131501`](weapons.json#L131266) ヴェロニカ
+  - base_name: ヴェロニカ (costume: 魔装)
+  - element=風(3) / type=戦斧(7) / rarity=S(3) / cv=石川由依
+  - max stats: HP=12400 / ATK=10820 / DEF=3100 / SPD=19 / BREAK=1550
+  - hit_counts=[4, 3, 3] (3段)  motion_speed=[2.0/3.0/1.0]  mp=260
+  - three_size=112/57/88 / initial_slot=2
+  - BD: ブレイブリーラヴソング (arts_id=315)
+    - description: 敵全体に超強力な29連ダメージ＆自分HP完全回復＆60秒間、味方の攻撃力･ﾓｰｼｮﾝ速度･ｽﾋﾟｰﾄﾞが3.5倍
+    - cost=8 / hit_count=29 / value=6.2069 / additional_value=0.0
+  - innate skills (3):
+    - **新增: Wave_BlazeUP Addition +200.0 — Wave経過ごとにブレイズゲージがかなり回復する**
+    - BlazeAbsorb Repel_Percent ×50.0 — 勇気分解の発生を確率で回避する
+    - **新增: HP Multiply ×1.1 — 風属性の魔剣のHPがアップ**
+    - **删除: Wave_BlazeUP Addition +100.0 — Wave経過ごとにブレイズゲージが回復する**
+- [`131502`](weapons.json#L131478) ヴェロニカ【極】
+  - base_name: ヴェロニカ (costume: 極魔装)
+  - element=風(3) / type=戦斧(7) / rarity=S(3) / cv=石川由依
+  - max stats: HP=16120 / ATK=14070 / DEF=4030 / SPD=19 / BREAK=2020
+  - hit_counts=[5, 3, 6] (3段)  motion_speed=[2.0/3.0/1.0]  mp=260
+  - three_size=112/57/88 / initial_slot=3
+  - BD: ブレイブリーラヴソング (arts_id=315)
+    - description: 敵全体に超強力な29連ダメージ＆自分HP完全回復＆60秒間、味方の攻撃力･ﾓｰｼｮﾝ速度･ｽﾋﾟｰﾄﾞが3.5倍
+    - cost=8 / hit_count=29 / value=6.2069 / additional_value=0.0
+  - innate skills (3):
+    - **新增: Wave_BlazeUP Addition +350.0 — Wave経過ごとにブレイズゲージが大幅に回復する**
+    - BlazeAbsorb Repel_Percent ×100.0 — 勇気分解の発生を完全回避する
+    - **新增: HP Multiply ×1.25 — 風属性の魔剣のHPがかなりアップ**
+    - **删除: Wave_BlazeUP Addition +200.0 — Wave経過ごとにブレイズゲージがかなり回復する**
+- [`131503`](weapons.json#L131690) ヴェロニカ【極弐】
+  - base_name: ヴェロニカ (costume: 極弐魔装)
+  - element=風(3) / type=戦斧(7) / rarity=S(3) / cv=石川由依
+  - max stats: HP=20960 / ATK=18300 / DEF=5240 / SPD=21 / BREAK=2630
+  - hit_counts=[6, 4, 6] (3段)  motion_speed=[2.0/3.0/1.2]  mp=288
+  - three_size=115/57/90 / initial_slot=4
+  - BD: フェイスフルカンタービレ (arts_id=10315)
+    - description: 敵全体に超強力な29連ダメージ＆自分HP完全回復＆60秒間、味方の攻撃力･ﾓｰｼｮﾝ速度･ｽﾋﾟｰﾄﾞが7倍
+    - cost=8 / hit_count=29 / value=6.2069 / additional_value=0.0
+  - innate skills (3):
+    - **新增: Wave_BlazeUP Addition +600.0 — Wave経過ごとにブレイズゲージが絶大に回復する**
+    - BlazeAbsorb Repel_Percent ×100.0 — 勇気分解の発生を完全回避する
+    - **新增: HP Multiply ×1.5 — 風属性の魔剣のHPが大幅にアップ**
+    - **删除: Wave_BlazeUP Addition +350.0 — Wave経過ごとにブレイズゲージが大幅に回復する**
+
+## materials
+
+### 新增 (6)
+
+- [`12050077`](materials.json#L8893) 叛逆神の胎動Lv1 rarity=1
+  - 結晶化した魔剣の記憶。
+[残HP少ないほど攻撃力UP][上限値:低]
+- [`22050078`](materials.json#L8991) 叛逆神の胎動Lv2 rarity=2
+  - 結晶化した魔剣の記憶。
+[残HP少ないほど攻撃力UP][上限値:普]
+- [`23070063`](materials.json#L9131) 冥魔神の進撃Lv2 rarity=2
+  - 結晶化した魔剣の記憶。[闇のみ]
+[残HP多いほどﾓｰｼｮﾝ速度UP][上限値:普]
+- [`32140102`](materials.json#L10573) 冥魔神の律動Lv3 rarity=3
+  - 結晶化した魔剣の記憶。[闇のみ]
+[残HPが多いほど攻撃力がUP][上限値:高]
+- [`33070064`](materials.json#L11791) 冥魔神の進撃Lv3 rarity=3
+  - 結晶化した魔剣の記憶。[闇のみ]
+[残HP多いほどﾓｰｼｮﾝ速度UP][上限値:高]
+- [`43070026`](materials.json#L16957) 冥魔神の進撃Lv4 rarity=4
+  - 結晶化した魔剣の記憶。[闇のみ]
+[残HP多いほどﾓｰｼｮﾝ速度UP][上限値:超高]
+
+---
+
+★ 跳过的 derived 表(非 local-master.dat 产物,需 server response 聚合):
+- `memory_slot_skills.json`
+- `npc_motions.json`
