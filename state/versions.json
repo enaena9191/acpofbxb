@@ -2015,9 +2015,27 @@
     "versions": [
       {
         "ts": "2026/10/07 18:00:00",
-        "file": "04835_20261007.html",
+        "file": "04835_20261007_v20261007180000.html",
         "hash": "539e6a45647caf3fd419195456945aa6e7aebd2982909141a63065d9e4ef681a",
         "ts_source": "page_time"
+      },
+      {
+        "ts": "2026/10/07 19:05:56",
+        "file": "04835_20261007.html",
+        "hash": "3dc970a859712f7e547f91ab3eb6ff1a50b87a493c7a0fcf73b6b361b575eda8",
+        "ts_source": "detected"
+      }
+    ]
+  },
+  "4834": {
+    "slug": "info_4koma_595",
+    "canonical": "04834_20261007.html",
+    "versions": [
+      {
+        "ts": "2026/10/07 19:00:00",
+        "file": "04834_20261007.html",
+        "hash": "71b27022da7a40b2067af9dcd2e126cb99de2217e135fa23d8cf4fb39459753b",
+        "ts_source": "rss"
       }
     ]
   }
