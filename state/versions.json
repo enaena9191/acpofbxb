@@ -1859,9 +1859,15 @@
     "versions": [
       {
         "ts": "2026/09/30 19:00:00",
-        "file": "04824_20260930.html",
+        "file": "04824_20260930_v20260930190000.html",
         "hash": "b7fcc6069249f7c7c5a000d0832821cd2730b4409176372e3a112e6bd90b35ac",
         "ts_source": "rss"
+      },
+      {
+        "ts": "2026/10/07 16:02:40",
+        "file": "04824_20260930.html",
+        "hash": "0f99b33549fb0094c8e0a7ecedc8a546133e201a1c13a727b79d77b03580373b",
+        "ts_source": "detected"
       }
     ]
   },
@@ -1871,9 +1877,15 @@
     "versions": [
       {
         "ts": "2026/09/30 19:00:00",
-        "file": "04825_20260930.html",
+        "file": "04825_20260930_v20260930190000.html",
         "hash": "e43456e580e4430d2e272c2a0631be59d9d87e081c72ad1289ba125c4ce28c08",
         "ts_source": "page_time"
+      },
+      {
+        "ts": "2026/10/07 16:02:41",
+        "file": "04825_20260930.html",
+        "hash": "2b8198e9e52a4f009a86f6f906caa163ea8a3903f6cfdd170cba79d634c454a0",
+        "ts_source": "detected"
       }
     ]
   },
@@ -1969,6 +1981,18 @@
         "ts": "2026/10/07 15:00:00",
         "file": "04831_20261007.html",
         "hash": "3bc6ed5418596c39bbf024921d7a48dcfd99501d3c1318177be8c0b31bc4fb14",
+        "ts_source": "rss"
+      }
+    ]
+  },
+  "4832": {
+    "slug": "balance_202610",
+    "canonical": "04832_20261007.html",
+    "versions": [
+      {
+        "ts": "2026/10/07 16:00:00",
+        "file": "04832_20261007.html",
+        "hash": "e7cdd5d5f93857299a3b5b28d49cd4a8e9b25ebbe486e5b87e0af9f5d9dc15e3",
         "ts_source": "rss"
       }
     ]

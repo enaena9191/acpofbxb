@@ -14219,6 +14219,7 @@ bxb-assets/images/topics/weapons/121003.jpg
 bxb-assets/images/topics/weapons/121101.jpg
 bxb-assets/images/topics/weapons/1211016.jpg
 bxb-assets/images/topics/weapons/121102.jpg
+bxb-assets/images/topics/weapons/121103.jpg
 bxb-assets/images/topics/weapons/1212003.jpg
 bxb-assets/images/topics/weapons/121201.jpg
 bxb-assets/images/topics/weapons/121202.jpg
