@@ -1,0 +1,4447 @@
+# master_data changelog: 2026_10_07_16_00_00 → 2026_10_08_16_00_00
+
+## 总览
+
+| 表 | 新增 | 删除 | 调整 |
+|---|---:|---:|---:|
+| weapons | 0 | 0 | 317 |
+| materials | 3 | 0 | 0 |
+| items | 2 | 0 | 0 |
+| jobs | 1 | 0 | 0 |
+| scenarios | 11 | 0 | 0 |
+
+## weapons
+
+### 调整 (317)
+
+- [`100301`](weapons.json#L864) グラーシーザ
+  - base_name: グラーシーザ (costume: 魔装)
+  - element=火(1) / type=騎槍(8) / rarity=S(3) / cv=佐藤利奈
+  - max stats: HP=9000 / ATK=8500 / DEF=8000 / SPD=15 / BREAK=1600
+  - hit_counts=[1, 2, 2] (3段)  motion_speed=[4.0/4.0/1.0]  mp=112
+  - three_size=92/58/87 / initial_slot=4
+  - BD: 剛王緋天絶焔陣 (arts_id=3)
+    - description: 敵全体に超強力な13連ダメージ＆敵を強制ブレイク
+    - cost=3 / hit_count=13 / value=4.29231 / additional_value=0.0
+  - innate skills (2):
+    - HP Multiply ×1.25 — 火属性の魔剣のHPがかなりアップ
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`100302`](weapons.json#L1021) グラーシーザ【極】
+  - base_name: グラーシーザ (costume: 極魔装)
+  - element=火(1) / type=騎槍(8) / rarity=S(3) / cv=佐藤利奈
+  - max stats: HP=11700 / ATK=11050 / DEF=10400 / SPD=15 / BREAK=2080
+  - hit_counts=[2, 2, 5] (3段)  motion_speed=[4.0/4.0/1.0]  mp=112
+  - three_size=92/58/87 / initial_slot=5
+  - BD: 剛王緋天絶焔陣 (arts_id=3)
+    - description: 敵全体に超強力な13連ダメージ＆敵を強制ブレイク
+    - cost=3 / hit_count=13 / value=4.29231 / additional_value=0.0
+  - innate skills (2):
+    - HP Multiply ×1.25 — 火属性の魔剣のHPがかなりアップ
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`100303`](weapons.json#L1178) グラーシーザ【極弐】
+  - base_name: グラーシーザ (costume: 極弐魔装)
+  - element=火(1) / type=騎槍(8) / rarity=S(3) / cv=佐藤利奈
+  - max stats: HP=15210 / ATK=14370 / DEF=13520 / SPD=17 / BREAK=2710
+  - hit_counts=[3, 3, 5] (3段)  motion_speed=[2.0/1.8/1.4]  mp=123
+  - three_size=93/58/87 / initial_slot=6
+  - BD: 趨勢決めし終焔竜牙斬 (arts_id=10003)
+    - description: 敵全体に超強力な13連ダメージ＆敵を強制ブレイク
+    - cost=3 / hit_count=13 / value=4.29231 / additional_value=0.0
+  - innate skills (2):
+    - HP Multiply ×1.5 — 火属性の魔剣のHPが大幅にアップ
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`101001`](weapons.json#L3938) ドリル
+  - base_name: ドリル (costume: 魔装)
+  - element=闇(5) / type=騎槍(8) / rarity=S(3) / cv=沙来
+  - max stats: HP=8000 / ATK=2200 / DEF=7000 / SPD=17 / BREAK=4700
+  - hit_counts=[2, 3, 4] (3段)  motion_speed=[4.0/4.0/1.0]  mp=108
+  - three_size=84/57/83 / initial_slot=2
+  - BD: 螺穿天葬牙 (arts_id=10)
+    - description: 敵全体に超強力な35連ダメージ＆敵を強制ブレイク
+    - cost=4 / hit_count=35 / value=2.21143 / additional_value=0.0
+  - innate skills (2):
+    - Attack Multiply ×1.5 — 闇属性の魔剣の攻撃力が大幅にアップ
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`101002`](weapons.json#L4095) ドリル【極】
+  - base_name: ドリル (costume: 極魔装)
+  - element=闇(5) / type=騎槍(8) / rarity=S(3) / cv=沙来
+  - max stats: HP=10800 / ATK=2860 / DEF=9100 / SPD=17 / BREAK=6110
+  - hit_counts=[3, 3, 7] (3段)  motion_speed=[4.0/4.0/1.0]  mp=108
+  - three_size=84/57/83 / initial_slot=3
+  - BD: 螺穿天葬牙 (arts_id=10)
+    - description: 敵全体に超強力な35連ダメージ＆敵を強制ブレイク
+    - cost=4 / hit_count=35 / value=2.21143 / additional_value=0.0
+  - innate skills (3):
+    - Attack Multiply ×1.4969 — 闇属性の魔剣の攻撃力が大幅にアップ【熟度UPにつれてさらに効果値UP】
+    - Enemy_BreakAttack Multiply ×3.0 — ブレイク時に闇属性の魔剣の攻撃力が3倍
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`101301`](weapons.json#L5073) フランヴェルジュ
+  - base_name: フランヴェルジュ (costume: 魔装)
+  - element=火(1) / type=長剣(1) / rarity=AA(2) / cv=水野マリコ
+  - max stats: HP=4500 / ATK=400 / DEF=4300 / SPD=30 / BREAK=800
+  - hit_counts=[3, 4, 5] (3段)  motion_speed=[4.0/4.0/1.0]  mp=95
+  - three_size=75/55/79 / initial_slot=2
+  - BD: フレイムエッジ (arts_id=13)
+    - description: 敵全体に強力な14連ダメージ
+    - cost=1 / hit_count=14 / value=1.07143 / additional_value=0.0
+  - innate skills (2):
+    - GuardBreak Multiply ×1.1 — 火属性の魔剣がガードブレイクしやすく
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`101302`](weapons.json#L5217) フランヴェルジュ【極】
+  - base_name: フランヴェルジュ (costume: 極魔装)
+  - element=火(1) / type=長剣(1) / rarity=AA(2) / cv=水野マリコ
+  - max stats: HP=5850 / ATK=520 / DEF=5590 / SPD=30 / BREAK=1040
+  - hit_counts=[4, 4, 8] (3段)  motion_speed=[4.0/4.0/1.0]  mp=95
+  - three_size=75/55/79 / initial_slot=2
+  - BD: フレイムエッジ (arts_id=13)
+    - description: 敵全体に強力な14連ダメージ
+    - cost=1 / hit_count=14 / value=1.07143 / additional_value=0.0
+  - innate skills (2):
+    - GuardBreak Multiply ×1.1 — 火属性の魔剣がガードブレイクしやすく
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`101303`](weapons.json#L5361) フランヴェルジュ【極弐】
+  - base_name: フランヴェルジュ (costume: 極弐魔装)
+  - element=火(1) / type=長剣(1) / rarity=AA(2) / cv=水野マリコ
+  - max stats: HP=6700 / ATK=4080 / DEF=6580 / SPD=35 / BREAK=2010
+  - hit_counts=[4, 4, 8] (3段)  motion_speed=[3.0/3.0/1.2]  mp=102
+  - three_size=77/55/79 / initial_slot=3
+  - BD: ダンスインザブレイズ (arts_id=10013)
+    - description: 敵全体に強力な14連ダメージ＆一瞬だけスピード狂化
+    - cost=1 / hit_count=14 / value=1.07143 / additional_value=0.0
+  - innate skills (2):
+    - GuardBreak Multiply ×1.25 — 火属性の魔剣がかなりガードブレイクしやすく
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`103501`](weapons.json#L13718) ドロマシュネフタ
+  - base_name: ドロマシュネフタ (costume: 魔装)
+  - element=風(3) / type=魔典(11) / rarity=AA(2) / cv=相沢美衣
+  - max stats: HP=4700 / ATK=1090 / DEF=4500 / SPD=38 / BREAK=2300
+  - hit_counts=[2, 2, 3] (3段)  motion_speed=[4.0/4.0/1.0]  mp=95
+  - three_size=78/55/74 / initial_slot=4
+  - BD: エンシェントノヴァ (arts_id=35)
+    - description: 敵全体に強力な13連ダメージ
+    - cost=2 / hit_count=13 / value=2.36538 / additional_value=0.0
+  - innate skills (2):
+    - Defense Multiply ×1.1 — 風属性の魔剣の防御力がアップ
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`103502`](weapons.json#L13862) ドロマシュネフタ【極】
+  - base_name: ドロマシュネフタ (costume: 極魔装)
+  - element=風(3) / type=魔典(11) / rarity=AA(2) / cv=相沢美衣
+  - max stats: HP=6110 / ATK=1400 / DEF=5850 / SPD=38 / BREAK=2990
+  - hit_counts=[3, 2, 6] (3段)  motion_speed=[4.0/4.0/1.0]  mp=95
+  - three_size=78/55/74 / initial_slot=4
+  - BD: エンシェントノヴァ (arts_id=35)
+    - description: 敵全体に強力な13連ダメージ
+    - cost=2 / hit_count=13 / value=2.36538 / additional_value=0.0
+  - innate skills (2):
+    - Defense Multiply ×1.1 — 風属性の魔剣の防御力がアップ
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`103503`](weapons.json#L14006) ドロマシュネフタ【極弐】
+  - base_name: ドロマシュネフタ (costume: 極弐魔装)
+  - element=風(3) / type=魔典(11) / rarity=AA(2) / cv=相沢美衣
+  - max stats: HP=7950 / ATK=1820 / DEF=7610 / SPD=41 / BREAK=3890
+  - hit_counts=[4, 3, 6] (3段)  motion_speed=[3.0/3.0/1.0]  mp=99
+  - three_size=79/55/74 / initial_slot=5
+  - BD: エンシェントアラゴルン (arts_id=10035)
+    - description: 敵全体に強力な13連ダメージ＆防御力10%UP
+    - cost=2 / hit_count=13 / value=2.36538 / additional_value=0.0
+  - innate skills (2):
+    - Defense Multiply ×1.25 — 風属性の魔剣の防御力がかなりアップ
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`104401`](weapons.json#L17440) シュヴァルツヴェイン
+  - base_name: シュヴァルツヴェイン (costume: 魔装)
+  - element=闇(5) / type=大剣(2) / rarity=AA(2) / cv=五十嵐由佳
+  - max stats: HP=4200 / ATK=1883 / DEF=3700 / SPD=11 / BREAK=500
+  - hit_counts=[3, 4, 5] (3段)  motion_speed=[4.0/4.0/1.0]  mp=120
+  - three_size=85/58/84 / initial_slot=2
+  - BD: インブレイスダーク (arts_id=44)
+    - description: 敵全体に強力な13連ダメージ
+    - cost=3 / hit_count=13 / value=3.57692 / additional_value=0.0
+  - innate skills (2):
+    - Speed Multiply ×1.1 — 闇属性の魔剣の行動速度がアップ
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`104402`](weapons.json#L17584) シュヴァルツヴェイン【極】
+  - base_name: シュヴァルツヴェイン (costume: 極魔装)
+  - element=闇(5) / type=大剣(2) / rarity=AA(2) / cv=五十嵐由佳
+  - max stats: HP=5460 / ATK=2500 / DEF=4810 / SPD=11 / BREAK=650
+  - hit_counts=[4, 4, 8] (3段)  motion_speed=[4.0/4.0/1.0]  mp=120
+  - three_size=85/58/84 / initial_slot=2
+  - BD: インブレイスダーク (arts_id=44)
+    - description: 敵全体に強力な13連ダメージ
+    - cost=3 / hit_count=13 / value=3.57692 / additional_value=0.0
+  - innate skills (2):
+    - Speed Multiply ×1.1 — 闇属性の魔剣の行動速度がアップ
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`104403`](weapons.json#L17728) シュヴァルツヴェイン【極弐】
+  - base_name: シュヴァルツヴェイン (costume: 極弐魔装)
+  - element=闇(5) / type=大剣(2) / rarity=AA(2) / cv=五十嵐由佳
+  - max stats: HP=7100 / ATK=4000 / DEF=6260 / SPD=16 / BREAK=850
+  - hit_counts=[5, 5, 8] (3段)  motion_speed=[4.0/4.0/1.5]  mp=132
+  - three_size=85/59/84 / initial_slot=3
+  - BD: フェアツヴァイフルング (arts_id=10044)
+    - description: 敵全体に強力な13連ダメージ＆攻撃力10%UP
+    - cost=3 / hit_count=13 / value=3.57692 / additional_value=0.0
+  - innate skills (2):
+    - Speed Multiply ×1.25 — 闇属性の魔剣の行動速度がかなりアップ
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`104601`](weapons.json#L18273) シャドウゲイト
+  - base_name: シャドウゲイト (costume: 魔装)
+  - element=闇(5) / type=騎槍(8) / rarity=AA(2) / cv=中島沙樹
+  - max stats: HP=4700 / ATK=3500 / DEF=4300 / SPD=15 / BREAK=2600
+  - hit_counts=[1, 2, 2] (3段)  motion_speed=[4.0/4.0/1.0]  mp=116
+  - three_size=85/55/82 / initial_slot=3
+  - BD: アンフェアブロッサム (arts_id=46)
+    - description: 敵全体に強力な13連ダメージ
+    - cost=2 / hit_count=13 / value=2.36538 / additional_value=0.0
+  - innate skills (2):
+    - Defense Multiply ×1.1 — 闇属性の魔剣の防御力がアップ
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`104602`](weapons.json#L18417) シャドウゲイト【極】
+  - base_name: シャドウゲイト (costume: 極魔装)
+  - element=闇(5) / type=騎槍(8) / rarity=AA(2) / cv=中島沙樹
+  - max stats: HP=6110 / ATK=4550 / DEF=5590 / SPD=15 / BREAK=3380
+  - hit_counts=[2, 2, 5] (3段)  motion_speed=[4.0/4.0/1.0]  mp=116
+  - three_size=85/55/82 / initial_slot=3
+  - BD: アンフェアブロッサム (arts_id=46)
+    - description: 敵全体に強力な13連ダメージ
+    - cost=2 / hit_count=13 / value=2.36538 / additional_value=0.0
+  - innate skills (2):
+    - Defense Multiply ×1.1 — 闇属性の魔剣の防御力がアップ
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`104603`](weapons.json#L18561) シャドウゲイト【極弐】
+  - base_name: シャドウゲイト (costume: 極弐魔装)
+  - element=闇(5) / type=騎槍(8) / rarity=AA(2) / cv=中島沙樹
+  - max stats: HP=7950 / ATK=7090 / DEF=7270 / SPD=18 / BREAK=5250
+  - hit_counts=[3, 3, 5] (3段)  motion_speed=[3.0/3.0/1.0]  mp=122
+  - three_size=85/55/82 / initial_slot=4
+  - BD: アンフェアブロッサムレイド (arts_id=10046)
+    - description: 敵全体に超強力な13連ダメージ＆自分モーション加速
+    - cost=2 / hit_count=13 / value=3.23 / additional_value=0.0
+  - innate skills (2):
+    - Defense Multiply ×1.25 — 闇属性の魔剣の防御力がかなりアップ
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`104701`](weapons.json#L18718) 咲刃十六夜
+  - base_name: 咲刃十六夜 (costume: 魔装)
+  - element=闇(5) / type=太刀(3) / rarity=AA(2) / cv=水野マリコ
+  - max stats: HP=4200 / ATK=3120 / DEF=4500 / SPD=23 / BREAK=2600
+  - hit_counts=[1, 2, 2] (3段)  motion_speed=[4.0/4.0/1.0]  mp=132
+  - three_size=87/57/83 / initial_slot=2
+  - BD: デフラワードエイジ (arts_id=47)
+    - description: 敵全体に強力な13連ダメージ
+    - cost=1 / hit_count=13 / value=1.15385 / additional_value=0.0
+  - innate skills (2):
+    - GuardBreak Multiply ×1.1 — 闇属性の魔剣がガードブレイクしやすく
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`104702`](weapons.json#L18862) 咲刃十六夜【極】
+  - base_name: 咲刃十六夜 (costume: 極魔装)
+  - element=闇(5) / type=太刀(3) / rarity=AA(2) / cv=水野マリコ
+  - max stats: HP=5460 / ATK=4050 / DEF=5850 / SPD=23 / BREAK=3400
+  - hit_counts=[2, 2, 5] (3段)  motion_speed=[4.0/4.0/1.0]  mp=132
+  - three_size=87/57/83 / initial_slot=2
+  - BD: デフラワードエイジ (arts_id=47)
+    - description: 敵全体に強力な13連ダメージ
+    - cost=1 / hit_count=13 / value=1.15385 / additional_value=0.0
+  - innate skills (2):
+    - GuardBreak Multiply ×1.1 — 闇属性の魔剣がガードブレイクしやすく
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`104703`](weapons.json#L19006) 咲刃十六夜【極弐】
+  - base_name: 咲刃十六夜 (costume: 極弐魔装)
+  - element=闇(5) / type=太刀(3) / rarity=AA(2) / cv=水野マリコ
+  - max stats: HP=7100 / ATK=5270 / DEF=7610 / SPD=27 / BREAK=4420
+  - hit_counts=[3, 3, 5] (3段)  motion_speed=[4.0/3.0/1.3]  mp=140
+  - three_size=87/57/83 / initial_slot=3
+  - BD: レストインプリザーヴ (arts_id=10047)
+    - description: 敵全体に強力な13連ダメージ＆攻撃力20%UP
+    - cost=1 / hit_count=13 / value=1.15385 / additional_value=0.0
+  - innate skills (2):
+    - GuardBreak Multiply ×1.25 — 闇属性の魔剣がかなりガードブレイクしやすく
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`105701`](weapons.json#L22776) バトルアクス
+  - base_name: バトルアクス (costume: 魔装)
+  - element=火(1) / type=戦斧(7) / rarity=A(1) / cv=山川琴美
+  - max stats: HP=3000 / ATK=1900 / DEF=1100 / SPD=14 / BREAK=522
+  - hit_counts=[1, 1, 2] (3段)  motion_speed=[4.0/4.0/1.0]  mp=132
+  - three_size=78/56/79 / initial_slot=1
+  - BD: 裂壊撃 (arts_id=57)
+    - description: 敵全体に7連ダメージ
+    - cost=1 / hit_count=7 / value=1.42857 / additional_value=0.0
+  - innate skills (2):
+    - Attack Multiply ×1.05 — 火属性の魔剣の攻撃力が少しアップ
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`105702`](weapons.json#L22920) バトルアクス【極】
+  - base_name: バトルアクス (costume: 極魔装)
+  - element=火(1) / type=戦斧(7) / rarity=A(1) / cv=山川琴美
+  - max stats: HP=3900 / ATK=2470 / DEF=1430 / SPD=14 / BREAK=680
+  - hit_counts=[2, 1, 5] (3段)  motion_speed=[4.0/4.0/1.0]  mp=132
+  - three_size=78/56/79 / initial_slot=1
+  - BD: 裂壊撃 (arts_id=57)
+    - description: 敵全体に7連ダメージ
+    - cost=1 / hit_count=7 / value=1.42857 / additional_value=0.0
+  - innate skills (2):
+    - Attack Multiply ×1.05 — 火属性の魔剣の攻撃力が少しアップ
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`105703`](weapons.json#L23064) バトルアクス【極弐】
+  - base_name: バトルアクス (costume: 極弐魔装)
+  - element=火(1) / type=戦斧(7) / rarity=A(1) / cv=山川琴美
+  - max stats: HP=5070 / ATK=6180 / DEF=1860 / SPD=18 / BREAK=1700
+  - hit_counts=[3, 2, 5] (3段)  motion_speed=[3.0/2.0/1.0]  mp=137
+  - three_size=78/56/79 / initial_slot=3
+  - BD: 嫉禍裂壊断 (arts_id=10057)
+    - description: 敵全体に強力な7連ダメージ＆敵を強制ブレイク
+    - cost=1 / hit_count=7 / value=2.43 / additional_value=0.0
+  - innate skills (2):
+    - Attack Multiply ×1.1 — 火属性の魔剣の攻撃力がアップ
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`105901`](weapons.json#L23609) ルーンロッド
+  - base_name: ルーンロッド (costume: 魔装)
+  - element=火(1) / type=杖棒(4) / rarity=A(1) / cv=荒川美穂
+  - max stats: HP=3000 / ATK=2200 / DEF=900 / SPD=15 / BREAK=500
+  - hit_counts=[1, 1, 2] (3段)  motion_speed=[4.0/4.0/1.0]  mp=91
+  - three_size=77/54/75 / initial_slot=1
+  - BD: レッドマジック (arts_id=59)
+    - description: 敵全体に7連ダメージ
+    - cost=2 / hit_count=7 / value=2.92857 / additional_value=0.0
+  - innate skills (2):
+    - Attack Multiply ×1.05 — 火属性の魔剣の攻撃力が少しアップ
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`105902`](weapons.json#L23753) ルーンロッド【極】
+  - base_name: ルーンロッド (costume: 極魔装)
+  - element=火(1) / type=杖棒(4) / rarity=A(1) / cv=荒川美穂
+  - max stats: HP=3900 / ATK=2860 / DEF=1170 / SPD=15 / BREAK=650
+  - hit_counts=[2, 1, 5] (3段)  motion_speed=[4.0/4.0/1.0]  mp=91
+  - three_size=77/54/75 / initial_slot=1
+  - BD: レッドマジック (arts_id=59)
+    - description: 敵全体に7連ダメージ
+    - cost=2 / hit_count=7 / value=2.92857 / additional_value=0.0
+  - innate skills (2):
+    - Attack Multiply ×1.05 — 火属性の魔剣の攻撃力が少しアップ
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`105903`](weapons.json#L23897) ルーンロッド【極弐】
+  - base_name: ルーンロッド (costume: 極弐魔装)
+  - element=火(1) / type=杖棒(4) / rarity=A(1) / cv=荒川美穂
+  - max stats: HP=5250 / ATK=7260 / DEF=2820 / SPD=21 / BREAK=3200
+  - hit_counts=[3, 2, 5] (3段)  motion_speed=[4.0/4.0/1.0]  mp=97
+  - three_size=79/54/75 / initial_slot=3
+  - BD: シンレッドマジック (arts_id=10059)
+    - description: 敵全体に強力な7連ダメージ＆スピード10%UP
+    - cost=2 / hit_count=7 / value=4.28571 / additional_value=0.0
+  - innate skills (2):
+    - Attack Multiply ×1.1 — 火属性の魔剣の攻撃力がアップ
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`106001`](weapons.json#L24054) ルーンブレード
+  - base_name: ルーンブレード (costume: 魔装)
+  - element=水(2) / type=長剣(1) / rarity=A(1) / cv=山川琴美
+  - max stats: HP=3200 / ATK=950 / DEF=800 / SPD=20 / BREAK=750
+  - hit_counts=[2, 3, 3] (3段)  motion_speed=[4.0/4.0/1.0]  mp=90
+  - three_size=77/56/76 / initial_slot=1
+  - BD: ブルーマジック (arts_id=60)
+    - description: 敵全体に5連ダメージ
+    - cost=1 / hit_count=5 / value=2.0 / additional_value=0.0
+  - innate skills (2):
+    - Attack Multiply ×1.05 — 水属性の魔剣の攻撃力が少しアップ
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`106002`](weapons.json#L24198) ルーンブレード【極】
+  - base_name: ルーンブレード (costume: 極魔装)
+  - element=水(2) / type=長剣(1) / rarity=A(1) / cv=山川琴美
+  - max stats: HP=4160 / ATK=1240 / DEF=1040 / SPD=20 / BREAK=1000
+  - hit_counts=[3, 3, 6] (3段)  motion_speed=[4.0/4.0/1.0]  mp=90
+  - three_size=77/56/76 / initial_slot=1
+  - BD: ブルーマジック (arts_id=60)
+    - description: 敵全体に5連ダメージ
+    - cost=1 / hit_count=5 / value=2.0 / additional_value=0.0
+  - innate skills (2):
+    - Attack Multiply ×1.05 — 水属性の魔剣の攻撃力が少しアップ
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`106003`](weapons.json#L24342) ルーンブレード【極弐】
+  - base_name: ルーンブレード (costume: 極弐魔装)
+  - element=水(2) / type=長剣(1) / rarity=A(1) / cv=山川琴美
+  - max stats: HP=5000 / ATK=2480 / DEF=1890 / SPD=24 / BREAK=2400
+  - hit_counts=[4, 4, 6] (3段)  motion_speed=[4.0/4.0/1.0]  mp=92
+  - three_size=79/56/76 / initial_slot=3
+  - BD: エヴァーブルーマジック (arts_id=10060)
+    - description: 敵全体に強力な5連ダメージ＆防御力10%UP
+    - cost=1 / hit_count=5 / value=3.2 / additional_value=0.0
+  - innate skills (2):
+    - Attack Multiply ×1.1 — 水属性の魔剣の攻撃力がアップ
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`106301`](weapons.json#L25275) 胴田貫
+  - base_name: 胴田貫 (costume: 魔装)
+  - element=水(2) / type=太刀(3) / rarity=A(1) / cv=中島沙樹
+  - max stats: HP=3200 / ATK=1295 / DEF=1000 / SPD=23 / BREAK=495
+  - hit_counts=[2, 2, 3] (3段)  motion_speed=[4.0/4.0/1.0]  mp=133
+  - three_size=79/56/74 / initial_slot=1
+  - BD: 流斬閃 (arts_id=63)
+    - description: 敵全体に7連ダメージ
+    - cost=2 / hit_count=7 / value=2.92857 / additional_value=0.0
+  - innate skills (2):
+    - Defense Multiply ×1.05 — 水属性の魔剣の防御力が少しアップ
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`106302`](weapons.json#L25419) 胴田貫【極】
+  - base_name: 胴田貫 (costume: 極魔装)
+  - element=水(2) / type=太刀(3) / rarity=A(1) / cv=中島沙樹
+  - max stats: HP=4160 / ATK=1680 / DEF=1300 / SPD=23 / BREAK=640
+  - hit_counts=[3, 2, 6] (3段)  motion_speed=[4.0/4.0/1.0]  mp=133
+  - three_size=79/56/74 / initial_slot=1
+  - BD: 流斬閃 (arts_id=63)
+    - description: 敵全体に7連ダメージ
+    - cost=2 / hit_count=7 / value=2.92857 / additional_value=0.0
+  - innate skills (2):
+    - Defense Multiply ×1.05 — 水属性の魔剣の防御力が少しアップ
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`106303`](weapons.json#L25563) 胴田貫【極弐】
+  - base_name: 胴田貫 (costume: 極弐魔装)
+  - element=水(2) / type=太刀(3) / rarity=A(1) / cv=中島沙樹
+  - max stats: HP=5600 / ATK=4050 / DEF=3140 / SPD=39 / BREAK=1550
+  - hit_counts=[4, 3, 6] (3段)  motion_speed=[4.0/4.0/1.0]  mp=142
+  - three_size=83/56/74 / initial_slot=3
+  - BD: 蒼流連斬閃 (arts_id=10063)
+    - description: 敵全体に強力な7連ダメージ＆敵を強制ブレイク
+    - cost=2 / hit_count=7 / value=4.28571 / additional_value=0.0
+  - innate skills (2):
+    - Defense Multiply ×1.1 — 水属性の魔剣の防御力がアップ
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`106601`](weapons.json#L26496) クロスボウ
+  - base_name: クロスボウ (costume: 魔装)
+  - element=水(2) / type=連弩(6) / rarity=A(1) / cv=菅谷弥生
+  - max stats: HP=2800 / ATK=1400 / DEF=700 / SPD=12 / BREAK=535
+  - hit_counts=[3, 4, 6] (3段)  motion_speed=[4.0/4.0/1.0]  mp=194
+  - three_size=80/56/80 / initial_slot=1
+  - BD: スプラッシュシュート (arts_id=66)
+    - description: 敵全体に7連ダメージ
+    - cost=1 / hit_count=7 / value=1.42857 / additional_value=0.0
+  - innate skills (2):
+    - HP Multiply ×1.05 — 水属性の魔剣のHPが少しアップ
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`106602`](weapons.json#L26640) クロスボウ【極】
+  - base_name: クロスボウ (costume: 極魔装)
+  - element=水(2) / type=連弩(6) / rarity=A(1) / cv=菅谷弥生
+  - max stats: HP=3640 / ATK=1820 / DEF=910 / SPD=12 / BREAK=680
+  - hit_counts=[4, 4, 9] (3段)  motion_speed=[4.0/4.0/1.0]  mp=194
+  - three_size=80/56/80 / initial_slot=1
+  - BD: スプラッシュシュート (arts_id=66)
+    - description: 敵全体に7連ダメージ
+    - cost=1 / hit_count=7 / value=1.42857 / additional_value=0.0
+  - innate skills (2):
+    - HP Multiply ×1.05 — 水属性の魔剣のHPが少しアップ
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`106603`](weapons.json#L26784) クロスボウ【極弐】
+  - base_name: クロスボウ (costume: 極弐魔装)
+  - element=水(2) / type=連弩(6) / rarity=A(1) / cv=菅谷弥生
+  - max stats: HP=7800 / ATK=3350 / DEF=3050 / SPD=14 / BREAK=750
+  - hit_counts=[5, 5, 9] (3段)  motion_speed=[3.0/2.0/1.0]  mp=205
+  - three_size=80/56/80 / initial_slot=2
+  - BD: ハイドロスプラッシュシュート (arts_id=10066)
+    - description: 敵全体に強力な8連ダメージ＆数秒防御力1.3倍
+    - cost=1 / hit_count=8 / value=2.0 / additional_value=0.0
+  - innate skills (2):
+    - HP Multiply ×1.1 — 水属性の魔剣のHPがアップ
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`107101`](weapons.json#L28493) 小太刀
+  - base_name: 小太刀 (costume: 魔装)
+  - element=風(3) / type=太刀(3) / rarity=A(1) / cv=鈴木絵理
+  - max stats: HP=2800 / ATK=400 / DEF=700 / SPD=27 / BREAK=400
+  - hit_counts=[2, 3, 4] (3段)  motion_speed=[4.0/4.0/1.0]  mp=129
+  - three_size=73/53/75 / initial_slot=1
+  - BD: 旋風閃 (arts_id=71)
+    - description: 敵全体に5連ダメージ
+    - cost=1 / hit_count=5 / value=2.0 / additional_value=0.0
+  - innate skills (2):
+    - GuardBreak Multiply ×1.05 — 風属性の魔剣が少しガードブレイクしやすく
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`107102`](weapons.json#L28637) 小太刀【極】
+  - base_name: 小太刀 (costume: 極魔装)
+  - element=風(3) / type=太刀(3) / rarity=A(1) / cv=鈴木絵理
+  - max stats: HP=3640 / ATK=520 / DEF=910 / SPD=27 / BREAK=520
+  - hit_counts=[3, 3, 7] (3段)  motion_speed=[4.0/4.0/1.0]  mp=129
+  - three_size=73/53/75 / initial_slot=1
+  - BD: 旋風閃 (arts_id=71)
+    - description: 敵全体に5連ダメージ
+    - cost=1 / hit_count=5 / value=2.0 / additional_value=0.0
+  - innate skills (2):
+    - GuardBreak Multiply ×1.05 — 風属性の魔剣が少しガードブレイクしやすく
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`107103`](weapons.json#L28781) 小太刀【極弐】
+  - base_name: 小太刀 (costume: 極弐魔装)
+  - element=風(3) / type=太刀(3) / rarity=A(1) / cv=鈴木絵理
+  - max stats: HP=4900 / ATK=3260 / DEF=2200 / SPD=36 / BREAK=1220
+  - hit_counts=[4, 4, 7] (3段)  motion_speed=[4.0/4.0/1.0]  mp=139
+  - three_size=75/53/75 / initial_slot=3
+  - BD: 煉獄旋風閃 (arts_id=10071)
+    - description: 敵全体に強力な5連ダメージ＆攻撃力10%UP
+    - cost=1 / hit_count=5 / value=3.0 / additional_value=0.0
+  - innate skills (2):
+    - GuardBreak Multiply ×1.1 — 風属性の魔剣がガードブレイクしやすく
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`107201`](weapons.json#L28938) クレセントランス
+  - base_name: クレセントランス (costume: 魔装)
+  - element=風(3) / type=騎槍(8) / rarity=A(1) / cv=千本木彩花
+  - max stats: HP=3200 / ATK=2400 / DEF=1100 / SPD=12 / BREAK=700
+  - hit_counts=[1, 2, 2] (3段)  motion_speed=[4.0/4.0/1.0]  mp=117
+  - three_size=71/52/74 / initial_slot=1
+  - BD: カルネージムーン (arts_id=72)
+    - description: 敵全体に7連ダメージ
+    - cost=1 / hit_count=7 / value=1.42857 / additional_value=0.0
+  - innate skills (2):
+    - Defense Multiply ×1.05 — 風属性の魔剣の防御力が少しアップ
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`107202`](weapons.json#L29082) クレセントランス【極】
+  - base_name: クレセントランス (costume: 極魔装)
+  - element=風(3) / type=騎槍(8) / rarity=A(1) / cv=千本木彩花
+  - max stats: HP=4160 / ATK=3120 / DEF=1430 / SPD=12 / BREAK=910
+  - hit_counts=[2, 2, 5] (3段)  motion_speed=[4.0/4.0/1.0]  mp=117
+  - three_size=71/52/74 / initial_slot=1
+  - BD: カルネージムーン (arts_id=72)
+    - description: 敵全体に7連ダメージ
+    - cost=1 / hit_count=7 / value=1.42857 / additional_value=0.0
+  - innate skills (2):
+    - Defense Multiply ×1.05 — 風属性の魔剣の防御力が少しアップ
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`107203`](weapons.json#L29226) クレセントランス【極弐】
+  - base_name: クレセントランス (costume: 極弐魔装)
+  - element=風(3) / type=騎槍(8) / rarity=A(1) / cv=千本木彩花
+  - max stats: HP=5410 / ATK=6240 / DEF=2290 / SPD=15 / BREAK=1190
+  - hit_counts=[3, 3, 5] (3段)  motion_speed=[4.0/4.0/1.0]  mp=125
+  - three_size=71/52/74 / initial_slot=3
+  - BD: ジェノサイドルナ (arts_id=10072)
+    - description: 敵全体に強力な7連ダメージ＆スピード10%UP
+    - cost=1 / hit_count=7 / value=2.5 / additional_value=0.0
+  - innate skills (2):
+    - Defense Multiply ×1.1 — 風属性の魔剣の防御力がアップ
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`107701`](weapons.json#L31039) ゲイボルグ=ゼロ
+  - base_name: ゲイボルグ=ゼロ (costume: 魔装)
+  - element=風(3) / type=騎槍(8) / rarity=SS(4) / cv=清和祐子
+  - max stats: HP=11900 / ATK=27100 / DEF=10000 / SPD=26 / BREAK=1300
+  - hit_counts=[3, 4, 4] (3段)  motion_speed=[2.4/2.2/1.3]  mp=250
+  - three_size=87/57/82 / initial_slot=3
+  - BD: ディープカーネイジ (arts_id=77)
+    - description: 敵全体に超絶強力な28連ダメージ＆スピード50%UP
+    - cost=3 / hit_count=28 / value=2.89179 / additional_value=0.0
+  - innate skills (5):
+    - Attack Multiply ×1.74232 — 風属性の魔剣の攻撃力が絶大にアップ【熟度UPにつれてさらに効果値UP】
+    - FellDown_Attack Multiply ×2.5 — 同セットの魔剣が倒されると自攻撃力がかなりアップ
+    - DamageLimitBreak Addition +2000000000.0 — 自身のダメージ上限が20億アップ
+    - Enemy_BreakAttack Multiply ×7.0 — ブレイク時に自身の攻撃力が7倍にアップ
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`107702`](weapons.json#L31253) ゲイボルグ=ゼロ【極】
+  - base_name: ゲイボルグ=ゼロ (costume: 極魔装)
+  - element=風(3) / type=騎槍(8) / rarity=SS(4) / cv=清和祐子
+  - max stats: HP=15470 / ATK=35200 / DEF=13000 / SPD=26 / BREAK=1690
+  - hit_counts=[4, 4, 7] (3段)  motion_speed=[2.4/2.2/1.3]  mp=250
+  - three_size=87/57/82 / initial_slot=4
+  - BD: ディープカーネイジ (arts_id=77)
+    - description: 敵全体に超絶強力な28連ダメージ＆スピード50%UP
+    - cost=3 / hit_count=28 / value=2.89179 / additional_value=0.0
+  - innate skills (5):
+    - Attack Multiply ×2.0 — 風属性の魔剣の攻撃力が超絶大アップ【熟度UPにつれてさらに効果値UP】
+    - FellDown_Attack Multiply ×3.3 — 同セットの魔剣が倒されると自攻撃力が大幅にアップ
+    - DamageLimitBreak Addition +2000000000.0 — 自身のダメージ上限が20億アップ
+    - Enemy_BreakAttack Multiply ×7.0 — ブレイク時に自身の攻撃力が7倍にアップ
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`108301`](weapons.json#L33570) アルカード
+  - base_name: アルカード (costume: 魔装)
+  - element=闇(5) / type=連弩(6) / rarity=S(3) / cv=田澤茉純
+  - max stats: HP=8400 / ATK=2650 / DEF=9000 / SPD=35 / BREAK=1900
+  - hit_counts=[6, 6, 6] (3段)  motion_speed=[4.0/4.0/1.0]  mp=111
+  - three_size=69/56/74 / initial_slot=1
+  - BD: ヘヴン†オア†ヘル (arts_id=83)
+    - description: 敵全体に超強力な32連ダメージ＆防御力+500
+    - cost=4 / hit_count=32 / value=2.41875 / additional_value=0.0
+  - innate skills (4):
+    - GuardDefense Multiply ×0.875 — 闇属性の魔剣のガード時の防御力がかなりアップ
+    - Vitality_Attack Multiply ×1.4 — 闇属性の味方全体が、残HPが多いほど攻撃力がかなりアップ
+    - Vitality_MotionSpeed Multiply ×1.5 — 闇属性の味方全体が、残HPが多いほどモーション速度が加速
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`108302`](weapons.json#L33765) アルカード【極】
+  - base_name: アルカード (costume: 極魔装)
+  - element=闇(5) / type=連弩(6) / rarity=S(3) / cv=田澤茉純
+  - max stats: HP=10920 / ATK=3445 / DEF=11700 / SPD=35 / BREAK=2470
+  - hit_counts=[7, 6, 9] (3段)  motion_speed=[4.0/4.0/1.0]  mp=111
+  - three_size=69/56/74 / initial_slot=2
+  - BD: ヘヴン†オア†ヘル (arts_id=83)
+    - description: 敵全体に超強力な32連ダメージ＆防御力+500
+    - cost=4 / hit_count=32 / value=2.41875 / additional_value=0.0
+  - innate skills (4):
+    - GuardDefense Multiply ×0.75 — 闇属性の魔剣のガード時の防御力が大幅にアップ
+    - Vitality_Attack Multiply ×1.7469 — 闇属性の味方全体が、残HPが多いほど攻撃力が大幅にアップ【熟度UPにつれてさらに効果値UP】
+    - Vitality_MotionSpeed Multiply ×2.0 — 闇属性の味方全体が、残HPが多いほどモーション速度がかなり加速
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`108303`](weapons.json#L33960) アルカード【極弐】
+  - base_name: アルカード (costume: 極弐魔装)
+  - element=闇(5) / type=連弩(6) / rarity=S(3) / cv=田澤茉純
+  - max stats: HP=14200 / ATK=8270 / DEF=18140 / SPD=38 / BREAK=3220
+  - hit_counts=[8, 7, 9] (3段)  motion_speed=[3.0/2.4/1.4]  mp=123
+  - three_size=69/56/74 / initial_slot=3
+  - BD: エターナル†レッド†ムーンナイト (arts_id=10083)
+    - description: 敵全体に超強力な32連ダメージ＆防御力+500
+    - cost=4 / hit_count=32 / value=2.41875 / additional_value=0.0
+  - innate skills (4):
+    - GuardDefense Multiply ×0.625 — 闇属性の魔剣のガード時の防御力が絶大にアップ
+    - Vitality_Attack Multiply ×1.99232 — 闇属性の味方全体が、残HPが多いほど攻撃力が絶大にアップ【熟度UPにつれてさらに効果値UP】
+    - Vitality_MotionSpeed Multiply ×2.33 — 闇属性の味方全体が、残HPが多いほどモーション速度が大幅に加速
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`108701`](weapons.json#L35371) 雪月花
+  - base_name: 雪月花 (costume: 魔装)
+  - element=水(2) / type=太刀(3) / rarity=AA(2) / cv=末柄里恵
+  - max stats: HP=4000 / ATK=1260 / DEF=3750 / SPD=14 / BREAK=450
+  - hit_counts=[3, 3, 3] (3段)  motion_speed=[4.0/4.0/1.0]  mp=63
+  - three_size=82/55/79 / initial_slot=1
+  - BD: 狂華酔月舞雪ひらり (arts_id=87)
+    - description: 敵全体に強力な9連ダメージ＆攻撃力+100
+    - cost=3 / hit_count=9 / value=5.16667 / additional_value=0.0
+  - innate skills (2):
+    - GuardDefense Multiply ×0.975 — 水属性の魔剣のガード時の防御力が少しアップ
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`108702`](weapons.json#L35528) 雪月花【極】
+  - base_name: 雪月花 (costume: 極魔装)
+  - element=水(2) / type=太刀(3) / rarity=AA(2) / cv=末柄里恵
+  - max stats: HP=5200 / ATK=1700 / DEF=4900 / SPD=14 / BREAK=600
+  - hit_counts=[4, 3, 6] (3段)  motion_speed=[4.0/4.0/1.0]  mp=63
+  - three_size=82/55/79 / initial_slot=2
+  - BD: 狂華酔月舞雪ひらり (arts_id=87)
+    - description: 敵全体に強力な9連ダメージ＆攻撃力+100
+    - cost=3 / hit_count=9 / value=5.16667 / additional_value=0.0
+  - innate skills (2):
+    - GuardDefense Multiply ×0.975 — 水属性の魔剣のガード時の防御力が少しアップ
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`108703`](weapons.json#L35685) 雪月花【極弐】
+  - base_name: 雪月花 (costume: 極弐魔装)
+  - element=水(2) / type=太刀(3) / rarity=AA(2) / cv=末柄里恵
+  - max stats: HP=6200 / ATK=3300 / DEF=5500 / SPD=16 / BREAK=600
+  - hit_counts=[5, 4, 6] (3段)  motion_speed=[4.0/4.0/1.0]  mp=70
+  - three_size=85/55/79 / initial_slot=3
+  - BD: 花酊泛月淡雪の如く (arts_id=10087)
+    - description: 敵全体に強力な9連ダメージ＆攻撃力10%UP
+    - cost=3 / hit_count=9 / value=5.16667 / additional_value=0.0
+  - innate skills (2):
+    - GuardDefense Multiply ×0.875 — 水属性の魔剣のガード時の防御力がかなりアップ
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`108901`](weapons.json#L36256) クシャトリア
+  - base_name: クシャトリア (costume: 魔装)
+  - element=水(2) / type=弓矢(5) / rarity=AA(2) / cv=永野愛
+  - max stats: HP=4750 / ATK=1800 / DEF=4300 / SPD=16 / BREAK=480
+  - hit_counts=[5, 5, 7] (3段)  motion_speed=[4.0/4.0/1.0]  mp=89
+  - three_size=88/57/85 / initial_slot=2
+  - BD: 豪覇蓮葬舞 (arts_id=89)
+    - description: 敵全体に強力な9連ダメージ
+    - cost=2 / hit_count=9 / value=3.41667 / additional_value=0.0
+  - innate skills (2):
+    - Attack Multiply ×1.1 — 水属性の魔剣の攻撃力がアップ
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`108902`](weapons.json#L36400) クシャトリア【極】
+  - base_name: クシャトリア (costume: 極魔装)
+  - element=水(2) / type=弓矢(5) / rarity=AA(2) / cv=永野愛
+  - max stats: HP=6200 / ATK=2340 / DEF=5590 / SPD=16 / BREAK=630
+  - hit_counts=[6, 5, 10] (3段)  motion_speed=[4.0/4.0/1.0]  mp=89
+  - three_size=88/57/85 / initial_slot=2
+  - BD: 豪覇蓮葬舞 (arts_id=89)
+    - description: 敵全体に強力な9連ダメージ
+    - cost=2 / hit_count=9 / value=3.41667 / additional_value=0.0
+  - innate skills (2):
+    - Attack Multiply ×1.1 — 水属性の魔剣の攻撃力がアップ
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`108903`](weapons.json#L36544) クシャトリア【極弐】
+  - base_name: クシャトリア (costume: 極弐魔装)
+  - element=水(2) / type=弓矢(5) / rarity=AA(2) / cv=永野愛
+  - max stats: HP=8060 / ATK=3510 / DEF=7270 / SPD=20 / BREAK=820
+  - hit_counts=[7, 6, 11] (3段)  motion_speed=[4.0/4.0/1.2]  mp=99
+  - three_size=89/57/86 / initial_slot=3
+  - BD: 無窮演舞大蓮華 (arts_id=10089)
+    - description: 敵全体に強力な9連ダメージ＆wave中、防御力20%UP
+    - cost=2 / hit_count=9 / value=3.41667 / additional_value=0.0
+  - innate skills (2):
+    - Attack Multiply ×1.25 — 水属性の魔剣の攻撃力がかなりアップ
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`110201`](weapons.json#L41461) アイスブランド
+  - base_name: アイスブランド (costume: 魔装)
+  - element=水(2) / type=長剣(1) / rarity=AA(2) / cv=徳弘早紀
+  - max stats: HP=4400 / ATK=1600 / DEF=4400 / SPD=23 / BREAK=620
+  - hit_counts=[3, 6, 7] (3段)  motion_speed=[4.0/4.0/1.0]  mp=98
+  - three_size=73/54/71 / initial_slot=2
+  - BD: キミの命をうばいとる！ (arts_id=102)
+    - description: 敵全体に強力な19連ダメージ
+    - cost=2 / hit_count=19 / value=1.61842 / additional_value=0.0
+  - innate skills (2):
+    - HP Multiply ×1.1 — 水属性の魔剣のHPがアップ
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`110202`](weapons.json#L41605) アイスブランド【極】
+  - base_name: アイスブランド (costume: 極魔装)
+  - element=水(2) / type=長剣(1) / rarity=AA(2) / cv=徳弘早紀
+  - max stats: HP=5800 / ATK=2100 / DEF=5800 / SPD=23 / BREAK=900
+  - hit_counts=[4, 6, 10] (3段)  motion_speed=[4.0/4.0/1.0]  mp=98
+  - three_size=73/54/71 / initial_slot=2
+  - BD: キミの命をうばいとる！ (arts_id=102)
+    - description: 敵全体に強力な19連ダメージ
+    - cost=2 / hit_count=19 / value=1.61842 / additional_value=0.0
+  - innate skills (2):
+    - HP Multiply ×1.1 — 水属性の魔剣のHPがアップ
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`110203`](weapons.json#L41749) アイスブランド【極弐】
+  - base_name: アイスブランド (costume: 極弐魔装)
+  - element=水(2) / type=長剣(1) / rarity=AA(2) / cv=徳弘早紀
+  - max stats: HP=7000 / ATK=2730 / DEF=7000 / SPD=26 / BREAK=1170
+  - hit_counts=[5, 7, 10] (3段)  motion_speed=[4.0/4.0/1.0]  mp=105
+  - three_size=74/54/71 / initial_slot=3
+  - BD: 絶対にキミの全てをうばいとる！ (arts_id=10102)
+    - description: 敵全体に超強力な19連ダメージ＆5秒攻撃全体化
+    - cost=2 / hit_count=19 / value=2.3 / additional_value=0.0
+  - innate skills (2):
+    - HP Multiply ×1.25 — 水属性の魔剣のHPがかなりアップ
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`111401`](weapons.json#L46204) 魔煉サンタクロス
+  - base_name: 魔煉サンタクロス (costume: 魔装)
+  - element=闇(5) / type=大鎌(12) / rarity=S(3) / cv=原紗友里
+  - max stats: HP=9000 / ATK=3280 / DEF=6660 / SPD=42 / BREAK=666
+  - hit_counts=[3, 6, 3] (3段)  motion_speed=[4.0/4.0/1.0]  mp=10
+  - three_size=？？？ / initial_slot=1
+  - BD: わからない。でも体が勝手に… (arts_id=10114)
+    - description: 敵全体に13連ダメージ＆？？？？
+    - cost=3 / hit_count=13 / value=3.0 / additional_value=0.0
+  - innate skills (2):
+    - Attack Multiply ×1.05 — 全属性の魔剣の攻撃力が少しアップ
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`111402`](weapons.json#L46361) 魔煉サンタクロス【極】
+  - base_name: 魔煉サンタクロス (costume: 極魔装)
+  - element=闇(5) / type=大鎌(12) / rarity=S(3) / cv=原紗友里
+  - max stats: HP=11700 / ATK=4270 / DEF=8660 / SPD=56 / BREAK=888
+  - hit_counts=[4, 6, 6] (3段)  motion_speed=[4.0/4.0/1.0]  mp=10
+  - three_size=91/58/86 / initial_slot=3
+  - BD: 煉獄聖夜《ミラの死神》 (arts_id=114)
+    - description: 敵全体に超強力な36連ダメージ＆5秒スピード2倍
+    - cost=6 / hit_count=36 / value=3.3 / additional_value=0.0
+  - innate skills (3):
+    - Attack Multiply ×1.5 — 全属性の魔剣の攻撃力が大幅にアップ
+    - GuardDefense Multiply ×0.75 — 全属性の魔剣のガード時の防御力が大幅にアップ
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`111701`](weapons.json#L47341) バールのようなもの
+  - base_name: バールのようなもの (costume: 魔装)
+  - element=闇(5) / type=大剣(2) / rarity=S(3) / cv=末柄里恵
+  - max stats: HP=8300 / ATK=1200 / DEF=6200 / SPD=21 / BREAK=3200
+  - hit_counts=[5, 6, 4] (3段)  motion_speed=[4.0/4.0/1.0]  mp=300
+  - three_size=72/53/73 / initial_slot=4
+  - BD: 絶体絶命致命傷エンド (arts_id=117)
+    - description: 敵全体に強力な15連ダメージ＆味方HP回復
+    - cost=4 / hit_count=15 / value=4.7 / additional_value=0.0
+  - innate skills (2):
+    - GuardBreak Multiply ×1.5 — 闇属性の魔剣が大幅にガードブレイクしやすく
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`111702`](weapons.json#L47498) バールのようなもの【極】
+  - base_name: バールのようなもの (costume: 極魔装)
+  - element=闇(5) / type=大剣(2) / rarity=S(3) / cv=末柄里恵
+  - max stats: HP=10790 / ATK=1560 / DEF=8060 / SPD=21 / BREAK=4160
+  - hit_counts=[6, 6, 7] (3段)  motion_speed=[4.0/4.0/1.0]  mp=300
+  - three_size=72/53/73 / initial_slot=5
+  - BD: 絶体絶命致命傷エンド (arts_id=117)
+    - description: 敵全体に強力な15連ダメージ＆味方HP回復
+    - cost=4 / hit_count=15 / value=4.7 / additional_value=0.0
+  - innate skills (4):
+    - GuardBreak Multiply ×1.5 — 闇属性の魔剣が大幅にガードブレイクしやすく
+    - Enemy_BreakAttack Multiply ×5.0 — ブレイク時に自身の攻撃力が5倍にアップ
+    - DamageLimitBreak Addition +1000000000.0 — 自身のダメージ上限が10億アップ
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`111703`](weapons.json#L47693) バールのようなもの【極弐】
+  - base_name: バールのようなもの (costume: 極弐魔装)
+  - element=闇(5) / type=大剣(2) / rarity=S(3) / cv=末柄里恵
+  - max stats: HP=14030 / ATK=2030 / DEF=10480 / SPD=25 / BREAK=5410
+  - hit_counts=[7, 7, 7] (3段)  motion_speed=[3.0/2.0/1.0]  mp=305
+  - three_size=74/53/73 / initial_slot=6
+  - BD: 絶体絶望ハッピーエンドガール (arts_id=10117)
+    - description: 敵全体に強力な15連ダメージ＆味方HP回復
+    - cost=4 / hit_count=15 / value=4.7 / additional_value=0.0
+  - innate skills (4):
+    - GuardBreak Multiply ×1.75 — 闇属性の魔剣が絶大にガードブレイクしやすく
+    - Enemy_BreakAttack Multiply ×5.0 — ブレイク時に自身の攻撃力が5倍にアップ
+    - DamageLimitBreak Addition +1000000000.0 — 自身のダメージ上限が10億アップ
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`112101`](weapons.json#L49106) カラドボルグ
+  - base_name: カラドボルグ (costume: 魔装)
+  - element=風(3) / type=長剣(1) / rarity=S(3) / cv=立花理香
+  - max stats: HP=9999 / ATK=4200 / DEF=7400 / SPD=18 / BREAK=4200
+  - hit_counts=[2, 5, 7] (3段)  motion_speed=[2.0/2.0/1.0]  mp=254
+  - three_size=102/61/88 / initial_slot=2
+  - BD: 剣王カレドヴルフの凱旋 (arts_id=121)
+    - description: 敵全体に超強力な26連ダメージ＆自分HP回復
+    - cost=4 / hit_count=26 / value=3.2 / additional_value=0.0
+  - innate skills (2):
+    - HP Multiply ×1.1 — 全属性の魔剣のHPがアップ
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`112102`](weapons.json#L49263) カラドボルグ【極】
+  - base_name: カラドボルグ (costume: 極魔装)
+  - element=風(3) / type=長剣(1) / rarity=S(3) / cv=立花理香
+  - max stats: HP=13000 / ATK=5500 / DEF=9700 / SPD=18 / BREAK=5500
+  - hit_counts=[3, 5, 10] (3段)  motion_speed=[2.0/2.0/1.0]  mp=254
+  - three_size=102/61/88 / initial_slot=3
+  - BD: 剣王カレドヴルフの凱旋 (arts_id=121)
+    - description: 敵全体に超強力な26連ダメージ＆自分HP回復
+    - cost=4 / hit_count=26 / value=3.2 / additional_value=0.0
+  - innate skills (2):
+    - HP Multiply ×1.25 — 全属性の魔剣のHPがかなりアップ
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`112301`](weapons.json#L49834) フリーレン・タブー
+  - base_name: フリーレン・タブー (costume: 魔装)
+  - element=水(2) / type=大剣(2) / rarity=AA(2) / cv=種﨑敦美
+  - max stats: HP=5400 / ATK=2000 / DEF=4900 / SPD=22 / BREAK=1200
+  - hit_counts=[3, 4, 5] (3段)  motion_speed=[4.0/4.0/1.0]  mp=108
+  - three_size=89/56/82 / initial_slot=2
+  - BD: 凍華狂天撃ですわ！ (arts_id=123)
+    - description: 敵全体に強力な16連ダメージ
+    - cost=3 / hit_count=16 / value=2.90625 / additional_value=0.0
+  - innate skills (2):
+    - Attack Multiply ×1.1 — 水属性の魔剣の攻撃力がアップ
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`112302`](weapons.json#L49978) フリーレン・タブー【極】
+  - base_name: フリーレン・タブー (costume: 極魔装)
+  - element=水(2) / type=大剣(2) / rarity=AA(2) / cv=種﨑敦美
+  - max stats: HP=7100 / ATK=2600 / DEF=6400 / SPD=22 / BREAK=1560
+  - hit_counts=[4, 4, 8] (3段)  motion_speed=[4.0/4.0/1.0]  mp=108
+  - three_size=89/56/82 / initial_slot=2
+  - BD: 凍華狂天撃ですわ！ (arts_id=123)
+    - description: 敵全体に強力な16連ダメージ
+    - cost=3 / hit_count=16 / value=2.90625 / additional_value=0.0
+  - innate skills (2):
+    - Attack Multiply ×1.1 — 水属性の魔剣の攻撃力がアップ
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`112303`](weapons.json#L50122) フリーレン・タブー【極弐】
+  - base_name: フリーレン・タブー (costume: 極弐魔装)
+  - element=水(2) / type=大剣(2) / rarity=AA(2) / cv=種﨑敦美
+  - max stats: HP=9230 / ATK=3380 / DEF=8320 / SPD=28 / BREAK=2030
+  - hit_counts=[5, 5, 8] (3段)  motion_speed=[3.0/3.0/1.3]  mp=118
+  - three_size=90/56/82 / initial_slot=3
+  - BD: 永玲･月天氷華斬ですわ!! (arts_id=10123)
+    - description: 敵全体に強力な16連ダメージ＆攻撃力10%UP
+    - cost=3 / hit_count=16 / value=2.90625 / additional_value=0.0
+  - innate skills (2):
+    - Attack Multiply ×1.25 — 水属性の魔剣の攻撃力がかなりアップ
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`112901`](weapons.json#L52572) ダインスレイフ
+  - base_name: ダインスレイフ (costume: 魔装)
+  - element=闇(5) / type=長剣(1) / rarity=S(3) / cv=山村響
+  - max stats: HP=9600 / ATK=10000 / DEF=7200 / SPD=30 / BREAK=3000
+  - hit_counts=[2, 1, 2] (3段)  motion_speed=[4.0/4.0/1.0]  mp=200
+  - three_size=82/54/79 / initial_slot=4
+  - BD: ブラッディ†パーティ (arts_id=129)
+    - description: 敵全体に超強力な22連ダメージ＆一瞬だけスピード狂化
+    - cost=3 / hit_count=22 / value=3.0 / additional_value=0.0
+  - innate skills (2):
+    - Attack Multiply ×1.5 — 闇属性の魔剣の攻撃力が大幅にアップ
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`112902`](weapons.json#L52729) ダインスレイフ【極】
+  - base_name: ダインスレイフ (costume: 極魔装)
+  - element=闇(5) / type=長剣(1) / rarity=S(3) / cv=山村響
+  - max stats: HP=12400 / ATK=13000 / DEF=9300 / SPD=30 / BREAK=3900
+  - hit_counts=[3, 1, 5] (3段)  motion_speed=[4.0/4.0/1.0]  mp=200
+  - three_size=82/54/79 / initial_slot=5
+  - BD: ブラッディ†パーティ (arts_id=129)
+    - description: 敵全体に超強力な22連ダメージ＆一瞬だけスピード狂化
+    - cost=3 / hit_count=22 / value=3.0 / additional_value=0.0
+  - innate skills (4):
+    - Attack Multiply ×1.4969 — 闇属性の魔剣の攻撃力が大幅にアップ【熟度UPにつれてさらに効果値UP】
+    - MotionSpeed Multiply ×2.0 — 自身の攻撃モーションが2倍に加速
+    - DamageLimitBreak Addition +1000000000.0 — 自身のダメージ上限が10億アップ
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`112903`](weapons.json#L52924) ダインスレイフ【極弐】
+  - base_name: ダインスレイフ (costume: 極弐魔装)
+  - element=闇(5) / type=長剣(1) / rarity=S(3) / cv=山村響
+  - max stats: HP=16120 / ATK=16900 / DEF=12090 / SPD=38 / BREAK=5070
+  - hit_counts=[4, 2, 5] (3段)  motion_speed=[3.0/3.0/1.0]  mp=240
+  - three_size=82/54/79 / initial_slot=6
+  - BD: ブラッディ†ドミネーション (arts_id=10129)
+    - description: 敵全体に超強力な22連ダメージ＆一瞬だけスピード狂化
+    - cost=3 / hit_count=22 / value=3.0 / additional_value=0.0
+  - innate skills (4):
+    - Attack Multiply ×1.74232 — 闇属性の魔剣の攻撃力が絶大にアップ【熟度UPにつれてさらに効果値UP】
+    - MotionSpeed Multiply ×2.0 — 自身の攻撃モーションが2倍に加速
+    - DamageLimitBreak Addition +1000000000.0 — 自身のダメージ上限が10億アップ
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`113601`](weapons.json#L55677) シザーマングローブ
+  - base_name: シザーマングローブ (costume: 魔装)
+  - element=闇(5) / type=拳闘(10) / rarity=AA(2) / cv=古城門志帆
+  - max stats: HP=3600 / ATK=240 / DEF=3690 / SPD=16 / BREAK=360
+  - hit_counts=[5, 6, 8] (3段)  motion_speed=[4.0/4.0/1.0]  mp=67
+  - three_size=73/53/76 / initial_slot=1
+  - BD: 狂ヒ咲ケ宵闇ノ月 (arts_id=136)
+    - description: 敵全体に強力な19連ダメージ＆防御力+100
+    - cost=3 / hit_count=19 / value=2.44737 / additional_value=0.0
+  - innate skills (2):
+    - Defense Multiply ×1.05 — 闇属性の魔剣の防御力が少しアップ
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`113602`](weapons.json#L55834) シザーマングローブ【極】
+  - base_name: シザーマングローブ (costume: 極魔装)
+  - element=闇(5) / type=拳闘(10) / rarity=AA(2) / cv=古城門志帆
+  - max stats: HP=4700 / ATK=400 / DEF=4800 / SPD=16 / BREAK=500
+  - hit_counts=[6, 6, 11] (3段)  motion_speed=[4.0/4.0/1.0]  mp=67
+  - three_size=73/53/76 / initial_slot=2
+  - BD: 狂ヒ咲ケ宵闇ノ月 (arts_id=136)
+    - description: 敵全体に強力な19連ダメージ＆防御力+100
+    - cost=3 / hit_count=19 / value=2.44737 / additional_value=0.0
+  - innate skills (2):
+    - Defense Multiply ×1.05 — 闇属性の魔剣の防御力が少しアップ
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`113603`](weapons.json#L55991) シザーマングローブ【極弐】
+  - base_name: シザーマングローブ (costume: 極弐魔装)
+  - element=闇(5) / type=拳闘(10) / rarity=AA(2) / cv=古城門志帆
+  - max stats: HP=6110 / ATK=600 / DEF=6240 / SPD=20 / BREAK=750
+  - hit_counts=[7, 7, 11] (3段)  motion_speed=[2.5/2.0/1.0]  mp=71
+  - three_size=73/53/76 / initial_slot=3
+  - BD: サア狂ヒ踊レ宵闇ニ咲ク獣 (arts_id=10136)
+    - description: 敵全体に超強力な19連ダメージ＆防御力+100
+    - cost=3 / hit_count=19 / value=3.0 / additional_value=0.0
+  - innate skills (2):
+    - Defense Multiply ×1.1 — 闇属性の魔剣の防御力がアップ
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`114701`](weapons.json#L60232) アロンダイト
+  - base_name: アロンダイト (costume: 魔装)
+  - element=火(1) / type=大剣(2) / rarity=S(3) / cv=上田麗奈
+  - max stats: HP=10060 / ATK=5960 / DEF=3200 / SPD=46 / BREAK=2710
+  - hit_counts=[3, 4, 8] (3段)  motion_speed=[4.0/4.0/2.0]  mp=52
+  - three_size=89/62/83 / initial_slot=3
+  - BD: 鋭角45度の不器用な愛情表現 (arts_id=147)
+    - description: 敵全体に超強力な27連ダメージ＆2waveスピード30%UP
+    - cost=4 / hit_count=27 / value=2.86667 / additional_value=0.0
+  - innate skills (4):
+    - RemHP_Attack Multiply ×1.3 — 残HPが少ないほど攻撃力がかなりアップ
+    - MotionSpeed Multiply ×1.3 — 火属性の魔剣の攻撃モーションが加速
+    - AllTarget Multiply ×0.6 — 攻撃力は下がるが自分の攻撃範囲が敵全体になる
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`114702`](weapons.json#L60427) アロンダイト【極】
+  - base_name: アロンダイト (costume: 極魔装)
+  - element=火(1) / type=大剣(2) / rarity=S(3) / cv=上田麗奈
+  - max stats: HP=13080 / ATK=7750 / DEF=4160 / SPD=46 / BREAK=3530
+  - hit_counts=[4, 4, 11] (3段)  motion_speed=[4.0/4.0/2.0]  mp=52
+  - three_size=89/62/83 / initial_slot=4
+  - BD: 鋭角45度の不器用な愛情表現 (arts_id=147)
+    - description: 敵全体に超強力な27連ダメージ＆2waveスピード30%UP
+    - cost=4 / hit_count=27 / value=2.86667 / additional_value=0.0
+  - innate skills (5):
+    - RemHP_Attack Multiply ×1.8 — 残HPが少ないほど攻撃力が大幅にアップ
+    - MotionSpeed Multiply ×1.5 — 火属性の魔剣の攻撃モーションがかなり加速
+    - AllTarget Multiply ×0.8 — 攻撃力はやや下がるが自分の攻撃範囲が敵全体になる
+    - DamageLimitBreak Addition +1000000000.0 — 自身のダメージ上限が10億アップ
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`114703`](weapons.json#L60641) アロンダイト【極弐】
+  - base_name: アロンダイト (costume: 極弐魔装)
+  - element=火(1) / type=大剣(2) / rarity=S(3) / cv=上田麗奈
+  - max stats: HP=17010 / ATK=10080 / DEF=5410 / SPD=49 / BREAK=4590
+  - hit_counts=[5, 5, 11] (3段)  motion_speed=[3.0/3.0/1.4]  mp=57
+  - three_size=90/62/83 / initial_slot=5
+  - BD: 全方360度から愛と悪戯心を込めて (arts_id=10147)
+    - description: 敵全体に超強力な27連ダメージ＆2waveスピード30%UP
+    - cost=4 / hit_count=27 / value=2.86667 / additional_value=0.0
+  - innate skills (5):
+    - RemHP_Attack Multiply ×2.25 — 残HPが少ないほど攻撃力が絶大にアップ
+    - AllTarget Multiply ×1.0 — 攻撃力を下げずに自分の攻撃範囲が敵全体になる
+    - MotionSpeed Multiply ×1.496 — 火属性の魔剣の攻撃モーションがかなり加速【熟度UPにつれてさらに効果値UP】
+    - DamageLimitBreak Addition +1000000000.0 — 自身のダメージ上限が10億アップ
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`115301`](weapons.json#L62739) ブライニクル
+  - base_name: ブライニクル (costume: 魔装)
+  - element=水(2) / type=騎槍(8) / rarity=AA(2) / cv=春瀬なつみ
+  - max stats: HP=4220 / ATK=2200 / DEF=6400 / SPD=34 / BREAK=2800
+  - hit_counts=[3, 3, 3] (3段)  motion_speed=[4.0/4.0/1.0]  mp=98
+  - three_size=76/55/75 / initial_slot=2
+  - BD: フリオ･エストラーダ (arts_id=153)
+    - description: 敵全体に強力な14連ダメージ
+    - cost=2 / hit_count=14 / value=2.19643 / additional_value=0.0
+  - innate skills (2):
+    - Defense Multiply ×1.25 — 水属性の魔剣の防御力がかなりアップ
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`115302`](weapons.json#L62883) ブライニクル【極】
+  - base_name: ブライニクル (costume: 極魔装)
+  - element=水(2) / type=騎槍(8) / rarity=AA(2) / cv=春瀬なつみ
+  - max stats: HP=5490 / ATK=2860 / DEF=8320 / SPD=34 / BREAK=3640
+  - hit_counts=[4, 3, 6] (3段)  motion_speed=[4.0/4.0/1.0]  mp=98
+  - three_size=76/55/75 / initial_slot=2
+  - BD: フリオ･エストラーダ (arts_id=153)
+    - description: 敵全体に強力な14連ダメージ
+    - cost=2 / hit_count=14 / value=2.19643 / additional_value=0.0
+  - innate skills (2):
+    - Defense Multiply ×1.25 — 水属性の魔剣の防御力がかなりアップ
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`115303`](weapons.json#L63027) ブライニクル【極弐】
+  - base_name: ブライニクル (costume: 極弐魔装)
+  - element=水(2) / type=騎槍(8) / rarity=AA(2) / cv=春瀬なつみ
+  - max stats: HP=8790 / ATK=3720 / DEF=10820 / SPD=36 / BREAK=4740
+  - hit_counts=[5, 4, 6] (3段)  motion_speed=[3.5/2.5/1.2]  mp=109
+  - three_size=76/55/75 / initial_slot=3
+  - BD: エラルド･フィン･オセアノス (arts_id=10153)
+    - description: 敵全体に強力な14連ダメージ＆攻撃力10%UP
+    - cost=2 / hit_count=14 / value=2.2 / additional_value=0.0
+  - innate skills (2):
+    - Defense Multiply ×1.5 — 水属性の魔剣の防御力が大幅にアップ
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`115601`](weapons.json#L63874) ミッドナイト
+  - base_name: ミッドナイト (costume: 魔装)
+  - element=闇(5) / type=拳闘(10) / rarity=AA(2) / cv=せきしほ
+  - max stats: HP=5000 / ATK=550 / DEF=2900 / SPD=48 / BREAK=680
+  - hit_counts=[3, 3, 6] (3段)  motion_speed=[3.0/3.0/1.0]  mp=36
+  - three_size=74/56/73 / initial_slot=1
+  - BD: サイレントマーダー (arts_id=156)
+    - description: 敵全体に強力な24連ダメージ＆敵を強制ブレイク
+    - cost=3 / hit_count=24 / value=1.9375 / additional_value=0.0
+  - innate skills (2):
+    - Speed Multiply ×1.1 — 闇属性の魔剣の行動速度がアップ
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`115602`](weapons.json#L64031) ミッドナイト【極】
+  - base_name: ミッドナイト (costume: 極魔装)
+  - element=闇(5) / type=拳闘(10) / rarity=AA(2) / cv=せきしほ
+  - max stats: HP=6500 / ATK=720 / DEF=3770 / SPD=48 / BREAK=890
+  - hit_counts=[4, 3, 9] (3段)  motion_speed=[3.0/3.0/1.0]  mp=36
+  - three_size=74/56/73 / initial_slot=2
+  - BD: サイレントマーダー (arts_id=156)
+    - description: 敵全体に強力な24連ダメージ＆敵を強制ブレイク
+    - cost=3 / hit_count=24 / value=1.9375 / additional_value=0.0
+  - innate skills (2):
+    - Speed Multiply ×1.25 — 闇属性の魔剣の行動速度がかなりアップ
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`115603`](weapons.json#L64188) ミッドナイト【極弐】
+  - base_name: ミッドナイト (costume: 極弐魔装)
+  - element=闇(5) / type=拳闘(10) / rarity=AA(2) / cv=せきしほ
+  - max stats: HP=8450 / ATK=1030 / DEF=4910 / SPD=52 / BREAK=1160
+  - hit_counts=[5, 4, 9] (3段)  motion_speed=[3.0/3.0/1.0]  mp=45
+  - three_size=74/56/73 / initial_slot=3
+  - BD: ノイズレスエクスキューション (arts_id=10156)
+    - description: 敵全体に強力な24連ダメージ＆敵を強制ブレイク
+    - cost=3 / hit_count=24 / value=1.9375 / additional_value=0.0
+  - innate skills (2):
+    - Speed Multiply ×1.5 — 闇属性の魔剣の行動速度が大幅にアップ
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`116001`](weapons.json#L65487) レゲノダ･アウレア
+  - base_name: レゲノダ･アウレア (costume: 魔装)
+  - element=風(3) / type=魔典(11) / rarity=S(3) / cv=田村奈央
+  - max stats: HP=9900 / ATK=1900 / DEF=5200 / SPD=40 / BREAK=625
+  - hit_counts=[5, 6, 8] (3段)  motion_speed=[3.0/3.0/1.0]  mp=89
+  - three_size=72/55/72 / initial_slot=1
+  - BD: 無限機憶アカシックレコード (arts_id=160)
+    - description: 敵全体に超強力な35連ダメージ＆自分HP回復
+    - cost=4 / hit_count=35 / value=2.82857 / additional_value=0.0
+  - innate skills (2):
+    - HP Multiply ×1.1 — 風属性の魔剣のHPがアップ
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`116002`](weapons.json#L65644) レゲノダ･アウレア【極】
+  - base_name: レゲノダ･アウレア (costume: 極魔装)
+  - element=風(3) / type=魔典(11) / rarity=S(3) / cv=田村奈央
+  - max stats: HP=12870 / ATK=2470 / DEF=6760 / SPD=40 / BREAK=820
+  - hit_counts=[6, 6, 11] (3段)  motion_speed=[3.0/3.0/1.0]  mp=89
+  - three_size=72/55/72 / initial_slot=2
+  - BD: 無限機憶アカシックレコード (arts_id=160)
+    - description: 敵全体に超強力な35連ダメージ＆自分HP回復
+    - cost=4 / hit_count=35 / value=2.82857 / additional_value=0.0
+  - innate skills (2):
+    - HP Multiply ×1.25 — 風属性の魔剣のHPがかなりアップ
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`116003`](weapons.json#L65801) レゲノダ･アウレア【極弐】
+  - base_name: レゲノダ･アウレア (costume: 極弐魔装)
+  - element=風(3) / type=魔典(11) / rarity=S(3) / cv=田村奈央
+  - max stats: HP=15320 / ATK=3380 / DEF=9840 / SPD=44 / BREAK=1120
+  - hit_counts=[7, 7, 11] (3段)  motion_speed=[1.7/1.7/1.0]  mp=96
+  - three_size=72/55/72 / initial_slot=3
+  - BD: 久遠世界機憶アカシアアーカイブ (arts_id=10160)
+    - description: 敵全体に超強力な35連ダメージ＆自分HP回復
+    - cost=4 / hit_count=35 / value=2.82857 / additional_value=0.0
+  - innate skills (2):
+    - HP Multiply ×1.5 — 風属性の魔剣のHPが大幅にアップ
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`116901`](weapons.json#L68863) フライパン
+  - base_name: フライパン (costume: 魔装)
+  - element=火(1) / type=杖棒(4) / rarity=S(3) / cv=山岡ゆり
+  - max stats: HP=7690 / ATK=7690 / DEF=8200 / SPD=31 / BREAK=2500
+  - hit_counts=[1, 1, 4] (3段)  motion_speed=[4.0/4.0/1.0]  mp=162
+  - three_size=92/59/86 / initial_slot=4
+  - BD: ディープ・ラヴ・スイート・ダーリン (arts_id=169)
+    - description: 敵全体に超強力な29連ダメージ＆数秒だけ時を止める
+    - cost=5 / hit_count=29 / value=3.5 / additional_value=0.0
+  - innate skills (2):
+    - Attack Multiply ×1.5 — 火属性の魔剣の攻撃力が大幅にアップ
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`116902`](weapons.json#L69020) フライパン【極】
+  - base_name: フライパン (costume: 極魔装)
+  - element=火(1) / type=杖棒(4) / rarity=S(3) / cv=山岡ゆり
+  - max stats: HP=9999 / ATK=9999 / DEF=10700 / SPD=31 / BREAK=3300
+  - hit_counts=[2, 1, 7] (3段)  motion_speed=[4.0/4.0/1.0]  mp=162
+  - three_size=92/59/86 / initial_slot=5
+  - BD: ディープ・ラヴ・スイート・ダーリン (arts_id=169)
+    - description: 敵全体に超強力な29連ダメージ＆数秒だけ時を止める
+    - cost=5 / hit_count=29 / value=3.5 / additional_value=0.0
+  - innate skills (4):
+    - Attack Multiply ×1.75 — 火属性の魔剣の攻撃力が絶大にアップ
+    - Enemy_BreakAttack Multiply ×2.0 — ブレイク時に自身の攻撃力が2倍にアップ
+    - DamageLimitBreak Addition +1000000000.0 — 自身のダメージ上限が10億アップ
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`116903`](weapons.json#L69215) フライパン【極弐】
+  - base_name: フライパン (costume: 極弐魔装)
+  - element=火(1) / type=杖棒(4) / rarity=S(3) / cv=山岡ゆり
+  - max stats: HP=13000 / ATK=15000 / DEF=13910 / SPD=31 / BREAK=4290
+  - hit_counts=[3, 2, 7] (3段)  motion_speed=[4.0/4.0/1.0]  mp=170
+  - three_size=92/59/86 / initial_slot=6
+  - BD: ディープ・ラヴ・スイート・ダーリン・アゲイン (arts_id=10169)
+    - description: 敵全体に超強力な29連ダメージ＆数秒だけ時を止める
+    - cost=5 / hit_count=29 / value=3.8 / additional_value=0.0
+  - innate skills (4):
+    - Attack Multiply ×1.74232 — 火属性の魔剣の攻撃力が絶大にアップ【熟度UPにつれてさらに効果値UP】
+    - Enemy_BreakAttack Multiply ×2.0 — ブレイク時に自身の攻撃力が2倍にアップ
+    - DamageLimitBreak Addition +1000000000.0 — 自身のダメージ上限が10億アップ
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`118901`](weapons.json#L77848) 大典太光世
+  - base_name: 大典太光世 (costume: 魔装)
+  - element=光(4) / type=太刀(3) / rarity=S(3) / cv=大原さやか
+  - max stats: HP=9270 / ATK=3240 / DEF=6800 / SPD=29 / BREAK=2810
+  - hit_counts=[3, 4, 5] (3段)  motion_speed=[4.0/4.0/1.0]  mp=226
+  - three_size=114/60/91 / initial_slot=2
+  - BD: 霊光謡うは修羅語り (arts_id=189)
+    - description: 敵全体に超強力な36連ダメージ＆自分HP回復
+    - cost=3 / hit_count=36 / value=1.55 / additional_value=0.0
+  - innate skills (2):
+    - Attack Multiply ×1.5 — 光属性の魔剣の攻撃力が大幅にアップ
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`118902`](weapons.json#L78005) 大典太光世【極】
+  - base_name: 大典太光世 (costume: 極魔装)
+  - element=光(4) / type=太刀(3) / rarity=S(3) / cv=大原さやか
+  - max stats: HP=12060 / ATK=4220 / DEF=8840 / SPD=29 / BREAK=3660
+  - hit_counts=[4, 4, 8] (3段)  motion_speed=[4.0/4.0/1.0]  mp=226
+  - three_size=114/60/91 / initial_slot=3
+  - BD: 霊光謡うは修羅語り (arts_id=189)
+    - description: 敵全体に超強力な36連ダメージ＆自分HP回復
+    - cost=3 / hit_count=36 / value=1.55 / additional_value=0.0
+  - innate skills (2):
+    - Attack Multiply ×1.5 — 光属性の魔剣の攻撃力が大幅にアップ
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`118903`](weapons.json#L78162) 大典太光世【極弐】
+  - base_name: 大典太光世 (costume: 極弐魔装)
+  - element=光(4) / type=太刀(3) / rarity=S(3) / cv=大原さやか
+  - max stats: HP=15680 / ATK=5490 / DEF=11500 / SPD=31 / BREAK=4760
+  - hit_counts=[5, 5, 8] (3段)  motion_speed=[3.0/2.5/1.6]  mp=244
+  - three_size=115/60/91 / initial_slot=4
+  - BD: 霊刀語りし浮世の修羅 (arts_id=10189)
+    - description: 敵全体に超強力な36連ダメージ＆自分HP回復
+    - cost=3 / hit_count=36 / value=1.55 / additional_value=0.0
+  - innate skills (2):
+    - Attack Multiply ×1.75 — 光属性の魔剣の攻撃力が絶大にアップ
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`119101`](weapons.json#L78733) ディルンウィン
+  - base_name: ディルンウィン (costume: 魔装)
+  - element=風(3) / type=大剣(2) / rarity=S(3) / cv=和氣あず未
+  - max stats: HP=8950 / ATK=1640 / DEF=6500 / SPD=28 / BREAK=1640
+  - hit_counts=[8, 10, 13] (3段)  motion_speed=[4.0/4.0/1.0]  mp=153
+  - three_size=92/60/82 / initial_slot=2
+  - BD: 13番目のホワイトヒルト (arts_id=191)
+    - description: 敵全体に超強力な19連ダメージ＆数秒だけ時を止める
+    - cost=3 / hit_count=19 / value=3.0 / additional_value=0.0
+  - innate skills (3):
+    - Attack Multiply ×1.5 — 風属性の魔剣の攻撃力が大幅にアップ
+    - Attack Multiply ×1.5 — 火属性の魔剣の攻撃力が大幅にアップ
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`119102`](weapons.json#L78909) ディルンウィン【極】
+  - base_name: ディルンウィン (costume: 極魔装)
+  - element=風(3) / type=大剣(2) / rarity=S(3) / cv=和氣あず未
+  - max stats: HP=11640 / ATK=2140 / DEF=8450 / SPD=28 / BREAK=2140
+  - hit_counts=[9, 10, 16] (3段)  motion_speed=[4.0/4.0/1.0]  mp=153
+  - three_size=92/60/82 / initial_slot=3
+  - BD: 13番目のホワイトヒルト (arts_id=191)
+    - description: 敵全体に超強力な19連ダメージ＆数秒だけ時を止める
+    - cost=3 / hit_count=19 / value=3.0 / additional_value=0.0
+  - innate skills (4):
+    - Attack Multiply ×1.5 — 風属性の魔剣の攻撃力が大幅にアップ
+    - Attack Multiply ×1.5 — 火属性の魔剣の攻撃力が大幅にアップ
+    - DamageLimitBreak Addition +700000000.0 — 風属性の魔剣のダメージ上限が7億アップ
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`119103`](weapons.json#L79104) ディルンウィン【極弐】
+  - base_name: ディルンウィン (costume: 極弐魔装)
+  - element=風(3) / type=大剣(2) / rarity=S(3) / cv=和氣あず未
+  - max stats: HP=15140 / ATK=2790 / DEF=10990 / SPD=32 / BREAK=2790
+  - hit_counts=[10, 11, 16] (3段)  motion_speed=[3.0/3.0/1.2]  mp=183
+  - three_size=92/60/82 / initial_slot=4
+  - BD: 燃え上がる愛のホワイトヒルト (arts_id=10191)
+    - description: 敵全体に超強力な19連ダメージ＆数秒だけ時を止める
+    - cost=3 / hit_count=19 / value=3.0 / additional_value=0.0
+  - innate skills (4):
+    - Attack Multiply ×1.75 — 風属性の魔剣の攻撃力が絶大にアップ
+    - Attack Multiply ×1.5 — 火属性の魔剣の攻撃力が大幅にアップ
+    - DamageLimitBreak Addition +700000000.0 — 風属性の魔剣のダメージ上限が7億アップ
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`120701`](weapons.json#L85720) ルルイエ異本
+  - base_name: ルルイエ異本 (costume: 魔装)
+  - element=光(4) / type=魔典(11) / rarity=S(3) / cv=冨岡美沙子
+  - max stats: HP=8200 / ATK=3250 / DEF=8400 / SPD=30 / BREAK=3250
+  - hit_counts=[4, 2, 4] (3段)  motion_speed=[4.0/4.0/1.0]  mp=130
+  - three_size=77/58/70 / initial_slot=3
+  - BD: 絶界の非ユークリッド (arts_id=207)
+    - description: 敵全体に超強力な26連ダメージ＆スピード50%UP
+    - cost=3 / hit_count=26 / value=2.2 / additional_value=0.0
+  - innate skills (2):
+    - Attack Multiply ×1.25 — 光属性の魔剣の攻撃力がかなりアップ
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`120702`](weapons.json#L85877) ルルイエ異本【極】
+  - base_name: ルルイエ異本 (costume: 極魔装)
+  - element=光(4) / type=魔典(11) / rarity=S(3) / cv=冨岡美沙子
+  - max stats: HP=10700 / ATK=4300 / DEF=11000 / SPD=30 / BREAK=4300
+  - hit_counts=[5, 2, 7] (3段)  motion_speed=[4.0/4.0/1.0]  mp=130
+  - three_size=77/58/70 / initial_slot=4
+  - BD: 絶界の非ユークリッド (arts_id=207)
+    - description: 敵全体に超強力な26連ダメージ＆スピード50%UP
+    - cost=3 / hit_count=26 / value=2.2 / additional_value=0.0
+  - innate skills (4):
+    - Attack Multiply ×1.5 — 光属性の魔剣の攻撃力が大幅にアップ
+    - HitCount Addition +1.0 — 魔典の魔剣の1撃目2撃目3撃目のヒット数を+1する
+    - DamageLimitBreak Addition +600000000.0 — 魔典の魔剣のダメージ上限が6億アップ
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`120703`](weapons.json#L86072) ルルイエ異本【極弐】
+  - base_name: ルルイエ異本 (costume: 極弐魔装)
+  - element=光(4) / type=魔典(11) / rarity=S(3) / cv=冨岡美沙子
+  - max stats: HP=13910 / ATK=5590 / DEF=14300 / SPD=32 / BREAK=5590
+  - hit_counts=[6, 3, 7] (3段)  motion_speed=[3.5/2.5/1.1]  mp=142
+  - three_size=77/58/72 / initial_slot=5
+  - BD: 冥獄のメイルシュトローム (arts_id=10207)
+    - description: 敵全体に超強力な26連ダメージ＆スピード50%UP
+    - cost=3 / hit_count=26 / value=2.2 / additional_value=0.0
+  - innate skills (4):
+    - Attack Multiply ×1.75 — 光属性の魔剣の攻撃力が絶大にアップ
+    - HitCount Addition +1.0 — 魔典の魔剣の1撃目2撃目3撃目のヒット数を+1する
+    - DamageLimitBreak Addition +600000000.0 — 魔典の魔剣のダメージ上限が6億アップ
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`120801`](weapons.json#L86267) マックアルイン
+  - base_name: マックアルイン (costume: 魔装)
+  - element=光(4) / type=大剣(2) / rarity=S(3) / cv=竹達彩奈
+  - max stats: HP=8000 / ATK=3000 / DEF=6000 / SPD=24 / BREAK=1000
+  - hit_counts=[5, 5, 7] (3段)  motion_speed=[4.0/4.0/1.0]  mp=100
+  - three_size=88/56/79 / initial_slot=1
+  - BD: 白き薔薇の鉄槌 (arts_id=208)
+    - description: 敵全体に超強力な50連ダメージ＆1waveヒット数が+3
+    - cost=4 / hit_count=50 / value=1.75 / additional_value=0.0
+  - innate skills (3):
+    - BlazeAbsorb Repel_Percent ×50.0 — 勇気分解の発生を確率で回避する
+    - Attack Multiply ×1.25 — 光属性の魔剣の攻撃力がかなりアップ
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`120802`](weapons.json#L86443) マックアルイン【極】
+  - base_name: マックアルイン (costume: 極魔装)
+  - element=光(4) / type=大剣(2) / rarity=S(3) / cv=竹達彩奈
+  - max stats: HP=10400 / ATK=3900 / DEF=7800 / SPD=24 / BREAK=1300
+  - hit_counts=[6, 5, 10] (3段)  motion_speed=[4.0/4.0/1.0]  mp=100
+  - three_size=88/56/79 / initial_slot=2
+  - BD: 白き薔薇の鉄槌 (arts_id=208)
+    - description: 敵全体に超強力な50連ダメージ＆1waveヒット数が+3
+    - cost=4 / hit_count=50 / value=1.75 / additional_value=0.0
+  - innate skills (3):
+    - BlazeAbsorb Repel_Percent ×100.0 — 勇気分解の発生を完全回避する
+    - Attack Multiply ×1.5 — 光属性の魔剣の攻撃力が大幅にアップ
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`120803`](weapons.json#L86619) マックアルイン【極弐】
+  - base_name: マックアルイン (costume: 極弐魔装)
+  - element=光(4) / type=大剣(2) / rarity=S(3) / cv=竹達彩奈
+  - max stats: HP=13520 / ATK=5070 / DEF=10140 / SPD=26 / BREAK=1690
+  - hit_counts=[7, 6, 10] (3段)  motion_speed=[2.4/2.2/1.4]  mp=110
+  - three_size=88/56/79 / initial_slot=3
+  - BD: ローゼス･アストロロギア (arts_id=10208)
+    - description: 敵全体に超強力な50連ダメージ＆1waveヒット数が+3
+    - cost=4 / hit_count=50 / value=1.75 / additional_value=0.0
+  - innate skills (3):
+    - BlazeAbsorb Repel_Percent ×100.0 — 勇気分解の発生を完全回避する
+    - Attack Multiply ×1.75 — 光属性の魔剣の攻撃力が絶大にアップ
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`122101`](weapons.json#L92024) アンブレラ
+  - base_name: アンブレラ (costume: 魔装)
+  - element=闇(5) / type=騎槍(8) / rarity=S(3) / cv=金元寿子
+  - max stats: HP=9100 / ATK=4600 / DEF=2900 / SPD=28 / BREAK=3500
+  - hit_counts=[3, 3, 6] (3段)  motion_speed=[2.0/3.0/1.0]  mp=123
+  - three_size=76/57/77 / initial_slot=1
+  - BD: パンデミックバイオハザード (arts_id=221)
+    - description: 敵全体に超強力な29連ダメージ＆wave中、攻撃力30%UP
+    - cost=5 / hit_count=29 / value=3.41 / additional_value=0.0
+  - innate skills (2):
+    - Vitality_Attack Multiply ×1.3 — 残HPが多いほど攻撃力がかなりアップ
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`122102`](weapons.json#L92181) アンブレラ【極】
+  - base_name: アンブレラ (costume: 極魔装)
+  - element=闇(5) / type=騎槍(8) / rarity=S(3) / cv=金元寿子
+  - max stats: HP=11830 / ATK=5980 / DEF=3770 / SPD=28 / BREAK=4550
+  - hit_counts=[4, 3, 9] (3段)  motion_speed=[2.0/3.0/1.0]  mp=123
+  - three_size=76/57/77 / initial_slot=2
+  - BD: パンデミックバイオハザード (arts_id=221)
+    - description: 敵全体に超強力な29連ダメージ＆wave中、攻撃力30%UP
+    - cost=5 / hit_count=29 / value=3.41 / additional_value=0.0
+  - innate skills (2):
+    - Vitality_Attack Multiply ×1.8 — 残HPが多いほど攻撃力が大幅にアップ
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`122801`](weapons.json#L94698) 小烏丸
+  - base_name: 小烏丸 (costume: 魔装)
+  - element=風(3) / type=太刀(3) / rarity=AA(2) / cv=相内沙英
+  - max stats: HP=6000 / ATK=1810 / DEF=4500 / SPD=52 / BREAK=190
+  - hit_counts=[4, 8, 8] (3段)  motion_speed=[3.0/3.0/1.0]  mp=108
+  - three_size=72/55/74 / initial_slot=2
+  - BD: 黒天翼征夢迅斬 (arts_id=228)
+    - description: 敵全体に強力な24連ダメージ＆一瞬だけスピード狂化
+    - cost=3 / hit_count=24 / value=1.9375 / additional_value=0.0
+  - innate skills (2):
+    - Speed Multiply ×1.1 — 風属性の魔剣の行動速度がアップ
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`122802`](weapons.json#L94855) 小烏丸【極】
+  - base_name: 小烏丸 (costume: 極魔装)
+  - element=風(3) / type=太刀(3) / rarity=AA(2) / cv=相内沙英
+  - max stats: HP=7800 / ATK=2360 / DEF=5850 / SPD=52 / BREAK=250
+  - hit_counts=[5, 8, 11] (3段)  motion_speed=[3.0/3.0/1.0]  mp=108
+  - three_size=72/55/74 / initial_slot=3
+  - BD: 黒天翼征夢迅斬 (arts_id=228)
+    - description: 敵全体に強力な24連ダメージ＆一瞬だけスピード狂化
+    - cost=3 / hit_count=24 / value=1.9375 / additional_value=0.0
+  - innate skills (2):
+    - Speed Multiply ×1.25 — 風属性の魔剣の行動速度がかなりアップ
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`122803`](weapons.json#L95012) 小烏丸【極弐】
+  - base_name: 小烏丸 (costume: 極弐魔装)
+  - element=風(3) / type=太刀(3) / rarity=AA(2) / cv=相内沙英
+  - max stats: HP=10140 / ATK=3070 / DEF=7610 / SPD=56 / BREAK=330
+  - hit_counts=[6, 9, 11] (3段)  motion_speed=[3.0/2.0/1.1]  mp=112
+  - three_size=72/55/74 / initial_slot=4
+  - BD: 黒王天征三千鴉 (arts_id=10228)
+    - description: 敵全体に強力な24連ダメージ＆一瞬だけスピード狂化
+    - cost=3 / hit_count=24 / value=1.9375 / additional_value=0.0
+  - innate skills (2):
+    - Speed Multiply ×1.5 — 風属性の魔剣の行動速度が大幅にアップ
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`124701`](weapons.json#L102981) グレイプニル
+  - base_name: グレイプニル (costume: 魔装)
+  - element=光(4) / type=大鎌(12) / rarity=S(3) / cv=本渡楓
+  - max stats: HP=6500 / ATK=5920 / DEF=3800 / SPD=35 / BREAK=710
+  - hit_counts=[2, 3, 9] (3段)  motion_speed=[2.0/2.0/1.0]  mp=165
+  - three_size=73/56/76 / initial_slot=1
+  - BD: 貪り喰え獣の鎖 (arts_id=247)
+    - description: 敵全体に超強力な46連ダメージ＆数秒間攻撃力1.5倍
+    - cost=5 / hit_count=46 / value=2.2 / additional_value=0.0
+  - innate skills (3):
+    - Attack Multiply ×1.25 — 光属性の魔剣の攻撃力がかなりアップ
+    - GuardBreak Multiply ×1.1 — 光属性の魔剣がガードブレイクしやすく
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`124702`](weapons.json#L103157) グレイプニル【極】
+  - base_name: グレイプニル (costume: 極魔装)
+  - element=光(4) / type=大鎌(12) / rarity=S(3) / cv=本渡楓
+  - max stats: HP=8450 / ATK=7700 / DEF=4940 / SPD=35 / BREAK=930
+  - hit_counts=[3, 3, 12] (3段)  motion_speed=[2.0/2.0/1.0]  mp=165
+  - three_size=73/56/76 / initial_slot=2
+  - BD: 貪り喰え獣の鎖 (arts_id=247)
+    - description: 敵全体に超強力な46連ダメージ＆数秒間攻撃力1.5倍
+    - cost=5 / hit_count=46 / value=2.2 / additional_value=0.0
+  - innate skills (3):
+    - Attack Multiply ×1.5 — 光属性の魔剣の攻撃力が大幅にアップ
+    - GuardBreak Multiply ×1.25 — 光属性の魔剣がかなりガードブレイクしやすく
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`124703`](weapons.json#L103333) グレイプニル【極弐】
+  - base_name: グレイプニル (costume: 極弐魔装)
+  - element=光(4) / type=大鎌(12) / rarity=S(3) / cv=本渡楓
+  - max stats: HP=12680 / ATK=11170 / DEF=7910 / SPD=37 / BREAK=1210
+  - hit_counts=[4, 4, 12] (3段)  motion_speed=[2.2/1.8/1.2]  mp=180
+  - three_size=74/56/76 / initial_slot=3
+  - BD: 魔を戒めよ蒼月の鎖 (arts_id=10247)
+    - description: 敵全体に超強力な46連ダメージ＆数秒間攻撃力1.5倍
+    - cost=5 / hit_count=46 / value=2.2 / additional_value=0.0
+  - innate skills (3):
+    - Attack Multiply ×1.75 — 光属性の魔剣の攻撃力が絶大にアップ
+    - GuardBreak Multiply ×1.5 — 光属性の魔剣が大幅にガードブレイクしやすく
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`124901`](weapons.json#L104018) レールガン=タブー
+  - base_name: レールガン=タブー (costume: 魔装)
+  - element=光(4) / type=連弩(6) / rarity=SS(4) / cv=三森すずこ
+  - max stats: HP=19200 / ATK=11100 / DEF=4000 / SPD=16 / BREAK=2700
+  - hit_counts=[4, 6, 9] (3段)  motion_speed=[2.5/2.5/1.5]  mp=360
+  - three_size=74/55/74 / initial_slot=3
+  - BD: 終末の白《エンデヴァイスタブー》 (arts_id=249)
+    - description: 敵全体に超絶強力な33連ダメージ＆5wave攻撃力30%UP
+    - cost=8 / hit_count=33 / value=7.0 / additional_value=0.0
+  - innate skills (5):
+    - Break_Attack Multiply ×2.5 — 自身が破損状態になると攻撃力が大幅にアップ
+    - Stun Repel_Percent ×50.0 — スタンの発生を確率で回避する
+    - RemHP_Attack Multiply ×2.25 — 残HPが少ないほど攻撃力が絶大にアップ
+    - DamageLimitBreak Addition +2000000000.0 — 自身のダメージ上限が20億アップ
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`124902`](weapons.json#L104232) レールガン=タブー【極】
+  - base_name: レールガン=タブー (costume: 極魔装)
+  - element=光(4) / type=連弩(6) / rarity=SS(4) / cv=三森すずこ
+  - max stats: HP=24960 / ATK=14430 / DEF=5200 / SPD=16 / BREAK=3510
+  - hit_counts=[5, 6, 12] (3段)  motion_speed=[2.5/2.5/1.5]  mp=360
+  - three_size=74/55/74 / initial_slot=4
+  - BD: 終末の白《エンデヴァイスタブー》 (arts_id=249)
+    - description: 敵全体に超絶強力な33連ダメージ＆5wave攻撃力30%UP
+    - cost=8 / hit_count=33 / value=7.0 / additional_value=0.0
+  - innate skills (5):
+    - Break_Attack Multiply ×3.3 — 自身が破損状態になると攻撃力が絶大にアップ
+    - Stun Repel_Percent ×100.0 — スタンの発生を完全回避する
+    - RemHP_Attack Multiply ×2.6 — 残HPが少ないほど攻撃力が超絶大にアップ
+    - DamageLimitBreak Addition +2000000000.0 — 自身のダメージ上限が20億アップ
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`125101`](weapons.json#L104993) カタストロフ=イデア
+  - base_name: カタストロフ=イデア (costume: 魔装)
+  - element=風(3) / type=杖棒(4) / rarity=SS(4) / cv=久野美咲
+  - max stats: HP=15000 / ATK=5600 / DEF=6660 / SPD=22 / BREAK=1360
+  - hit_counts=[10, 10, 13] (3段)  motion_speed=[2.0/2.0/2.0]  mp=666
+  - three_size=63/50/64 / initial_slot=2
+  - BD: 最後の審判の最後は大円団 (arts_id=251)
+    - description: 敵全体に超絶強力な44連ダメージ＆数秒だけ攻撃力2倍
+    - cost=9 / hit_count=44 / value=6.20455 / additional_value=0.0
+  - innate skills (5):
+    - Wave_BlazeUP Addition +200.0 — Wave経過ごとにブレイズゲージがかなり回復する
+    - Speed Multiply ×1.5 — 全属性の魔剣の行動速度が大幅にアップ
+    - Attack Multiply ×13.0 — 杖棒の魔剣の攻撃力が13倍
+    - Raise Multiply ×1.0 — 杖棒の魔剣が戦闘不能になっても3回完全復活できる
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`125102`](weapons.json#L105207) カタストロフ=イデア【極】
+  - base_name: カタストロフ=イデア (costume: 極魔装)
+  - element=風(3) / type=杖棒(4) / rarity=SS(4) / cv=久野美咲
+  - max stats: HP=19500 / ATK=7280 / DEF=8660 / SPD=22 / BREAK=1770
+  - hit_counts=[11, 10, 16] (3段)  motion_speed=[2.0/2.0/2.0]  mp=666
+  - three_size=63/50/64 / initial_slot=3
+  - BD: 最後の審判の最後は大円団 (arts_id=251)
+    - description: 敵全体に超絶強力な44連ダメージ＆数秒だけ攻撃力2倍
+    - cost=9 / hit_count=44 / value=6.20455 / additional_value=0.0
+  - innate skills (5):
+    - Wave_BlazeUP Addition +350.0 — Wave経過ごとにブレイズゲージが大幅に回復する
+    - Speed Multiply ×1.75 — 全属性の魔剣の行動速度が絶大にアップ
+    - Attack Multiply ×13.0 — 杖棒の魔剣の攻撃力が13倍
+    - Raise Multiply ×1.0 — 杖棒の魔剣が戦闘不能になっても3回完全復活できる
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`125301`](weapons.json#L105911) 終期性螺旋機構理論
+  - base_name: 終期性螺旋機構理論 (costume: 魔装)
+  - element=光(4) / type=魔典(11) / rarity=S(3) / cv=徳井青空
+  - max stats: HP=10600 / ATK=4380 / DEF=7200 / SPD=38 / BREAK=880
+  - hit_counts=[4, 5, 8] (3段)  motion_speed=[3.0/3.0/1.0]  mp=280
+  - three_size=89/59/82 / initial_slot=2
+  - BD: 最終期性円環定理 (arts_id=253)
+    - description: 敵全体に超強力な26連ダメージ＆wave中、攻撃力13%UP
+    - cost=5 / hit_count=26 / value=3.80769 / additional_value=0.0
+  - innate skills (3):
+    - FellDown_Attack Multiply ×2.5 — 同セットの魔剣が倒されると自攻撃力がかなりアップ
+    - JustGuard_Sapphire Multiply ×4.0 — ジャストガード時のサファイアの量がかなり増加
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`125302`](weapons.json#L106087) 終期性螺旋機構理論【極】
+  - base_name: 終期性螺旋機構理論 (costume: 極魔装)
+  - element=光(4) / type=魔典(11) / rarity=S(3) / cv=徳井青空
+  - max stats: HP=13780 / ATK=5700 / DEF=9360 / SPD=38 / BREAK=1150
+  - hit_counts=[5, 5, 11] (3段)  motion_speed=[3.0/3.0/1.0]  mp=280
+  - three_size=89/59/82 / initial_slot=3
+  - BD: 最終期性円環定理 (arts_id=253)
+    - description: 敵全体に超強力な26連ダメージ＆wave中、攻撃力13%UP
+    - cost=5 / hit_count=26 / value=3.80769 / additional_value=0.0
+  - innate skills (3):
+    - FellDown_Attack Multiply ×3.3 — 同セットの魔剣が倒されると自攻撃力が大幅にアップ
+    - JustGuard_Sapphire Multiply ×6.0 — ジャストガード時のサファイアの量が大幅に増加
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`125303`](weapons.json#L106263) 終期性螺旋機構理論【極弐】
+  - base_name: 終期性螺旋機構理論 (costume: 極弐魔装)
+  - element=光(4) / type=魔典(11) / rarity=S(3) / cv=徳井青空
+  - max stats: HP=17920 / ATK=7410 / DEF=12170 / SPD=42 / BREAK=1500
+  - hit_counts=[6, 6, 11] (3段)  motion_speed=[3.0/3.0/1.2]  mp=310
+  - three_size=90/60/83 / initial_slot=4
+  - BD: 終焉相克循環公理 (arts_id=10253)
+    - description: 敵全体に超強力な26連ダメージ＆wave中、攻撃力13%UP
+    - cost=5 / hit_count=26 / value=3.80769 / additional_value=0.0
+  - innate skills (3):
+    - FellDown_Attack Multiply ×5.0 — 同セットの魔剣が倒されると自攻撃力が絶大にアップ
+    - JustGuard_Sapphire Multiply ×6.0 — ジャストガード時のサファイアの量が大幅に増加
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`126501`](weapons.json#L111772) エンセフェロン
+  - base_name: エンセフェロン (costume: 魔装)
+  - element=光(4) / type=魔典(11) / rarity=AA(2) / cv=秦佐和子
+  - max stats: HP=5400 / ATK=740 / DEF=3400 / SPD=58 / BREAK=930
+  - hit_counts=[4, 9, 17] (3段)  motion_speed=[2.0/2.0/1.0]  mp=56
+  - three_size=内緒ですよ / initial_slot=2
+  - BD: 自立思考独立砲撃乱舞 (arts_id=265)
+    - description: 敵全体に強力な22連ダメージ
+    - cost=2 / hit_count=22 / value=1.39773 / additional_value=0.0
+  - innate skills (2):
+    - GuardBreak Multiply ×1.25 — 光属性の魔剣がかなりガードブレイクしやすく
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`126502`](weapons.json#L111916) エンセフェロン【極】
+  - base_name: エンセフェロン (costume: 極魔装)
+  - element=光(4) / type=魔典(11) / rarity=AA(2) / cv=秦佐和子
+  - max stats: HP=7020 / ATK=970 / DEF=4420 / SPD=58 / BREAK=1210
+  - hit_counts=[5, 9, 20] (3段)  motion_speed=[2.0/2.0/1.0]  mp=56
+  - three_size=内緒ですよ / initial_slot=2
+  - BD: 自立思考独立砲撃乱舞 (arts_id=265)
+    - description: 敵全体に強力な22連ダメージ
+    - cost=2 / hit_count=22 / value=1.39773 / additional_value=0.0
+  - innate skills (2):
+    - GuardBreak Multiply ×1.5 — 光属性の魔剣が大幅にガードブレイクしやすく
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`126503`](weapons.json#L112060) エンセフェロン【極弐】
+  - base_name: エンセフェロン (costume: 極弐魔装)
+  - element=光(4) / type=魔典(11) / rarity=AA(2) / cv=秦佐和子
+  - max stats: HP=10050 / ATK=980 / DEF=7620 / SPD=63 / BREAK=1630
+  - hit_counts=[6, 10, 20] (3段)  motion_speed=[3.0/2.0/1.2]  mp=60
+  - three_size=妄想にお任せします / initial_slot=3
+  - BD: 全権解放･自立思考制圧型砲撃旋舞 (arts_id=10265)
+    - description: 敵全体に強力な22連ダメージ＆10秒間ヒット数が+3
+    - cost=2 / hit_count=22 / value=1.39773 / additional_value=0.0
+  - innate skills (2):
+    - GuardBreak Multiply ×1.75 — 光属性の魔剣が絶大にガードブレイクしやすく
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`126601`](weapons.json#L112217) アマリリス
+  - base_name: アマリリス (costume: 魔装)
+  - element=水(2) / type=拳闘(10) / rarity=S(3) / cv=今村彩夏
+  - max stats: HP=10080 / ATK=3300 / DEF=3950 / SPD=22 / BREAK=1150
+  - hit_counts=[7, 5, 9] (3段)  motion_speed=[4.0/4.0/1.0]  mp=200
+  - three_size=60/54/66 / initial_slot=3
+  - BD: レッドカードフラワー (arts_id=266)
+    - description: 敵全体に超絶強力な40連ダメージ＆一瞬だけ攻撃力2倍
+    - cost=3 / hit_count=40 / value=25.0 / additional_value=0.0
+  - innate skills (2):
+    - BlazeAttack Multiply ×2.0 — 水属性の魔剣のB.D.攻撃力がかなりアップ
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`126602`](weapons.json#L112374) アマリリス【極】
+  - base_name: アマリリス (costume: 極魔装)
+  - element=水(2) / type=拳闘(10) / rarity=S(3) / cv=今村彩夏
+  - max stats: HP=13110 / ATK=4290 / DEF=5140 / SPD=22 / BREAK=1500
+  - hit_counts=[8, 5, 12] (3段)  motion_speed=[4.0/4.0/1.0]  mp=200
+  - three_size=60/54/66 / initial_slot=4
+  - BD: レッドカードフラワー (arts_id=266)
+    - description: 敵全体に超絶強力な40連ダメージ＆一瞬だけ攻撃力2倍
+    - cost=3 / hit_count=40 / value=25.0 / additional_value=0.0
+  - innate skills (3):
+    - BlazeAttack Multiply ×2.5 — 水属性の魔剣のB.D.攻撃力が大幅にアップ
+    - DamageLimitBreak Addition +2000000000.0 — 自身のダメージ上限が20億アップ
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`126603`](weapons.json#L112550) アマリリス【極弐】
+  - base_name: アマリリス (costume: 極弐魔装)
+  - element=水(2) / type=拳闘(10) / rarity=S(3) / cv=今村彩夏
+  - max stats: HP=20980 / ATK=5580 / DEF=6690 / SPD=25 / BREAK=1950
+  - hit_counts=[9, 6, 12] (3段)  motion_speed=[2.8/2.8/1.2]  mp=220
+  - three_size=61/54/66 / initial_slot=5
+  - BD: イジェクションブルーム (arts_id=10266)
+    - description: 敵全体に超絶強力な40連ダメージ＆一瞬だけ攻撃力2倍
+    - cost=3 / hit_count=40 / value=30.0 / additional_value=0.0
+  - innate skills (3):
+    - BlazeAttack Multiply ×3.0 — 水属性の魔剣のB.D.攻撃力が絶大にアップ
+    - DamageLimitBreak Addition +2000000000.0 — 自身のダメージ上限が20億アップ
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`126701`](weapons.json#L112726) ムーンサレナ
+  - base_name: ムーンサレナ (costume: 魔装)
+  - element=闇(5) / type=杖棒(4) / rarity=S(3) / cv=永野愛理
+  - max stats: HP=11500 / ATK=3800 / DEF=3500 / SPD=38 / BREAK=150
+  - hit_counts=[8, 7, 10] (3段)  motion_speed=[2.0/2.0/1.0]  mp=180
+  - three_size=62/54/66 / initial_slot=2
+  - BD: 虚世の狂気と純潔の愛 (arts_id=267)
+    - description: 敵全体に超強力な20連ダメージ＆スピード50%UP
+    - cost=5 / hit_count=20 / value=4.95 / additional_value=0.0
+  - innate skills (4):
+    - AllTarget Multiply ×0.6 — 攻撃力は下がるが自分の攻撃範囲が敵全体になる
+    - SapphireDrop Multiply ×2.0 — 自分の獲得するサファイアの量がかなり増加
+    - Attack Multiply ×1.1 — 全属性の魔剣の攻撃力がアップ
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`126702`](weapons.json#L112921) ムーンサレナ【極】
+  - base_name: ムーンサレナ (costume: 極魔装)
+  - element=闇(5) / type=杖棒(4) / rarity=S(3) / cv=永野愛理
+  - max stats: HP=14950 / ATK=4940 / DEF=4550 / SPD=38 / BREAK=200
+  - hit_counts=[9, 7, 13] (3段)  motion_speed=[2.0/2.0/1.0]  mp=180
+  - three_size=62/54/66 / initial_slot=3
+  - BD: 虚世の狂気と純潔の愛 (arts_id=267)
+    - description: 敵全体に超強力な20連ダメージ＆スピード50%UP
+    - cost=5 / hit_count=20 / value=4.95 / additional_value=0.0
+  - innate skills (6):
+    - AllTarget Multiply ×0.8 — 攻撃力はやや下がるが自分の攻撃範囲が敵全体になる
+    - SapphireDrop Multiply ×3.0 — 自分の獲得するサファイアの量が大幅に増加
+    - Attack Multiply ×1.25 — 全属性の魔剣の攻撃力がかなりアップ
+    - HitCount Addition +1.0 — 杖棒の魔剣の1撃目2撃目3撃目のヒット数を+1する
+    - DamageLimitBreak Addition +600000000.0 — 杖棒の魔剣のダメージ上限が6億アップ
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`126703`](weapons.json#L113154) ムーンサレナ【極弐】
+  - base_name: ムーンサレナ (costume: 極弐魔装)
+  - element=闇(5) / type=杖棒(4) / rarity=S(3) / cv=永野愛理
+  - max stats: HP=19440 / ATK=6430 / DEF=5920 / SPD=44 / BREAK=260
+  - hit_counts=[10, 8, 13] (3段)  motion_speed=[3.0/3.0/1.3]  mp=185
+  - three_size=62/54/66 / initial_slot=4
+  - BD: 純愛結ぶは狂月煌華 (arts_id=10267)
+    - description: 敵全体に超強力な20連ダメージ＆スピード50%UP
+    - cost=5 / hit_count=20 / value=4.95 / additional_value=0.0
+  - innate skills (6):
+    - AllTarget Multiply ×1.0 — 攻撃力を下げずに自分の攻撃範囲が敵全体になる
+    - SapphireDrop Multiply ×3.0 — 自分の獲得するサファイアの量が大幅に増加
+    - Attack Multiply ×1.5 — 全属性の魔剣の攻撃力が大幅にアップ
+    - HitCount Addition +1.0 — 杖棒の魔剣の1撃目2撃目3撃目のヒット数を+1する
+    - DamageLimitBreak Addition +600000000.0 — 杖棒の魔剣のダメージ上限が6億アップ
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`127101`](weapons.json#L114874) 天騎
+  - base_name: 天騎 (costume: 魔装)
+  - element=光(4) / type=長剣(1) / rarity=AA(2) / cv=伊藤美来
+  - max stats: HP=4200 / ATK=1600 / DEF=6200 / SPD=58 / BREAK=550
+  - hit_counts=[4, 8, 12] (3段)  motion_speed=[4.0/4.0/1.0]  mp=275
+  - three_size=73/56/77 / initial_slot=2
+  - BD: 反重力天騎飛鏖剣 (arts_id=271)
+    - description: 敵全体に超強力な22連ダメージ＆一瞬だけスピード狂化
+    - cost=4 / hit_count=22 / value=3.28 / additional_value=0.0
+  - innate skills (2):
+    - Speed Multiply ×1.5 — 光属性の魔剣の行動速度が大幅にアップ
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`127102`](weapons.json#L115031) 天騎【極】
+  - base_name: 天騎 (costume: 極魔装)
+  - element=光(4) / type=長剣(1) / rarity=AA(2) / cv=伊藤美来
+  - max stats: HP=5460 / ATK=2080 / DEF=8060 / SPD=58 / BREAK=720
+  - hit_counts=[5, 8, 15] (3段)  motion_speed=[4.0/4.0/1.0]  mp=275
+  - three_size=73/56/77 / initial_slot=3
+  - BD: 反重力天騎飛鏖剣 (arts_id=271)
+    - description: 敵全体に超強力な22連ダメージ＆一瞬だけスピード狂化
+    - cost=4 / hit_count=22 / value=3.28 / additional_value=0.0
+  - innate skills (2):
+    - Speed Multiply ×1.75 — 光属性の魔剣の行動速度が絶大にアップ
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`127103`](weapons.json#L115188) 天騎【極弐】
+  - base_name: 天騎 (costume: 極弐魔装)
+  - element=光(4) / type=長剣(1) / rarity=AA(2) / cv=伊藤美来
+  - max stats: HP=7100 / ATK=2710 / DEF=10480 / SPD=76 / BREAK=940
+  - hit_counts=[6, 9, 15] (3段)  motion_speed=[4.0/4.0/2.0]  mp=311
+  - three_size=74/56/77 / initial_slot=4
+  - BD: 天騎無縫･翼望剣 (arts_id=10271)
+    - description: 敵全体に超強力な22連ダメージ＆一瞬だけスピード狂化
+    - cost=4 / hit_count=22 / value=3.28 / additional_value=0.0
+  - innate skills (3):
+    - Speed Multiply ×1.75 — 光属性の魔剣の行動速度が絶大にアップ
+    - MotionSpeed Multiply ×1.15 — 光属性の魔剣の攻撃モーションが少し加速
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`127201`](weapons.json#L115364) ベルフェネス
+  - base_name: ベルフェネス (costume: 魔装)
+  - element=闇(5) / type=魔典(11) / rarity=AA(2) / cv=朝日奈丸佳
+  - max stats: HP=6060 / ATK=1850 / DEF=3600 / SPD=59 / BREAK=300
+  - hit_counts=[6, 7, 10] (3段)  motion_speed=[3.0/3.0/3.0]  mp=25
+  - three_size=72/56/73 / initial_slot=2
+  - BD: 闇夜幻想式ヤミネコ (arts_id=272)
+    - description: 敵全体に強力な22連ダメージ＆攻撃力25%UP
+    - cost=2 / hit_count=22 / value=1.39773 / additional_value=0.0
+  - innate skills (2):
+    - Attack Multiply ×1.25 — 闇属性の魔剣の攻撃力がかなりアップ
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`127202`](weapons.json#L115521) ベルフェネス【極】
+  - base_name: ベルフェネス (costume: 極魔装)
+  - element=闇(5) / type=魔典(11) / rarity=AA(2) / cv=朝日奈丸佳
+  - max stats: HP=7880 / ATK=2410 / DEF=4680 / SPD=59 / BREAK=390
+  - hit_counts=[7, 7, 13] (3段)  motion_speed=[3.0/3.0/3.0]  mp=25
+  - three_size=72/56/73 / initial_slot=3
+  - BD: 闇夜幻想式ヤミネコ (arts_id=272)
+    - description: 敵全体に強力な22連ダメージ＆攻撃力25%UP
+    - cost=2 / hit_count=22 / value=1.39773 / additional_value=0.0
+  - innate skills (2):
+    - Attack Multiply ×1.5 — 闇属性の魔剣の攻撃力が大幅にアップ
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`127203`](weapons.json#L115678) ベルフェネス【極弐】
+  - base_name: ベルフェネス (costume: 極弐魔装)
+  - element=闇(5) / type=魔典(11) / rarity=AA(2) / cv=朝日奈丸佳
+  - max stats: HP=10320 / ATK=4030 / DEF=6020 / SPD=63 / BREAK=510
+  - hit_counts=[8, 8, 13] (3段)  motion_speed=[1.35/1.7/1.0]  mp=27
+  - three_size=72/56/73 / initial_slot=4
+  - BD: 冥夜永黒幻想ヤミネコ (arts_id=10272)
+    - description: 敵全体に超強力な22連ダメージ＆攻撃力25%UP
+    - cost=2 / hit_count=22 / value=1.9 / additional_value=0.0
+  - innate skills (2):
+    - Attack Multiply ×1.75 — 闇属性の魔剣の攻撃力が絶大にアップ
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`127501`](weapons.json#L116663) イディオタ
+  - base_name: イディオタ (costume: 魔装)
+  - element=火(1) / type=長剣(1) / rarity=AA(2) / cv=土師亜文
+  - max stats: HP=8500 / ATK=2490 / DEF=4430 / SPD=33 / BREAK=2400
+  - hit_counts=[2, 3, 8] (3段)  motion_speed=[2.0/3.0/1.0]  mp=195
+  - three_size=89/57/83 / initial_slot=2
+  - BD: 愚かなる焔の虚心 (arts_id=275)
+    - description: 敵全体に超強力な24連ダメージ＆敵を強制ブレイク
+    - cost=4 / hit_count=24 / value=3.8 / additional_value=0.0
+  - innate skills (2):
+    - Attack Multiply ×1.25 — 火属性の魔剣の攻撃力がかなりアップ
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`127502`](weapons.json#L116820) イディオタ【極】
+  - base_name: イディオタ (costume: 極魔装)
+  - element=火(1) / type=長剣(1) / rarity=AA(2) / cv=土師亜文
+  - max stats: HP=11050 / ATK=3240 / DEF=5760 / SPD=33 / BREAK=3120
+  - hit_counts=[3, 3, 11] (3段)  motion_speed=[2.0/3.0/1.0]  mp=195
+  - three_size=89/57/83 / initial_slot=3
+  - BD: 愚かなる焔の虚心 (arts_id=275)
+    - description: 敵全体に超強力な24連ダメージ＆敵を強制ブレイク
+    - cost=4 / hit_count=24 / value=3.8 / additional_value=0.0
+  - innate skills (2):
+    - Attack Multiply ×1.5 — 火属性の魔剣の攻撃力が大幅にアップ
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`127503`](weapons.json#L116977) イディオタ【極弐】
+  - base_name: イディオタ (costume: 極弐魔装)
+  - element=火(1) / type=長剣(1) / rarity=AA(2) / cv=土師亜文
+  - max stats: HP=14370 / ATK=4220 / DEF=7490 / SPD=36 / BREAK=4060
+  - hit_counts=[4, 4, 11] (3段)  motion_speed=[4.0/4.0/1.2]  mp=215
+  - three_size=90/57/83 / initial_slot=4
+  - BD: 狂い惚ける灼月の舞 (arts_id=10275)
+    - description: 敵全体に超強力な24連ダメージ＆敵を強制ブレイク
+    - cost=4 / hit_count=24 / value=3.8 / additional_value=0.0
+  - innate skills (2):
+    - Attack Multiply ×1.75 — 火属性の魔剣の攻撃力が絶大にアップ
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`127701`](weapons.json#L117548) エンドロール
+  - base_name: エンドロール (costume: 魔装)
+  - element=光(4) / type=長剣(1) / rarity=S(3) / cv=長妻樹里
+  - max stats: HP=8700 / ATK=4700 / DEF=4300 / SPD=38 / BREAK=2550
+  - hit_counts=[5, 6, 7] (3段)  motion_speed=[3.0/3.0/3.0]  mp=250
+  - three_size=72/59/74 / initial_slot=2
+  - BD: エンドロールテーマソング (arts_id=277)
+    - description: 敵全体に超強力な40連ダメージ＆15秒ﾓｰｼｮﾝ30%高速化
+    - cost=7 / hit_count=40 / value=4.0 / additional_value=0.0
+  - innate skills (2):
+    - Attack Multiply ×1.5 — 光属性の魔剣の攻撃力が大幅にアップ
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`127702`](weapons.json#L117705) エンドロール【極】
+  - base_name: エンドロール (costume: 極魔装)
+  - element=光(4) / type=長剣(1) / rarity=S(3) / cv=長妻樹里
+  - max stats: HP=11310 / ATK=6110 / DEF=5590 / SPD=38 / BREAK=3320
+  - hit_counts=[6, 6, 10] (3段)  motion_speed=[3.0/3.0/3.0]  mp=250
+  - three_size=72/59/74 / initial_slot=3
+  - BD: エンドロールテーマソング (arts_id=277)
+    - description: 敵全体に超強力な40連ダメージ＆15秒ﾓｰｼｮﾝ30%高速化
+    - cost=7 / hit_count=40 / value=4.0 / additional_value=0.0
+  - innate skills (2):
+    - Attack Multiply ×1.75 — 光属性の魔剣の攻撃力が絶大にアップ
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`127703`](weapons.json#L117862) エンドロール【極弐】
+  - base_name: エンドロール (costume: 極弐魔装)
+  - element=光(4) / type=長剣(1) / rarity=S(3) / cv=長妻樹里
+  - max stats: HP=14710 / ATK=7950 / DEF=7270 / SPD=41 / BREAK=4320
+  - hit_counts=[7, 7, 10] (3段)  motion_speed=[3.0/3.0/1.6]  mp=275
+  - three_size=72/59/74 / initial_slot=4
+  - BD: エンドロールオベーション (arts_id=10277)
+    - description: 敵全体に超強力な40連ダメージ＆15秒ﾓｰｼｮﾝ30%高速化
+    - cost=7 / hit_count=40 / value=4.0 / additional_value=0.0
+  - innate skills (3):
+    - Attack Multiply ×1.75 — 光属性の魔剣の攻撃力が絶大にアップ
+    - SapphireDrop Multiply ×3.0 — 自分の獲得するサファイアの量が大幅に増加
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`129101`](weapons.json#L124175) 天刀ムラマサ=オボロ
+  - base_name: 天刀ムラマサ=オボロ (costume: 魔装)
+  - element=水(2) / type=太刀(3) / rarity=SS(4) / cv=潘めぐみ
+  - max stats: HP=16850 / ATK=5210 / DEF=6210 / SPD=19 / BREAK=512
+  - hit_counts=[9, 6, 17] (3段)  motion_speed=[2.0/3.0/2.0]  mp=629
+  - three_size=76/55/73 / initial_slot=3
+  - BD: 天獄朧 (arts_id=291)
+    - description: 敵全体に超絶強力な66連ダメージ＆数秒だけ攻撃力2倍
+    - cost=9 / hit_count=66 / value=4.3 / additional_value=0.0
+  - innate skills (6):
+    - AllTarget Multiply ×0.8 — 攻撃力はやや下がるが自分の攻撃範囲が敵全体になる
+    - RemHP_Speed Multiply ×1.8 — 残HPが少ないほどスピードが大幅にアップ
+    - DamageLimitBreak Addition +2000000000.0 — 自身のダメージ上限が20億アップ
+    - MotionSpeed Multiply ×2.0 — 太刀の魔剣の攻撃モーションが2倍に加速
+    - RemHP_Attack Multiply ×1.3 — 残HPが少ないほど攻撃力がかなりアップ
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`129102`](weapons.json#L124408) 天刀ムラマサ=オボロ【極】
+  - base_name: 天刀ムラマサ=オボロ (costume: 極魔装)
+  - element=水(2) / type=太刀(3) / rarity=SS(4) / cv=潘めぐみ
+  - max stats: HP=21910 / ATK=6780 / DEF=8080 / SPD=19 / BREAK=670
+  - hit_counts=[10, 6, 20] (3段)  motion_speed=[2.0/3.0/2.0]  mp=629
+  - three_size=76/55/73 / initial_slot=4
+  - BD: 天獄朧 (arts_id=291)
+    - description: 敵全体に超絶強力な66連ダメージ＆数秒だけ攻撃力2倍
+    - cost=9 / hit_count=66 / value=4.3 / additional_value=0.0
+  - innate skills (6):
+    - AllTarget Multiply ×1.0 — 攻撃力を下げずに自分の攻撃範囲が敵全体になる
+    - RemHP_Speed Multiply ×2.25 — 残HPが少ないほどスピードが絶大にアップ
+    - DamageLimitBreak Addition +2000000000.0 — 自身のダメージ上限が20億アップ
+    - MotionSpeed Multiply ×2.0 — 太刀の魔剣の攻撃モーションが2倍に加速
+    - RemHP_Attack Multiply ×1.8 — 残HPが少ないほど攻撃力が大幅にアップ
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`129201`](weapons.json#L124641) 妖刀ムラマサ
+  - base_name: 妖刀ムラマサ (costume: 魔装)
+  - element=水(2) / type=太刀(3) / rarity=S(3) / cv=潘めぐみ
+  - max stats: HP=12330 / ATK=4310 / DEF=3150 / SPD=24 / BREAK=460
+  - hit_counts=[7, 5, 11] (3段)  motion_speed=[2.0/3.0/1.0]  mp=289
+  - three_size=76/55/73 / initial_slot=2
+  - BD: 夢幻夜桜 (arts_id=292)
+    - description: 敵全体に超強力な44連ダメージ＆数秒だけ全敵が跪く
+    - cost=8 / hit_count=44 / value=4.3 / additional_value=0.0
+  - innate skills (3):
+    - JustGuard_MinDamage Multiply ×0.2 — 水属性でジャストガード時に魔導バリアを強化
+    - Attack Multiply ×1.5 — 水属性の魔剣の攻撃力が大幅にアップ
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`129202`](weapons.json#L124817) 妖刀ムラマサ【極】
+  - base_name: 妖刀ムラマサ (costume: 極魔装)
+  - element=水(2) / type=太刀(3) / rarity=S(3) / cv=潘めぐみ
+  - max stats: HP=16030 / ATK=5610 / DEF=4100 / SPD=24 / BREAK=600
+  - hit_counts=[8, 5, 14] (3段)  motion_speed=[2.0/3.0/1.0]  mp=289
+  - three_size=76/55/73 / initial_slot=3
+  - BD: 夢幻夜桜 (arts_id=292)
+    - description: 敵全体に超強力な44連ダメージ＆数秒だけ全敵が跪く
+    - cost=8 / hit_count=44 / value=4.3 / additional_value=0.0
+  - innate skills (3):
+    - JustGuard_MinDamage Multiply ×0.07 — 水属性でジャストガード時に魔導バリアをかなり強化
+    - Attack Multiply ×1.75 — 水属性の魔剣の攻撃力が絶大にアップ
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`129203`](weapons.json#L124993) 妖刀ムラマサ【極弐】
+  - base_name: 妖刀ムラマサ (costume: 極弐魔装)
+  - element=水(2) / type=太刀(3) / rarity=S(3) / cv=潘めぐみ
+  - max stats: HP=17640 / ATK=6740 / DEF=4510 / SPD=27 / BREAK=660
+  - hit_counts=[9, 6, 14] (3段)  motion_speed=[2.3/1.8/1.3]  mp=299
+  - three_size=78/55/73 / initial_slot=4
+  - BD: 夢幻夜桜･大満開 (arts_id=10292)
+    - description: 敵全体に超強力な44連ダメージ＆数秒だけ全敵が跪く
+    - cost=8 / hit_count=44 / value=4.3 / additional_value=0.0
+  - innate skills (3):
+    - JustGuard_MinDamage Multiply ×0.025 — 水属性でジャストガード時に魔導バリアを大幅に強化
+    - Attack Multiply ×1.75 — 水属性の魔剣の攻撃力が絶大にアップ
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`129901`](weapons.json#L127847) ラストリゾート=ジョーカー
+  - base_name: ラストリゾート=ジョーカー (costume: 魔装)
+  - element=闇(5) / type=長剣(1) / rarity=SS(4) / cv=金元寿子
+  - max stats: HP=15550 / ATK=8770 / DEF=7770 / SPD=26 / BREAK=2500
+  - hit_counts=[6, 6, 6] (3段)  motion_speed=[4.0/4.0/1.0]  mp=450
+  - three_size=77/58/77 / initial_slot=3
+  - BD: エースオブインフェルノ (arts_id=299)
+    - description: 敵全体に超絶強力な46連ダメージ＆自分HP全回復
+    - cost=7 / hit_count=46 / value=4.44652 / additional_value=0.0
+  - innate skills (5):
+    - RemHP_Attack Multiply ×2.25 — 残HPが少ないほど攻撃力が絶大にアップ
+    - Break_Attack Multiply ×2.5 — 自身が破損状態になると攻撃力が大幅にアップ
+    - InstantDeath Repel_Percent ×50.0 — 即死特性の攻撃を確率で回避する
+    - DamageLimitBreak Addition +2000000000.0 — 自身のダメージ上限が20億アップ
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`129902`](weapons.json#L128061) ラストリゾート=ジョーカー【極】
+  - base_name: ラストリゾート=ジョーカー (costume: 極魔装)
+  - element=闇(5) / type=長剣(1) / rarity=SS(4) / cv=金元寿子
+  - max stats: HP=20220 / ATK=11410 / DEF=10110 / SPD=26 / BREAK=3250
+  - hit_counts=[7, 6, 9] (3段)  motion_speed=[4.0/4.0/1.0]  mp=450
+  - three_size=77/58/77 / initial_slot=4
+  - BD: エースオブインフェルノ (arts_id=299)
+    - description: 敵全体に超絶強力な46連ダメージ＆自分HP全回復
+    - cost=7 / hit_count=46 / value=4.44652 / additional_value=0.0
+  - innate skills (5):
+    - RemHP_Attack Multiply ×2.6 — 残HPが少ないほど攻撃力が超絶大にアップ
+    - Break_Attack Multiply ×3.3 — 自身が破損状態になると攻撃力が絶大にアップ
+    - InstantDeath Repel_Percent ×100.0 — 即死特性の攻撃を完全回避する
+    - DamageLimitBreak Addition +2000000000.0 — 自身のダメージ上限が20億アップ
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`130001`](weapons.json#L128275) ラストリゾート
+  - base_name: ラストリゾート (costume: 魔装)
+  - element=光(4) / type=長剣(1) / rarity=S(3) / cv=金元寿子
+  - max stats: HP=8777 / ATK=4980 / DEF=6660 / SPD=24 / BREAK=830
+  - hit_counts=[7, 7, 7] (3段)  motion_speed=[4.0/4.0/1.0]  mp=222
+  - three_size=77/58/77 / initial_slot=2
+  - BD: グッドラックヘヴン (arts_id=300)
+    - description: 敵全体に超強力な77連ダメージ＆2wave、HP徐々に回復
+    - cost=7 / hit_count=77 / value=1.7 / additional_value=0.0
+  - innate skills (6):
+    - InstantDeath Repel_Percent ×50.0 — 即死特性の攻撃を確率で回避する
+    - BlazeAbsorb Repel_Percent ×10.0 — 勇気分解の発生を低確率で回避する
+    - Stun Repel_Percent ×10.0 — スタンの発生を低確率で回避する
+    - Mez Repel_Percent ×10.0 — 麻痺の発生を低確率で回避する
+    - RateDamage Repel_Percent ×10.0 — 割合ダメージ攻撃を低確率で回避する
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`130002`](weapons.json#L128508) ラストリゾート【極】
+  - base_name: ラストリゾート (costume: 極魔装)
+  - element=光(4) / type=長剣(1) / rarity=S(3) / cv=金元寿子
+  - max stats: HP=11420 / ATK=6480 / DEF=8660 / SPD=24 / BREAK=1080
+  - hit_counts=[8, 7, 10] (3段)  motion_speed=[4.0/4.0/1.0]  mp=222
+  - three_size=77/58/77 / initial_slot=3
+  - BD: グッドラックヘヴン (arts_id=300)
+    - description: 敵全体に超強力な77連ダメージ＆2wave、HP徐々に回復
+    - cost=7 / hit_count=77 / value=1.7 / additional_value=0.0
+  - innate skills (6):
+    - InstantDeath Repel_Percent ×100.0 — 即死特性の攻撃を完全回避する
+    - BlazeAbsorb Repel_Percent ×50.0 — 勇気分解の発生を確率で回避する
+    - Stun Repel_Percent ×50.0 — スタンの発生を確率で回避する
+    - Mez Repel_Percent ×50.0 — 麻痺の発生を確率で回避する
+    - RateDamage Repel_Percent ×50.0 — 割合ダメージ攻撃を確率で回避する
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`130003`](weapons.json#L128741) ラストリゾート【極弐】
+  - base_name: ラストリゾート (costume: 極弐魔装)
+  - element=光(4) / type=長剣(1) / rarity=S(3) / cv=金元寿子
+  - max stats: HP=14850 / ATK=9720 / DEF=11260 / SPD=26 / BREAK=1410
+  - hit_counts=[9, 8, 10] (3段)  motion_speed=[3.0/4.0/1.1]  mp=244
+  - three_size=78/57/77 / initial_slot=4
+  - BD: グッドラックパラダイス (arts_id=10300)
+    - description: 敵全体に超強力な77連ダメージ＆2wave、HP徐々に回復
+    - cost=7 / hit_count=77 / value=1.7 / additional_value=0.0
+  - innate skills (6):
+    - InstantDeath Repel_Percent ×100.0 — 即死特性の攻撃を完全回避する
+    - BlazeAbsorb Repel_Percent ×100.0 — 勇気分解の発生を完全回避する
+    - Stun Repel_Percent ×100.0 — スタンの発生を完全回避する
+    - Mez Repel_Percent ×100.0 — 麻痺の発生を完全回避する
+    - RateDamage Repel_Percent ×100.0 — 割合ダメージ攻撃を完全回避する
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`130601`](weapons.json#L131148) 不知火検校
+  - base_name: 不知火検校 (costume: 魔装)
+  - element=闇(5) / type=投擲(9) / rarity=S(3) / cv=石原夏織
+  - max stats: HP=9200 / ATK=7500 / DEF=4600 / SPD=31 / BREAK=1250
+  - hit_counts=[2, 4, 5] (3段)  motion_speed=[3.0/3.0/1.0]  mp=150
+  - three_size=75/55/76 / initial_slot=1
+  - BD: 煌月惨萃三千世界 (arts_id=306)
+    - description: 敵全体に超強力な33連ダメージ＆一瞬だけ攻撃力2倍
+    - cost=6 / hit_count=33 / value=3.5 / additional_value=0.0
+  - innate skills (3):
+    - GuardBreak Multiply ×1.5 — 闇属性の魔剣が大幅にガードブレイクしやすく
+    - Attack Multiply ×1.1 — 闇属性の魔剣の攻撃力がアップ
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`130602`](weapons.json#L131324) 不知火検校【極】
+  - base_name: 不知火検校 (costume: 極魔装)
+  - element=闇(5) / type=投擲(9) / rarity=S(3) / cv=石原夏織
+  - max stats: HP=11960 / ATK=9750 / DEF=5980 / SPD=31 / BREAK=1630
+  - hit_counts=[3, 4, 8] (3段)  motion_speed=[3.0/3.0/1.0]  mp=150
+  - three_size=75/55/76 / initial_slot=2
+  - BD: 煌月惨萃三千世界 (arts_id=306)
+    - description: 敵全体に超強力な33連ダメージ＆一瞬だけ攻撃力2倍
+    - cost=6 / hit_count=33 / value=3.5 / additional_value=0.0
+  - innate skills (4):
+    - GuardBreak Multiply ×1.75 — 闇属性の魔剣が絶大にガードブレイクしやすく
+    - Attack Multiply ×1.25 — 闇属性の魔剣の攻撃力がかなりアップ
+    - Enemy_BreakAttack Multiply ×3.0 — ブレイク時に闇属性の魔剣の攻撃力が3倍
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`134401`](weapons.json#L143706) ムーンファルクス
+  - base_name: ムーンファルクス (costume: 魔装)
+  - element=闇(5) / type=長剣(1) / rarity=AA(2) / cv=豊田萌絵
+  - max stats: HP=5500 / ATK=1900 / DEF=5200 / SPD=31 / BREAK=510
+  - hit_counts=[4, 4, 8] (3段)  motion_speed=[3.0/3.0/2.0]  mp=90
+  - three_size=73/56/71 / initial_slot=2
+  - BD: ムーンシェイドムーン (arts_id=344)
+    - description: 敵全体に強力な23連ダメージ＆自分モーション加速
+    - cost=3 / hit_count=23 / value=2.02174 / additional_value=0.0
+  - innate skills (4):
+    - Mez Repel_Percent ×10.0 — 麻痺の発生を低確率で回避する
+    - Stun Repel_Percent ×10.0 — スタンの発生を低確率で回避する
+    - RubyDrop Multiply ×1.5 — 自分が攻撃した時のルビーの量が少し増加
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`134402`](weapons.json#L143901) ムーンファルクス【極】
+  - base_name: ムーンファルクス (costume: 極魔装)
+  - element=闇(5) / type=長剣(1) / rarity=AA(2) / cv=豊田萌絵
+  - max stats: HP=7150 / ATK=2470 / DEF=6760 / SPD=31 / BREAK=670
+  - hit_counts=[5, 4, 11] (3段)  motion_speed=[3.0/3.0/2.0]  mp=90
+  - three_size=73/56/71 / initial_slot=2
+  - BD: ムーンシェイドムーン (arts_id=344)
+    - description: 敵全体に強力な23連ダメージ＆自分モーション加速
+    - cost=3 / hit_count=23 / value=2.02174 / additional_value=0.0
+  - innate skills (4):
+    - Mez Repel_Percent ×50.0 — 麻痺の発生を確率で回避する
+    - Stun Repel_Percent ×50.0 — スタンの発生を確率で回避する
+    - RubyDrop Multiply ×2.0 — 自分が攻撃した時のルビーの量がかなり増加
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`134403`](weapons.json#L144096) ムーンファルクス【極弐】
+  - base_name: ムーンファルクス (costume: 極弐魔装)
+  - element=闇(5) / type=長剣(1) / rarity=AA(2) / cv=豊田萌絵
+  - max stats: HP=10080 / ATK=2620 / DEF=8560 / SPD=35 / BREAK=850
+  - hit_counts=[6, 5, 11] (3段)  motion_speed=[3.0/3.0/1.2]  mp=97
+  - three_size=73/56/71 / initial_slot=3
+  - BD: フルシェイドポーラーナイト (arts_id=10344)
+    - description: 敵全体に強力な23連ダメージ＆自分モーション加速
+    - cost=3 / hit_count=23 / value=2.02174 / additional_value=0.0
+  - innate skills (4):
+    - Mez Repel_Percent ×100.0 — 麻痺の発生を完全回避する
+    - Stun Repel_Percent ×100.0 — スタンの発生を完全回避する
+    - RubyDrop Multiply ×3.0 — 自分が攻撃した時のルビーの量が大幅に増加
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`134601`](weapons.json#L144291) アシュリー
+  - base_name: アシュリー (costume: 魔装)
+  - element=水(2) / type=戦斧(7) / rarity=S(3) / cv=優木かな
+  - max stats: HP=10300 / ATK=4700 / DEF=5500 / SPD=25 / BREAK=2600
+  - hit_counts=[4, 4, 7] (3段)  motion_speed=[4.0/4.0/2.0]  mp=250
+  - three_size=67/49/62 / initial_slot=2
+  - BD: アンニュイブレイカー (arts_id=346)
+    - description: 敵全体に超強力な39連ダメージ＆10秒だけ攻撃全体化
+    - cost=5 / hit_count=39 / value=2.53846 / additional_value=0.0
+  - innate skills (2):
+    - Attack Multiply ×1.5 — 水属性の魔剣の攻撃力が大幅にアップ
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`134602`](weapons.json#L144448) アシュリー【極】
+  - base_name: アシュリー (costume: 極魔装)
+  - element=水(2) / type=戦斧(7) / rarity=S(3) / cv=優木かな
+  - max stats: HP=13390 / ATK=6110 / DEF=7150 / SPD=25 / BREAK=3380
+  - hit_counts=[5, 4, 10] (3段)  motion_speed=[4.0/4.0/2.0]  mp=250
+  - three_size=67/49/62 / initial_slot=3
+  - BD: アンニュイブレイカー (arts_id=346)
+    - description: 敵全体に超強力な39連ダメージ＆10秒だけ攻撃全体化
+    - cost=5 / hit_count=39 / value=2.53846 / additional_value=0.0
+  - innate skills (2):
+    - Attack Multiply ×1.75 — 水属性の魔剣の攻撃力が絶大にアップ
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`134603`](weapons.json#L144605) アシュリー【極弐】
+  - base_name: アシュリー (costume: 極弐魔装)
+  - element=水(2) / type=戦斧(7) / rarity=S(3) / cv=優木かな
+  - max stats: HP=16070 / ATK=7950 / DEF=8580 / SPD=28 / BREAK=4400
+  - hit_counts=[6, 5, 10] (3段)  motion_speed=[4.5/4.5/1.7]  mp=258
+  - three_size=67/49/62 / initial_slot=4
+  - BD: アンニュイヴァンダリスト (arts_id=10346)
+    - description: 敵全体に超強力な39連ダメージ＆10秒だけ攻撃全体化
+    - cost=5 / hit_count=39 / value=2.53846 / additional_value=0.0
+  - innate skills (3):
+    - Attack Multiply ×1.75 — 水属性の魔剣の攻撃力が絶大にアップ
+    - SapphireDrop Multiply ×1.5 — 自分の獲得するサファイア量が少し増加
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`135601`](weapons.json#L148468) エヴァンス
+  - base_name: エヴァンス (costume: 魔装)
+  - element=水(2) / type=大鎌(12) / rarity=S(3) / cv=百田絵理花
+  - max stats: HP=10100 / ATK=2100 / DEF=5730 / SPD=45 / BREAK=573
+  - hit_counts=[13, 12, 16] (3段)  motion_speed=[3.0/3.0/1.0]  mp=191
+  - three_size=76/58/74 / initial_slot=2
+  - BD: 原始の海のスープと発狂 (arts_id=356)
+    - description: 敵全体に超絶強力な40連ダメージ＆1waveヒット数が+6
+    - cost=7 / hit_count=40 / value=4.6 / additional_value=0.0
+  - innate skills (3):
+    - Attack Multiply ×1.25 — 水属性の魔剣の攻撃力がかなりアップ
+    - Speed Multiply ×1.25 — 全属性の魔剣の行動速度がかなりアップ
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`135602`](weapons.json#L148644) エヴァンス【極】
+  - base_name: エヴァンス (costume: 極魔装)
+  - element=水(2) / type=大鎌(12) / rarity=S(3) / cv=百田絵理花
+  - max stats: HP=13130 / ATK=2730 / DEF=7450 / SPD=45 / BREAK=750
+  - hit_counts=[14, 12, 19] (3段)  motion_speed=[3.0/3.0/1.0]  mp=191
+  - three_size=76/58/74 / initial_slot=3
+  - BD: 原始の海のスープと発狂 (arts_id=356)
+    - description: 敵全体に超絶強力な40連ダメージ＆1waveヒット数が+6
+    - cost=7 / hit_count=40 / value=4.6 / additional_value=0.0
+  - innate skills (3):
+    - Attack Multiply ×1.5 — 水属性の魔剣の攻撃力が大幅にアップ
+    - Speed Multiply ×1.5 — 全属性の魔剣の行動速度が大幅にアップ
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`135603`](weapons.json#L148820) エヴァンス【極弐】
+  - base_name: エヴァンス (costume: 極弐魔装)
+  - element=水(2) / type=大鎌(12) / rarity=S(3) / cv=百田絵理花
+  - max stats: HP=17070 / ATK=3960 / DEF=9690 / SPD=48 / BREAK=980
+  - hit_counts=[15, 13, 19] (3段)  motion_speed=[2.2/2.2/1.3]  mp=211
+  - three_size=78/58/76 / initial_slot=4
+  - BD: 最古の命の坩堝と狂騒 (arts_id=10356)
+    - description: 敵全体に超絶強力な40連ダメージ＆1waveヒット数が+6
+    - cost=7 / hit_count=40 / value=4.6 / additional_value=0.0
+  - innate skills (3):
+    - Attack Multiply ×1.75 — 水属性の魔剣の攻撃力が絶大にアップ
+    - Speed Multiply ×1.5 — 全属性の魔剣の行動速度が大幅にアップ
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`135801`](weapons.json#L149467) サーペンテイン
+  - base_name: サーペンテイン (costume: 魔装)
+  - element=風(3) / type=弓矢(5) / rarity=S(3) / cv=鬼頭明里
+  - max stats: HP=9400 / ATK=7250 / DEF=4300 / SPD=30 / BREAK=400
+  - hit_counts=[4, 5, 6] (3段)  motion_speed=[4.0/4.0/2.0]  mp=230
+  - three_size=81/57/79 / initial_slot=2
+  - BD: サーペントサーヴァント (arts_id=358)
+    - description: 敵全体に超強力な42連ダメージ＆1waveヒット数が+3
+    - cost=4 / hit_count=42 / value=1.84286 / additional_value=0.0
+  - innate skills (2):
+    - Break_Attack Multiply ×2.0 — 自身が破損状態になると攻撃力がかなりアップ
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`135802`](weapons.json#L149624) サーペンテイン【極】
+  - base_name: サーペンテイン (costume: 極魔装)
+  - element=風(3) / type=弓矢(5) / rarity=S(3) / cv=鬼頭明里
+  - max stats: HP=12220 / ATK=9430 / DEF=5590 / SPD=30 / BREAK=520
+  - hit_counts=[5, 5, 9] (3段)  motion_speed=[4.0/4.0/2.0]  mp=230
+  - three_size=81/57/79 / initial_slot=3
+  - BD: サーペントサーヴァント (arts_id=358)
+    - description: 敵全体に超強力な42連ダメージ＆1waveヒット数が+3
+    - cost=4 / hit_count=42 / value=1.84286 / additional_value=0.0
+  - innate skills (2):
+    - Break_Attack Multiply ×2.5 — 自身が破損状態になると攻撃力が大幅にアップ
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`135803`](weapons.json#L149781) サーペンテイン【極弐】
+  - base_name: サーペンテイン (costume: 極弐魔装)
+  - element=風(3) / type=弓矢(5) / rarity=S(3) / cv=鬼頭明里
+  - max stats: HP=15890 / ATK=12260 / DEF=7270 / SPD=33 / BREAK=680
+  - hit_counts=[6, 6, 9] (3段)  motion_speed=[4.0/4.0/2.0]  mp=250
+  - three_size=81/57/79 / initial_slot=4
+  - BD: インビジブルインぺリアル (arts_id=10358)
+    - description: 敵全体に超強力な42連ダメージ＆1waveヒット数が+3
+    - cost=4 / hit_count=42 / value=1.84286 / additional_value=0.0
+  - innate skills (2):
+    - Break_Attack Multiply ×3.3 — 自身が破損状態になると攻撃力が絶大にアップ
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`135901`](weapons.json#L149938) ナイトメア
+  - base_name: ナイトメア (costume: 魔装)
+  - element=闇(5) / type=魔典(11) / rarity=AA(2) / cv=相良茉優
+  - max stats: HP=5500 / ATK=3050 / DEF=4500 / SPD=40 / BREAK=2000
+  - hit_counts=[3, 3, 5] (3段)  motion_speed=[3.0/3.0/2.0]  mp=72
+  - three_size=67/50/69 / initial_slot=2
+  - BD: 目覚めの悪い目覚まし時計 (arts_id=359)
+    - description: 敵全体に強力な24連ダメージ＆スピード30%UP
+    - cost=4 / hit_count=24 / value=2.6875 / additional_value=0.0
+  - innate skills (2):
+    - GuardDefense Multiply ×0.95 — 闇属性の魔剣のガード時の防御力がアップ
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`135902`](weapons.json#L150095) ナイトメア【極】
+  - base_name: ナイトメア (costume: 極魔装)
+  - element=闇(5) / type=魔典(11) / rarity=AA(2) / cv=相良茉優
+  - max stats: HP=7150 / ATK=3970 / DEF=5850 / SPD=40 / BREAK=2600
+  - hit_counts=[4, 3, 8] (3段)  motion_speed=[3.0/3.0/2.0]  mp=72
+  - three_size=67/50/69 / initial_slot=3
+  - BD: 目覚めの悪い目覚まし時計 (arts_id=359)
+    - description: 敵全体に強力な24連ダメージ＆スピード30%UP
+    - cost=4 / hit_count=24 / value=2.6875 / additional_value=0.0
+  - innate skills (2):
+    - GuardDefense Multiply ×0.875 — 闇属性の魔剣のガード時の防御力がかなりアップ
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`135903`](weapons.json#L150252) ナイトメア【極弐】
+  - base_name: ナイトメア (costume: 極弐魔装)
+  - element=闇(5) / type=魔典(11) / rarity=AA(2) / cv=相良茉優
+  - max stats: HP=9300 / ATK=6360 / DEF=7610 / SPD=44 / BREAK=3380
+  - hit_counts=[5, 4, 8] (3段)  motion_speed=[3.0/3.0/2.0]  mp=81
+  - three_size=70/51/70 / initial_slot=4
+  - BD: 夜明けの来ない新月の闇 (arts_id=10359)
+    - description: 敵全体に強力な24連ダメージ＆スピード30%UP
+    - cost=4 / hit_count=24 / value=2.6875 / additional_value=0.0
+  - innate skills (2):
+    - GuardDefense Multiply ×0.75 — 闇属性の魔剣のガード時の防御力が大幅にアップ
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`137901`](weapons.json#L156920) ダークオブダーク
+  - base_name: ダークオブダーク (costume: 魔装)
+  - element=闇(5) / type=投擲(9) / rarity=A(1) / cv=森永千才
+  - max stats: HP=3500 / ATK=2000 / DEF=1000 / SPD=18 / BREAK=300
+  - hit_counts=[1, 2, 3] (3段)  motion_speed=[4.0/4.0/1.0]  mp=122
+  - three_size=78/55/78 / initial_slot=1
+  - BD: コールオブダークネス (arts_id=379)
+    - description: 敵全体に6連ダメージ＆10秒スピード20%UP
+    - cost=4 / hit_count=6 / value=7.16667 / additional_value=0.0
+  - innate skills (2):
+    - MotionSpeed Multiply ×1.15 — 闇属性の魔剣の攻撃モーションが少し加速
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`137902`](weapons.json#L157077) ダークオブダーク【極】
+  - base_name: ダークオブダーク (costume: 極魔装)
+  - element=闇(5) / type=投擲(9) / rarity=A(1) / cv=森永千才
+  - max stats: HP=4550 / ATK=2600 / DEF=1300 / SPD=18 / BREAK=390
+  - hit_counts=[2, 2, 6] (3段)  motion_speed=[4.0/4.0/1.0]  mp=122
+  - three_size=78/55/78 / initial_slot=1
+  - BD: コールオブダークネス (arts_id=379)
+    - description: 敵全体に6連ダメージ＆10秒スピード20%UP
+    - cost=4 / hit_count=6 / value=7.16667 / additional_value=0.0
+  - innate skills (2):
+    - MotionSpeed Multiply ×1.15 — 闇属性の魔剣の攻撃モーションが少し加速
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`137903`](weapons.json#L157234) ダークオブダーク【極弐】
+  - base_name: ダークオブダーク (costume: 極弐魔装)
+  - element=闇(5) / type=投擲(9) / rarity=A(1) / cv=森永千才
+  - max stats: HP=5920 / ATK=4680 / DEF=1690 / SPD=21 / BREAK=510
+  - hit_counts=[3, 3, 6] (3段)  motion_speed=[3.0/4.0/1.2]  mp=136
+  - three_size=78/55/78 / initial_slot=3
+  - BD: フォーリントゥザダークネス (arts_id=10379)
+    - description: 敵全体に強力な6連ダメージ＆10秒スピード20%UP
+    - cost=4 / hit_count=6 / value=10.17 / additional_value=0.0
+  - innate skills (2):
+    - MotionSpeed Multiply ×1.3 — 闇属性の魔剣の攻撃モーションが加速
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`138001`](weapons.json#L157391) バスターソード
+  - base_name: バスターソード (costume: 魔装)
+  - element=光(4) / type=大剣(2) / rarity=A(1) / cv=礒部花凜
+  - max stats: HP=3200 / ATK=1800 / DEF=1500 / SPD=17 / BREAK=1000
+  - hit_counts=[1, 2, 3] (3段)  motion_speed=[3.0/3.0/1.0]  mp=150
+  - three_size=88/60/86 / initial_slot=1
+  - BD: ポリッシュバスター (arts_id=380)
+    - description: 敵全体に8連ダメージ＆攻撃力10%UP
+    - cost=5 / hit_count=8 / value=6.88 / additional_value=0.0
+  - innate skills (2):
+    - Attack Multiply ×1.05 — 光属性の魔剣の攻撃力が少しアップ
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`138002`](weapons.json#L157548) バスターソード【極】
+  - base_name: バスターソード (costume: 極魔装)
+  - element=光(4) / type=大剣(2) / rarity=A(1) / cv=礒部花凜
+  - max stats: HP=4160 / ATK=2340 / DEF=1950 / SPD=17 / BREAK=1300
+  - hit_counts=[2, 2, 6] (3段)  motion_speed=[3.0/3.0/1.0]  mp=150
+  - three_size=88/60/86 / initial_slot=1
+  - BD: ポリッシュバスター (arts_id=380)
+    - description: 敵全体に8連ダメージ＆攻撃力10%UP
+    - cost=5 / hit_count=8 / value=6.88 / additional_value=0.0
+  - innate skills (2):
+    - Attack Multiply ×1.05 — 光属性の魔剣の攻撃力が少しアップ
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`138003`](weapons.json#L157705) バスターソード【極弐】
+  - base_name: バスターソード (costume: 極弐魔装)
+  - element=光(4) / type=大剣(2) / rarity=A(1) / cv=礒部花凜
+  - max stats: HP=5410 / ATK=5150 / DEF=4680 / SPD=19 / BREAK=2860
+  - hit_counts=[3, 3, 6] (3段)  motion_speed=[3.0/3.0/1.0]  mp=165
+  - three_size=90/61/88 / initial_slot=3
+  - BD: フィニッシュスラッシャー (arts_id=10380)
+    - description: 敵全体に8連ダメージ＆攻撃力10%UP
+    - cost=5 / hit_count=8 / value=6.88 / additional_value=0.0
+  - innate skills (2):
+    - Attack Multiply ×1.1 — 光属性の魔剣の攻撃力がアップ
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`138101`](weapons.json#L157862) 禁忌指定書物
+  - base_name: 禁忌指定書物 (costume: 魔装)
+  - element=闇(5) / type=魔典(11) / rarity=A(1) / cv=長妻樹里
+  - max stats: HP=2700 / ATK=800 / DEF=1200 / SPD=19 / BREAK=700
+  - hit_counts=[2, 3, 5] (3段)  motion_speed=[4.0/4.0/1.0]  mp=110
+  - three_size=77/58/74 / initial_slot=1
+  - BD: 禁忌指定実験再現 (arts_id=381)
+    - description: 敵全体に8連ダメージ
+    - cost=2 / hit_count=8 / value=2.57 / additional_value=0.0
+  - innate skills (2):
+    - Attack Multiply ×1.05 — 闇属性の魔剣の攻撃力が少しアップ
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`138102`](weapons.json#L158006) 禁忌指定書物【極】
+  - base_name: 禁忌指定書物 (costume: 極魔装)
+  - element=闇(5) / type=魔典(11) / rarity=A(1) / cv=長妻樹里
+  - max stats: HP=3510 / ATK=1040 / DEF=1560 / SPD=19 / BREAK=910
+  - hit_counts=[3, 3, 8] (3段)  motion_speed=[4.0/4.0/1.0]  mp=110
+  - three_size=77/58/74 / initial_slot=1
+  - BD: 禁忌指定実験再現 (arts_id=381)
+    - description: 敵全体に8連ダメージ
+    - cost=2 / hit_count=8 / value=2.57 / additional_value=0.0
+  - innate skills (2):
+    - Attack Multiply ×1.05 — 闇属性の魔剣の攻撃力が少しアップ
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`138103`](weapons.json#L158150) 禁忌指定書物【極弐】
+  - base_name: 禁忌指定書物 (costume: 極弐魔装)
+  - element=闇(5) / type=魔典(11) / rarity=A(1) / cv=長妻樹里
+  - max stats: HP=7020 / ATK=2080 / DEF=3120 / SPD=22 / BREAK=1190
+  - hit_counts=[4, 4, 8] (3段)  motion_speed=[4.0/4.0/1.0]  mp=115
+  - three_size=77/58/74 / initial_slot=3
+  - BD: 続･禁忌指定解呪実験 (arts_id=10381)
+    - description: 敵全体に8連ダメージ＆敵を強制ブレイク
+    - cost=2 / hit_count=8 / value=2.57 / additional_value=0.0
+  - innate skills (2):
+    - Attack Multiply ×1.1 — 闇属性の魔剣の攻撃力がアップ
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`138501`](weapons.json#L159525) リヴィ・セイン
+  - base_name: リヴィ・セイン (costume: 魔装)
+  - element=火(1) / type=投擲(9) / rarity=S(3) / cv=古賀葵
+  - max stats: HP=8100 / ATK=3320 / DEF=4980 / SPD=31 / BREAK=2560
+  - hit_counts=[5, 7, 10] (3段)  motion_speed=[3.0/3.0/2.0]  mp=280
+  - three_size=79/54/78 / initial_slot=2
+  - BD: インセインリビング (arts_id=385)
+    - description: 敵全体に超絶強力な48連ダメージ＆3waveの間、味方の攻撃力･ﾓｰｼｮﾝ速度･ｽﾋﾟｰﾄﾞ･ﾌﾞﾚｲｸ力が3.5倍
+    - cost=8 / hit_count=48 / value=4.34 / additional_value=0.0
+  - innate skills (4):
+    - Wave_BlazeUP Addition +200.0 — Wave経過ごとにブレイズゲージがかなり回復する
+    - Speed Multiply ×1.1 — 火属性の魔剣の行動速度がアップ
+    - GuardBreak Multiply ×1.1 — 火属性の魔剣がガードブレイクしやすく
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`138502`](weapons.json#L159756) リヴィ・セイン【極】
+  - base_name: リヴィ・セイン (costume: 極魔装)
+  - element=火(1) / type=投擲(9) / rarity=S(3) / cv=古賀葵
+  - max stats: HP=10530 / ATK=4320 / DEF=6480 / SPD=31 / BREAK=3330
+  - hit_counts=[6, 7, 13] (3段)  motion_speed=[3.0/3.0/2.0]  mp=280
+  - three_size=79/54/78 / initial_slot=3
+  - BD: インセインリビング (arts_id=385)
+    - description: 敵全体に超絶強力な48連ダメージ＆3waveの間、味方の攻撃力･ﾓｰｼｮﾝ速度･ｽﾋﾟｰﾄﾞ･ﾌﾞﾚｲｸ力が3.5倍
+    - cost=8 / hit_count=48 / value=4.34 / additional_value=0.0
+  - innate skills (4):
+    - Wave_BlazeUP Addition +350.0 — Wave経過ごとにブレイズゲージが大幅に回復する
+    - Speed Multiply ×1.25 — 火属性の魔剣の行動速度がかなりアップ
+    - GuardBreak Multiply ×1.25 — 火属性の魔剣がかなりガードブレイクしやすく
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`138503`](weapons.json#L159987) リヴィ・セイン【極弐】
+  - base_name: リヴィ・セイン (costume: 極弐魔装)
+  - element=火(1) / type=投擲(9) / rarity=S(3) / cv=古賀葵
+  - max stats: HP=13690 / ATK=5620 / DEF=8430 / SPD=34 / BREAK=4330
+  - hit_counts=[7, 8, 13] (3段)  motion_speed=[3.0/3.0/1.9]  mp=308
+  - three_size=81/53/79 / initial_slot=4
+  - BD: アウトオブソードセンス (arts_id=10385)
+    - description: 敵全体に超絶強力な48連ダメージ＆3waveの間、味方の攻撃力･ﾓｰｼｮﾝ速度･ｽﾋﾟｰﾄﾞ･ﾌﾞﾚｲｸ力が7倍
+    - cost=8 / hit_count=48 / value=4.34 / additional_value=0.0
+  - innate skills (4):
+    - Wave_BlazeUP Addition +600.0 — Wave経過ごとにブレイズゲージが絶大に回復する
+    - Speed Multiply ×1.5 — 火属性の魔剣の行動速度が大幅にアップ
+    - GuardBreak Multiply ×1.5 — 火属性の魔剣が大幅にガードブレイクしやすく
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`138701`](weapons.json#L160218) スカーミリオネ
+  - base_name: スカーミリオネ (costume: 魔装)
+  - element=闇(5) / type=投擲(9) / rarity=S(3) / cv=加隈亜衣
+  - max stats: HP=6800 / ATK=3220 / DEF=5000 / SPD=28 / BREAK=300
+  - hit_counts=[2, 6, 9] (3段)  motion_speed=[2.0/1.5/1.0]  mp=150
+  - three_size=77/56/69 / initial_slot=1
+  - BD: 悶絶絶叫ヘヴン状態 (arts_id=387)
+    - description: 敵全体に超強力な38連ダメージ＆敵が数秒だけ動けなくなる
+    - cost=6 / hit_count=38 / value=2.94 / additional_value=0.0
+  - innate skills (2):
+    - MotionSpeed Multiply ×1.5 — 闇属性の魔剣の攻撃モーションがかなり加速
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`138702`](weapons.json#L160375) スカーミリオネ【極】
+  - base_name: スカーミリオネ (costume: 極魔装)
+  - element=闇(5) / type=投擲(9) / rarity=S(3) / cv=加隈亜衣
+  - max stats: HP=8840 / ATK=4190 / DEF=6500 / SPD=28 / BREAK=390
+  - hit_counts=[3, 6, 12] (3段)  motion_speed=[2.0/1.5/1.0]  mp=150
+  - three_size=77/56/69 / initial_slot=2
+  - BD: 悶絶絶叫ヘヴン状態 (arts_id=387)
+    - description: 敵全体に超強力な38連ダメージ＆敵が数秒だけ動けなくなる
+    - cost=6 / hit_count=38 / value=2.94 / additional_value=0.0
+  - innate skills (2):
+    - MotionSpeed Multiply ×2.0 — 闇属性の魔剣の攻撃モーションが大幅に加速
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`138703`](weapons.json#L160532) スカーミリオネ【極弐】
+  - base_name: スカーミリオネ (costume: 極弐魔装)
+  - element=闇(5) / type=投擲(9) / rarity=S(3) / cv=加隈亜衣
+  - max stats: HP=12820 / ATK=7130 / DEF=9430 / SPD=30 / BREAK=510
+  - hit_counts=[4, 7, 12] (3段)  motion_speed=[2.0/1.5/1.1]  mp=165
+  - three_size=77/56/69 / initial_slot=3
+  - BD: 絶･恍惚昇天ヘヴン状態 (arts_id=10387)
+    - description: 敵全体に超強力な38連ダメージ＆敵が数秒だけ動けなくなる
+    - cost=6 / hit_count=38 / value=2.94 / additional_value=0.0
+  - innate skills (2):
+    - MotionSpeed Multiply ×2.33 — 闇属性の魔剣の攻撃モーションが絶大に加速
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`139701`](weapons.json#L163653) フルムーン
+  - base_name: フルムーン (costume: 魔装)
+  - element=闇(5) / type=太刀(3) / rarity=S(3) / cv=本渡楓
+  - max stats: HP=10050 / ATK=3300 / DEF=5900 / SPD=37 / BREAK=3400
+  - hit_counts=[3, 4, 13] (3段)  motion_speed=[3.0/3.0/1.0]  mp=180
+  - three_size=69/57/70 / initial_slot=2
+  - BD: 天華満月《ルナティックロスト》 (arts_id=397)
+    - description: 敵全体に超強力な35連ダメージ＆敵が数秒だけ動けなくなる
+    - cost=6 / hit_count=35 / value=3.18857 / additional_value=0.0
+  - innate skills (2):
+    - BlazeAttack Multiply ×2.5 — 闇属性の魔剣のB.D.攻撃力が大幅にアップ
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`139702`](weapons.json#L163810) フルムーン【極】
+  - base_name: フルムーン (costume: 極魔装)
+  - element=闇(5) / type=太刀(3) / rarity=S(3) / cv=本渡楓
+  - max stats: HP=13070 / ATK=4290 / DEF=7670 / SPD=37 / BREAK=4420
+  - hit_counts=[4, 4, 16] (3段)  motion_speed=[3.0/3.0/1.0]  mp=180
+  - three_size=69/57/70 / initial_slot=3
+  - BD: 天華満月《ルナティックロスト》 (arts_id=397)
+    - description: 敵全体に超強力な35連ダメージ＆敵が数秒だけ動けなくなる
+    - cost=6 / hit_count=35 / value=3.18857 / additional_value=0.0
+  - innate skills (2):
+    - BlazeAttack Multiply ×3.0 — 闇属性の魔剣のB.D.攻撃力が絶大にアップ
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`139703`](weapons.json#L163967) フルムーン【極弐】
+  - base_name: フルムーン (costume: 極弐魔装)
+  - element=闇(5) / type=太刀(3) / rarity=S(3) / cv=本渡楓
+  - max stats: HP=16700 / ATK=5320 / DEF=9530 / SPD=43 / BREAK=5430
+  - hit_counts=[5, 5, 16] (3段)  motion_speed=[3.0/3.0/1.1]  mp=192
+  - three_size=69/57/71 / initial_slot=4
+  - BD: 絶華煌月《ルナティッククライシス》 (arts_id=10397)
+    - description: 敵全体に超強力な35連ダメージ＆敵が数秒だけ動けなくなる
+    - cost=6 / hit_count=35 / value=3.18857 / additional_value=0.0
+  - innate skills (3):
+    - BlazeAttack Multiply ×3.0 — 闇属性の魔剣のB.D.攻撃力が絶大にアップ
+    - SapphireDrop Multiply ×1.5 — 自分の獲得するサファイア量が少し増加
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`141201`](weapons.json#L169486) 天騎×夜祭
+  - base_name: 天騎×夜祭 (costume: 魔装)
+  - element=水(2) / type=長剣(1) / rarity=S(3) / cv=伊藤美来
+  - max stats: HP=9650 / ATK=3400 / DEF=4600 / SPD=28 / BREAK=2200
+  - hit_counts=[4, 8, 12] (3段)  motion_speed=[4.0/4.0/1.0]  mp=250
+  - three_size=74/57/78 / initial_slot=2
+  - BD: 反重力天騎霧葬陣 (arts_id=412)
+    - description: 敵全体に超強力な38連ダメージ＆一瞬だけスピード狂化
+    - cost=4 / hit_count=38 / value=2.03684 / additional_value=0.0
+  - innate skills (4):
+    - Attack Multiply ×1.25 — 水属性の魔剣の攻撃力がかなりアップ
+    - InstantDeath Repel_Percent ×50.0 — 即死特性の攻撃を確率で回避する
+    - MotionSpeed Multiply ×1.3 — 水属性の魔剣の攻撃モーションが加速
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`141202`](weapons.json#L169681) 天騎×夜祭【極】
+  - base_name: 天騎×夜祭 (costume: 極魔装)
+  - element=水(2) / type=長剣(1) / rarity=S(3) / cv=伊藤美来
+  - max stats: HP=12550 / ATK=4420 / DEF=5980 / SPD=28 / BREAK=2860
+  - hit_counts=[5, 8, 15] (3段)  motion_speed=[4.0/4.0/1.0]  mp=250
+  - three_size=74/57/78 / initial_slot=3
+  - BD: 反重力天騎霧葬陣 (arts_id=412)
+    - description: 敵全体に超強力な38連ダメージ＆一瞬だけスピード狂化
+    - cost=4 / hit_count=38 / value=2.03684 / additional_value=0.0
+  - innate skills (4):
+    - Attack Multiply ×1.5 — 水属性の魔剣の攻撃力が大幅にアップ
+    - InstantDeath Repel_Percent ×100.0 — 即死特性の攻撃を完全回避する
+    - MotionSpeed Multiply ×1.5 — 水属性の魔剣の攻撃モーションがかなり加速
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`141203`](weapons.json#L169876) 天騎×夜祭【極弐】
+  - base_name: 天騎×夜祭 (costume: 極弐魔装)
+  - element=水(2) / type=長剣(1) / rarity=S(3) / cv=伊藤美来
+  - max stats: HP=16320 / ATK=6410 / DEF=7780 / SPD=31 / BREAK=4440
+  - hit_counts=[6, 9, 15] (3段)  motion_speed=[3.0/2.8/1.0]  mp=275
+  - three_size=74/57/78 / initial_slot=4
+  - BD: 天騎霧縫･氷翔陣 (arts_id=10412)
+    - description: 敵全体に超強力な38連ダメージ＆一瞬だけスピード狂化
+    - cost=4 / hit_count=38 / value=2.03684 / additional_value=0.0
+  - innate skills (4):
+    - Attack Multiply ×1.75 — 水属性の魔剣の攻撃力が絶大にアップ
+    - InstantDeath Repel_Percent ×100.0 — 即死特性の攻撃を完全回避する
+    - MotionSpeed Multiply ×2.0 — 水属性の魔剣の攻撃モーションが大幅に加速
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`141401`](weapons.json#L170504) 流星刀
+  - base_name: 流星刀 (costume: 魔装)
+  - element=闇(5) / type=太刀(3) / rarity=AA(2) / cv=百田絵理花
+  - max stats: HP=4000 / ATK=4400 / DEF=5950 / SPD=36 / BREAK=1200
+  - hit_counts=[2, 2, 4] (3段)  motion_speed=[3.0/3.0/2.0]  mp=75
+  - three_size=へぇ/そう/すごいわね / initial_slot=2
+  - BD: 名前？勝手に決めていいわ (arts_id=414)
+    - description: 敵全体に強力な24連ダメージ＆敵を強制ブレイク
+    - cost=3 / hit_count=24 / value=2.2 / additional_value=0.0
+  - innate skills (2):
+    - Attack Multiply ×1.25 — 闇属性の魔剣の攻撃力がかなりアップ
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`141402`](weapons.json#L170661) 流星刀【極】
+  - base_name: 流星刀 (costume: 極魔装)
+  - element=闇(5) / type=太刀(3) / rarity=AA(2) / cv=百田絵理花
+  - max stats: HP=5200 / ATK=5720 / DEF=7740 / SPD=36 / BREAK=1560
+  - hit_counts=[3, 2, 7] (3段)  motion_speed=[3.0/3.0/2.0]  mp=75
+  - three_size=へぇ/そう/すごいわね / initial_slot=2
+  - BD: 名前？勝手に決めていいわ (arts_id=414)
+    - description: 敵全体に強力な24連ダメージ＆敵を強制ブレイク
+    - cost=3 / hit_count=24 / value=2.2 / additional_value=0.0
+  - innate skills (2):
+    - Attack Multiply ×1.5 — 闇属性の魔剣の攻撃力が大幅にアップ
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`141403`](weapons.json#L170818) 流星刀【極弐】
+  - base_name: 流星刀 (costume: 極弐魔装)
+  - element=闇(5) / type=太刀(3) / rarity=AA(2) / cv=百田絵理花
+  - max stats: HP=6760 / ATK=7440 / DEF=10070 / SPD=40 / BREAK=2030
+  - hit_counts=[4, 3, 7] (3段)  motion_speed=[3.5/3.5/1.5]  mp=85
+  - three_size=へぇ/そう/しらなかった / initial_slot=3
+  - BD: 残念だけれど、興味ないの (arts_id=10414)
+    - description: 敵全体に強力な24連ダメージ＆敵を強制ブレイク
+    - cost=3 / hit_count=24 / value=2.2 / additional_value=0.0
+  - innate skills (2):
+    - Attack Multiply ×1.75 — 闇属性の魔剣の攻撃力が絶大にアップ
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`141801`](weapons.json#L172174) ジャガーノート=ルナ
+  - base_name: ジャガーノート=ルナ (costume: 魔装)
+  - element=闇(5) / type=騎槍(8) / rarity=SS(4) / cv=三森すずこ
+  - max stats: HP=13050 / ATK=13800 / DEF=10750 / SPD=38 / BREAK=1560
+  - hit_counts=[5, 3, 9] (3段)  motion_speed=[4.0/4.0/1.0]  mp=380
+  - three_size=77/54/72 / initial_slot=3
+  - BD: L.U.N.A.C.Y. (arts_id=418)
+    - description: 敵全体に超絶強力な52連ダメージ＆味方HP回復
+    - cost=5 / hit_count=52 / value=3.5 / additional_value=0.0
+  - innate skills (5):
+    - Vitality_Attack Multiply ×2.25 — 残HPが多いほど攻撃力が絶大にアップ
+    - Attack Multiply ×1.74232 — 闇属性の魔剣の攻撃力が絶大にアップ【熟度UPにつれてさらに効果値UP】
+    - Vitality_Speed Multiply ×1.3 — 残HPが多いほどスピードがかなりアップ
+    - DamageLimitBreak Addition +1000000000.0 — 闇属性の魔剣のダメージ上限が10億アップ
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`141802`](weapons.json#L172388) ジャガーノート=ルナ【極】
+  - base_name: ジャガーノート=ルナ (costume: 極魔装)
+  - element=闇(5) / type=騎槍(8) / rarity=SS(4) / cv=三森すずこ
+  - max stats: HP=16970 / ATK=17940 / DEF=13980 / SPD=38 / BREAK=2030
+  - hit_counts=[6, 3, 12] (3段)  motion_speed=[4.0/4.0/1.0]  mp=380
+  - three_size=77/54/72 / initial_slot=4
+  - BD: L.U.N.A.C.Y. (arts_id=418)
+    - description: 敵全体に超絶強力な52連ダメージ＆味方HP回復
+    - cost=5 / hit_count=52 / value=3.5 / additional_value=0.0
+  - innate skills (5):
+    - Vitality_Attack Multiply ×2.55 — 残HPが多いほど攻撃力が超絶大にアップ
+    - Attack Multiply ×2.0 — 闇属性の魔剣の攻撃力が超絶大アップ【熟度UPにつれてさらに効果値UP】
+    - Vitality_Speed Multiply ×1.8 — 残HPが多いほどスピードが大幅にアップ
+    - DamageLimitBreak Addition +1000000000.0 — 闇属性の魔剣のダメージ上限が10億アップ
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`142101`](weapons.json#L173577) アロンダイト×マギ
+  - base_name: アロンダイト×マギ (costume: 魔装)
+  - element=火(1) / type=魔典(11) / rarity=S(3) / cv=上田麗奈
+  - max stats: HP=8800 / ATK=5130 / DEF=4550 / SPD=45 / BREAK=570
+  - hit_counts=[5, 8, 12] (3段)  motion_speed=[3.0/3.0/3.0]  mp=205
+  - three_size=72/53/72 / initial_slot=2
+  - BD: 摂氏500億度の劣情表現 (arts_id=421)
+    - description: 敵全体に超強力な44連ダメージ＆15秒攻撃全体化
+    - cost=5 / hit_count=44 / value=2.25 / additional_value=0.0
+  - innate skills (3):
+    - JustGuard_MinDamage Multiply ×0.07 — 火属性でジャストガード時に魔導バリアをかなり強化
+    - Attack Multiply ×1.25 — 火属性の魔剣の攻撃力がかなりアップ
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`142102`](weapons.json#L173753) アロンダイト×マギ【極】
+  - base_name: アロンダイト×マギ (costume: 極魔装)
+  - element=火(1) / type=魔典(11) / rarity=S(3) / cv=上田麗奈
+  - max stats: HP=11440 / ATK=6670 / DEF=5920 / SPD=45 / BREAK=750
+  - hit_counts=[6, 8, 15] (3段)  motion_speed=[3.0/3.0/3.0]  mp=205
+  - three_size=72/53/72 / initial_slot=3
+  - BD: 摂氏500億度の劣情表現 (arts_id=421)
+    - description: 敵全体に超強力な44連ダメージ＆15秒攻撃全体化
+    - cost=5 / hit_count=44 / value=2.25 / additional_value=0.0
+  - innate skills (3):
+    - JustGuard_MinDamage Multiply ×0.025 — 火属性でジャストガード時に魔導バリアを大幅に強化
+    - Attack Multiply ×1.5 — 火属性の魔剣の攻撃力が大幅にアップ
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`142201`](weapons.json#L173929) パイ＆シーズ=ハレ
+  - base_name: パイ＆シーズ=ハレ (costume: 魔装)
+  - element=火(1) / type=大剣(2) / rarity=SS(4) / cv=佳村はるか
+  - max stats: HP=12900 / ATK=24200 / DEF=8200 / SPD=31 / BREAK=900
+  - hit_counts=[4, 2, 6] (3段)  motion_speed=[3.0/3.0/3.0]  mp=480
+  - three_size=触って確かめて♪/56/76 / initial_slot=3
+  - BD: 冥双狂宴ハレ･ルヤ (arts_id=422)
+    - description: 敵全体に超絶強力な69連ダメージ＆15秒攻撃全体化(減無)
+    - cost=7 / hit_count=69 / value=2.7 / additional_value=0.0
+  - innate skills (5):
+    - RemHP_Attack Multiply ×2.25 — 残HPが少ないほど攻撃力が絶大にアップ
+    - GuardBreak Multiply ×1.5 — 火属性の魔剣が大幅にガードブレイクしやすく
+    - RemHP_Speed Multiply ×1.8 — 残HPが少ないほどスピードが大幅にアップ
+    - DamageLimitBreak Addition +2000000000.0 — 自身のダメージ上限が20億アップ
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`142202`](weapons.json#L174143) パイ＆シーズ=ハレ【極】
+  - base_name: パイ＆シーズ=ハレ (costume: 極魔装)
+  - element=火(1) / type=大剣(2) / rarity=SS(4) / cv=佳村はるか
+  - max stats: HP=16770 / ATK=31460 / DEF=10660 / SPD=31 / BREAK=1170
+  - hit_counts=[5, 2, 9] (3段)  motion_speed=[3.0/3.0/3.0]  mp=480
+  - three_size=触って確かめて♪/56/76 / initial_slot=4
+  - BD: 冥双狂宴ハレ･ルヤ (arts_id=422)
+    - description: 敵全体に超絶強力な69連ダメージ＆15秒攻撃全体化(減無)
+    - cost=7 / hit_count=69 / value=2.7 / additional_value=0.0
+  - innate skills (5):
+    - RemHP_Attack Multiply ×2.6 — 残HPが少ないほど攻撃力が超絶大にアップ
+    - GuardBreak Multiply ×1.75 — 火属性の魔剣が絶大にガードブレイクしやすく
+    - RemHP_Speed Multiply ×2.25 — 残HPが少ないほどスピードが絶大にアップ
+    - DamageLimitBreak Addition +2000000000.0 — 自身のダメージ上限が20億アップ
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`142301`](weapons.json#L174357) アマリリス×キス
+  - base_name: アマリリス×キス (costume: 魔装)
+  - element=風(3) / type=戦斧(7) / rarity=S(3) / cv=今村彩夏
+  - max stats: HP=9700 / ATK=6900 / DEF=6500 / SPD=37 / BREAK=1080
+  - hit_counts=[2, 4, 6] (3段)  motion_speed=[2.0/2.0/2.0]  mp=175
+  - three_size=61/55/68 / initial_slot=3
+  - BD: キスミーキスモア (arts_id=423)
+    - description: 敵全体に超強力な45連ダメージ＆数秒間攻撃力1.5倍
+    - cost=5 / hit_count=45 / value=2.2 / additional_value=0.0
+  - innate skills (4):
+    - Attack Multiply ×1.5 — 風属性の魔剣の攻撃力が大幅にアップ
+    - Raise Multiply ×0.5 — 戦闘不能になっても1度だけ破損状態で復活できる
+    - RubyDrop Multiply ×1.5 — 自分が攻撃した時のルビーの量が少し増加
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`142302`](weapons.json#L174552) アマリリス×キス【極】
+  - base_name: アマリリス×キス (costume: 極魔装)
+  - element=風(3) / type=戦斧(7) / rarity=S(3) / cv=今村彩夏
+  - max stats: HP=12610 / ATK=8970 / DEF=8450 / SPD=37 / BREAK=1410
+  - hit_counts=[3, 4, 9] (3段)  motion_speed=[2.0/2.0/2.0]  mp=175
+  - three_size=61/55/68 / initial_slot=4
+  - BD: キスミーキスモア (arts_id=423)
+    - description: 敵全体に超強力な45連ダメージ＆数秒間攻撃力1.5倍
+    - cost=5 / hit_count=45 / value=2.2 / additional_value=0.0
+  - innate skills (5):
+    - Attack Multiply ×1.75 — 風属性の魔剣の攻撃力が絶大にアップ
+    - Raise Multiply ×1.0 — 戦闘不能になっても1度だけ完全復活できる
+    - RubyDrop Multiply ×2.0 — 自分が攻撃した時のルビーの量がかなり増加
+    - DamageLimitBreak Addition +1000000000.0 — 自身のダメージ上限が10億アップ
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`142303`](weapons.json#L174766) アマリリス×キス【極弐】
+  - base_name: アマリリス×キス (costume: 極弐魔装)
+  - element=風(3) / type=戦斧(7) / rarity=S(3) / cv=今村彩夏
+  - max stats: HP=16400 / ATK=11670 / DEF=10990 / SPD=39 / BREAK=1840
+  - hit_counts=[4, 5, 9] (3段)  motion_speed=[2.0/2.0/1.2]  mp=191
+  - three_size=61/55/68 / initial_slot=5
+  - BD: キスユーライトナウ (arts_id=10423)
+    - description: 敵全体に超強力な45連ダメージ＆数秒間攻撃力1.5倍
+    - cost=5 / hit_count=45 / value=2.2 / additional_value=0.0
+  - innate skills (5):
+    - Attack Multiply ×1.74232 — 風属性の魔剣の攻撃力が絶大にアップ【熟度UPにつれてさらに効果値UP】
+    - Raise Multiply ×1.0 — 戦闘不能になっても1度だけ完全復活できる
+    - RubyDrop Multiply ×3.0 — 自分が攻撃した時のルビーの量が大幅に増加
+    - DamageLimitBreak Addition +1000000000.0 — 自身のダメージ上限が10億アップ
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`143001`](weapons.json#L177682) サイレントナイト
+  - base_name: サイレントナイト (costume: 魔装)
+  - element=火(1) / type=弓矢(5) / rarity=S(3) / cv=加隈亜衣
+  - max stats: HP=9650 / ATK=3100 / DEF=5700 / SPD=33 / BREAK=900
+  - hit_counts=[8, 9, 12] (3段)  motion_speed=[4.0/4.0/1.0]  mp=220
+  - three_size=80/58/85 / initial_slot=1
+  - BD: エバーラストサイレントナイト (arts_id=430)
+    - description: 敵全体に超強力な70連ダメージ＆数秒間敵が静かになる
+    - cost=8 / hit_count=70 / value=2.1 / additional_value=0.0
+  - innate skills (5):
+    - BlazeAttack Multiply ×2.0 — 火属性の魔剣のB.D.攻撃力がかなりアップ
+    - Defense Multiply ×1.1 — 火属性の魔剣の防御力がアップ
+    - HP Multiply ×1.1 — 火属性の魔剣のHPがアップ
+    - Speed Multiply ×1.1 — 火属性の魔剣の行動速度がアップ
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`143002`](weapons.json#L177896) サイレントナイト【極】
+  - base_name: サイレントナイト (costume: 極魔装)
+  - element=火(1) / type=弓矢(5) / rarity=S(3) / cv=加隈亜衣
+  - max stats: HP=12550 / ATK=4030 / DEF=7410 / SPD=33 / BREAK=1170
+  - hit_counts=[9, 9, 15] (3段)  motion_speed=[4.0/4.0/1.0]  mp=220
+  - three_size=80/58/85 / initial_slot=2
+  - BD: エバーラストサイレントナイト (arts_id=430)
+    - description: 敵全体に超強力な70連ダメージ＆数秒間敵が静かになる
+    - cost=8 / hit_count=70 / value=2.1 / additional_value=0.0
+  - innate skills (5):
+    - BlazeAttack Multiply ×2.5 — 火属性の魔剣のB.D.攻撃力が大幅にアップ
+    - Defense Multiply ×1.25 — 火属性の魔剣の防御力がかなりアップ
+    - HP Multiply ×1.25 — 火属性の魔剣のHPがかなりアップ
+    - Speed Multiply ×1.25 — 火属性の魔剣の行動速度がかなりアップ
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`143003`](weapons.json#L178110) サイレントナイト【極弐】
+  - base_name: サイレントナイト (costume: 極弐魔装)
+  - element=火(1) / type=弓矢(5) / rarity=S(3) / cv=加隈亜衣
+  - max stats: HP=16320 / ATK=5240 / DEF=9640 / SPD=35 / BREAK=1530
+  - hit_counts=[10, 10, 15] (3段)  motion_speed=[2.0/2.0/1.2]  mp=240
+  - three_size=83/58/86 / initial_slot=3
+  - BD: エコーリングリンガディンドン (arts_id=10430)
+    - description: 敵全体に超強力な70連ダメージ＆数秒間敵が静かになる
+    - cost=8 / hit_count=70 / value=2.1 / additional_value=0.0
+  - innate skills (5):
+    - BlazeAttack Multiply ×3.0 — 火属性の魔剣のB.D.攻撃力が絶大にアップ
+    - Defense Multiply ×1.5 — 火属性の魔剣の防御力が大幅にアップ
+    - HP Multiply ×1.5 — 火属性の魔剣のHPが大幅にアップ
+    - Speed Multiply ×1.5 — 火属性の魔剣の行動速度が大幅にアップ
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`144601`](weapons.json#L184627) ハイドランジア
+  - base_name: ハイドランジア (costume: 魔装)
+  - element=水(2) / type=戦斧(7) / rarity=S(3) / cv=安野希世乃
+  - max stats: HP=11000 / ATK=7600 / DEF=7300 / SPD=35 / BREAK=1350
+  - hit_counts=[2, 2, 5] (3段)  motion_speed=[2.0/2.0/1.0]  mp=220
+  - three_size=89/60/80 / initial_slot=2
+  - BD: レイニーガーデンアジサイハザード (arts_id=446)
+    - description: 敵全体に超強力な45連ダメージ＆20秒ブレイク力2倍
+    - cost=5 / hit_count=45 / value=2.2 / additional_value=0.0
+  - innate skills (3):
+    - SapphireDrop Multiply ×2.0 — 自分の獲得するサファイアの量がかなり増加
+    - BlazeAttack Multiply ×2.0 — 水属性の魔剣のB.D.攻撃力がかなりアップ
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`144602`](weapons.json#L184803) ハイドランジア【極】
+  - base_name: ハイドランジア (costume: 極魔装)
+  - element=水(2) / type=戦斧(7) / rarity=S(3) / cv=安野希世乃
+  - max stats: HP=14300 / ATK=9880 / DEF=9490 / SPD=35 / BREAK=1760
+  - hit_counts=[3, 2, 8] (3段)  motion_speed=[2.0/2.0/1.0]  mp=220
+  - three_size=89/60/80 / initial_slot=3
+  - BD: レイニーガーデンアジサイハザード (arts_id=446)
+    - description: 敵全体に超強力な45連ダメージ＆20秒ブレイク力2倍
+    - cost=5 / hit_count=45 / value=2.2 / additional_value=0.0
+  - innate skills (3):
+    - SapphireDrop Multiply ×3.0 — 自分の獲得するサファイアの量が大幅に増加
+    - BlazeAttack Multiply ×2.5 — 水属性の魔剣のB.D.攻撃力が大幅にアップ
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`144603`](weapons.json#L184979) ハイドランジア【極弐】
+  - base_name: ハイドランジア (costume: 極弐魔装)
+  - element=水(2) / type=戦斧(7) / rarity=S(3) / cv=安野希世乃
+  - max stats: HP=15730 / ATK=12850 / DEF=9970 / SPD=46 / BREAK=1850
+  - hit_counts=[4, 3, 8] (3段)  motion_speed=[3.0/2.0/2.0]  mp=249
+  - three_size=90/60/81 / initial_slot=4
+  - BD: ラグジュリアスエビルブルーム (arts_id=10446)
+    - description: 敵全体に超強力な45連ダメージ＆20秒ブレイク力2倍
+    - cost=5 / hit_count=45 / value=2.2 / additional_value=0.0
+  - innate skills (3):
+    - SapphireDrop Multiply ×3.0 — 自分の獲得するサファイアの量が大幅に増加
+    - BlazeAttack Multiply ×3.0 — 水属性の魔剣のB.D.攻撃力が絶大にアップ
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`144701`](weapons.json#L185155) ティンカーベル
+  - base_name: ティンカーベル (costume: 魔装)
+  - element=光(4) / type=弓矢(5) / rarity=S(3) / cv=木野日菜
+  - max stats: HP=8800 / ATK=6170 / DEF=6500 / SPD=42 / BREAK=2570
+  - hit_counts=[4, 5, 7] (3段)  motion_speed=[2.0/2.0/1.0]  mp=150
+  - three_size=68/56/70 / initial_slot=2
+  - BD: フェアリーテイルオーバーキル (arts_id=447)
+    - description: 敵全体に超強力な39連ダメージ＆10秒間サファイア量UP
+    - cost=6 / hit_count=39 / value=2.86154 / additional_value=0.0
+  - innate skills (2):
+    - Attack Multiply ×1.5 — 光属性の魔剣の攻撃力が大幅にアップ
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`144702`](weapons.json#L185312) ティンカーベル【極】
+  - base_name: ティンカーベル (costume: 極魔装)
+  - element=光(4) / type=弓矢(5) / rarity=S(3) / cv=木野日菜
+  - max stats: HP=11440 / ATK=8030 / DEF=8450 / SPD=42 / BREAK=3350
+  - hit_counts=[5, 5, 10] (3段)  motion_speed=[2.0/2.0/1.0]  mp=150
+  - three_size=68/56/70 / initial_slot=3
+  - BD: フェアリーテイルオーバーキル (arts_id=447)
+    - description: 敵全体に超強力な39連ダメージ＆10秒間サファイア量UP
+    - cost=6 / hit_count=39 / value=2.86154 / additional_value=0.0
+  - innate skills (2):
+    - Attack Multiply ×1.75 — 光属性の魔剣の攻撃力が絶大にアップ
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`144703`](weapons.json#L185469) ティンカーベル【極弐】
+  - base_name: ティンカーベル (costume: 極弐魔装)
+  - element=光(4) / type=弓矢(5) / rarity=S(3) / cv=木野日菜
+  - max stats: HP=14880 / ATK=10440 / DEF=10990 / SPD=44 / BREAK=4360
+  - hit_counts=[6, 6, 10] (3段)  motion_speed=[2.0/2.0/1.2]  mp=165
+  - three_size=68/56/70 / initial_slot=4
+  - BD: ネバーランドフェアリースパークル (arts_id=10447)
+    - description: 敵全体に超強力な39連ダメージ＆10秒間サファイア量UP
+    - cost=6 / hit_count=39 / value=2.86154 / additional_value=0.0
+  - innate skills (3):
+    - Attack Multiply ×1.75 — 光属性の魔剣の攻撃力が絶大にアップ
+    - MotionSpeed Multiply ×1.5 — 光属性の魔剣の攻撃モーションがかなり加速
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`145001`](weapons.json#L186468) ミルキーウェイ
+  - base_name: ミルキーウェイ (costume: 魔装)
+  - element=水(2) / type=大剣(2) / rarity=SS(4) / cv=田中あいみ
+  - max stats: HP=13070 / ATK=12480 / DEF=5920 / SPD=27 / BREAK=1800
+  - hit_counts=[7, 7, 7] (3段)  motion_speed=[2.0/2.0/1.2]  mp=329
+  - three_size=88/58/84 / initial_slot=2
+  - BD: 星天赫く七つの煌 (arts_id=450)
+    - description: 敵全体に超絶強力な62連ダメージ＆数秒間サファイア2倍
+    - cost=8 / hit_count=62 / value=3.5 / additional_value=0.0
+  - innate skills (5):
+    - Attack Multiply ×1.75 — 水属性の魔剣の攻撃力が絶大にアップ
+    - Speed Multiply ×1.25 — 水属性の魔剣の行動速度がかなりアップ
+    - RemHP_Attack Multiply ×1.8 — 水属性の味方全体が、残HPが少ないほど攻撃力が大幅にアップ
+    - DamageLimitBreak Addition +1000000000.0 — 水属性の魔剣のダメージ上限が10億アップ
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`145002`](weapons.json#L186682) ミルキーウェイ【極】
+  - base_name: ミルキーウェイ (costume: 極魔装)
+  - element=水(2) / type=大剣(2) / rarity=SS(4) / cv=田中あいみ
+  - max stats: HP=17000 / ATK=16230 / DEF=7700 / SPD=27 / BREAK=2340
+  - hit_counts=[8, 7, 10] (3段)  motion_speed=[2.0/2.0/1.2]  mp=329
+  - three_size=88/58/84 / initial_slot=3
+  - BD: 星天赫く七つの煌 (arts_id=450)
+    - description: 敵全体に超絶強力な62連ダメージ＆数秒間サファイア2倍
+    - cost=8 / hit_count=62 / value=3.5 / additional_value=0.0
+  - innate skills (5):
+    - Attack Multiply ×2.0 — 水属性の魔剣の攻撃力が超絶大アップ
+    - Speed Multiply ×1.5 — 水属性の魔剣の行動速度が大幅にアップ
+    - RemHP_Attack Multiply ×2.1 — 水属性の味方全体が、残HPが少ないほど攻撃力が絶大にアップ
+    - DamageLimitBreak Addition +1000000000.0 — 水属性の魔剣のダメージ上限が10億アップ
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`145301`](weapons.json#L187600) 災厄を照らす向日葵
+  - base_name: 災厄を照らす向日葵 (costume: 魔装)
+  - element=火(1) / type=戦斧(7) / rarity=SS(4) / cv=橋本ちなみ
+  - max stats: HP=9800 / ATK=10520 / DEF=7700 / SPD=32 / BREAK=1060
+  - hit_counts=[4, 6, 16] (3段)  motion_speed=[2.0/2.0/1.0]  mp=610
+  - three_size=76/56/75 / initial_slot=3
+  - BD: 千と一つの太陽の花 (arts_id=453)
+    - description: 敵全体に超強力な100連ダメージ＆数秒間スピード暴走
+    - cost=8 / hit_count=100 / value=2.0 / additional_value=0.0
+  - innate skills (5):
+    - Random_Attack Multiply ×2.5 — 全ての攻撃で絶大ダメージが発動（2.5倍）
+    - Attack Multiply ×1.74232 — 火属性の魔剣の攻撃力が絶大にアップ【熟度UPにつれてさらに効果値UP】
+    - BlazeAbsorb Repel_Percent ×50.0 — 勇気分解の発生を確率で回避する
+    - DamageLimitBreak Addition +2000000000.0 — 自身のダメージ上限が20億アップ
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`145302`](weapons.json#L187814) 災厄を照らす向日葵【極】
+  - base_name: 災厄を照らす向日葵 (costume: 極魔装)
+  - element=火(1) / type=戦斧(7) / rarity=SS(4) / cv=橋本ちなみ
+  - max stats: HP=12740 / ATK=13670 / DEF=10010 / SPD=32 / BREAK=1380
+  - hit_counts=[5, 6, 19] (3段)  motion_speed=[2.0/2.0/1.0]  mp=610
+  - three_size=76/56/75 / initial_slot=4
+  - BD: 千と一つの太陽の花 (arts_id=453)
+    - description: 敵全体に超強力な100連ダメージ＆数秒間スピード暴走
+    - cost=8 / hit_count=100 / value=2.0 / additional_value=0.0
+  - innate skills (5):
+    - Random_Attack Multiply ×2.5 — 全ての攻撃で絶大ダメージが発動（2.5倍）
+    - Attack Multiply ×2.0 — 火属性の魔剣の攻撃力が超絶大アップ【熟度UPにつれてさらに効果値UP】
+    - BlazeAbsorb Repel_Percent ×100.0 — 勇気分解の発生を完全回避する
+    - DamageLimitBreak Addition +2000000000.0 — 自身のダメージ上限が20億アップ
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`145901`](weapons.json#L189945) カタストロフ=エリス
+  - base_name: カタストロフ=エリス (costume: 魔装)
+  - element=闇(5) / type=杖棒(4) / rarity=SS(4) / cv=久野美咲
+  - max stats: HP=12000 / ATK=14000 / DEF=6300 / SPD=27 / BREAK=3800
+  - hit_counts=[6, 4, 10] (3段)  motion_speed=[1.6/1.7/1.0]  mp=510
+  - three_size=64/50/64 / initial_slot=3
+  - BD: ディスコルディアの黒い林檎 (arts_id=459)
+    - description: 敵全体に超強力な52連ダメージ＆自分HP回復
+    - cost=7 / hit_count=52 / value=2.94 / additional_value=0.0
+  - innate skills (5):
+    - Attack Multiply ×1.75 — 全属性の魔剣の攻撃力が絶大にアップ
+    - InstantDeath Repel_Percent ×50.0 — 即死特性の攻撃を確率で回避する
+    - MotionSpeed Multiply ×2.0 — 杖棒の魔剣の攻撃モーションが2倍に加速
+    - DamageLimitBreak Addition +2000000000.0 — 自身のダメージ上限が20億アップ
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`145902`](weapons.json#L190159) カタストロフ=エリス【極】
+  - base_name: カタストロフ=エリス (costume: 極魔装)
+  - element=闇(5) / type=杖棒(4) / rarity=SS(4) / cv=久野美咲
+  - max stats: HP=15600 / ATK=18200 / DEF=8190 / SPD=27 / BREAK=4940
+  - hit_counts=[7, 4, 13] (3段)  motion_speed=[1.6/1.7/1.0]  mp=510
+  - three_size=64/50/64 / initial_slot=4
+  - BD: ディスコルディアの黒い林檎 (arts_id=459)
+    - description: 敵全体に超強力な52連ダメージ＆自分HP回復
+    - cost=7 / hit_count=52 / value=2.94 / additional_value=0.0
+  - innate skills (5):
+    - Attack Multiply ×2.0 — 全属性の魔剣の攻撃力が超絶大アップ
+    - InstantDeath Repel_Percent ×100.0 — 即死特性の攻撃を完全回避する
+    - MotionSpeed Multiply ×2.0 — 杖棒の魔剣の攻撃モーションが2倍に加速
+    - DamageLimitBreak Addition +2000000000.0 — 自身のダメージ上限が20億アップ
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`146101`](weapons.json#L190763) ノートゥング
+  - base_name: ノートゥング (costume: 魔装)
+  - element=無(6) / type=大剣(2) / rarity=SS(4) / cv=花守ゆみり
+  - max stats: HP=12500 / ATK=12000 / DEF=11000 / SPD=38 / BREAK=1800
+  - hit_counts=[4, 8, 12] (3段)  motion_speed=[2.0/1.6/1.2]  mp=610
+  - three_size=84/57/87 / initial_slot=3
+  - BD: 恋愛世界カワイイハセイギ (arts_id=461)
+    - description: 敵全体に超絶強力な70連ダメージ＆30秒ﾓｰｼｮﾝ30%高速化
+    - cost=8 / hit_count=70 / value=3.0 / additional_value=0.0
+  - innate skills (5):
+    - Random_Attack Multiply ×10.0 — 66.6%の確率で攻撃力が10倍になる
+    - Vitality_Attack Multiply ×2.25 — 残HPが多いほど攻撃力が絶大にアップ
+    - HitCount Addition +2.0 — 全属性の魔剣の1撃目2撃目3撃目のヒット数を+2する
+    - DamageLimitBreak Addition +2000000000.0 — 自身のダメージ上限が20億アップ
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`146102`](weapons.json#L190977) ノートゥング【極】
+  - base_name: ノートゥング (costume: 極魔装)
+  - element=無(6) / type=大剣(2) / rarity=SS(4) / cv=花守ゆみり
+  - max stats: HP=16250 / ATK=15600 / DEF=14300 / SPD=38 / BREAK=2340
+  - hit_counts=[5, 8, 15] (3段)  motion_speed=[2.0/1.6/1.2]  mp=610
+  - three_size=84/57/87 / initial_slot=4
+  - BD: 恋愛世界カワイイハセイギ (arts_id=461)
+    - description: 敵全体に超絶強力な70連ダメージ＆30秒ﾓｰｼｮﾝ30%高速化
+    - cost=8 / hit_count=70 / value=3.0 / additional_value=0.0
+  - innate skills (5):
+    - Random_Attack Multiply ×10.0 — 66.6%の確率で攻撃力が10倍になる
+    - Vitality_Attack Multiply ×2.55 — 残HPが多いほど攻撃力が超絶大にアップ
+    - HitCount Addition +2.0 — 全属性の魔剣の1撃目2撃目3撃目のヒット数を+2する
+    - DamageLimitBreak Addition +2000000000.0 — 自身のダメージ上限が20億アップ
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`147001`](weapons.json#L194278) グラーシーザ=オーガ
+  - base_name: グラーシーザ=オーガ (costume: 魔装)
+  - element=風(3) / type=大剣(2) / rarity=SS(4) / cv=佐藤利奈
+  - max stats: HP=10000 / ATK=13500 / DEF=12200 / SPD=35 / BREAK=20000
+  - hit_counts=[2, 1, 3] (3段)  motion_speed=[2.5/1.8/1.2]  mp=342
+  - three_size=96/59/89 / initial_slot=2
+  - BD: 絶鬼天舞《上質で豊かな破壊の為に》 (arts_id=470)
+    - description: 敵全体に超絶強力な60連ダメージ＆10秒間ヒット数が+3
+    - cost=7 / hit_count=60 / value=3.1 / additional_value=0.0
+  - innate skills (6):
+    - Attack Multiply ×1.74232 — 風属性の魔剣の攻撃力が絶大にアップ【熟度UPにつれてさらに効果値UP】
+    - Attack Multiply ×1.74232 — 火属性の魔剣の攻撃力が絶大にアップ【熟度UPにつれてさらに効果値UP】
+    - MotionSpeed Multiply ×2.33 — 風属性の魔剣の攻撃モーションが絶大に加速
+    - MotionSpeed Multiply ×2.33 — 火属性の魔剣の攻撃モーションが絶大に加速
+    - HitCount Addition +2.0 — 全属性の魔剣の1撃目2撃目3撃目のヒット数を+2する
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`147002`](weapons.json#L194511) グラーシーザ=オーガ【極】
+  - base_name: グラーシーザ=オーガ (costume: 極魔装)
+  - element=風(3) / type=大剣(2) / rarity=SS(4) / cv=佐藤利奈
+  - max stats: HP=15000 / ATK=18300 / DEF=18300 / SPD=35 / BREAK=25000
+  - hit_counts=[3, 2, 8] (3段)  motion_speed=[2.5/1.8/1.2]  mp=342
+  - three_size=96/59/89 / initial_slot=3
+  - BD: 絶鬼天舞《上質で豊かな破壊の為に》 (arts_id=470)
+    - description: 敵全体に超絶強力な60連ダメージ＆10秒間ヒット数が+3
+    - cost=7 / hit_count=60 / value=3.1 / additional_value=0.0
+  - innate skills (6):
+    - Attack Multiply ×2.0 — 風属性の魔剣の攻撃力が超絶大アップ【熟度UPにつれてさらに効果値UP】
+    - Attack Multiply ×2.0 — 火属性の魔剣の攻撃力が超絶大アップ【熟度UPにつれてさらに効果値UP】
+    - MotionSpeed Multiply ×2.66 — 風属性の魔剣の攻撃モーションが超絶大に加速
+    - MotionSpeed Multiply ×2.66 — 火属性の魔剣の攻撃モーションが超絶大に加速
+    - HitCount Addition +2.0 — 全属性の魔剣の1撃目2撃目3撃目のヒット数を+2する
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`147601`](weapons.json#L196785) カオス
+  - base_name: カオス (costume: 魔装)
+  - element=無(6) / type=連弩(6) / rarity=SS(4) / cv=釘宮理恵
+  - max stats: HP=10100 / ATK=13270 / DEF=12450 / SPD=42 / BREAK=1300
+  - hit_counts=[3, 6, 10] (3段)  motion_speed=[2.5/2.5/1.5]  mp=100
+  - three_size=74/58/76 / initial_slot=3
+  - BD: 天籟に咲け、遊堕に香る混沌の華 (arts_id=476)
+    - description: 敵全体に超絶強力な15連ダメージ＆1waveの間、味方の攻撃力とﾓｰｼｮﾝ速度13倍＆13秒間自身3000ずつHP回復
+    - cost=1 / hit_count=15 / value=1.8 / additional_value=0.0
+  - innate skills (4):
+    - Vitality_Attack Multiply ×2.25 — 残HPが多いほど攻撃力が絶大にアップ
+    - MotionSpeed Multiply ×2.325 — 全属性の魔剣の攻撃モーションが絶大に加速【熟度UPにつれてさらに効果値UP】
+    - DamageLimitBreak Addition +2000000000.0 — 自身のダメージ上限が20億アップ
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`147602`](weapons.json#L197004) カオス【極】
+  - base_name: カオス (costume: 極魔装)
+  - element=無(6) / type=連弩(6) / rarity=SS(4) / cv=釘宮理恵
+  - max stats: HP=13650 / ATK=17560 / DEF=16320 / SPD=42 / BREAK=1690
+  - hit_counts=[4, 6, 13] (3段)  motion_speed=[2.5/2.5/1.5]  mp=100
+  - three_size=74/58/76 / initial_slot=4
+  - BD: 天籟に咲け、遊堕に香る混沌の華 (arts_id=476)
+    - description: 敵全体に超絶強力な15連ダメージ＆1waveの間、味方の攻撃力とﾓｰｼｮﾝ速度13倍＆13秒間自身3000ずつHP回復
+    - cost=1 / hit_count=15 / value=1.8 / additional_value=0.0
+  - innate skills (5):
+    - Vitality_Attack Multiply ×2.55 — 残HPが多いほど攻撃力が超絶大にアップ
+    - MotionSpeed Multiply ×2.652 — 全属性の魔剣の攻撃モーションが超絶大に加速【熟度UPにつれてさらに効果値UP】
+    - BlazeGauge Addition +100.0 — バトル開始時にブレイズゲージが上昇する(1ゲージ)
+    - DamageLimitBreak Addition +2000000000.0 — 自身のダメージ上限が20億アップ
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`148001`](weapons.json#L198631) カドゥケウス
+  - base_name: カドゥケウス (costume: 魔装)
+  - element=水(2) / type=杖棒(4) / rarity=SS(4) / cv=藤田茜
+  - max stats: HP=9000 / ATK=16500 / DEF=9000 / SPD=60 / BREAK=9000
+  - hit_counts=[2, 2, 2] (3段)  motion_speed=[4.0/4.0/4.0]  mp=680
+  - three_size=72/55/73 / initial_slot=2
+  - BD: ケリュケイオンの銀色水源 (arts_id=480)
+    - description: 敵全体に超絶強力な60連ダメージ＆数秒だけﾓｰｼｮﾝ2倍高速化
+    - cost=9 / hit_count=60 / value=5.0 / additional_value=0.0
+  - innate skills (5):
+    - BlazeAttack Multiply ×2.989 — 水属性の魔剣のB.D.攻撃力が絶大にアップ【熟度UPにつれてさらに効果値UP】
+    - Attack Multiply ×1.5 — 水属性の魔剣の攻撃力が大幅にアップ
+    - DamageLimitBreak Addition +1500000000.0 — 水属性の魔剣のダメージ上限が15億アップ
+    - BlazeGauge Addition +200.0 — バトル開始時にブレイズゲージが上昇する(2ゲージ)
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`148002`](weapons.json#L198845) カドゥケウス【極】
+  - base_name: カドゥケウス (costume: 極魔装)
+  - element=水(2) / type=杖棒(4) / rarity=SS(4) / cv=藤田茜
+  - max stats: HP=11700 / ATK=21450 / DEF=11700 / SPD=75 / BREAK=11700
+  - hit_counts=[3, 2, 3] (3段)  motion_speed=[4.0/4.0/4.0]  mp=680
+  - three_size=72/55/73 / initial_slot=3
+  - BD: ケリュケイオンの銀色水源 (arts_id=480)
+    - description: 敵全体に超絶強力な60連ダメージ＆数秒だけﾓｰｼｮﾝ2倍高速化
+    - cost=9 / hit_count=60 / value=5.0 / additional_value=0.0
+  - innate skills (5):
+    - BlazeAttack Multiply ×3.4847 — 水属性の魔剣のB.D.攻撃力が超絶大にアップ【熟度UPにつれてさらに効果値UP】
+    - Attack Multiply ×1.75 — 水属性の魔剣の攻撃力が絶大にアップ
+    - DamageLimitBreak Addition +1500000000.0 — 水属性の魔剣のダメージ上限が15億アップ
+    - BlazeGauge Addition +200.0 — バトル開始時にブレイズゲージが上昇する(2ゲージ)
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`148601`](weapons.json#L200991) ノートゥング=ウル
+  - base_name: ノートゥング=ウル (costume: 魔装)
+  - element=火(1) / type=投擲(9) / rarity=SS(4) / cv=花守ゆみり
+  - max stats: HP=14700 / ATK=10500 / DEF=13500 / SPD=27 / BREAK=2666
+  - hit_counts=[5, 5, 9] (3段)  motion_speed=[2.0/2.0/1.5]  mp=510
+  - three_size=91/59/86 / initial_slot=3
+  - BD: 暴蝕世界トータルエクリプス (arts_id=486)
+    - description: 敵全体に超絶強力な38連ダメージ＆10秒間ヒット数が+6
+    - cost=8 / hit_count=38 / value=5.53 / additional_value=0.0
+  - innate skills (5):
+    - MotionSpeed Multiply ×2.0 — 全属性の魔剣の攻撃モーションが大幅に加速
+    - BlazeAttack Multiply ×2.5 — 全属性の魔剣のB.D.攻撃力が大幅にアップ
+    - HitCount Addition +3.0 — 投擲の魔剣の1撃目2撃目3撃目のヒット数を+3する
+    - DamageLimitBreak Addition +2000000000.0 — 自身のダメージ上限が20億アップ
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`148602`](weapons.json#L201205) ノートゥング=ウル【極】
+  - base_name: ノートゥング=ウル (costume: 極魔装)
+  - element=火(1) / type=投擲(9) / rarity=SS(4) / cv=花守ゆみり
+  - max stats: HP=22100 / ATK=13650 / DEF=17550 / SPD=27 / BREAK=3470
+  - hit_counts=[6, 5, 12] (3段)  motion_speed=[2.0/2.0/1.5]  mp=510
+  - three_size=91/59/86 / initial_slot=4
+  - BD: 暴蝕世界トータルエクリプス (arts_id=486)
+    - description: 敵全体に超絶強力な38連ダメージ＆10秒間ヒット数が+6
+    - cost=8 / hit_count=38 / value=5.53 / additional_value=0.0
+  - innate skills (5):
+    - MotionSpeed Multiply ×2.33 — 全属性の魔剣の攻撃モーションが絶大に加速
+    - BlazeAttack Multiply ×3.0 — 全属性の魔剣のB.D.攻撃力が絶大にアップ
+    - HitCount Addition +3.0 — 投擲の魔剣の1撃目2撃目3撃目のヒット数を+3する
+    - DamageLimitBreak Addition +2000000000.0 — 自身のダメージ上限が20億アップ
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`148901`](weapons.json#L202199) イミティション=アリス
+  - base_name: イミティション=アリス (costume: 魔装)
+  - element=光(4) / type=大剣(2) / rarity=SS(4) / cv=天海由梨奈
+  - max stats: HP=12000 / ATK=20000 / DEF=15000 / SPD=27 / BREAK=800
+  - hit_counts=[4, 4, 7] (3段)  motion_speed=[2.2/2.0/1.5]  mp=800
+  - three_size=捨てられたいのか貴様？ / initial_slot=3
+  - BD: 完全摸倣ワンダーランド (arts_id=489)
+    - description: 敵全体に終焉を齎す88連ダメージ＆＆数秒だけスピード狂化
+    - cost=5 / hit_count=88 / value=20.0 / additional_value=0.0
+  - innate skills (5):
+    - BlazeAttack Multiply ×13.0 — 全属性の魔剣のB.D.攻撃力が13倍
+    - Attack Multiply ×1.74232 — 全属性の魔剣の攻撃力が絶大にアップ【熟度UPにつれてさらに効果値UP】
+    - Attack Multiply ×13.0 — 大剣の魔剣の攻撃力が13倍
+    - DamageLimitBreak Addition +2000000000.0 — 自身のダメージ上限が20億アップ
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`148902`](weapons.json#L202413) イミティション=アリス【極】
+  - base_name: イミティション=アリス (costume: 極魔装)
+  - element=光(4) / type=大剣(2) / rarity=SS(4) / cv=天海由梨奈
+  - max stats: HP=15600 / ATK=26000 / DEF=19500 / SPD=27 / BREAK=1040
+  - hit_counts=[5, 4, 10] (3段)  motion_speed=[2.2/2.0/1.5]  mp=800
+  - three_size=捨てられたいのか貴様？ / initial_slot=4
+  - BD: 完全摸倣ワンダーランド (arts_id=489)
+    - description: 敵全体に終焉を齎す88連ダメージ＆＆数秒だけスピード狂化
+    - cost=5 / hit_count=88 / value=20.0 / additional_value=0.0
+  - innate skills (5):
+    - BlazeAttack Multiply ×13.0 — 全属性の魔剣のB.D.攻撃力が13倍
+    - Attack Multiply ×2.0 — 全属性の魔剣の攻撃力が超絶大アップ【熟度UPにつれてさらに効果値UP】
+    - Attack Multiply ×13.0 — 大剣の魔剣の攻撃力が13倍
+    - DamageLimitBreak Addition +2000000000.0 — 自身のダメージ上限が20億アップ
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`149301`](weapons.json#L203602) 天冥杖ハデス
+  - base_name: 天冥杖ハデス (costume: 魔装)
+  - element=無(6) / type=杖棒(4) / rarity=SS(4) / cv=大野柚布子
+  - max stats: HP=12600 / ATK=17200 / DEF=12000 / SPD=30 / BREAK=2700
+  - hit_counts=[3, 3, 7] (3段)  motion_speed=[3.0/2.5/1.0]  mp=444
+  - three_size=60/48/66 / initial_slot=3
+  - BD: ザクロとミントの四季再誕 (arts_id=492)
+    - description: 敵全体に超強力な44連ダメージ＆数秒だけ攻撃力44%UP
+    - cost=4 / hit_count=44 / value=1.75 / additional_value=0.0
+  - innate skills (5):
+    - JobExp Multiply ×2.0 — 味方全体の獲得ソウル経験値が絶大にアップ
+    - Attack Multiply ×1.25 — 全属性の魔剣の攻撃力がかなりアップ
+    - Break_Attack Multiply ×2.5 — 自身が破損状態になると攻撃力が大幅にアップ
+    - DamageLimitBreak Addition +1000000000.0 — 全属性の魔剣のダメージ上限が10億アップ
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`149302`](weapons.json#L203816) 天冥杖ハデス【極】
+  - base_name: 天冥杖ハデス (costume: 極魔装)
+  - element=無(6) / type=杖棒(4) / rarity=SS(4) / cv=大野柚布子
+  - max stats: HP=16380 / ATK=22360 / DEF=15600 / SPD=30 / BREAK=3510
+  - hit_counts=[4, 3, 10] (3段)  motion_speed=[3.0/2.5/1.0]  mp=444
+  - three_size=60/48/66 / initial_slot=4
+  - BD: ザクロとミントの四季再誕 (arts_id=492)
+    - description: 敵全体に超強力な44連ダメージ＆数秒だけ攻撃力44%UP
+    - cost=4 / hit_count=44 / value=1.75 / additional_value=0.0
+  - innate skills (5):
+    - JobExp Multiply ×2.0 — 味方全体の獲得ソウル経験値が絶大にアップ
+    - Attack Multiply ×1.5 — 全属性の魔剣の攻撃力が大幅にアップ
+    - Break_Attack Multiply ×3.3 — 自身が破損状態になると攻撃力が絶大にアップ
+    - DamageLimitBreak Addition +1000000000.0 — 全属性の魔剣のダメージ上限が10億アップ
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`149601`](weapons.json#L204872) ケリュネイア=ルディ
+  - base_name: ケリュネイア=ルディ (costume: 魔装)
+  - element=火(1) / type=杖棒(4) / rarity=SS(4) / cv=本泉莉奈
+  - max stats: HP=13500 / ATK=16000 / DEF=8000 / SPD=27 / BREAK=900
+  - hit_counts=[2, 4, 11] (3段)  motion_speed=[1.8/1.8/1.8]  mp=600
+  - three_size=92/59/82 / initial_slot=2
+  - BD: 聖夜燦燎クリュソス･フォティア (arts_id=496)
+    - description: 敵全体に超絶強力な55連ダメージ＆wave中、味方の攻撃力とﾓｰｼｮﾝ速度とスピードが30倍
+    - cost=8 / hit_count=55 / value=5.0 / additional_value=0.0
+  - innate skills (3):
+    - Attack Multiply ×1.75 — 火属性の魔剣の攻撃力が絶大にアップ
+    - MotionSpeed Multiply ×2.325 — 火属性の魔剣の攻撃モーションが絶大に加速【熟度UPにつれてさらに効果値UP】
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`149602`](weapons.json#L205072) ケリュネイア=ルディ【極】
+  - base_name: ケリュネイア=ルディ (costume: 極魔装)
+  - element=火(1) / type=杖棒(4) / rarity=SS(4) / cv=本泉莉奈
+  - max stats: HP=17550 / ATK=20800 / DEF=10400 / SPD=27 / BREAK=1170
+  - hit_counts=[3, 4, 14] (3段)  motion_speed=[1.8/1.8/1.8]  mp=600
+  - three_size=92/59/82 / initial_slot=3
+  - BD: 聖夜燦燎クリュソス･フォティア (arts_id=496)
+    - description: 敵全体に超絶強力な55連ダメージ＆wave中、味方の攻撃力とﾓｰｼｮﾝ速度とスピードが30倍
+    - cost=8 / hit_count=55 / value=5.0 / additional_value=0.0
+  - innate skills (3):
+    - Attack Multiply ×2.0 — 火属性の魔剣の攻撃力が超絶大アップ
+    - MotionSpeed Multiply ×2.652 — 火属性の魔剣の攻撃モーションが超絶大に加速【熟度UPにつれてさらに効果値UP】
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`150501`](weapons.json#L208825) 金髪のイゾルデ
+  - base_name: 金髪のイゾルデ (costume: 魔装)
+  - element=光(4) / type=拳闘(10) / rarity=SS(4) / cv=ファイルーズあい
+  - max stats: HP=11000 / ATK=19800 / DEF=8000 / SPD=36 / BREAK=3800
+  - hit_counts=[3, 4, 6] (3段)  motion_speed=[3.0/3.0/1.2]  mp=865
+  - three_size=75/55/79 / initial_slot=3
+  - BD: 終劇 -Platinum Marionette- (arts_id=505)
+    - description: 敵全体に超絶強力な48連ダメージ＆数秒だけﾓｰｼｮﾝ50%高速化
+    - cost=8 / hit_count=48 / value=4.375 / additional_value=0.0
+  - innate skills (6):
+    - Defense Multiply ×0.7 — 堕落を誘う言葉で、全属性の魔剣の防御力ダウン
+    - Attack Multiply ×2.5 — 苦しみの表情を力に変えて、自身の攻撃力が超絶大アップ
+    - MotionSpeed Multiply ×2.325 — 光属性の魔剣の攻撃モーションが絶大に加速【熟度UPにつれてさらに効果値UP】
+    - Attack Multiply ×1.25 — 光属性の魔剣の攻撃力がかなりアップ
+    - DamageLimitBreak Addition +2000000000.0 — 自身のダメージ上限が20億アップ
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`150502`](weapons.json#L209058) 金髪のイゾルデ【極】
+  - base_name: 金髪のイゾルデ (costume: 極魔装)
+  - element=光(4) / type=拳闘(10) / rarity=SS(4) / cv=ファイルーズあい
+  - max stats: HP=14300 / ATK=25740 / DEF=10400 / SPD=36 / BREAK=4940
+  - hit_counts=[4, 4, 9] (3段)  motion_speed=[3.0/3.0/1.2]  mp=865
+  - three_size=75/55/79 / initial_slot=4
+  - BD: 終劇 -Platinum Marionette- (arts_id=505)
+    - description: 敵全体に超絶強力な48連ダメージ＆数秒だけﾓｰｼｮﾝ50%高速化
+    - cost=8 / hit_count=48 / value=4.375 / additional_value=0.0
+  - innate skills (6):
+    - Defense Multiply ×0.7 — 堕落を誘う言葉で、全属性の魔剣の防御力ダウン
+    - Attack Multiply ×2.5 — 苦しみの表情を力に変えて、自身の攻撃力が超絶大アップ
+    - MotionSpeed Multiply ×2.652 — 光属性の魔剣の攻撃モーションが超絶大に加速【熟度UPにつれてさらに効果値UP】
+    - Attack Multiply ×1.5 — 光属性の魔剣の攻撃力が大幅にアップ
+    - DamageLimitBreak Addition +2000000000.0 — 自身のダメージ上限が20億アップ
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`151001`](weapons.json#L210951) バハムート=ミラ=ロスト
+  - base_name: バハムート=ミラ=ロスト (costume: 魔装)
+  - element=光(4) / type=大剣(2) / rarity=SS(4) / cv=竹達彩奈
+  - max stats: HP=13200 / ATK=13500 / DEF=10500 / SPD=40 / BREAK=999
+  - hit_counts=[5, 5, 6] (3段)  motion_speed=[1.0/1.8/1.1]  mp=560
+  - three_size=71/53/68 / initial_slot=3
+  - BD: 名前なんてどーでもいいでしょ？ (arts_id=510)
+    - description: 敵全体に超絶強力な13連ダメージ＆10秒だけ攻撃力2倍
+    - cost=7 / hit_count=13 / value=14.0 / additional_value=0.0
+  - innate skills (6):
+    - Attack Multiply ×2.0 — 自身の攻撃力が超絶大アップ【熟度UPにつれてさらに効果値が大幅UP】
+    - MotionSpeed Multiply ×2.66 — 自身の攻撃モーションが超絶大に加速【熟度UPにつれてさらに効果値が大幅UP】
+    - Speed Multiply ×4.0 — 大剣の魔剣の行動速度が4倍にアップ
+    - Enemy_BreakAttack Multiply ×4.0 — ブレイク時に大剣の魔剣の攻撃力が4倍アップ
+    - DamageLimitBreak Addition +2000000000.0 — 自身のダメージ上限が20億アップ
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`151002`](weapons.json#L211184) バハムート=ミラ=ロスト【極】
+  - base_name: バハムート=ミラ=ロスト (costume: 極魔装)
+  - element=光(4) / type=大剣(2) / rarity=SS(4) / cv=竹達彩奈
+  - max stats: HP=17160 / ATK=17550 / DEF=13650 / SPD=40 / BREAK=1300
+  - hit_counts=[6, 5, 9] (3段)  motion_speed=[1.0/1.8/1.1]  mp=560
+  - three_size=71/53/68 / initial_slot=4
+  - BD: 名前なんてどーでもいいでしょ？ (arts_id=510)
+    - description: 敵全体に超絶強力な13連ダメージ＆10秒だけ攻撃力2倍
+    - cost=7 / hit_count=13 / value=14.0 / additional_value=0.0
+  - innate skills (6):
+    - Attack Multiply ×2.0 — 自身の攻撃力が超絶大アップ【熟度UPにつれてさらに効果値が大幅UP】
+    - MotionSpeed Multiply ×2.66 — 自身の攻撃モーションが超絶大に加速【熟度UPにつれてさらに効果値が大幅UP】
+    - Speed Multiply ×4.0 — 大剣の魔剣の行動速度が4倍にアップ
+    - Enemy_BreakAttack Multiply ×4.0 — ブレイク時に大剣の魔剣の攻撃力が4倍アップ
+    - DamageLimitBreak Addition +2000000000.0 — 自身のダメージ上限が20億アップ
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`151101`](weapons.json#L211417) エクセルシヌス=メアリー
+  - base_name: エクセルシヌス=メアリー (costume: 魔装)
+  - element=火(1) / type=大鎌(12) / rarity=SS(4) / cv=高柳知葉
+  - max stats: HP=6000 / ATK=27000 / DEF=11000 / SPD=25 / BREAK=800
+  - hit_counts=[2, 4, 8] (3段)  motion_speed=[2.0/2.0/1.2]  mp=1000
+  - three_size=74/59/76 / initial_slot=3
+  - BD: 遍くを喰らえ偽証の晩餐 (arts_id=511)
+    - description: 敵全体に超絶強力な50連ダメージ＆味方HP回復
+    - cost=5 / hit_count=50 / value=6.5 / additional_value=0.0
+  - innate skills (5):
+    - Attack Multiply ×1.74232 — 火属性の魔剣の攻撃力が絶大にアップ【熟度UPにつれてさらに効果値UP】
+    - Random_Attack Multiply ×1.5 — 一定の割合で大ダメージが発動
+    - Vitality_Attack Multiply ×2.25 — 残HPが多いほど攻撃力が絶大にアップ
+    - DamageLimitBreak Addition +1000000000.0 — 火属性の魔剣のダメージ上限が10億アップ
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`151102`](weapons.json#L211631) エクセルシヌス=メアリー【極】
+  - base_name: エクセルシヌス=メアリー (costume: 極魔装)
+  - element=火(1) / type=大鎌(12) / rarity=SS(4) / cv=高柳知葉
+  - max stats: HP=7800 / ATK=35100 / DEF=14300 / SPD=25 / BREAK=1040
+  - hit_counts=[3, 4, 11] (3段)  motion_speed=[2.0/2.0/1.2]  mp=1000
+  - three_size=74/59/76 / initial_slot=4
+  - BD: 遍くを喰らえ偽証の晩餐 (arts_id=511)
+    - description: 敵全体に超絶強力な50連ダメージ＆味方HP回復
+    - cost=5 / hit_count=50 / value=6.5 / additional_value=0.0
+  - innate skills (5):
+    - Attack Multiply ×2.0 — 火属性の魔剣の攻撃力が超絶大アップ【熟度UPにつれてさらに効果値UP】
+    - Random_Attack Multiply ×1.5 — かなりの割合で大ダメージが発動
+    - Vitality_Attack Multiply ×2.55 — 残HPが多いほど攻撃力が超絶大にアップ
+    - DamageLimitBreak Addition +1000000000.0 — 火属性の魔剣のダメージ上限が10億アップ
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`152001`](weapons.json#L215004) 天槍カシウス
+  - base_name: 天槍カシウス (costume: 魔装)
+  - element=光(4) / type=連弩(6) / rarity=SS(4) / cv=丸岡和佳奈
+  - max stats: HP=8000 / ATK=11000 / DEF=11000 / SPD=45 / BREAK=1700
+  - hit_counts=[3, 8, 15] (3段)  motion_speed=[2.0/2.0/1.2]  mp=540
+  - three_size=62/53/71 / initial_slot=2
+  - BD: 神罪執行《ペネトレイトエクスキューション》 (arts_id=520)
+    - description: 敵全体に超絶強力な20連ダメージ＆10秒だけ攻撃力2倍＆10秒間自身にBlazeLock
+    - cost=5 / hit_count=20 / value=7.0 / additional_value=0.0
+  - innate skills (6):
+    - Attack Multiply ×13.0 — 連弩の魔剣の攻撃力が13倍アップ
+    - Attack Multiply ×13.0 — 太刀の魔剣の攻撃力が13倍アップ
+    - Attack Multiply ×13.0 — 弓矢の魔剣の攻撃力が13倍アップ
+    - BlazeAttack Multiply ×2.5 — 全属性の魔剣のB.D.攻撃力が大幅にアップ
+    - MotionSpeed Multiply ×2.0 — 全属性の魔剣の攻撃モーションが大幅に加速
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`152002`](weapons.json#L215249) 天槍カシウス【極】
+  - base_name: 天槍カシウス (costume: 極魔装)
+  - element=光(4) / type=連弩(6) / rarity=SS(4) / cv=丸岡和佳奈
+  - max stats: HP=10400 / ATK=14300 / DEF=14300 / SPD=45 / BREAK=2210
+  - hit_counts=[4, 8, 18] (3段)  motion_speed=[2.0/2.0/1.2]  mp=540
+  - three_size=62/53/71 / initial_slot=3
+  - BD: 神罪執行《ペネトレイトエクスキューション》 (arts_id=520)
+    - description: 敵全体に超絶強力な20連ダメージ＆10秒だけ攻撃力2倍＆10秒間自身にBlazeLock
+    - cost=5 / hit_count=20 / value=7.0 / additional_value=0.0
+  - innate skills (6):
+    - Attack Multiply ×13.0 — 連弩の魔剣の攻撃力が13倍アップ
+    - Attack Multiply ×13.0 — 太刀の魔剣の攻撃力が13倍アップ
+    - Attack Multiply ×13.0 — 弓矢の魔剣の攻撃力が13倍アップ
+    - BlazeAttack Multiply ×3.0 — 全属性の魔剣のB.D.攻撃力が絶大にアップ
+    - MotionSpeed Multiply ×2.33 — 全属性の魔剣の攻撃モーションが絶大に加速
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`152101`](weapons.json#L215494) 天冥槍ペルセポネ
+  - base_name: 天冥槍ペルセポネ (costume: 魔装)
+  - element=無(6) / type=騎槍(8) / rarity=SS(4) / cv=大野柚布子
+  - max stats: HP=14040 / ATK=11650 / DEF=6880 / SPD=34 / BREAK=1600
+  - hit_counts=[4, 5, 13] (3段)  motion_speed=[2.0/1.3/1.3]  mp=484
+  - three_size=67/53/71 / initial_slot=3
+  - BD: 禍罪降ろす審理のスイセン (arts_id=521)
+    - description: 敵全体に超絶強力な49連ダメージ＆罪を使い切り、数秒だけサファイア量が通常に戻る
+    - cost=9 / hit_count=49 / value=5.57143 / additional_value=0.0
+  - innate skills (6):
+    - MotionSpeed Multiply ×2.325 — 無属性の魔剣の攻撃モーションが絶大に加速【熟度UPにつれてさらに効果値UP】
+    - Speed Multiply ×1.5 — 無属性の魔剣の行動速度が大幅にアップ
+    - Attack Multiply ×2.5 — 自身の攻撃力が超絶大アップ
+    - SapphireDrop Multiply ×0.4 — 罪の重さで味方のサファイア量が大幅に減少
+    - DamageLimitBreak Addition +2000000000.0 — 自身のダメージ上限が20億アップ
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`152102`](weapons.json#L215727) 天冥槍ペルセポネ【極】
+  - base_name: 天冥槍ペルセポネ (costume: 極魔装)
+  - element=無(6) / type=騎槍(8) / rarity=SS(4) / cv=大野柚布子
+  - max stats: HP=18260 / ATK=15150 / DEF=8950 / SPD=34 / BREAK=2080
+  - hit_counts=[5, 5, 16] (3段)  motion_speed=[2.0/1.3/1.3]  mp=484
+  - three_size=67/53/71 / initial_slot=4
+  - BD: 禍罪降ろす審理のスイセン (arts_id=521)
+    - description: 敵全体に超絶強力な49連ダメージ＆罪を使い切り、数秒だけサファイア量が通常に戻る
+    - cost=9 / hit_count=49 / value=5.57143 / additional_value=0.0
+  - innate skills (6):
+    - MotionSpeed Multiply ×2.652 — 無属性の魔剣の攻撃モーションが超絶大に加速【熟度UPにつれてさらに効果値UP】
+    - Speed Multiply ×1.75 — 無属性の魔剣の行動速度が絶大にアップ
+    - Attack Multiply ×2.5 — 自身の攻撃力が超絶大アップ
+    - SapphireDrop Multiply ×0.4 — 罪の重さで味方のサファイア量が大幅に減少
+    - DamageLimitBreak Addition +2000000000.0 — 自身のダメージ上限が20億アップ
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`152301`](weapons.json#L216350) ジャガーノート=ロスト
+  - base_name: ジャガーノート=ロスト (costume: 魔装)
+  - element=光(4) / type=戦斧(7) / rarity=SS(4) / cv=三森すずこ
+  - max stats: HP=9800 / ATK=22000 / DEF=9700 / SPD=32 / BREAK=5000
+  - hit_counts=[3, 3, 10] (3段)  motion_speed=[3.0/2.0/1.0]  mp=420
+  - three_size=61/51/69 / initial_slot=3
+  - BD: カルネイジサルヴェイション (arts_id=523)
+    - description: 敵全体に超強力な72連ダメージ＆数秒間サファイア2倍
+    - cost=7 / hit_count=72 / value=2.6 / additional_value=0.0
+  - innate skills (6):
+    - Attack Multiply ×2.0 — 全属性の魔剣の攻撃力が超絶大アップ【熟度UPにつれてさらに効果値が大幅UP】
+    - MotionSpeed Multiply ×2.66 — 自身の攻撃モーションが超絶大に加速【熟度UPにつれてさらに効果値が大幅UP】
+    - HitCount Addition +6.0 — 戦斧の魔剣の1撃目2撃目3撃目のヒット数を+6する
+    - Enemy_BreakAttack Multiply ×4.0 — ブレイク時に戦斧の魔剣の攻撃力が4倍アップ
+    - DamageLimitBreak Addition +1500000000.0 — 自身のダメージ上限が15億アップ
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`152302`](weapons.json#L216583) ジャガーノート=ロスト【極】
+  - base_name: ジャガーノート=ロスト (costume: 極魔装)
+  - element=光(4) / type=戦斧(7) / rarity=SS(4) / cv=三森すずこ
+  - max stats: HP=12740 / ATK=28600 / DEF=12610 / SPD=32 / BREAK=6500
+  - hit_counts=[4, 3, 13] (3段)  motion_speed=[3.0/2.0/1.0]  mp=420
+  - three_size=61/51/69 / initial_slot=4
+  - BD: カルネイジサルヴェイション (arts_id=523)
+    - description: 敵全体に超強力な72連ダメージ＆数秒間サファイア2倍
+    - cost=7 / hit_count=72 / value=2.6 / additional_value=0.0
+  - innate skills (6):
+    - Attack Multiply ×2.0 — 全属性の魔剣の攻撃力が超絶大アップ【熟度UPにつれてさらに効果値が大幅UP】
+    - MotionSpeed Multiply ×2.66 — 自身の攻撃モーションが超絶大に加速【熟度UPにつれてさらに効果値が大幅UP】
+    - HitCount Addition +6.0 — 戦斧の魔剣の1撃目2撃目3撃目のヒット数を+6する
+    - Enemy_BreakAttack Multiply ×4.0 — ブレイク時に戦斧の魔剣の攻撃力が4倍アップ
+    - DamageLimitBreak Addition +1500000000.0 — 自身のダメージ上限が15億アップ
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`152401`](weapons.json#L216816) グレイプニル=ロスト
+  - base_name: グレイプニル=ロスト (costume: 魔装)
+  - element=風(3) / type=大剣(2) / rarity=SS(4) / cv=本渡楓
+  - max stats: HP=16000 / ATK=13000 / DEF=9200 / SPD=39 / BREAK=400
+  - hit_counts=[5, 3, 12] (3段)  motion_speed=[2.0/2.0/1.0]  mp=650
+  - three_size=72/56/76 / initial_slot=3
+  - BD: 天狼神鎖《蒼月世界》 (arts_id=524)
+    - description: 敵全体に超強力な27連ダメージ＆30秒攻撃力30%UP
+    - cost=7 / hit_count=27 / value=6.8 / additional_value=0.0
+  - innate skills (9):
+    - Attack Multiply ×2.0 — 自身の攻撃力が超絶大アップ【熟度UPにつれてさらに効果値が大幅UP】
+    - MotionSpeed Multiply ×2.66 — 自身の攻撃モーションが超絶大に加速【熟度UPにつれてさらに効果値が大幅UP】
+    - HitCount Addition +13.0 — 自身の1撃目2撃目3撃目のヒット数を+13する
+    - RemHP_Attack Multiply ×2.25 — 残HPが少ないほど攻撃力が絶大にアップ
+    - InstantDeath Repel_Percent ×50.0 — 即死特性の攻撃を確率で回避する
+    - BlazeAbsorb Repel_Percent ×50.0 — 勇気分解の発生を確率で回避する
+    - Stun Repel_Percent ×50.0 — スタンの発生を確率で回避する
+    - Mez Repel_Percent ×50.0 — 麻痺の発生を確率で回避する
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`152402`](weapons.json#L217106) グレイプニル=ロスト【極】
+  - base_name: グレイプニル=ロスト (costume: 極魔装)
+  - element=風(3) / type=大剣(2) / rarity=SS(4) / cv=本渡楓
+  - max stats: HP=20800 / ATK=16900 / DEF=11960 / SPD=39 / BREAK=520
+  - hit_counts=[6, 3, 15] (3段)  motion_speed=[2.0/2.0/1.0]  mp=650
+  - three_size=72/56/76 / initial_slot=4
+  - BD: 天狼神鎖《蒼月世界》 (arts_id=524)
+    - description: 敵全体に超強力な27連ダメージ＆30秒攻撃力30%UP
+    - cost=7 / hit_count=27 / value=6.8 / additional_value=0.0
+  - innate skills (9):
+    - Attack Multiply ×2.0 — 自身の攻撃力が超絶大アップ【熟度UPにつれてさらに効果値が大幅UP】
+    - MotionSpeed Multiply ×2.66 — 自身の攻撃モーションが超絶大に加速【熟度UPにつれてさらに効果値が大幅UP】
+    - HitCount Addition +13.0 — 自身の1撃目2撃目3撃目のヒット数を+13する
+    - RemHP_Attack Multiply ×2.6 — 残HPが少ないほど攻撃力が超絶大にアップ
+    - InstantDeath Repel_Percent ×100.0 — 即死特性の攻撃を完全回避する
+    - BlazeAbsorb Repel_Percent ×100.0 — 勇気分解の発生を完全回避する
+    - Stun Repel_Percent ×100.0 — スタンの発生を完全回避する
+    - Mez Repel_Percent ×100.0 — 麻痺の発生を完全回避する
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`152701`](weapons.json#L218450) 禁式･三日月宗近=月影
+  - base_name: 禁式･三日月宗近=月影 (costume: 魔装)
+  - element=水(2) / type=太刀(3) / rarity=SS(4) / cv=奥野香耶
+  - max stats: HP=11000 / ATK=21400 / DEF=7000 / SPD=21 / BREAK=700
+  - hit_counts=[3, 3, 8] (3段)  motion_speed=[2.0/2.0/1.2]  mp=627
+  - three_size=78/58/79 / initial_slot=2
+  - BD: 滅宵･烈苛月輪【酷薄】 (arts_id=527)
+    - description: 敵全体に超絶強力な45連ダメージ＆wave中、スピード1.5倍
+    - cost=8 / hit_count=45 / value=4.66667 / additional_value=0.0
+  - innate skills (5):
+    - Attack Multiply ×13.0 — 太刀の魔剣の攻撃力が13倍
+    - Attack Multiply ×1.75 — 全属性の魔剣の攻撃力が絶大にアップ
+    - HP Multiply ×1.5 — 全属性の魔剣のHPが大幅にアップ
+    - InstantDeath Repel_Percent ×50.0 — 即死特性の攻撃を確率で回避する
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`152702`](weapons.json#L218664) 禁式･三日月宗近=月影【極】
+  - base_name: 禁式･三日月宗近=月影 (costume: 極魔装)
+  - element=水(2) / type=太刀(3) / rarity=SS(4) / cv=奥野香耶
+  - max stats: HP=14300 / ATK=27820 / DEF=9100 / SPD=21 / BREAK=910
+  - hit_counts=[4, 3, 11] (3段)  motion_speed=[2.0/2.0/1.2]  mp=627
+  - three_size=78/58/79 / initial_slot=3
+  - BD: 滅宵･烈苛月輪【酷薄】 (arts_id=527)
+    - description: 敵全体に超絶強力な45連ダメージ＆wave中、スピード1.5倍
+    - cost=8 / hit_count=45 / value=4.66667 / additional_value=0.0
+  - innate skills (5):
+    - Attack Multiply ×13.0 — 太刀の魔剣の攻撃力が13倍
+    - Attack Multiply ×2.0 — 全属性の魔剣の攻撃力が超絶大アップ
+    - HP Multiply ×1.75 — 全属性の魔剣のHPが絶大にアップ
+    - InstantDeath Repel_Percent ×100.0 — 即死特性の攻撃を完全回避する
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`153201`](weapons.json#L220286) サフィンの篝火
+  - base_name: サフィンの篝火 (costume: 魔装)
+  - element=火(1) / type=弓矢(5) / rarity=SS(4) / cv=首藤志奈
+  - max stats: HP=11000 / ATK=15000 / DEF=7500 / SPD=31 / BREAK=2300
+  - hit_counts=[4, 5, 7] (3段)  motion_speed=[2.0/2.0/1.0]  mp=600
+  - three_size=70/55/67 / initial_slot=2
+  - BD: 融解領域エフェメラルボーダー (arts_id=532)
+    - description: 敵全体に超強力な30連ダメージ＆敵を強制ブレイク
+    - cost=6 / hit_count=30 / value=4.34 / additional_value=0.0
+  - innate skills (7):
+    - RemHP_Attack Multiply ×2.1 — 火属性の味方全体が、残HPが少ないほど攻撃力が絶大にアップ
+    - Attack Multiply ×1.5 — 火属性の魔剣の攻撃力が大幅にアップ
+    - Speed Multiply ×1.5 — 火属性の魔剣の行動速度が大幅にアップ
+    - Vitality_Speed Multiply ×0.005 — 自身の行動速度が超絶大にダウン
+    - RemHP_Speed Multiply ×2.25 — 残HPが少ないほど行動速度が超絶大にアップ(最大2.25倍)
+    - DamageLimitBreak Addition +1000000000.0 — 火属性の魔剣のダメージ上限が10億アップ
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`153202`](weapons.json#L220538) サフィンの篝火【極】
+  - base_name: サフィンの篝火 (costume: 極魔装)
+  - element=火(1) / type=弓矢(5) / rarity=SS(4) / cv=首藤志奈
+  - max stats: HP=15000 / ATK=20000 / DEF=10000 / SPD=31 / BREAK=3000
+  - hit_counts=[5, 5, 10] (3段)  motion_speed=[2.0/2.0/1.0]  mp=600
+  - three_size=70/55/67 / initial_slot=3
+  - BD: 融解領域エフェメラルボーダー (arts_id=532)
+    - description: 敵全体に超強力な30連ダメージ＆敵を強制ブレイク
+    - cost=6 / hit_count=30 / value=4.34 / additional_value=0.0
+  - innate skills (7):
+    - RemHP_Attack Multiply ×2.4 — 火属性の味方全体が、残HPが少ないほど攻撃力が超絶大にアップ
+    - Attack Multiply ×1.75 — 火属性の魔剣の攻撃力が絶大にアップ
+    - Speed Multiply ×1.75 — 火属性の魔剣の行動速度が絶大にアップ
+    - Vitality_Speed Multiply ×0.005 — 自身の行動速度が超絶大にダウン
+    - RemHP_Speed Multiply ×2.25 — 残HPが少ないほど行動速度が超絶大にアップ(最大2.25倍)
+    - DamageLimitBreak Addition +1000000000.0 — 火属性の魔剣のダメージ上限が10億アップ
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`153701`](weapons.json#L222312) 禁式･大典太光世=燐華
+  - base_name: 禁式･大典太光世=燐華 (costume: 魔装)
+  - element=光(4) / type=太刀(3) / rarity=SS(4) / cv=大空直美
+  - max stats: HP=15600 / ATK=12000 / DEF=9000 / SPD=37 / BREAK=600
+  - hit_counts=[4, 4, 8] (3段)  motion_speed=[2.0/2.0/1.2]  mp=860
+  - three_size=76/54/76 / initial_slot=2
+  - BD: 霊水揺蕩う楽語り (arts_id=537)
+    - description: 敵全体に超絶強力な54連ダメージ＆数秒だけ攻撃力2.5倍
+    - cost=8 / hit_count=54 / value=3.88889 / additional_value=0.0
+  - innate skills (5):
+    - Vitality_Attack Multiply ×2.0 — 光属性の味方全体が、残HPが多いほど攻撃力が絶大にアップ
+    - Vitality_Defense Multiply ×1.5 — 光属性の味方全体が、残HPが多いほど防御力がかなりアップ
+    - Heal Addition +500.0 — 味方全体が、非行動時にHPが徐々に大回復
+    - DamageLimitBreak Addition +1000000000.0 — 光属性の魔剣のダメージ上限が10億アップ
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`153702`](weapons.json#L222526) 禁式･大典太光世=燐華【極】
+  - base_name: 禁式･大典太光世=燐華 (costume: 極魔装)
+  - element=光(4) / type=太刀(3) / rarity=SS(4) / cv=大空直美
+  - max stats: HP=20280 / ATK=15600 / DEF=11700 / SPD=37 / BREAK=780
+  - hit_counts=[5, 4, 11] (3段)  motion_speed=[2.0/2.0/1.2]  mp=860
+  - three_size=76/54/76 / initial_slot=3
+  - BD: 霊水揺蕩う楽語り (arts_id=537)
+    - description: 敵全体に超絶強力な54連ダメージ＆数秒だけ攻撃力2.5倍
+    - cost=8 / hit_count=54 / value=3.88889 / additional_value=0.0
+  - innate skills (5):
+    - Vitality_Attack Multiply ×2.3 — 光属性の味方全体が、残HPが多いほど攻撃力が超絶大にアップ
+    - Vitality_Defense Multiply ×1.7 — 光属性の味方全体が、残HPが多いほど防御力が大幅にアップ
+    - Heal Addition +500.0 — 味方全体が、非行動時にHPが徐々に大回復
+    - DamageLimitBreak Addition +1000000000.0 — 光属性の魔剣のダメージ上限が10億アップ
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`154201`](weapons.json#L224338) レヴァンテイン=ロスト
+  - base_name: レヴァンテイン=ロスト (costume: 魔装)
+  - element=無(6) / type=投擲(9) / rarity=SS(4) / cv=綾瀬有
+  - max stats: HP=12200 / ATK=14700 / DEF=6000 / SPD=33 / BREAK=3300
+  - hit_counts=[4, 6, 8] (3段)  motion_speed=[1.5/1.8/1.1]  mp=360
+  - three_size=87/57/83 / initial_slot=3
+  - BD: ワールドエンドカタストロフィー (arts_id=542)
+    - description: 敵全体に超強力な31連ダメージ＆10秒だけ攻撃力2倍
+    - cost=7 / hit_count=31 / value=4.74194 / additional_value=0.0
+  - innate skills (6):
+    - Attack Multiply ×2.0 — 自身の攻撃力が超絶大アップ【熟度UPにつれてさらに効果値が大幅UP】
+    - MotionSpeed Multiply ×2.66 — 自身の攻撃モーションが超絶大に加速【熟度UPにつれてさらに効果値が大幅UP】
+    - Attack Multiply ×5.0 — 火属性の魔剣の攻撃力が極大アップ
+    - Speed Multiply ×1.25 — 全属性の魔剣の行動速度がかなりアップ
+    - DamageLimitBreak Addition +1500000000.0 — 火属性の魔剣のダメージ上限が15億アップ
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`154202`](weapons.json#L224571) レヴァンテイン=ロスト【極】
+  - base_name: レヴァンテイン=ロスト (costume: 極魔装)
+  - element=無(6) / type=投擲(9) / rarity=SS(4) / cv=綾瀬有
+  - max stats: HP=15860 / ATK=19110 / DEF=7800 / SPD=33 / BREAK=4290
+  - hit_counts=[5, 6, 11] (3段)  motion_speed=[1.5/1.8/1.1]  mp=360
+  - three_size=87/57/83 / initial_slot=4
+  - BD: ワールドエンドカタストロフィー (arts_id=542)
+    - description: 敵全体に超強力な31連ダメージ＆10秒だけ攻撃力2倍
+    - cost=7 / hit_count=31 / value=4.74194 / additional_value=0.0
+  - innate skills (6):
+    - Attack Multiply ×2.0 — 自身の攻撃力が超絶大アップ【熟度UPにつれてさらに効果値が大幅UP】
+    - MotionSpeed Multiply ×2.66 — 自身の攻撃モーションが超絶大に加速【熟度UPにつれてさらに効果値が大幅UP】
+    - Attack Multiply ×5.0 — 火属性の魔剣の攻撃力が極大アップ
+    - Speed Multiply ×1.5 — 全属性の魔剣の行動速度が大幅にアップ
+    - DamageLimitBreak Addition +1500000000.0 — 火属性の魔剣のダメージ上限が15億アップ
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`154401`](weapons.json#L225270) 刻鳴鐘ユノ
+  - base_name: 刻鳴鐘ユノ (costume: 魔装)
+  - element=光(4) / type=連弩(6) / rarity=S(3) / cv=秋奈
+  - max stats: HP=6100 / ATK=4000 / DEF=6000 / SPD=28 / BREAK=2000
+  - hit_counts=[3, 3, 8] (3段)  motion_speed=[1.7/1.5/1.0]  mp=250
+  - three_size=72/55/74 / initial_slot=2
+  - BD: この世の果てで愛を刻む鐘 (arts_id=544)
+    - description: 敵全体に超強力な32連ダメージ＆一瞬だけスピード狂化
+    - cost=7 / hit_count=32 / value=4.0 / additional_value=0.0
+  - innate skills (3):
+    - Vitality_Attack Multiply ×1.3 — 残HPが多いほど攻撃力がかなりアップ
+    - SapphireDrop Multiply ×1.5 — 自分の獲得するサファイア量が少し増加
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`154402`](weapons.json#L225446) 刻鳴鐘ユノ【極】
+  - base_name: 刻鳴鐘ユノ (costume: 極魔装)
+  - element=光(4) / type=連弩(6) / rarity=S(3) / cv=秋奈
+  - max stats: HP=7930 / ATK=5200 / DEF=7800 / SPD=28 / BREAK=2600
+  - hit_counts=[4, 3, 11] (3段)  motion_speed=[1.7/1.5/1.0]  mp=250
+  - three_size=72/55/74 / initial_slot=3
+  - BD: この世の果てで愛を刻む鐘 (arts_id=544)
+    - description: 敵全体に超強力な32連ダメージ＆一瞬だけスピード狂化
+    - cost=7 / hit_count=32 / value=4.0 / additional_value=0.0
+  - innate skills (3):
+    - Vitality_Attack Multiply ×1.8 — 残HPが多いほど攻撃力が大幅にアップ
+    - SapphireDrop Multiply ×2.0 — 自分の獲得するサファイアの量がかなり増加
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`155301`](weapons.json#L231512) 聖女グラム=オルタ=ロスト
+  - base_name: 聖女グラム=オルタ=ロスト (costume: 魔装)
+  - element=無(6) / type=騎槍(8) / rarity=SS(4) / cv=日高里菜
+  - max stats: HP=10100 / ATK=29000 / DEF=6100 / SPD=37 / BREAK=4000
+  - hit_counts=[3, 3, 5] (3段)  motion_speed=[2.0/2.0/1.2]  mp=710
+  - three_size=72/55/74 / initial_slot=3
+  - BD: 完全世界アインザムカイト (arts_id=553)
+    - description: 敵全体に超絶強力な28連ダメージ＆60秒攻撃力20%UP
+    - cost=9 / hit_count=28 / value=9.75 / additional_value=0.0
+  - innate skills (6):
+    - Attack Multiply ×2.0 — 自身の攻撃力が超絶大アップ【熟度UPにつれてさらに効果値が大幅UP】
+    - MotionSpeed Multiply ×2.66 — 自身の攻撃モーションが超絶大に加速【熟度UPにつれてさらに効果値が大幅UP】
+    - Attack Multiply ×1.5 — 全属性の魔剣の攻撃力が大幅にアップ
+    - Attack Multiply ×13.0 — 大剣の魔剣の攻撃力が13倍
+    - Attack Multiply ×13.0 — 騎槍の魔剣の攻撃力が13倍
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`155302`](weapons.json#L231745) 聖女グラム=オルタ=ロスト【極】
+  - base_name: 聖女グラム=オルタ=ロスト (costume: 極魔装)
+  - element=無(6) / type=騎槍(8) / rarity=SS(4) / cv=日高里菜
+  - max stats: HP=13130 / ATK=37700 / DEF=7930 / SPD=37 / BREAK=5200
+  - hit_counts=[4, 3, 8] (3段)  motion_speed=[2.0/2.0/1.2]  mp=710
+  - three_size=72/55/74 / initial_slot=4
+  - BD: 完全世界アインザムカイト (arts_id=553)
+    - description: 敵全体に超絶強力な28連ダメージ＆60秒攻撃力20%UP
+    - cost=9 / hit_count=28 / value=9.75 / additional_value=0.0
+  - innate skills (6):
+    - Attack Multiply ×2.0 — 自身の攻撃力が超絶大アップ【熟度UPにつれてさらに効果値が大幅UP】
+    - MotionSpeed Multiply ×2.66 — 自身の攻撃モーションが超絶大に加速【熟度UPにつれてさらに効果値が大幅UP】
+    - Attack Multiply ×1.75 — 全属性の魔剣の攻撃力が絶大にアップ
+    - Attack Multiply ×13.0 — 大剣の魔剣の攻撃力が13倍
+    - Attack Multiply ×13.0 — 騎槍の魔剣の攻撃力が13倍
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`155401`](weapons.json#L231978) 運命蝶プシュケー
+  - base_name: 運命蝶プシュケー (costume: 魔装)
+  - element=闇(5) / type=投擲(9) / rarity=SS(4) / cv=明坂聡美
+  - max stats: HP=8800 / ATK=16500 / DEF=7100 / SPD=28 / BREAK=2600
+  - hit_counts=[2, 3, 12] (3段)  motion_speed=[1.7/1.7/1.2]  mp=701
+  - three_size=81/56/78 / initial_slot=3
+  - BD: 創神記フェイタルテーゼ (arts_id=554)
+    - description: 敵全体に超絶強力な38連ダメージ＆wave中、ﾓｰｼｮﾝ30%高速化
+    - cost=9 / hit_count=38 / value=7.18421 / additional_value=0.0
+  - innate skills (6):
+    - Attack Multiply ×1.75 — 闇属性の魔剣の攻撃力が絶大にアップ
+    - MotionSpeed Multiply ×2.325 — 闇属性の魔剣の攻撃モーションが絶大に加速【熟度UPにつれてさらに効果値UP】
+    - PlayerHit Multiply ×1.3 — 闇属性の魔剣の命中率がアップ
+    - RemHP_Attack Multiply ×2.25 — 残HPが少ないほど攻撃力が絶大にアップ
+    - DamageLimitBreak Addition +2000000000.0 — 自身のダメージ上限が20億アップ
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`155402`](weapons.json#L232211) 運命蝶プシュケー【極】
+  - base_name: 運命蝶プシュケー (costume: 極魔装)
+  - element=闇(5) / type=投擲(9) / rarity=SS(4) / cv=明坂聡美
+  - max stats: HP=11440 / ATK=21450 / DEF=9230 / SPD=28 / BREAK=3380
+  - hit_counts=[3, 3, 15] (3段)  motion_speed=[1.7/1.7/1.2]  mp=701
+  - three_size=81/56/78 / initial_slot=4
+  - BD: 創神記フェイタルテーゼ (arts_id=554)
+    - description: 敵全体に超絶強力な38連ダメージ＆wave中、ﾓｰｼｮﾝ30%高速化
+    - cost=9 / hit_count=38 / value=7.18421 / additional_value=0.0
+  - innate skills (6):
+    - Attack Multiply ×2.0 — 闇属性の魔剣の攻撃力が超絶大アップ
+    - MotionSpeed Multiply ×2.652 — 闇属性の魔剣の攻撃モーションが超絶大に加速【熟度UPにつれてさらに効果値UP】
+    - PlayerHit Multiply ×1.3 — 闇属性の魔剣の命中率がアップ
+    - RemHP_Attack Multiply ×2.6 — 残HPが少ないほど攻撃力が超絶大にアップ
+    - DamageLimitBreak Addition +2000000000.0 — 自身のダメージ上限が20億アップ
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`155601`](weapons.json#L232796) 灼腕ターロス
+  - base_name: 灼腕ターロス (costume: 魔装)
+  - element=火(1) / type=拳闘(10) / rarity=S(3) / cv=篠原侑
+  - max stats: HP=3500 / ATK=10000 / DEF=5500 / SPD=28 / BREAK=2500
+  - hit_counts=[3, 3, 5] (3段)  motion_speed=[3.6/3.6/1.5]  mp=280
+  - three_size=72/55/76 / initial_slot=4
+  - BD: シャイネス･オーバーヒート (arts_id=556)
+    - description: 敵全体に超強力な20連ダメージ＆5秒だけ攻撃2倍
+    - cost=4 / hit_count=20 / value=3.87 / additional_value=0.0
+  - innate skills (3):
+    - Vitality_Attack Multiply ×1.8 — 残HPが多いほど攻撃力が大幅にアップ
+    - Defense Multiply ×1.25 — 火属性の魔剣の防御力がかなりアップ
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`155602`](weapons.json#L232972) 灼腕ターロス【極】
+  - base_name: 灼腕ターロス (costume: 極魔装)
+  - element=火(1) / type=拳闘(10) / rarity=S(3) / cv=篠原侑
+  - max stats: HP=4550 / ATK=13000 / DEF=7150 / SPD=28 / BREAK=3250
+  - hit_counts=[4, 3, 8] (3段)  motion_speed=[3.6/3.6/1.5]  mp=280
+  - three_size=72/55/76 / initial_slot=5
+  - BD: シャイネス･オーバーヒート (arts_id=556)
+    - description: 敵全体に超強力な20連ダメージ＆5秒だけ攻撃2倍
+    - cost=4 / hit_count=20 / value=3.87 / additional_value=0.0
+  - innate skills (4):
+    - Vitality_Attack Multiply ×2.25 — 残HPが多いほど攻撃力が絶大にアップ
+    - Defense Multiply ×1.5 — 火属性の魔剣の防御力が大幅にアップ
+    - DamageLimitBreak Addition +1000000000.0 — 自身のダメージ上限が10億アップ
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`155603`](weapons.json#L233167) 灼腕ターロス【極弐】
+  - base_name: 灼腕ターロス (costume: 極弐魔装)
+  - element=火(1) / type=拳闘(10) / rarity=S(3) / cv=篠原侑
+  - max stats: HP=5920 / ATK=16900 / DEF=9300 / SPD=31 / BREAK=4230
+  - hit_counts=[5, 4, 8] (3段)  motion_speed=[3.0/3.0/1.2]  mp=310
+  - three_size=72/55/76 / initial_slot=6
+  - BD: シャイニング･スーパーノヴァ (arts_id=10556)
+    - description: 敵全体に超強力な20連ダメージ＆5秒だけ攻撃2倍
+    - cost=4 / hit_count=20 / value=3.87 / additional_value=0.0
+  - innate skills (4):
+    - Vitality_Attack Multiply ×2.25 — 残HPが多いほど攻撃力が絶大にアップ
+    - Defense Multiply ×1.74232 — 火属性の魔剣の防御力が絶大にアップ【熟度UPにつれてさらに効果値UP】
+    - DamageLimitBreak Addition +1000000000.0 — 自身のダメージ上限が10億アップ
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`155701`](weapons.json#L233362) 渡橋あみら
+  - base_name: 渡橋あみら (costume: 魔装)
+  - element=闇(5) / type=長剣(1) / rarity=SS(4) / cv=石上静香
+  - max stats: HP=21000 / ATK=10500 / DEF=7050 / SPD=23 / BREAK=2000
+  - hit_counts=[5, 5, 5] (3段)  motion_speed=[2.4/2.4/1.2]  mp=640
+  - three_size=69/56/66 / initial_slot=2
+  - BD: 倒錯遊戯-リベンジフィリア- (arts_id=557)
+    - description: 敵全体に超絶強力な22連ダメージ＆30秒スピード1.5倍
+    - cost=6 / hit_count=22 / value=7.1 / additional_value=0.0
+  - innate skills (5):
+    - Raise Multiply ×1.0 — 味方全体が戦闘不能になっても3回完全復活できる
+    - BlazeGaugePointRate Multiply ×0.5 — B.D.ｹﾞｰｼﾞの上昇効率2倍
+    - AllTarget Multiply ×1.0 — 攻撃力を下げずに全魔剣の攻撃範囲が敵全体になる
+    - Attack Multiply ×1.75 — 全属性の魔剣の攻撃力が絶大にアップ
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`155702`](weapons.json#L233576) 渡橋あみら【極】
+  - base_name: 渡橋あみら (costume: 極魔装)
+  - element=闇(5) / type=長剣(1) / rarity=SS(4) / cv=石上静香
+  - max stats: HP=27300 / ATK=13650 / DEF=9170 / SPD=23 / BREAK=2600
+  - hit_counts=[6, 5, 8] (3段)  motion_speed=[2.4/2.4/1.2]  mp=640
+  - three_size=69/56/66 / initial_slot=3
+  - BD: 倒錯遊戯-リベンジフィリア- (arts_id=557)
+    - description: 敵全体に超絶強力な22連ダメージ＆30秒スピード1.5倍
+    - cost=6 / hit_count=22 / value=7.1 / additional_value=0.0
+  - innate skills (5):
+    - Raise Multiply ×1.0 — 味方全体が戦闘不能になっても3回完全復活できる
+    - BlazeGaugePointRate Multiply ×0.5 — B.D.ｹﾞｰｼﾞの上昇効率2倍
+    - AllTarget Multiply ×1.0 — 攻撃力を下げずに全魔剣の攻撃範囲が敵全体になる
+    - Attack Multiply ×2.0 — 全属性の魔剣の攻撃力が超絶大アップ
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`155801`](weapons.json#L233790) 天冥封エウメニデス
+  - base_name: 天冥封エウメニデス (costume: 魔装)
+  - element=闇(5) / type=拳闘(10) / rarity=SS(4) / cv=藤田茜
+  - max stats: HP=12000 / ATK=17500 / DEF=12500 / SPD=36 / BREAK=2700
+  - hit_counts=[5, 3, 8] (3段)  motion_speed=[1.0/2.0/1.2]  mp=660
+  - three_size=64/50/68 / initial_slot=3
+  - BD: エリーニュスの誘掖と断罪 (arts_id=558)
+    - description: 敵全体に超絶強力な66連ダメージ＆10秒間時を止めて攻撃力2倍
+    - cost=8 / hit_count=66 / value=3.18 / additional_value=0.0
+  - innate skills (5):
+    - Attack Multiply ×2.5 — 拳闘の魔剣の攻撃力が2.5倍アップ
+    - MotionSpeed Multiply ×3.0 — 拳闘の魔剣の攻撃モーションが3倍に加速
+    - GuardBreak Multiply ×1.75 — 全属性の魔剣が絶大にガードブレイクしやすく
+    - DamageLimitBreak Addition +2000000000.0 — 自身のダメージ上限が20億アップ
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`155802`](weapons.json#L234016) 天冥封エウメニデス【極】
+  - base_name: 天冥封エウメニデス (costume: 極魔装)
+  - element=闇(5) / type=拳闘(10) / rarity=SS(4) / cv=藤田茜
+  - max stats: HP=15600 / ATK=22750 / DEF=16250 / SPD=36 / BREAK=3510
+  - hit_counts=[6, 3, 11] (3段)  motion_speed=[1.0/2.0/1.2]  mp=660
+  - three_size=64/50/68 / initial_slot=4
+  - BD: エリーニュスの誘掖と断罪 (arts_id=558)
+    - description: 敵全体に超絶強力な66連ダメージ＆10秒間時を止めて攻撃力2倍
+    - cost=8 / hit_count=66 / value=3.18 / additional_value=0.0
+  - innate skills (5):
+    - Attack Multiply ×2.5 — 拳闘の魔剣の攻撃力が2.5倍アップ
+    - MotionSpeed Multiply ×3.0 — 拳闘の魔剣の攻撃モーションが3倍に加速
+    - GuardBreak Multiply ×2.0 — 全属性の魔剣が超絶大にガードブレイクしやすく
+    - DamageLimitBreak Addition +2000000000.0 — 自身のダメージ上限が20億アップ
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`156001`](weapons.json#L234708) ミルキーウェイ=織姫
+  - base_name: ミルキーウェイ=織姫 (costume: 魔装)
+  - element=水(2) / type=弓矢(5) / rarity=SS(4) / cv=田中あいみ
+  - max stats: HP=11000 / ATK=15000 / DEF=10000 / SPD=27 / BREAK=700
+  - hit_counts=[7, 7, 7] (3段)  motion_speed=[2.0/1.8/1.0]  mp=327
+  - three_size=90/57/84 / initial_slot=3
+  - BD: 天河穿て七つの流星 (arts_id=560)
+    - description: 敵全体に超絶強力な77連ダメージ＆17秒攻撃全体化(減無)
+    - cost=7 / hit_count=77 / value=2.37 / additional_value=0.0
+  - innate skills (5):
+    - Attack Multiply ×2.0 — 水属性の魔剣の攻撃力が超絶大アップ
+    - Speed Multiply ×1.25 — 水属性の魔剣の行動速度がかなりアップ
+    - Vitality_Attack Multiply ×1.15 — 水属性の味方全体が、残HPが多いほど攻撃力がアップ(最大1.15倍)
+    - DamageLimitBreak Addition +2500000000.0 — 水属性全体のダメージ上限が25億アップ
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`156002`](weapons.json#L234922) ミルキーウェイ=織姫【極】
+  - base_name: ミルキーウェイ=織姫 (costume: 極魔装)
+  - element=水(2) / type=弓矢(5) / rarity=SS(4) / cv=田中あいみ
+  - max stats: HP=14300 / ATK=19500 / DEF=13000 / SPD=27 / BREAK=910
+  - hit_counts=[8, 7, 10] (3段)  motion_speed=[2.0/1.8/1.0]  mp=327
+  - three_size=90/57/84 / initial_slot=4
+  - BD: 天河穿て七つの流星 (arts_id=560)
+    - description: 敵全体に超絶強力な77連ダメージ＆17秒攻撃全体化(減無)
+    - cost=7 / hit_count=77 / value=2.37 / additional_value=0.0
+  - innate skills (5):
+    - Attack Multiply ×2.0 — 水属性の魔剣の攻撃力が超絶大アップ【熟度UPにつれてさらに効果値UP】
+    - Speed Multiply ×1.5 — 水属性の魔剣の行動速度が大幅にアップ
+    - Vitality_Attack Multiply ×1.15 — 水属性の味方全体が、残HPが多いほど攻撃力がアップ(最大1.15倍)
+    - DamageLimitBreak Addition +2500000000.0 — 水属性全体のダメージ上限が25億アップ
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`156401`](weapons.json#L236444) 天冥杖ハデス=ロスト
+  - base_name: 天冥杖ハデス=ロスト (costume: 魔装)
+  - element=闇(5) / type=連弩(6) / rarity=SS(4) / cv=大野柚布子
+  - max stats: HP=10500 / ATK=20000 / DEF=12500 / SPD=44 / BREAK=1500
+  - hit_counts=[4, 3, 10] (3段)  motion_speed=[2.0/1.8/1.2]  mp=444
+  - three_size=60/47/65 / initial_slot=3
+  - BD: 凡テハ儚キ四季衰滅 (arts_id=564)
+    - description: 敵全体に超強力な44連ダメージ＆数秒だけ攻撃力44%UP
+    - cost=6 / hit_count=44 / value=2.96 / additional_value=0.0
+  - innate skills (7):
+    - Attack Multiply ×2.0 — 自身の攻撃力が超絶大アップ【熟度UPにつれてさらに効果値が大幅UP】
+    - MotionSpeed Multiply ×2.66 — 自身の攻撃モーションが超絶大に加速【熟度UPにつれてさらに効果値が大幅UP】
+    - AllTarget Multiply ×0.8 — 攻撃力はやや下がるが自分の攻撃範囲が敵全体になる
+    - BlazeGaugeMaxLevel Addition +6.0 — BDゲージの最大値がかなりアップ
+    - AnyElement Multiply ×1.0 — 無属性を対象とした他魔剣からのスキル効果を受けられる
+    - DamageLimitBreak Addition +2000000000.0 — 自身のダメージ上限が20億アップ
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`156402`](weapons.json#L236696) 天冥杖ハデス=ロスト【極】
+  - base_name: 天冥杖ハデス=ロスト (costume: 極魔装)
+  - element=闇(5) / type=連弩(6) / rarity=SS(4) / cv=大野柚布子
+  - max stats: HP=13650 / ATK=26000 / DEF=16250 / SPD=44 / BREAK=1950
+  - hit_counts=[5, 3, 13] (3段)  motion_speed=[2.0/1.8/1.2]  mp=444
+  - three_size=60/47/65 / initial_slot=4
+  - BD: 凡テハ儚キ四季衰滅 (arts_id=564)
+    - description: 敵全体に超強力な44連ダメージ＆数秒だけ攻撃力44%UP
+    - cost=6 / hit_count=44 / value=2.96 / additional_value=0.0
+  - innate skills (7):
+    - Attack Multiply ×2.0 — 自身の攻撃力が超絶大アップ【熟度UPにつれてさらに効果値が大幅UP】
+    - MotionSpeed Multiply ×2.66 — 自身の攻撃モーションが超絶大に加速【熟度UPにつれてさらに効果値が大幅UP】
+    - AllTarget Multiply ×1.0 — 攻撃力を下げずに自分の攻撃範囲が敵全体になる
+    - BlazeGaugeMaxLevel Addition +8.0 — BDゲージの最大値が大幅にアップ
+    - AnyElement Multiply ×1.0 — 無属性を対象とした他魔剣からのスキル効果を受けられる
+    - DamageLimitBreak Addition +2000000000.0 — 自身のダメージ上限が20億アップ
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`157301`](weapons.json#L240335) 希暴石リリア
+  - base_name: 希暴石リリア (costume: 魔装)
+  - element=火(1) / type=拳闘(10) / rarity=SS(4) / cv=田中有紀
+  - max stats: HP=31400 / ATK=9000 / DEF=17200 / SPD=26 / BREAK=1500
+  - hit_counts=[4, 5, 12] (3段)  motion_speed=[2.0/2.0/1.2]  mp=540
+  - three_size=69/45/69 / initial_slot=3
+  - BD: 怨鎖燎原【Grudge Chain Flame】 (arts_id=573)
+    - description: 敵全体に超絶強力な52連ダメージ＆10秒だけ攻撃力半減
+    - cost=8 / hit_count=52 / value=7.0 / additional_value=0.0
+  - innate skills (6):
+    - Attack Multiply ×2.0 — 火属性の魔剣の攻撃力が超絶大アップ
+    - Speed Multiply ×1.75 — 火属性の魔剣の行動速度が絶大にアップ
+    - GuardBreak Multiply ×1.75 — 火属性の魔剣が絶大にガードブレイクしやすく
+    - HP Multiply ×0.5 — 呪いで味方全体のHPがダウン（0.5倍)
+    - DamageLimitBreak Addition +2500000000.0 — 火属性全体のダメージ上限が25億アップ
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`157302`](weapons.json#L240568) 希暴石リリア【極】
+  - base_name: 希暴石リリア (costume: 極魔装)
+  - element=火(1) / type=拳闘(10) / rarity=SS(4) / cv=田中有紀
+  - max stats: HP=40820 / ATK=11700 / DEF=22360 / SPD=26 / BREAK=1950
+  - hit_counts=[5, 5, 15] (3段)  motion_speed=[2.0/2.0/1.2]  mp=540
+  - three_size=69/45/69 / initial_slot=4
+  - BD: 怨鎖燎原【Grudge Chain Flame】 (arts_id=573)
+    - description: 敵全体に超絶強力な52連ダメージ＆10秒だけ攻撃力半減
+    - cost=8 / hit_count=52 / value=7.0 / additional_value=0.0
+  - innate skills (6):
+    - Attack Multiply ×2.0 — 火属性の魔剣の攻撃力が超絶大アップ【熟度UPにつれてさらに効果値UP】
+    - Speed Multiply ×2.0 — 火属性の魔剣の行動速度が超絶大アップ
+    - GuardBreak Multiply ×2.0 — 火属性の魔剣が超絶大にガードブレイクしやすく
+    - HP Multiply ×0.5 — 呪いで味方全体のHPがダウン（0.5倍)
+    - DamageLimitBreak Addition +2500000000.0 — 火属性全体のダメージ上限が25億アップ
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`158301`](weapons.json#L244577) †邪なる堕天せし者†
+  - base_name: †邪なる堕天せし者† (costume: 魔装)
+  - element=闇(5) / type=魔典(11) / rarity=S(3) / cv=嶺内ともみ
+  - max stats: HP=11000 / ATK=5200 / DEF=3300 / SPD=33 / BREAK=2100
+  - hit_counts=[5, 3, 10] (3段)  motion_speed=[2.0/1.6/1.0]  mp=210
+  - three_size=禁忌に触れるな！ / initial_slot=3
+  - BD: 闇と光の混沌魔極【カオスルーラー】 (arts_id=583)
+    - description: 敵全体に超強力な73連ダメージ＆1waveﾓｰｼｮﾝ30%UP
+    - cost=5 / hit_count=73 / value=1.36 / additional_value=0.0
+  - innate skills (2):
+    - Break_Attack Multiply ×2.5 — 自身が破損状態になると攻撃力が大幅にアップ
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`158302`](weapons.json#L244734) †邪なる堕天せし者†【極】
+  - base_name: †邪なる堕天せし者† (costume: 極魔装)
+  - element=闇(5) / type=魔典(11) / rarity=S(3) / cv=嶺内ともみ
+  - max stats: HP=14300 / ATK=6760 / DEF=4290 / SPD=33 / BREAK=2730
+  - hit_counts=[6, 3, 13] (3段)  motion_speed=[2.0/1.6/1.0]  mp=210
+  - three_size=禁忌に触れるな！ / initial_slot=4
+  - BD: 闇と光の混沌魔極【カオスルーラー】 (arts_id=583)
+    - description: 敵全体に超強力な73連ダメージ＆1waveﾓｰｼｮﾝ30%UP
+    - cost=5 / hit_count=73 / value=1.36 / additional_value=0.0
+  - innate skills (3):
+    - Break_Attack Multiply ×3.3 — 自身が破損状態になると攻撃力が絶大にアップ
+    - DamageLimitBreak Addition +1000000000.0 — 自身のダメージ上限が10億アップ
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`158303`](weapons.json#L244910) †邪なる堕天せし者†【極弐】
+  - base_name: †邪なる堕天せし者† (costume: 極弐魔装)
+  - element=闇(5) / type=魔典(11) / rarity=S(3) / cv=嶺内ともみ
+  - max stats: HP=18590 / ATK=8790 / DEF=5580 / SPD=36 / BREAK=3550
+  - hit_counts=[7, 4, 13] (3段)  motion_speed=[2.0/1.6/1.0]  mp=230
+  - three_size=禁忌に触れるな！ / initial_slot=5
+  - BD: 混沌なる極魔創世【カオスジェネシス】 (arts_id=10583)
+    - description: 敵全体に超強力な73連ダメージ＆1waveﾓｰｼｮﾝ30%UP
+    - cost=5 / hit_count=73 / value=1.36 / additional_value=0.0
+  - innate skills (4):
+    - Break_Attack Multiply ×3.3 — 自身が破損状態になると攻撃力が絶大にアップ
+    - DamageLimitBreak Addition +1000000000.0 — 自身のダメージ上限が10億アップ
+    - InstantDeath Repel_Percent ×100.0 — 即死特性の攻撃を完全回避する
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`158401`](weapons.json#L245105) 独立魔界審査機構レビュウ
+  - base_name: 独立魔界審査機構レビュウ (costume: 魔装)
+  - element=光(4) / type=魔典(11) / rarity=SS(4) / cv=日髙のり子
+  - max stats: HP=10000 / ATK=22600 / DEF=10000 / SPD=31 / BREAK=12200
+  - hit_counts=[3, 3, 3] (3段)  motion_speed=[1.6/1.6/1.0]  mp=403
+  - three_size=■■/■■/■■ / initial_slot=2
+  - BD: 超健全えっち規制ワールド《A.P.P.L.E.》 (arts_id=584)
+    - description: 敵全体に超絶強力な50連ダメージ＆数秒だけ敵の動きを規制
+    - cost=5 / hit_count=50 / value=3.0 / additional_value=0.0
+  - innate skills (9):
+    - HitCount Addition +0.951 — 自身の1撃目2撃目3撃目のヒット数を+1する【熟度21,41,60,80,99をそれぞれ超えると+1ずつ効果値UP】
+    - HP Addition +10200.0 — 編成魔剣全体のHPがアップ【熟度UPにつれてさらに効果値UP】
+    - InstantDeath Repel_Percent ×50.0 — 編成魔剣全体が即死特性の攻撃を確率で回避する
+    - BlazeAbsorb Repel_Percent ×50.0 — 編成魔剣全体が勇気分解の発生を確率で回避する
+    - Stun Repel_Percent ×50.0 — 編成魔剣全体がスタンの発生を確率で回避する
+    - Mez Repel_Percent ×50.0 — 編成魔剣全体が麻痺の発生を確率で回避する
+    - RateDamage Repel_Percent ×50.0 — 編成魔剣全体が割合ダメージ攻撃を確率で回避する
+    - DamageLimitBreak Addition +410000000.0 — 全属性の魔剣のダメージ上限が4.1億アップ【熟度UPで効果値がUP（最大約10億）】
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`158402`](weapons.json#L245395) 独立魔界審査機構レビュウ【極】
+  - base_name: 独立魔界審査機構レビュウ (costume: 極魔装)
+  - element=光(4) / type=魔典(11) / rarity=SS(4) / cv=日髙のり子
+  - max stats: HP=13000 / ATK=29380 / DEF=13000 / SPD=31 / BREAK=15860
+  - hit_counts=[4, 4, 4] (3段)  motion_speed=[1.6/1.6/1.0]  mp=403
+  - three_size=■■/■■/■■ / initial_slot=3
+  - BD: 超健全えっち規制ワールド《A.P.P.L.E.》 (arts_id=584)
+    - description: 敵全体に超絶強力な50連ダメージ＆数秒だけ敵の動きを規制
+    - cost=5 / hit_count=50 / value=3.0 / additional_value=0.0
+  - innate skills (9):
+    - HitCount Addition +0.951 — 自身の1撃目2撃目3撃目のヒット数を+1する【熟度21,41,60,80,99をそれぞれ超えると+1ずつ効果値UP】
+    - HP Addition +10200.0 — 編成魔剣全体のHPがアップ【熟度UPにつれてさらに効果値UP】
+    - InstantDeath Repel_Percent ×50.0 — 編成魔剣全体が即死特性の攻撃を確率で回避する
+    - BlazeAbsorb Repel_Percent ×50.0 — 編成魔剣全体が勇気分解の発生を確率で回避する
+    - Stun Repel_Percent ×50.0 — 編成魔剣全体がスタンの発生を確率で回避する
+    - Mez Repel_Percent ×50.0 — 編成魔剣全体が麻痺の発生を確率で回避する
+    - RateDamage Repel_Percent ×50.0 — 編成魔剣全体が割合ダメージ攻撃を確率で回避する
+    - DamageLimitBreak Addition +410000000.0 — 全属性の魔剣のダメージ上限が4.1億アップ【熟度UPで効果値がUP（最大約10億）】
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`159001`](weapons.json#L247507) 名刀･大包平:Blaze
+  - base_name: 名刀･大包平:Blaze (costume: 魔装)
+  - element=風(3) / type=太刀(3) / rarity=SS(4) / cv=井澤詩織
+  - max stats: HP=14900 / ATK=19400 / DEF=6900 / SPD=44 / BREAK=1050
+  - hit_counts=[4, 4, 11] (3段)  motion_speed=[2.0/2.0/1.2]  mp=970
+  - three_size=67/53/69 / initial_slot=3
+  - BD: 至伝一閃 -Blaze of Legend- (arts_id=590)
+    - description: 敵全体に超絶強力な190連ダメージ＆2waveヒット数がそれぞれ+3＆30秒間時を止める
+    - cost=9 / hit_count=190 / value=2.1 / additional_value=0.0
+  - innate skills (6):
+    - WeaponArtsCost Addition +0.0 — 自身のB.D.レベル上限が絶大に上昇
+    - RemHP_Attack Multiply ×4.0 — 残HPが少ないほど攻撃力アップ(最大4倍)
+    - Raise Multiply ×0.03 — 戦闘不能になっても5回HP3%で復活できる
+    - DamageLimitBreak Addition +2000000000.0 — 自身のダメージ上限が20億アップ
+    - MotionSpeed Multiply ×2.33 — 風属性の魔剣の攻撃モーションが絶大に加速
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`159002`](weapons.json#L247752) 名刀･大包平:Blaze【極】
+  - base_name: 名刀･大包平:Blaze (costume: 極魔装)
+  - element=風(3) / type=太刀(3) / rarity=SS(4) / cv=井澤詩織
+  - max stats: HP=19370 / ATK=25220 / DEF=8970 / SPD=44 / BREAK=1370
+  - hit_counts=[5, 4, 14] (3段)  motion_speed=[2.0/2.0/1.2]  mp=970
+  - three_size=67/53/69 / initial_slot=4
+  - BD: 至伝一閃 -Blaze of Legend- (arts_id=590)
+    - description: 敵全体に超絶強力な190連ダメージ＆2waveヒット数がそれぞれ+3＆30秒間時を止める
+    - cost=9 / hit_count=190 / value=2.1 / additional_value=0.0
+  - innate skills (6):
+    - WeaponArtsCost Addition +0.0 — 自身のB.D.レベル上限が絶大に上昇
+    - RemHP_Attack Multiply ×4.0 — 残HPが少ないほど攻撃力アップ(最大4倍)
+    - Raise Multiply ×0.03 — 戦闘不能になっても5回HP3%で復活できる
+    - DamageLimitBreak Addition +2000000000.0 — 自身のダメージ上限が20億アップ
+    - MotionSpeed Multiply ×2.66 — 風属性の魔剣の攻撃モーションが超絶大に加速
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`159101`](weapons.json#L247997) アマイモン=マネ
+  - base_name: アマイモン=マネ (costume: 魔装)
+  - element=無(6) / type=弓矢(5) / rarity=SS(4) / cv=髙橋ミナミ
+  - max stats: HP=15900 / ATK=19700 / DEF=9600 / SPD=28 / BREAK=2300
+  - hit_counts=[1, 3, 11] (3段)  motion_speed=[2.2/2.2/1.2]  mp=880
+  - three_size=71/54/71 / initial_slot=3
+  - BD: 深淵ニ堕セ賄賂ノ露滴 (arts_id=591)
+    - description: 敵全体に超絶強力な23連ダメージ＆66秒間味方の攻撃力が30倍
+    - cost=9 / hit_count=23 / value=11.87 / additional_value=0.0
+  - innate skills (4):
+    - HitCount Addition +6.0 — 無属性の魔剣の1撃目2撃目3撃目のヒット数を+6する
+    - BlazeAbsorb Repel_Percent ×100.0 — 誘惑しか見えず勇気分解の発生を完全回避する
+    - Attack Multiply ×1.74232 — 無属性の魔剣の攻撃力が絶大にアップ【熟度UPにつれてさらに効果値UP】
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`159102`](weapons.json#L248192) アマイモン=マネ【極】
+  - base_name: アマイモン=マネ (costume: 極魔装)
+  - element=無(6) / type=弓矢(5) / rarity=SS(4) / cv=髙橋ミナミ
+  - max stats: HP=20670 / ATK=25610 / DEF=12480 / SPD=28 / BREAK=2990
+  - hit_counts=[2, 3, 14] (3段)  motion_speed=[2.2/2.2/1.2]  mp=880
+  - three_size=71/54/71 / initial_slot=4
+  - BD: 深淵ニ堕セ賄賂ノ露滴 (arts_id=591)
+    - description: 敵全体に超絶強力な23連ダメージ＆66秒間味方の攻撃力が30倍
+    - cost=9 / hit_count=23 / value=11.87 / additional_value=0.0
+  - innate skills (4):
+    - HitCount Addition +6.0 — 無属性の魔剣の1撃目2撃目3撃目のヒット数を+6する
+    - BlazeAbsorb Repel_Percent ×100.0 — 誘惑しか見えず勇気分解の発生を完全回避する
+    - Attack Multiply ×2.0 — 無属性の魔剣の攻撃力が超絶大アップ【熟度UPにつれてさらに効果値UP】
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`161101`](weapons.json#L255599) ペリュネイア=ラヴィ
+  - base_name: ペリュネイア=ラヴィ (costume: 魔装)
+  - element=水(2) / type=拳闘(10) / rarity=SS(4) / cv=安済知佳
+  - max stats: HP=9620 / ATK=11930 / DEF=6870 / SPD=42 / BREAK=3370
+  - hit_counts=[9, 7, 10] (3段)  motion_speed=[1.5/1.5/1.2]  mp=720
+  - three_size=95/58/83 / initial_slot=3
+  - BD: 聖鹿玲瓏ディア･エピストリ (arts_id=611)
+    - description: 敵全体に消費ゲージ数に応じた78連ダメージ＆敵を強制ブレイク
+    - cost=5 / hit_count=78 / value=0.02 / additional_value=20.0
+  - innate skills (5):
+    - MotionSpeed Multiply ×2.33 — 水属性の魔剣の攻撃モーションが絶大に加速
+    - Enemy_BreakAttack Multiply ×7.0 — ブレイク時に自身の攻撃力が7倍アップ
+    - BlazeGauge Addition +200.0 — バトル開始時にブレイズゲージが上昇する(2ゲージ)
+    - DamageLimitBreak Addition +2000000000.0 — 自身のダメージ上限が20億アップ
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`161102`](weapons.json#L255813) ペリュネイア=ラヴィ【極】
+  - base_name: ペリュネイア=ラヴィ (costume: 極魔装)
+  - element=水(2) / type=拳闘(10) / rarity=SS(4) / cv=安済知佳
+  - max stats: HP=12500 / ATK=15500 / DEF=8920 / SPD=42 / BREAK=4380
+  - hit_counts=[10, 7, 13] (3段)  motion_speed=[1.5/1.5/1.2]  mp=720
+  - three_size=95/58/83 / initial_slot=4
+  - BD: 聖鹿玲瓏ディア･エピストリ (arts_id=611)
+    - description: 敵全体に消費ゲージ数に応じた78連ダメージ＆敵を強制ブレイク
+    - cost=5 / hit_count=78 / value=0.02 / additional_value=20.0
+  - innate skills (5):
+    - MotionSpeed Multiply ×2.66 — 水属性の魔剣の攻撃モーションが超絶大に加速
+    - Enemy_BreakAttack Multiply ×7.0 — ブレイク時に自身の攻撃力が7倍アップ
+    - BlazeGauge Addition +200.0 — バトル開始時にブレイズゲージが上昇する(2ゲージ)
+    - DamageLimitBreak Addition +2000000000.0 — 自身のダメージ上限が20億アップ
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`161201`](weapons.json#L256027) 卯王ミオ
+  - base_name: 卯王ミオ (costume: 魔装)
+  - element=風(3) / type=杖棒(4) / rarity=SS(4) / cv=富田美憂
+  - max stats: HP=10000 / ATK=14240 / DEF=11480 / SPD=36 / BREAK=3660
+  - hit_counts=[6, 7, 10] (3段)  motion_speed=[2.0/1.8/1.1]  mp=280
+  - three_size=88/56/78 / initial_slot=2
+  - BD: 指斬りげんまん恋結び (arts_id=612)
+    - description: 敵全体に消費ゲージ数に応じた77連ダメージ＆敵を強制ブレイク＆24秒間、敵の動きを止める
+    - cost=4 / hit_count=77 / value=0.04 / additional_value=10.0
+  - innate skills (5):
+    - DamageLimitBreak Addition +1000000000.0 — 味方全体のダメージ上限が10億アップ
+    - MotionSpeed Multiply ×2.325 — 全属性の魔剣の攻撃モーションが絶大に加速【熟度UPにつれてさらに効果値UP】
+    - Enemy_BreakAttack Multiply ×3.5 — ブレイク時に風属性の魔剣の攻撃力が3.5倍アップ        
+    - BlazeGauge Addition +150.0 — バトル開始時に、風属性魔剣の数に応じてブレイズゲージが上昇する(最大4.5ゲージ)
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`161202`](weapons.json#L256253) 卯王ミオ【極】
+  - base_name: 卯王ミオ (costume: 極魔装)
+  - element=風(3) / type=杖棒(4) / rarity=SS(4) / cv=富田美憂
+  - max stats: HP=13000 / ATK=18500 / DEF=14920 / SPD=36 / BREAK=4750
+  - hit_counts=[7, 7, 13] (3段)  motion_speed=[2.0/1.8/1.1]  mp=280
+  - three_size=88/56/78 / initial_slot=3
+  - BD: 指斬りげんまん恋結び (arts_id=612)
+    - description: 敵全体に消費ゲージ数に応じた77連ダメージ＆敵を強制ブレイク＆24秒間、敵の動きを止める
+    - cost=4 / hit_count=77 / value=0.04 / additional_value=10.0
+  - innate skills (5):
+    - DamageLimitBreak Addition +1000000000.0 — 味方全体のダメージ上限が10億アップ
+    - MotionSpeed Multiply ×2.652 — 全属性の魔剣の攻撃モーションが超絶大に加速【熟度UPにつれてさらに効果値UP】
+    - Enemy_BreakAttack Multiply ×3.5 — ブレイク時に風属性の魔剣の攻撃力が3.5倍アップ        
+    - BlazeGauge Addition +150.0 — バトル開始時に、風属性魔剣の数に応じてブレイズゲージが上昇する(最大4.5ゲージ)
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`162401`](weapons.json#L259651) フォルネウス×ヤム
+  - base_name: フォルネウス×ヤム (costume: 魔装)
+  - element=水(2) / type=長剣(1) / rarity=S(3) / cv=五十嵐裕美
+  - max stats: HP=10000 / ATK=5040 / DEF=5160 / SPD=28 / BREAK=400
+  - hit_counts=[3, 5, 8] (3段)  motion_speed=[2.6/2.4/1.2]  mp=225
+  - three_size=82/55/79 / initial_slot=3
+  - BD: 魂ヲ蝕ム禁理ノ悪誘 (arts_id=624)
+    - description: 敵全体に超強力な37連ダメージ＆72秒間ヒット数が+6
+    - cost=6 / hit_count=37 / value=3.02 / additional_value=0.0
+  - innate skills (3):
+    - Attack Multiply ×1.09745 — 水属性の魔剣の攻撃力がアップ【熟度UPにつれてさらに効果値UP】
+    - HitCount Addition +1.0 — 水属性の魔剣の1撃目2撃目3撃目のヒット数を+1する
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`162402`](weapons.json#L259827) フォルネウス×ヤム【極】
+  - base_name: フォルネウス×ヤム (costume: 極魔装)
+  - element=水(2) / type=長剣(1) / rarity=S(3) / cv=五十嵐裕美
+  - max stats: HP=13000 / ATK=6540 / DEF=6700 / SPD=28 / BREAK=520
+  - hit_counts=[4, 5, 11] (3段)  motion_speed=[2.6/2.4/1.2]  mp=225
+  - three_size=82/55/79 / initial_slot=4
+  - BD: 魂ヲ蝕ム禁理ノ悪誘 (arts_id=624)
+    - description: 敵全体に超強力な37連ダメージ＆72秒間ヒット数が+6
+    - cost=6 / hit_count=37 / value=3.02 / additional_value=0.0
+  - innate skills (3):
+    - Attack Multiply ×1.24643 — 水属性の魔剣の攻撃力がかなりアップ【熟度UPにつれてさらに効果値UP】
+    - HitCount Addition +2.0 — 水属性の魔剣の1撃目2撃目3撃目のヒット数を+2する
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`162501`](weapons.json#L260003) マルファス×レナ
+  - base_name: マルファス×レナ (costume: 魔装)
+  - element=闇(5) / type=杖棒(4) / rarity=S(3) / cv=五十嵐裕美
+  - max stats: HP=9540 / ATK=4970 / DEF=4080 / SPD=39 / BREAK=350
+  - hit_counts=[5, 4, 7] (3段)  motion_speed=[3.0/2.0/1.2]  mp=260
+  - three_size=92/53/83 / initial_slot=3
+  - BD: 魂ヲ侵ス禁断ノ悪惑 (arts_id=625)
+    - description: 敵全体に超強力な56連ダメージ＆72秒間ヒット数が+6
+    - cost=6 / hit_count=56 / value=1.99 / additional_value=0.0
+  - innate skills (3):
+    - Attack Multiply ×1.09745 — 闇属性の魔剣の攻撃力がアップ【熟度UPにつれてさらに効果値UP】
+    - HitCount Addition +1.0 — 闇属性の魔剣の1撃目2撃目3撃目のヒット数を+1する
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`162502`](weapons.json#L260179) マルファス×レナ【極】
+  - base_name: マルファス×レナ (costume: 極魔装)
+  - element=闇(5) / type=杖棒(4) / rarity=S(3) / cv=五十嵐裕美
+  - max stats: HP=12400 / ATK=6450 / DEF=5300 / SPD=39 / BREAK=450
+  - hit_counts=[6, 4, 10] (3段)  motion_speed=[3.0/2.0/1.2]  mp=260
+  - three_size=92/53/83 / initial_slot=4
+  - BD: 魂ヲ侵ス禁断ノ悪惑 (arts_id=625)
+    - description: 敵全体に超強力な56連ダメージ＆72秒間ヒット数が+6
+    - cost=6 / hit_count=56 / value=1.99 / additional_value=0.0
+  - innate skills (3):
+    - Attack Multiply ×1.24643 — 闇属性の魔剣の攻撃力がかなりアップ【熟度UPにつれてさらに効果値UP】
+    - HitCount Addition +2.0 — 闇属性の魔剣の1撃目2撃目3撃目のヒット数を+2する
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`162601`](weapons.json#L260355) フルフル×ルア
+  - base_name: フルフル×ルア (costume: 魔装)
+  - element=風(3) / type=拳闘(10) / rarity=S(3) / cv=五十嵐裕美
+  - max stats: HP=9850 / ATK=6690 / DEF=7710 / SPD=32 / BREAK=280
+  - hit_counts=[9, 2, 5] (3段)  motion_speed=[2.0/2.0/1.2]  mp=280
+  - three_size=83/57/80 / initial_slot=3
+  - BD: 魂ヲ貶ス禁忌ノ悪遊 (arts_id=626)
+    - description: 敵全体に消費ゲージ数に応じた24連ダメージ＆72秒間ヒット数が+6
+    - cost=6 / hit_count=24 / value=4.65 / additional_value=10.0
+  - innate skills (3):
+    - Attack Multiply ×1.09745 — 風属性の魔剣の攻撃力がアップ【熟度UPにつれてさらに効果値UP】
+    - HitCount Addition +1.0 — 風属性の魔剣の1撃目2撃目3撃目のヒット数を+1する
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`162602`](weapons.json#L260531) フルフル×ルア【極】
+  - base_name: フルフル×ルア (costume: 極魔装)
+  - element=風(3) / type=拳闘(10) / rarity=S(3) / cv=五十嵐裕美
+  - max stats: HP=12800 / ATK=8690 / DEF=10020 / SPD=32 / BREAK=360
+  - hit_counts=[10, 2, 8] (3段)  motion_speed=[2.0/2.0/1.2]  mp=280
+  - three_size=83/57/80 / initial_slot=4
+  - BD: 魂ヲ貶ス禁忌ノ悪遊 (arts_id=626)
+    - description: 敵全体に消費ゲージ数に応じた24連ダメージ＆72秒間ヒット数が+6
+    - cost=6 / hit_count=24 / value=4.65 / additional_value=10.0
+  - innate skills (3):
+    - Attack Multiply ×1.24643 — 風属性の魔剣の攻撃力がかなりアップ【熟度UPにつれてさらに効果値UP】
+    - HitCount Addition +2.0 — 風属性の魔剣の1撃目2撃目3撃目のヒット数を+2する
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`162901`](weapons.json#L261373) キャバリア
+  - base_name: キャバリア (costume: 魔装)
+  - element=風(3) / type=騎槍(8) / rarity=S(3) / cv=鈴代紗弓
+  - max stats: HP=15540 / ATK=5410 / DEF=9850 / SPD=20 / BREAK=270
+  - hit_counts=[5, 3, 8] (3段)  motion_speed=[2.0/2.2/1.2]  mp=250
+  - three_size=71/55/75 / initial_slot=2
+  - BD: ナイトオブオビディエンス (arts_id=629)
+    - description: 敵全体に消費ゲージ数に応じた1連ダメージ＆数秒間防御力3倍
+    - cost=1 / hit_count=1 / value=0.1 / additional_value=700.0
+  - innate skills (4):
+    - BlazeAbsorb Repel_Percent ×100.0 — 編成魔剣全体が勇気分解を完全回避
+    - Vitality_Speed Multiply ×3.0 — 風属性の味方全体が、残HPが多いほどスピードがアップ(最大3倍)
+    - Vitality_Attack Multiply ×1.4 — 風属性の味方全体が、残HPが多いほど攻撃力がかなりアップ
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`162902`](weapons.json#L261568) キャバリア【極】
+  - base_name: キャバリア (costume: 極魔装)
+  - element=風(3) / type=騎槍(8) / rarity=S(3) / cv=鈴代紗弓
+  - max stats: HP=20200 / ATK=7030 / DEF=12800 / SPD=20 / BREAK=350
+  - hit_counts=[6, 3, 11] (3段)  motion_speed=[2.0/2.2/1.2]  mp=250
+  - three_size=71/55/75 / initial_slot=3
+  - BD: ナイトオブオビディエンス (arts_id=629)
+    - description: 敵全体に消費ゲージ数に応じた1連ダメージ＆数秒間防御力3倍
+    - cost=1 / hit_count=1 / value=0.1 / additional_value=700.0
+  - innate skills (4):
+    - BlazeAbsorb Repel_Percent ×100.0 — 編成魔剣全体が勇気分解を完全回避
+    - Vitality_Speed Multiply ×3.0 — 風属性の味方全体が、残HPが多いほどスピードがアップ(最大3倍)
+    - Vitality_Attack Multiply ×1.7469 — 風属性の味方全体が、残HPが多いほど攻撃力が大幅にアップ【熟度UPにつれてさらに効果値UP】
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`165101`](weapons.json#L264450) ルキフェル=リリス
+  - base_name: ルキフェル=リリス (costume: 魔装)
+  - element=光(4) / type=長剣(1) / rarity=SS(4) / cv=名塚佳織
+  - max stats: HP=9160 / ATK=16000 / DEF=14840 / SPD=66 / BREAK=980
+  - hit_counts=[6, 6, 10] (3段)  motion_speed=[2.0/1.8/1.2]  mp=990
+  - three_size=83/54/76 / initial_slot=3
+  - BD: 堕天融惑《純真ヲ濁セ至幸ノ愛撫》 (arts_id=651)
+    - description: 敵全体に超強力な72連ダメージ＆数秒だけスピードとモーション狂化
+    - cost=7 / hit_count=72 / value=2.04 / additional_value=0.0
+  - innate skills (6):
+    - AnyElement Multiply ×1.0 — 属性不一致でも他魔剣からのスキル効果を受けられる
+    - Vitality_Attack Multiply ×5.98469 — 残HPが多いほど攻撃力がアップ(最大6倍)【熟度UPで効果値がUP(最大7.5倍)】
+    - BlazeLockPurge Repel_Percent ×100.0 — 自身へのBlazeLockを完全回避する
+    - JustGuard_Heal Addition +666.0 — ジャストガード時に自分のHPを666回復
+    - DamageLimitBreak Addition +2000000000.0 — 自身のダメージ上限が20億アップ
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`165102`](weapons.json#L264695) ルキフェル=リリス【極】
+  - base_name: ルキフェル=リリス (costume: 極魔装)
+  - element=光(4) / type=長剣(1) / rarity=SS(4) / cv=名塚佳織
+  - max stats: HP=11900 / ATK=20800 / DEF=19290 / SPD=66 / BREAK=1270
+  - hit_counts=[7, 6, 13] (3段)  motion_speed=[2.0/1.8/1.2]  mp=990
+  - three_size=83/54/76 / initial_slot=4
+  - BD: 堕天融惑《純真ヲ濁セ至幸ノ愛撫》 (arts_id=651)
+    - description: 敵全体に超強力な72連ダメージ＆数秒だけスピードとモーション狂化
+    - cost=7 / hit_count=72 / value=2.04 / additional_value=0.0
+  - innate skills (6):
+    - AnyElement Multiply ×1.0 — 属性不一致でも他魔剣からのスキル効果を受けられる
+    - Vitality_Attack Multiply ×5.98469 — 残HPが多いほど攻撃力がアップ(最大6倍)【熟度UPで効果値がUP(最大7.5倍)】
+    - BlazeLockPurge Repel_Percent ×100.0 — 自身へのBlazeLockを完全回避する
+    - JustGuard_Heal Addition +666.0 — ジャストガード時に自分のHPを666回復
+    - DamageLimitBreak Addition +2000000000.0 — 自身のダメージ上限が20億アップ
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`166001`](weapons.json#L267126) 神劍クサナギノツルギ:Blaze
+  - base_name: 神劍クサナギノツルギ:Blaze (costume: 魔装)
+  - element=闇(5) / type=太刀(3) / rarity=SS(4) / cv=潘めぐみ
+  - max stats: HP=14660 / ATK=21390 / DEF=13870 / SPD=38 / BREAK=3940
+  - hit_counts=[4, 4, 8] (3段)  motion_speed=[2.0/1.6/1.1]  mp=1190
+  - three_size=75/56/70 / initial_slot=3
+  - BD: 天威草薙･八魔断ノ竜滅 (arts_id=660)
+    - description: 敵全体に超強力な48連ダメージ＆wave中、味方の攻撃力とﾓｰｼｮﾝ速度が30倍
+    - cost=4 / hit_count=48 / value=1.88 / additional_value=0.0
+  - innate skills (6):
+    - WeaponArtsCost Addition +0.0 — 自身のB.D.レベル上限が絶大に上昇
+    - DamageLimitBreak Addition +1000000000.0 — 闇属性の魔剣のダメージ上限が10億アップ【熟度UPにつれてさらに効果値がUP】
+    - BlazeGauge Addition +150.0 — バトル開始時に、闇属性魔剣の数に応じてブレイズゲージが上昇する(最大4.5ゲージ)
+    - Attack Multiply ×1.74232 — 闇属性の魔剣の攻撃力が絶大にアップ【熟度UPにつれてさらに効果値UP】
+    - GuardBreak Multiply ×13.0 — 闇属性の魔剣のブレイク力が13倍
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`166002`](weapons.json#L267371) 神劍クサナギノツルギ:Blaze【極】
+  - base_name: 神劍クサナギノツルギ:Blaze (costume: 極魔装)
+  - element=闇(5) / type=太刀(3) / rarity=SS(4) / cv=潘めぐみ
+  - max stats: HP=19050 / ATK=27800 / DEF=18030 / SPD=38 / BREAK=5110
+  - hit_counts=[5, 4, 11] (3段)  motion_speed=[2.0/1.6/1.1]  mp=1190
+  - three_size=75/56/70 / initial_slot=4
+  - BD: 天威草薙･八魔断ノ竜滅 (arts_id=660)
+    - description: 敵全体に超強力な48連ダメージ＆wave中、味方の攻撃力とﾓｰｼｮﾝ速度が30倍
+    - cost=4 / hit_count=48 / value=1.88 / additional_value=0.0
+  - innate skills (6):
+    - WeaponArtsCost Addition +0.0 — 自身のB.D.レベル上限が絶大に上昇
+    - DamageLimitBreak Addition +1000000000.0 — 闇属性の魔剣のダメージ上限が10億アップ【熟度UPにつれてさらに効果値がUP】
+    - BlazeGauge Addition +150.0 — バトル開始時に、闇属性魔剣の数に応じてブレイズゲージが上昇する(最大4.5ゲージ)
+    - Attack Multiply ×2.0 — 闇属性の魔剣の攻撃力が超絶大アップ【熟度UPにつれてさらに効果値UP】
+    - GuardBreak Multiply ×13.0 — 闇属性の魔剣のブレイク力が13倍
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`166101`](weapons.json#L267616) 幻想殺しゼタ
+  - base_name: 幻想殺しゼタ (costume: 魔装)
+  - element=水(2) / type=杖棒(4) / rarity=SS(4) / cv=日笠陽子
+  - max stats: HP=8310 / ATK=19160 / DEF=7540 / SPD=60 / BREAK=960
+  - hit_counts=[3, 5, 9] (3段)  motion_speed=[1.8/1.9/1.3]  mp=1300
+  - three_size=113/64/90 / initial_slot=3
+  - BD: 原初の幻想《The Phantasma》 (arts_id=661)
+    - description: 敵全体に超絶強力な48連ダメージ＆wave中、味方の攻撃力とﾓｰｼｮﾝ速度が30倍
+    - cost=4 / hit_count=48 / value=2.18 / additional_value=0.0
+  - innate skills (6):
+    - DamageLimitBreak Addition +1300000000.0 — 味方全体のダメージ上限が13億アップ【熟度UPにつれてさらに効果値がUP】
+    - BlazeGaugeMaxLevel Addition +13.0 — B.D.ゲージの最大値が13アップ
+    - HitCount Addition +4.0 — 水属性の魔剣の1撃目2撃目3撃目のヒット数を+4する
+    - EnemyHit Multiply ×0.25 — 水属性の魔剣に攻撃が当たる確率を75%低下させる
+    - BlazeGauge Addition +150.0 — バトル開始時に、水属性魔剣の数に応じてブレイズゲージが上昇する(最大4.5ゲージ)
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`166102`](weapons.json#L267861) 幻想殺しゼタ【極】
+  - base_name: 幻想殺しゼタ (costume: 極魔装)
+  - element=水(2) / type=杖棒(4) / rarity=SS(4) / cv=日笠陽子
+  - max stats: HP=10800 / ATK=24900 / DEF=9800 / SPD=60 / BREAK=1240
+  - hit_counts=[4, 5, 12] (3段)  motion_speed=[1.8/1.9/1.3]  mp=1300
+  - three_size=113/64/90 / initial_slot=4
+  - BD: 原初の幻想《The Phantasma》 (arts_id=661)
+    - description: 敵全体に超絶強力な48連ダメージ＆wave中、味方の攻撃力とﾓｰｼｮﾝ速度が30倍
+    - cost=4 / hit_count=48 / value=2.18 / additional_value=0.0
+  - innate skills (6):
+    - DamageLimitBreak Addition +1300000000.0 — 味方全体のダメージ上限が13億アップ【熟度UPにつれてさらに効果値がUP】
+    - BlazeGaugeMaxLevel Addition +13.0 — B.D.ゲージの最大値が13アップ
+    - HitCount Addition +4.0 — 水属性の魔剣の1撃目2撃目3撃目のヒット数を+4する
+    - EnemyHit Multiply ×0.25 — 水属性の魔剣に攻撃が当たる確率を75%低下させる
+    - BlazeGauge Addition +150.0 — バトル開始時に、水属性魔剣の数に応じてブレイズゲージが上昇する(最大4.5ゲージ)
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`167401`](weapons.json#L272864) 終幕詩篇エピローグ
+  - base_name: 終幕詩篇エピローグ (costume: 魔装)
+  - element=闇(5) / type=投擲(9) / rarity=SS(4) / cv=薄井友里
+  - max stats: HP=8080 / ATK=24280 / DEF=11930 / SPD=55 / BREAK=1660
+  - hit_counts=[3, 3, 3] (3段)  motion_speed=[2.1/2.1/1.1]  mp=100
+  - three_size=110/65/100 / initial_slot=3
+  - BD: アスティオス･エピロゴス (arts_id=674)
+    - description: 敵全体に超絶強力な120連ダメージ＆数秒だけ攻撃力とサファイア量が50%UP
+    - cost=6 / hit_count=120 / value=3.0 / additional_value=0.0
+  - innate skills (5):
+    - Speed Multiply ×0.1 — 味方全体が、スピードが0.1倍にダウン
+    - Speed Multiply ×20.0 — 常時スピード狂化
+    - WeaponArtsHitCount Addition +80.0 — 闇属性の魔剣のB.D.ヒット数を+80する
+    - AnyElement Multiply ×1.0 — 光属性を対象とした他魔剣からのスキル効果を受けられる
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`167402`](weapons.json#L273090) 終幕詩篇エピローグ【極】
+  - base_name: 終幕詩篇エピローグ (costume: 極魔装)
+  - element=闇(5) / type=投擲(9) / rarity=SS(4) / cv=薄井友里
+  - max stats: HP=10500 / ATK=31560 / DEF=15500 / SPD=55 / BREAK=2150
+  - hit_counts=[4, 3, 6] (3段)  motion_speed=[2.1/2.1/1.1]  mp=100
+  - three_size=110/65/100 / initial_slot=4
+  - BD: アスティオス･エピロゴス (arts_id=674)
+    - description: 敵全体に超絶強力な120連ダメージ＆数秒だけ攻撃力とサファイア量が50%UP
+    - cost=6 / hit_count=120 / value=3.0 / additional_value=0.0
+  - innate skills (5):
+    - Speed Multiply ×0.1 — 味方全体が、スピードが0.1倍にダウン
+    - Speed Multiply ×20.0 — 常時スピード狂化
+    - WeaponArtsHitCount Addition +80.0 — 闇属性の魔剣のB.D.ヒット数を+80する
+    - AnyElement Multiply ×1.0 — 光属性を対象とした他魔剣からのスキル効果を受けられる
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`167601`](weapons.json#L273744) ハルピュイア=ホロウ.ALICE
+  - base_name: ハルピュイア=ホロウ.ALICE (costume: 魔装)
+  - element=無(6) / type=大鎌(12) / rarity=SS(4) / cv=小原好美
+  - max stats: HP=12000 / ATK=24070 / DEF=6000 / SPD=30 / BREAK=680
+  - hit_counts=[4, 7, 17] (3段)  motion_speed=[1.8/1.9/1.3]  mp=555
+  - three_size=100/69/86 / initial_slot=6
+  - BD: HOLLOW-BLOSSOM《Bandersnatch》 (arts_id=676)
+    - description: 敵全体に超絶強力な88連ダメージ＆弱体化を解除
+    - cost=6 / hit_count=88 / value=1.8 / additional_value=0.0
+  - innate skills (7):
+    - RemHP_Speed Multiply ×2.0 — 味方全体が、残HPが少ないほどスピード超絶大にアップ（最大2倍）
+    - Vitality_Speed Multiply ×0.1 — 味方全体が、残HPが多いほどスピード超絶大にダウン（最大0.1倍）
+    - DamageLimitBreak Addition +0.0 — 基礎的な記憶結晶装備可能数が6つになる
+    - Raise Multiply ×0.01 — 戦闘不能になっても3回HP1%で復活できる
+    - DamageLimitBreak Addition +2000000000.0 — 自身のダメージ上限が20億アップ
+    - AnyElement Multiply ×1.0 — 風属性を対象とした他魔剣からのスキル効果を受けられる
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`167602`](weapons.json#L273996) ハルピュイア=ホロウ.ALICE【極】
+  - base_name: ハルピュイア=ホロウ.ALICE (costume: 極魔装)
+  - element=無(6) / type=大鎌(12) / rarity=SS(4) / cv=小原好美
+  - max stats: HP=15600 / ATK=31280 / DEF=7800 / SPD=30 / BREAK=880
+  - hit_counts=[5, 7, 20] (3段)  motion_speed=[1.8/1.9/1.3]  mp=555
+  - three_size=100/69/86 / initial_slot=7
+  - BD: HOLLOW-BLOSSOM《Bandersnatch》 (arts_id=676)
+    - description: 敵全体に超絶強力な88連ダメージ＆弱体化を解除
+    - cost=6 / hit_count=88 / value=1.8 / additional_value=0.0
+  - innate skills (7):
+    - RemHP_Speed Multiply ×2.0 — 味方全体が、残HPが少ないほどスピード超絶大にアップ（最大2倍）
+    - Vitality_Speed Multiply ×0.1 — 味方全体が、残HPが多いほどスピード超絶大にダウン（最大0.1倍）
+    - DamageLimitBreak Addition +0.0 — 基礎的な記憶結晶装備可能数が7つになる
+    - Raise Multiply ×0.01 — 戦闘不能になっても3回HP1%で復活できる
+    - DamageLimitBreak Addition +2000000000.0 — 自身のダメージ上限が20億アップ
+    - AnyElement Multiply ×1.0 — 風属性を対象とした他魔剣からのスキル効果を受けられる
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`167701`](weapons.json#L274248) 巳王ヤト
+  - base_name: 巳王ヤト (costume: 魔装)
+  - element=風(3) / type=大剣(2) / rarity=SS(4) / cv=水野朔
+  - max stats: HP=13080 / ATK=19720 / DEF=3850 / SPD=55 / BREAK=5770
+  - hit_counts=[2, 4, 6] (3段)  motion_speed=[2.0/1.9/1.2]  mp=450
+  - three_size=111/77/99 / initial_slot=3
+  - BD: 遊びて踊れよ蛇のまにまに (arts_id=677)
+    - description: 敵全体に超絶強力な26連ダメージ＆一瞬だけブレイク26倍
+    - cost=7 / hit_count=26 / value=7.0 / additional_value=0.0
+  - innate skills (5):
+    - AllTarget Multiply ×2.0 — 風属性の魔剣の攻撃力が2倍になり、攻撃範囲が敵全体になる
+    - Enemy_BreakAttack Multiply ×3.5 — ブレイク時に風属性の魔剣の攻撃力が3.5倍アップ
+    - DamageLimitBreak Addition +1000000000.0 — 味方全体のダメージ上限が10億アップ
+    - GuardBreak Multiply ×1.5 — 風属性の魔剣が大幅にガードブレイクしやすく
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`167702`](weapons.json#L274462) 巳王ヤト【極】
+  - base_name: 巳王ヤト (costume: 極魔装)
+  - element=風(3) / type=大剣(2) / rarity=SS(4) / cv=水野朔
+  - max stats: HP=17000 / ATK=25630 / DEF=5000 / SPD=55 / BREAK=7500
+  - hit_counts=[3, 4, 9] (3段)  motion_speed=[2.0/1.9/1.2]  mp=450
+  - three_size=111/77/99 / initial_slot=4
+  - BD: 遊びて踊れよ蛇のまにまに (arts_id=677)
+    - description: 敵全体に超絶強力な26連ダメージ＆一瞬だけブレイク26倍
+    - cost=7 / hit_count=26 / value=7.0 / additional_value=0.0
+  - innate skills (5):
+    - AllTarget Multiply ×2.0 — 風属性の魔剣の攻撃力が2倍になり、攻撃範囲が敵全体になる
+    - Enemy_BreakAttack Multiply ×3.5 — ブレイク時に風属性の魔剣の攻撃力が3.5倍アップ
+    - DamageLimitBreak Addition +1000000000.0 — 味方全体のダメージ上限が10億アップ
+    - GuardBreak Multiply ×1.75 — 風属性の魔剣が絶大にガードブレイクしやすく
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`168101`](weapons.json#L275960) 煌征剣エクスカリバー≠ルカ
+  - base_name: 煌征剣エクスカリバー≠ルカ (costume: 魔装)
+  - element=火(1) / type=長剣(1) / rarity=SS(4) / cv=長縄まりあ
+  - max stats: HP=13080 / ATK=47120 / DEF=5540 / SPD=55 / BREAK=1070
+  - hit_counts=[1, 1, 2] (3段)  motion_speed=[2.0/2.0/1.2]  mp=1300
+  - three_size=81/54/75 / initial_slot=3
+  - BD: 灼滅なる焔:降誕せし煌征の剣 (arts_id=681)
+    - description: 敵全体に消費ゲージ数に応じた3連ダメージ＆13waveスピード狂化
+    - cost=6 / hit_count=3 / value=0.2 / additional_value=200.0
+  - innate skills (6):
+    - DamageLimitBreak Addition +1300000000.0 — 味方全体のダメージ上限が13億アップ【熟度UPにつれてさらに効果値がUP】
+    - BlazeGaugeMaxLevel Addition +13.0 — B.D.ゲージの最大値が13アップ
+    - RemHP_Attack Multiply ×13.0 — 残HPが少ないほど攻撃力がアップ(最大13倍)
+    - DamageLimitBreak Addition +8000000000.0 — 自身のダメージ上限が80億アップ
+    - WeaponArtsCost Addition +-3.0 — 戦闘時に火属性魔剣のB.D.コストを-3
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`168102`](weapons.json#L276193) 煌征剣エクスカリバー≠ルカ【極】
+  - base_name: 煌征剣エクスカリバー≠ルカ (costume: 極魔装)
+  - element=火(1) / type=長剣(1) / rarity=SS(4) / cv=長縄まりあ
+  - max stats: HP=17000 / ATK=61250 / DEF=7200 / SPD=55 / BREAK=1380
+  - hit_counts=[2, 2, 4] (3段)  motion_speed=[2.0/2.0/1.2]  mp=1300
+  - three_size=81/54/75 / initial_slot=4
+  - BD: 灼滅なる焔:降誕せし煌征の剣 (arts_id=681)
+    - description: 敵全体に消費ゲージ数に応じた3連ダメージ＆13waveスピード狂化
+    - cost=6 / hit_count=3 / value=0.2 / additional_value=200.0
+  - innate skills (6):
+    - DamageLimitBreak Addition +1300000000.0 — 味方全体のダメージ上限が13億アップ【熟度UPにつれてさらに効果値がUP】
+    - BlazeGaugeMaxLevel Addition +13.0 — B.D.ゲージの最大値が13アップ
+    - RemHP_Attack Multiply ×13.0 — 残HPが少ないほど攻撃力がアップ(最大13倍)
+    - DamageLimitBreak Addition +8000000000.0 — 自身のダメージ上限が80億アップ
+    - WeaponArtsCost Addition +-3.0 — 戦闘時に火属性魔剣のB.D.コストを-3
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`168401`](weapons.json#L277292) 天星ソハヤ=コスモ
+  - base_name: 天星ソハヤ=コスモ (costume: 魔装)
+  - element=無(6) / type=太刀(3) / rarity=SS(4) / cv=星谷美緒
+  - max stats: HP=7930 / ATK=17620 / DEF=3240 / SPD=18 / BREAK=1000
+  - hit_counts=[8, 4, 15] (3段)  motion_speed=[1.8/2.2/1.3]  mp=590
+  - three_size=68/49/65 / initial_slot=4
+  - BD: 全てを銀河にする神秘オブ神秘の極光 (arts_id=684)
+    - description: 敵全体に消費ゲージ数に応じた42連ダメージ＆3wave攻撃力13倍(消費ゲージ数に応じて倍率上昇)
+    - cost=3 / hit_count=42 / value=0.02 / additional_value=42.0
+  - innate skills (7):
+    - HitCount Multiply ×2.5 — 太刀の魔剣のヒット数を2.5倍にする
+    - HitCount Multiply ×2.5 — 連弩の魔剣のヒット数を2.5倍にする
+    - HitCount Multiply ×2.5 — 投擲の魔剣のヒット数を2.5倍にする
+    - MotionSpeed Multiply ×2.66 — 自身の攻撃モーションが2.66倍に加速【熟度UPで効果値が大幅UP(最大約3.94倍)】
+    - EnemyHit Multiply ×0.25 — 自身に攻撃が当たる確率を75%低下させる
+    - AllTarget Multiply ×0.8 — 攻撃力はやや下がるが自分の攻撃範囲が敵全体になる
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`168402`](weapons.json#L277544) 天星ソハヤ=コスモ【極】
+  - base_name: 天星ソハヤ=コスモ (costume: 極魔装)
+  - element=無(6) / type=太刀(3) / rarity=SS(4) / cv=星谷美緒
+  - max stats: HP=10300 / ATK=22900 / DEF=4200 / SPD=18 / BREAK=1300
+  - hit_counts=[9, 4, 18] (3段)  motion_speed=[1.8/2.2/1.3]  mp=590
+  - three_size=68/49/65 / initial_slot=5
+  - BD: 全てを銀河にする神秘オブ神秘の極光 (arts_id=684)
+    - description: 敵全体に消費ゲージ数に応じた42連ダメージ＆3wave攻撃力13倍(消費ゲージ数に応じて倍率上昇)
+    - cost=3 / hit_count=42 / value=0.02 / additional_value=42.0
+  - innate skills (7):
+    - HitCount Multiply ×2.5 — 太刀の魔剣のヒット数を2.5倍にする
+    - HitCount Multiply ×2.5 — 連弩の魔剣のヒット数を2.5倍にする
+    - HitCount Multiply ×2.5 — 投擲の魔剣のヒット数を2.5倍にする
+    - MotionSpeed Multiply ×2.66 — 自身の攻撃モーションが2.66倍に加速【熟度UPで効果値が大幅UP(最大約3.94倍)】
+    - EnemyHit Multiply ×0.25 — 自身に攻撃が当たる確率を75%低下させる
+    - AllTarget Multiply ×1.0 — 攻撃力を下げずに自分の攻撃範囲が敵全体になる
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`168601`](weapons.json#L278348) 純潔のイゾルデ=ビースト
+  - base_name: 純潔のイゾルデ=ビースト (costume: 魔装)
+  - element=水(2) / type=拳闘(10) / rarity=SS(4) / cv=ファイルーズあい
+  - max stats: HP=5130 / ATK=20370 / DEF=8000 / SPD=36 / BREAK=3670
+  - hit_counts=[4, 3, 6] (3段)  motion_speed=[2.0/2.2/1.1]  mp=866
+  - three_size=78/56/79 / initial_slot=4
+  - BD: 契愛 -Innocent Embrace- (arts_id=686)
+    - description: 敵全体に超絶強力な45連ダメージ＆数秒だけﾓｰｼｮﾝ60%高速化
+    - cost=8 / hit_count=45 / value=4.8 / additional_value=0.0
+  - innate skills (6):
+    - RemHP_Attack Multiply ×2.97959 — 残HPが少ないほど攻撃力がアップ(最大3倍)【熟度UPで効果値が大幅UP（最大5倍）】
+    - Attack Multiply ×2.5 — 自身の攻撃力が2.5倍アップ
+    - MotionSpeed Multiply ×2.33 — 水属性の魔剣の攻撃モーションが絶大に加速
+    - DamageLimitBreak Addition +2000000000.0 — 自身のダメージ上限が20億アップ
+    - Speed Multiply ×0.2 — 光属性の魔剣のスピードが0.2倍にダウン
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`168602`](weapons.json#L278581) 純潔のイゾルデ=ビースト【極】
+  - base_name: 純潔のイゾルデ=ビースト (costume: 極魔装)
+  - element=水(2) / type=拳闘(10) / rarity=SS(4) / cv=ファイルーズあい
+  - max stats: HP=6660 / ATK=26470 / DEF=10400 / SPD=36 / BREAK=4760
+  - hit_counts=[5, 3, 9] (3段)  motion_speed=[2.0/2.2/1.1]  mp=866
+  - three_size=78/56/79 / initial_slot=5
+  - BD: 契愛 -Innocent Embrace- (arts_id=686)
+    - description: 敵全体に超絶強力な45連ダメージ＆数秒だけﾓｰｼｮﾝ60%高速化
+    - cost=8 / hit_count=45 / value=4.8 / additional_value=0.0
+  - innate skills (6):
+    - RemHP_Attack Multiply ×2.97959 — 残HPが少ないほど攻撃力がアップ(最大3倍)【熟度UPで効果値が大幅UP（最大5倍）】
+    - Attack Multiply ×2.5 — 自身の攻撃力が2.5倍アップ
+    - MotionSpeed Multiply ×2.66 — 水属性の魔剣の攻撃モーションが超絶大に加速
+    - DamageLimitBreak Addition +2000000000.0 — 自身のダメージ上限が20億アップ
+    - Speed Multiply ×0.2 — 光属性の魔剣のスピードが0.2倍にダウン
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`168701`](weapons.json#L278814) 天業剣クリーフォート
+  - base_name: 天業剣クリーフォート (costume: 魔装)
+  - element=風(3) / type=戦斧(7) / rarity=SS(4) / cv=藤井ゆきよ
+  - max stats: HP=10000 / ATK=13110 / DEF=7310 / SPD=27 / BREAK=1710
+  - hit_counts=[5, 5, 13] (3段)  motion_speed=[1.7/1.8/1.2]  mp=1300
+  - three_size=108/64/90 / initial_slot=3
+  - BD: 原初の支配《The Subjugation》 (arts_id=687)
+    - description: 敵全体に消費ゲージ数に応じた150連ダメージ＆60秒間、味方の攻撃力･ﾓｰｼｮﾝ速度･ｽﾋﾟｰﾄﾞが30倍(消費ゲージ数に応じて倍率上昇)＆60秒間、敵の動きを止める
+    - cost=7 / hit_count=150 / value=0.02 / additional_value=39.0
+  - innate skills (6):
+    - DamageLimitBreak Addition +1300000000.0 — 味方全体のダメージ上限が13億アップ【熟度UPにつれてさらに効果値がUP】
+    - BlazeGaugeMaxLevel Addition +13.0 — B.D.ゲージの最大値が13アップ
+    - Speed Multiply ×1.75 — 風属性の魔剣の行動速度が絶大にアップ【熟度UPにつれてさらに効果値UP】
+    - RemHP_Attack Multiply ×3.0 — 風属性の味方全体が、残HPが少ないほど攻撃力がアップ(最大3倍)
+    - BlazeAttack Multiply ×50.0 — 自身のB.D.攻撃力が50倍
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`168702`](weapons.json#L279083) 天業剣クリーフォート【極】
+  - base_name: 天業剣クリーフォート (costume: 極魔装)
+  - element=風(3) / type=戦斧(7) / rarity=SS(4) / cv=藤井ゆきよ
+  - max stats: HP=13000 / ATK=17040 / DEF=9500 / SPD=27 / BREAK=2220
+  - hit_counts=[6, 5, 16] (3段)  motion_speed=[1.7/1.8/1.2]  mp=1300
+  - three_size=108/64/90 / initial_slot=4
+  - BD: 原初の支配《The Subjugation》 (arts_id=687)
+    - description: 敵全体に消費ゲージ数に応じた150連ダメージ＆60秒間、味方の攻撃力･ﾓｰｼｮﾝ速度･ｽﾋﾟｰﾄﾞが30倍(消費ゲージ数に応じて倍率上昇)＆60秒間、敵の動きを止める
+    - cost=7 / hit_count=150 / value=0.02 / additional_value=39.0
+  - innate skills (6):
+    - DamageLimitBreak Addition +1300000000.0 — 味方全体のダメージ上限が13億アップ【熟度UPにつれてさらに効果値がUP】
+    - BlazeGaugeMaxLevel Addition +13.0 — B.D.ゲージの最大値が13アップ
+    - Speed Multiply ×1.75 — 風属性の魔剣の行動速度が絶大にアップ【熟度UPにつれてさらに効果値UP】
+    - RemHP_Attack Multiply ×3.0 — 風属性の味方全体が、残HPが少ないほど攻撃力がアップ(最大3倍)
+    - BlazeAttack Multiply ×50.0 — 自身のB.D.攻撃力が50倍
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`169101`](weapons.json#L280694) 魔王侍女ロサ
+  - base_name: 魔王侍女ロサ (costume: 魔装)
+  - element=無(6) / type=連弩(6) / rarity=SS(4) / cv=飯田ヒカル
+  - max stats: HP=15100 / ATK=13080 / DEF=5240 / SPD=22 / BREAK=970
+  - hit_counts=[2, 3, 11] (3段)  motion_speed=[2.0/2.0/1.2]  mp=633
+  - three_size=72/51/75 / initial_slot=3
+  - BD: レジェンダリー･ブックマーク (arts_id=691)
+    - description: 敵全体に消費ゲージ数に応じた63連ダメージ＆wave中、味方の攻撃力･ﾌﾞﾚｲｸ力･ﾓｰｼｮﾝ速度が50倍
+    - cost=4 / hit_count=63 / value=0.8 / additional_value=33.0
+  - innate skills (6):
+    - BlazeGaugeMaxLevel Addition +13.0 — B.D.ゲージの最大値が13アップ
+    - MotionSpeed Multiply ×13.0 — 自身のモーション速度が13倍に加速【熟度UPにつれてさらに効果値がUP(最大18倍)】
+    - BlazeAttack Multiply ×50.0 — 自身のB.D.攻撃力が50倍
+    - DamageLimitBreak Addition +1300000000.0 — 闇属性の魔剣のダメージ上限が13億アップ
+    - DamageLimitBreak Addition +1300000000.0 — 無属性の魔剣のダメージ上限が13億アップ
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`169102`](weapons.json#L280951) 魔王侍女ロサ【極】
+  - base_name: 魔王侍女ロサ (costume: 極魔装)
+  - element=無(6) / type=連弩(6) / rarity=SS(4) / cv=飯田ヒカル
+  - max stats: HP=19630 / ATK=17000 / DEF=6800 / SPD=22 / BREAK=1260
+  - hit_counts=[3, 3, 14] (3段)  motion_speed=[2.0/2.0/1.2]  mp=633
+  - three_size=72/51/75 / initial_slot=4
+  - BD: レジェンダリー･ブックマーク (arts_id=691)
+    - description: 敵全体に消費ゲージ数に応じた63連ダメージ＆wave中、味方の攻撃力･ﾌﾞﾚｲｸ力･ﾓｰｼｮﾝ速度が50倍
+    - cost=4 / hit_count=63 / value=0.8 / additional_value=33.0
+  - innate skills (6):
+    - BlazeGaugeMaxLevel Addition +13.0 — B.D.ゲージの最大値が13アップ
+    - MotionSpeed Multiply ×13.0 — 自身のモーション速度が13倍に加速【熟度UPにつれてさらに効果値がUP(最大18倍)】
+    - BlazeAttack Multiply ×50.0 — 自身のB.D.攻撃力が50倍
+    - DamageLimitBreak Addition +1300000000.0 — 闇属性の魔剣のダメージ上限が13億アップ
+    - DamageLimitBreak Addition +1300000000.0 — 無属性の魔剣のダメージ上限が13億アップ
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`169301`](weapons.json#L281674) バハムート=イフ
+  - base_name: バハムート=イフ (costume: 魔装)
+  - element=闇(5) / type=投擲(9) / rarity=SS(4) / cv=竹達彩奈
+  - max stats: HP=9470 / ATK=11740 / DEF=10950 / SPD=35 / BREAK=2370
+  - hit_counts=[1, 2, 3] (3段)  motion_speed=[2.0/2.0/1.0]  mp=886
+  - three_size=73/52/67 / initial_slot=3
+  - BD: 《D-XIII IF》ドライツェンフィアー (arts_id=693)
+    - description: 敵全体に超強力な99連ダメージ＆30秒間攻撃力2倍
+    - cost=6 / hit_count=99 / value=1.31 / additional_value=0.0
+  - innate skills (6):
+    - HitCount Addition +9.951 — 自身の1撃目2撃目3撃目のヒット数を+10する【熟度21,41,60,80,99をそれぞれ超えると+1ずつ効果値UP】
+    - RemHP_MotionSpeed Multiply ×2.66 — 残HPが少ないほどモーション速度が超絶大に加速(最大2.66倍)【熟度UPで効果値が大幅UP(最大3.9倍)】
+    - RemHP_Attack Multiply ×1.8 — 残HPが少ないほど攻撃力が大幅にアップ
+    - DamageLimitBreak Addition +2000000000.0 — 自身のダメージ上限が20億アップ
+    - AnyElement Multiply ×1.0 — 光属性・無属性を対象とした他魔剣からのスキル効果を受けられる
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`169302`](weapons.json#L281907) バハムート=イフ【極】
+  - base_name: バハムート=イフ (costume: 極魔装)
+  - element=闇(5) / type=投擲(9) / rarity=SS(4) / cv=竹達彩奈
+  - max stats: HP=12300 / ATK=15250 / DEF=14230 / SPD=35 / BREAK=3080
+  - hit_counts=[2, 2, 6] (3段)  motion_speed=[2.0/2.0/1.0]  mp=886
+  - three_size=73/52/67 / initial_slot=4
+  - BD: 《D-XIII IF》ドライツェンフィアー (arts_id=693)
+    - description: 敵全体に超強力な99連ダメージ＆30秒間攻撃力2倍
+    - cost=6 / hit_count=99 / value=1.31 / additional_value=0.0
+  - innate skills (6):
+    - HitCount Addition +9.951 — 自身の1撃目2撃目3撃目のヒット数を+10する【熟度21,41,60,80,99をそれぞれ超えると+1ずつ効果値UP】
+    - RemHP_MotionSpeed Multiply ×2.66 — 残HPが少ないほどモーション速度が超絶大に加速(最大2.66倍)【熟度UPで効果値が大幅UP(最大3.9倍)】
+    - RemHP_Attack Multiply ×2.25 — 残HPが少ないほど攻撃力が絶大にアップ
+    - DamageLimitBreak Addition +2000000000.0 — 自身のダメージ上限が20億アップ
+    - AnyElement Multiply ×1.0 — 光属性・無属性を対象とした他魔剣からのスキル効果を受けられる
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`169401`](weapons.json#L282140) シャイターン=リズ
+  - base_name: シャイターン=リズ (costume: 魔装)
+  - element=光(4) / type=投擲(9) / rarity=SS(4) / cv=伊藤舞音
+  - max stats: HP=14790 / ATK=11910 / DEF=6170 / SPD=15 / BREAK=3990
+  - hit_counts=[1, 3, 7] (3段)  motion_speed=[1.8/1.8/1.2]  mp=860
+  - three_size=66/51/72 / initial_slot=3
+  - BD: 永遠二遊ベ楽園ノ愛玩 (arts_id=694)
+    - description: 敵全体に超絶強力な23連ダメージ＆66秒間味方の攻撃力が30倍
+    - cost=7 / hit_count=23 / value=8.0 / additional_value=0.0
+  - innate skills (4):
+    - HitCount Addition +6.0 — 光属性の魔剣の1撃目2撃目3撃目のヒット数を+6する
+    - BlazeAbsorb Repel_Percent ×100.0 — 盲目的な愛玩で勇気分解の発生を完全回避する
+    - MotionSpeed Multiply ×2.325 — 光属性の魔剣の攻撃モーションが絶大に加速【熟度UPにつれてさらに効果値UP】
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`169402`](weapons.json#L282335) シャイターン=リズ【極】
+  - base_name: シャイターン=リズ (costume: 極魔装)
+  - element=光(4) / type=投擲(9) / rarity=SS(4) / cv=伊藤舞音
+  - max stats: HP=19220 / ATK=15480 / DEF=8020 / SPD=15 / BREAK=5180
+  - hit_counts=[2, 3, 10] (3段)  motion_speed=[1.8/1.8/1.2]  mp=860
+  - three_size=66/51/72 / initial_slot=4
+  - BD: 永遠二遊ベ楽園ノ愛玩 (arts_id=694)
+    - description: 敵全体に超絶強力な23連ダメージ＆66秒間味方の攻撃力が30倍
+    - cost=7 / hit_count=23 / value=8.0 / additional_value=0.0
+  - innate skills (4):
+    - HitCount Addition +6.0 — 光属性の魔剣の1撃目2撃目3撃目のヒット数を+6する
+    - BlazeAbsorb Repel_Percent ×100.0 — 盲目的な愛玩で勇気分解の発生を完全回避する
+    - MotionSpeed Multiply ×2.652 — 光属性の魔剣の攻撃モーションが超絶大に加速【熟度UPにつれてさらに効果値UP】
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`169501`](weapons.json#L282530) 暁の鍵師アーベントロート
+  - base_name: 暁の鍵師アーベントロート (costume: 魔装)
+  - element=水(2) / type=投擲(9) / rarity=SS(4) / cv=夏吉ゆうこ
+  - max stats: HP=17180 / ATK=23710 / DEF=14090 / SPD=20 / BREAK=590
+  - hit_counts=[1, 2, 4] (3段)  motion_speed=[1.8/1.8/1.2]  mp=1280
+  - three_size=86/55/86 / initial_slot=3
+  - BD: 第XIII権限:創世に魂の暁よ在れ (arts_id=695)
+    - description: 敵全体に消費ゲージ数に応じた6連ダメージ＆wave中、味方の攻撃力とﾓｰｼｮﾝ速度が4倍、ｽﾋﾟｰﾄﾞとﾌﾞﾚｲｸ力が50倍
+    - cost=6 / hit_count=6 / value=1.12 / additional_value=2.5
+  - innate skills (6):
+    - DamageLimitBreak Addition +1300000000.0 — 味方全体のダメージ上限が13億アップ【熟度UPにつれてさらに効果値がUP】
+    - BlazeGaugeMaxLevel Addition +13.0 — B.D.ゲージの最大値が13アップ
+    - Heal Addition +500.0 — 味方全体が、非行動時にHPが徐々に大回復
+    - Vitality_Attack Multiply ×2.97959 — 水属性の味方全体が、残HPが多いほど攻撃力がアップ(最大3倍)【熟度UPにつれてさらに効果値がUP(最大5倍)】
+    - SapphireDrop Multiply ×2.0 — 水属性の魔剣の獲得するサファイアの量がかなり増加
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`169502`](weapons.json#L282799) 暁の鍵師アーベントロート【極】
+  - base_name: 暁の鍵師アーベントロート (costume: 極魔装)
+  - element=水(2) / type=投擲(9) / rarity=SS(4) / cv=夏吉ゆうこ
+  - max stats: HP=22330 / ATK=30820 / DEF=18310 / SPD=20 / BREAK=760
+  - hit_counts=[2, 2, 7] (3段)  motion_speed=[1.8/1.8/1.2]  mp=1280
+  - three_size=86/55/86 / initial_slot=4
+  - BD: 第XIII権限:創世に魂の暁よ在れ (arts_id=695)
+    - description: 敵全体に消費ゲージ数に応じた6連ダメージ＆wave中、味方の攻撃力とﾓｰｼｮﾝ速度が4倍、ｽﾋﾟｰﾄﾞとﾌﾞﾚｲｸ力が50倍
+    - cost=6 / hit_count=6 / value=1.12 / additional_value=2.5
+  - innate skills (6):
+    - DamageLimitBreak Addition +1300000000.0 — 味方全体のダメージ上限が13億アップ【熟度UPにつれてさらに効果値がUP】
+    - BlazeGaugeMaxLevel Addition +13.0 — B.D.ゲージの最大値が13アップ
+    - Heal Addition +500.0 — 味方全体が、非行動時にHPが徐々に大回復
+    - Vitality_Attack Multiply ×2.97959 — 水属性の味方全体が、残HPが多いほど攻撃力がアップ(最大3倍)【熟度UPにつれてさらに効果値がUP(最大5倍)】
+    - SapphireDrop Multiply ×3.0 — 水属性の魔剣の獲得するサファイアの量が大幅に増加
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`169701`](weapons.json#L283496) 血盟剣ダインスレイフ=TRUE
+  - base_name: 血盟剣ダインスレイフ=TRUE (costume: 魔装)
+  - element=闇(5) / type=長剣(1) / rarity=SS(4) / cv=山村響
+  - max stats: HP=11470 / ATK=13140 / DEF=11470 / SPD=24 / BREAK=150
+  - hit_counts=[3, 9, 10] (3段)  motion_speed=[1.8/1.6/1.2]  mp=1300
+  - three_size=88/54/79 / initial_slot=3
+  - BD: 血盟鮮刃ブラッディ†トゥルース (arts_id=697)
+    - description: 敵全体に消費ゲージ数に応じた49連ダメージ＆wave中、味方のﾓｰｼｮﾝ速度が2倍
+    - cost=5 / hit_count=49 / value=0.65 / additional_value=5.5
+  - innate skills (6):
+    - Attack Multiply ×2.97959 — 真解放により自身の攻撃力が3倍【熟度UPにつれてさらに効果値がUP(最大5倍)】
+    - MotionSpeed Multiply ×2.97959 — 真解放により自身のモーション速度が3倍【熟度UPにつれてさらに効果値がUP(最大5倍)】
+    - DamageLimitBreak Addition +3000000000.0 — 自身のダメージ上限が30億アップ
+    - Enemy_BreakDamageLimitBreak Addition +8000000000.0 — ブレイク時に自身のダメージ上限が80億アップ
+    - Vitality_Attack Multiply ×3.0 — 残HPが多いほど自身の攻撃力がアップ(最大3倍)
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+- [`169702`](weapons.json#L283729) 血盟剣ダインスレイフ=TRUE【極】
+  - base_name: 血盟剣ダインスレイフ=TRUE (costume: 極魔装)
+  - element=闇(5) / type=長剣(1) / rarity=SS(4) / cv=山村響
+  - max stats: HP=14900 / ATK=17080 / DEF=14900 / SPD=24 / BREAK=190
+  - hit_counts=[4, 9, 13] (3段)  motion_speed=[1.8/1.6/1.2]  mp=1300
+  - three_size=88/54/79 / initial_slot=4
+  - BD: 血盟鮮刃ブラッディ†トゥルース (arts_id=697)
+    - description: 敵全体に消費ゲージ数に応じた49連ダメージ＆wave中、味方のﾓｰｼｮﾝ速度が2倍
+    - cost=5 / hit_count=49 / value=0.65 / additional_value=5.5
+  - innate skills (6):
+    - Attack Multiply ×2.97959 — 真解放により自身の攻撃力が3倍【熟度UPにつれてさらに効果値がUP(最大5倍)】
+    - MotionSpeed Multiply ×2.97959 — 真解放により自身のモーション速度が3倍【熟度UPにつれてさらに効果値がUP(最大5倍)】
+    - DamageLimitBreak Addition +3000000000.0 — 自身のダメージ上限が30億アップ
+    - Enemy_BreakDamageLimitBreak Addition +8000000000.0 — ブレイク時に自身のダメージ上限が80億アップ
+    - Vitality_Attack Multiply ×3.0 — 残HPが多いほど自身の攻撃力がアップ(最大3倍)
+    - **新增: EventDropRate Multiply ×2.0 — マスターと夜こっそり抜け出して秘密の隠れ場所を見つけたことで「セポネの散歩だより」の取得数が上がる。**
+
+## materials
+
+### 新增 (3)
+
+- [`43010227`](materials.json#L15991) せぽねさんと rarity=4
+  - 一緒におさんぽしましょー♪
+[同装備ｾｯﾄ無のスピードがUP][上限値:普]
+- [`52140103`](materials.json#L20737) あっちこっち rarity=5
+  - 手をつないで、いっしょに♪[無騎槍]
+[残HP多いほど攻撃力UP][上限値:超高]
+- [`131010029`](materials.json#L29557) YOASOBE rarity=3
+  - 昼でも夜でも遊べばよいよい。[上限値:高]
+[セポネの散歩だよりの獲得量UP]
+
+## items
+
+### 新增 (2)
+
+- [`91279`](items.json#L130771) セポネの散歩だより
+  - 「せぽねさんぽ -いきなり魔界滅亡編-｣ 作戦に貢献した証。
+- [`2500048`](items.json#L165883) 一歩歩けばそこに出会いが
+  - セポネと散歩しまくった証
+
+## jobs
+
+### 新增 (1)
+
+- [`1574`](jobs.json#L199893) ワンダラー rarity=4
+  - rarity=4 / max_level=40
+  - job_abilities (18):
+    - WeaponType 長剣(1): pos=0.3 / neg=0.3 (rank=d 超苦手)
+    - WeaponType 大剣(2): pos=0.3 / neg=0.3 (rank=d 超苦手)
+    - WeaponType 太刀(3): pos=0.3 / neg=0.3 (rank=d 超苦手)
+    - WeaponType 杖棒(4): pos=0.3 / neg=0.3 (rank=d 超苦手)
+    - WeaponType 弓矢(5): pos=0.3 / neg=0.3 (rank=d 超苦手)
+    - WeaponType 連弩(6): pos=0.3 / neg=0.3 (rank=d 超苦手)
+    - WeaponType 戦斧(7): pos=0.3 / neg=0.3 (rank=d 超苦手)
+    - WeaponType 騎槍(8): pos=0.3 / neg=0.3 (rank=d 超苦手)
+    - WeaponType 投擲(9): pos=1.7 / neg=1.105 (rank=s 超得意)
+    - WeaponType 拳闘(10): pos=0.3 / neg=0.3 (rank=d 超苦手)
+    - WeaponType 魔典(11): pos=0.3 / neg=0.3 (rank=d 超苦手)
+    - WeaponType 大鎌(12): pos=0.3 / neg=0.3 (rank=d 超苦手)
+    - Element 火(1): pos=0.3 / neg=0.3 (rank=d 超苦手)
+    - Element 水(2): pos=0.3 / neg=0.3 (rank=d 超苦手)
+    - Element 風(3): pos=1.7 / neg=1.105 (rank=s 超得意)
+    - Element 光(4): pos=1.7 / neg=1.105 (rank=s 超得意)
+    - Element 闇(5): pos=0.3 / neg=0.3 (rank=d 超苦手)
+    - Element 無(6): pos=0.3 / neg=0.3 (rank=d 超苦手)
+  - job_skills (8):
+    - Speed Multiply ×1.2 — 世界を守り抜く証。装備セット全ての速度が大アップ
+    - MotionSpeed Multiply ×1.5 — 投擲装備でモーション速度とスピード50%UP
+    - HitCount Addition +0.0 — 自身のヒット数それぞれ1にする代わりに、ダメージ上限200億UP
+    - BlazeAttack Multiply ×0.0001 — B.D.攻撃力を代償に、B.D.コスト-3
+    - Raise Multiply ×0.01 — 投擲装備で3度だけHP1%で復活
+    - Speed Multiply ×1.5 — 投擲装備でスピード50%UP
+    - DamageLimitBreak Addition +20000000000.0 — 自身のダメージ上限200億UP
+    - WeaponArtsCost Addition +-3.0 — B.D.コスト-3
+
+## scenarios
+
+### 新增 (11)
+
+- [`327901`](scenarios.json#L10313) おつきさんぽ-前編-
+- [`327902`](scenarios.json#L10323) おつきさんぽ-後編-
+- [`327903`](scenarios.json#L10333) おしろさんぽ-前編-
+- [`327904`](scenarios.json#L10343) おしろさんぽ-後編-
+- [`327905`](scenarios.json#L10353) おひめさんぽ-前編-
+- [`327906`](scenarios.json#L10363) おひめさんぽ-後編-
+- [`327907`](scenarios.json#L10373) おばけさんぽ-前編-
+- [`327908`](scenarios.json#L10383) おばけさんぽ-後編-
+- [`327909`](scenarios.json#L10393) らすぼすさんと
+- [`327910`](scenarios.json#L10403) ますたーさんと
+- [`327911`](scenarios.json#L10413) せぽねさんぽ♪
+
+---
+
+★ 跳过的 derived 表(非 local-master.dat 产物,需 server response 聚合):
+- `memory_slot_skills.json`
+- `npc_motions.json`

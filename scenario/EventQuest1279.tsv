@@ -1,0 +1,1905 @@
+# E_1279_01
+Command	Arg1	Arg2	Arg3	Arg4	Arg5	Arg6	WaitType	Text	PageCtrl	Voice	WindowType
+Param	quest_name="クエスト名"
+ShowMessageWindow
+FadeOut	black					0
+StopSound
+Bgm	平和
+Bg	アリス庭園					0
+	ディーア	笑い4				0
+FadeIn	black					1
+	ディーア	笑い4						エウメニデス、\nちょっとあの飾りを横にずらしてくれ
+CharacterOff
+	エウメニデス	通常						またか、です？\n注文の多いご主人だな、です！
+Tween	エウメニデス	PunchPosition	y=30				NoWait
+	エウメニデス	通常						バカ腕ども！\n仕方ないご主人の頼みを叶えるぞ！\nですっ！
+Se	ピューン
+FadeOut	white					1
+Wait						1
+FadeIn	white					1
+	エウメニデス	通常						これでどうだ、です！
+CharacterOff
+	ディーア	笑い4						うん、いい感じだ！\nかぼちゃの飾り付けはバッチリだな
+CharacterOff
+	エウメニデス	通常						それにしても、\nここまで禁忌術式ハロウィンの準備に\n気合入れる必要あるか、です？
+	エウメニデス	通常						一晩だけのお祭り騒ぎなのに
+	エウメニデス	通常						そもそもハロウィンは、\nハデスさんが苦手なおばけも出る、\nこの世とあの世の境が弱まる時期
+	エウメニデス	通常						わたし的には気乗りは……
+CharacterOff
+	ディーア	通常4						たしかに魔力が不安定になって\nトラブルも起きがちだし、\n翌朝のパーティーの片付けは面倒だ
+	ディーア	通常4						でも向こう側と\nこちら側は表裏一体でもあるんだし\nただの大騒ぎじゃないと思うんだ
+	ディーア	通常4						向こうに行った魂にも\n元の意識が残っているかどうかは\nオレにもわからないけれど
+	ディーア	通常4						懐かしい人たちが\nおばけに紛れて\n帰ってきているかもしれない
+	ディーア	笑い4						そんなおばけに、\n魔界の楽しい様子を見せられるなら\nただのお祭り騒ぎじゃなくなる
+	ディーア	笑い4						何度も滅亡の危機がやってくる\n魔界だけれど\nオレたちは楽しく生きているよって
+	ディーア	通常4						それに\n仮装することでおばけが暴れるのを\n防ぐ効果もあるらしいしな！
+CharacterOff
+	エウメニデス	照れ						むむ……\nご主人の言うこともたまには\n正しそう、です……
+CharacterOff
+	ハデス	通常2						あと、\nエウメニデスは勘違いしています
+	ハデス	通常2						ハデスはおばけ、怖くないです
+	ハデス	通常2						ハデスに怖がる感情もないですし、\nよしんば怖がっていた過去があっても\n今はもう平気です
+	ハデス	通常2						ハデスにはマスターさんがいますし\nお姉ちゃんもいます
+	ハデス	通常2						おばけだった\nハデス=ロストさんも今は仲間です
+	ハデス	通常2						たとえピンクのもちもちなおばけが\n現れたとしても……
+CharacterOff
+	もちひつじ
+Tween	もちひつじ	PunchPosition	y=30				NoWait
+	もちひつじ							もちっ♪
+CharacterOff
+	ハデス	悲しい2
+Shake	ハデス		x=3				NoWait
+	ハデス	悲しい2						こ、こわくないですす……！\nハロウィンをたのしみましょう……
+CharacterOff
+	エウメニデス	嬉しい						わかったぞ、ですっ！
+	エウメニデス	照れ						でもハデスさん、\nおばけがでてきたらわたしに\nいつでも言ってくれ、です！
+	エウメニデス	照れ						恩返しのためにも\nハデスさんやペルセポネさんには\n一歩も近づけ<dash=2>
+Tween	エウメニデス	PunchPosition	y=30				NoWait
+	エウメニデス	驚き						って、そういえば\nペルセポネさんはどこだ、です？
+CharacterOff
+	ディーア	驚き4						確かにさっきから見ないな？
+	ディーア	驚き4						ハデスは知っているか？\nセポネの居場所なら分かるだろ？
+CharacterOff
+	ハデス	通常2						ええっと……\n近くにはいるみたいですね……
+CharacterOff
+	ディーア	汗4						ならまた気まぐれの散歩だな
+	ディーア	汗4						魔界が不安定になった時は\n特にふらーっと行くことが多いよな
+	ディーア	怪しい4						天冥の魔剣として、\nもしかしてなにか感じるのかも？
+CharacterOff
+	ハデス	通常2						でもきっと大丈夫です\nお腹が空いたら帰ってきますよ
+	ハデス	嬉しい2						お姉ちゃんの居場所は、\nハデスたちの側って言ってくれました\nハデスはそれを信じています
+CharacterOff
+	ディーア	通常4						そうだな！\nきっとまたふらーっと帰ってきて\nナデナデしてって言ってくるはずだ
+	ディーア	通常4						一足早いハロウィンをして\n沢山お菓子を持って帰ってくるかも
+CharacterOff
+	エウメニデス	嬉しい						それは楽しみ、ですね♪
+	エウメニデス	嬉しい						じゃあもうひと頑張りして、\n飾り付けを片付けるぞ、ですっ！
+StopBgm
+	wipe		wipe_start			0
+Tween	wipe	MoveTo	x=-800 islocal=true time=1.2	linear
+FadeOut	black					.1
+CharacterOff						0
+	ディーア	怪しい4				0
+Wait						3
+FadeIn	black					.3
+	ディーア	怪しい4						そんな話をしたのが二日前……
+Bgm	緊迫
+Param	character_grayout=false
+	集中線		エフェクト表
+	ディーア	絶望4						セポネはどこにいったんだ!?
+CharacterOff	集中線
+Tween	ディーア	PunchPosition	y=30				NoWait
+	ディーア	絶望4						おかしい！\nいくらなんでも遅すぎるって！
+	ディーア	絶望4						もうすぐハロウィンだぞ？\nセポネはいつ戻ってくるんだ!?
+CharacterOff
+	ハデス	悲しい2						お姉ちゃん……\nどこにいっちゃったんでしょう……
+CharacterOff
+	エウメニデス	通常						ハデスさん、\n落ち込まないでください、です！
+CharacterOff
+	ディーア	絶望4						さすがにこんなに帰りが遅いことは\n今まで無かった気がする
+	ディーア	絶望4						なにかトラブルにあったりは……
+Se	走る
+CharacterOff
+	旅人					1		ちわーっす、郵便です！\n魔剣王さんはこちらでしょうか？
+	旅人							「セポネさん」さんから\n魔剣王さんとはーちゃんさんに\nお手紙です！
+Param	character_grayout=true
+CharacterOff
+	ディーア	驚き4	p3
+	ハデス	悲しい2	p7b
+	ハデス	悲しい2						ふえっ……!?
+	ディーア	驚き4						セポネから手紙が!?
+	ハデス	悲しい2						マスターさん、はやく確認を……！
+StopBgm
+	ディーア	怪しい4						よし、どれどれ……？
+Se	回想
+FadeOut	white					1
+CharacterOff						0
+Bg	夏空					0
+	ペルセポネ	通常2				0
+Wait						1
+FadeIn	white					1
+Bgm	凱旋
+	ペルセポネ	通常2						マスターさんへ♪\nセポネさんは今成層圏にいまぁす♪
+	ペルセポネ	通常2						成層圏は今日も晴れです♪
+	ペルセポネ	通常2						ふわふわお昼寝してましたけど、\nさすがにヒマなので\n月のうさぎさんに会いに行きます♪
+	ペルセポネ	嬉しい2						月でお餅つき大会をしたら、\nお土産にお餅をもっていきますね♪\nかしこ♪
+FadeOut	white					1
+CharacterOff						0
+Bg	アリス庭園					0
+	ハデス	悲しい2	p7b			0
+	ディーア	笑い4	p3			0
+Wait						1
+StopBgm
+FadeIn	white					1
+	ディーア	笑い4						よかった♪\nセポネは元気そう<dash=2>
+Bgm	コメディ
+Tween	ディーア	PunchPosition	y=30				NoWait
+	ディーア	絶望4						待て待て待て待て!?
+Tween	ディーア	PunchPosition	y=30				NoWait
+	ディーア	絶望4						成層圏!? 次は月に行く!?\nなにがあってそうなったんだ!?
+	ハデス	悲しい2						お姉ちゃんですから……
+	ディーア	絶望4						だからって散歩のスケールじゃない！\nすぐに連れ戻さないと！
+CharacterOff
+	エウメニデス	通常						たしかにこのままだと、\n次元の壁とか変なところも超えて\nお散歩しちゃいそうだ、です……
+	エウメニデス	通常						でもご主人、\nハデスさんを外に連れ出すのは……
+CharacterOff
+	ハデス	本気2	p7b
+	ディーア	驚き4	p3
+	ディーア	驚き4						あ、そうか、\n今の時期はおばけと遭遇するかも
+Tween	ハデス	PunchPosition	y=30				NoWait
+	ハデス	本気2						だ、大丈夫です！\nお姉ちゃんを見つけるのは\nハデスの役目ですから
+	ハデス	本気2						それに何度も言いますが、\nハデスには怖がる感情はな<dash=2>
+CharacterOff
+	もちひつじ
+Tween	もちひつじ	PunchPosition	y=30				NoWait
+	もちひつじ							もちぃ♪
+CharacterOff
+	ハデス	悲しい2	p7b
+	ディーア	驚き4	p3
+Shake	ハデス		x=5 y=5				NoWait
+	ハデス	悲しい2						こここここわくないです……！
+StopBgm
+	ディーア	驚き4						…………
+Bgm	バトル
+	ディーア	通常4						大丈夫、任せてくれ
+	ハデス	悲しい2						マスターさん……
+	ディーア	通常4						オレもハデスとセポネとは\nもう長い付き合いなんだ
+	ディーア	通常4						セポネの行動パターンも\n今ならだいぶ分かるようになった
+	ディーア	通常4						ハロウィンの夜までに\nセポネを見つけて必ず帰ってくる
+	ディーア	笑い4						だから、\nパーティーの準備をしながら\n帰りを待っていてくれ
+CharacterOff
+	エウメニデス	嬉しい						ご主人……珍しく\nかっこいいこと言うな、です……！
+CharacterOff
+	ディーア	笑い4						珍しく、は余計だって！
+	ディーア	通常4						よし、それじゃあ出かけてくる！
+CharacterOff
+	ハデス	通常2						はい……！\nいってらっしゃい、マスターさん
+	ハデス	通常2						お姉ちゃんを……\nよろしくお願いします……！
+CharacterOff
+	ディーア	笑い4						任せておけ！
+	ディーア	拡大本気4	エフェクト表					待っていろ、セポネ！\nすぐにオレが見つけてみせるからな！
+FadeOut	white					2
+If	isdebug==true
+CharacterOff
+Jump	*E_1279_02
+EndIf
+EndScenario
+
+# E_1279_02
+Command	Arg1	Arg2	Arg3	Arg4	Arg5	Arg6	WaitType	Text	PageCtrl	Voice	WindowType
+Param	quest_name="クエスト名"
+ShowMessageWindow
+FadeOut	black					0
+StopSound
+Bgm	平和
+Bg	竜鍵マナ					0
+	ディーア	絶望4				0
+FadeIn	black					1
+	ディーア	絶望4						ハァ……ハァ……！\nゼェ……な、なんだったんだ……？
+Tween	ディーア	PunchPosition	y=30				NoWait
+	ディーア	絶望4						なんで月面に来た途端に、\nウサギの魔物と戦うハメになった？
+CharacterOff
+	エイリアン	竜鍵						お疲れ様でした、魔剣王さん
+CharacterOff
+	ディーア	驚き4						竜鍵マナ……の制御人格か？
+CharacterOff
+	エイリアン	竜鍵						はい、コスモとの一件以来ですね\nご無沙汰しています
+	エイリアン	竜鍵						ですが来てくれて助かりました\n私に残されていた月に纏わる伝承が\n暴走をしてしまったんです
+	エイリアン	竜鍵						いずれ貴方の役に立つために\n修復作業を続けていた中で\n思わぬ事態となってしまいました
+	エイリアン	竜鍵						あのままでは\n星喰いウサギが大量発生して\n月どころか魔界までかじられて
+	エイリアン	竜鍵						果ては魔界滅亡となったはずです
+CharacterOff
+	ディーア	驚き4						そんな危険な場面だったのか……
+	ディーア	汗4						って、それはそうと！\nこっちにペルセポネが来なかったか？
+	ディーア	汗4						ウサギと餅つきをするとか言って、\n月に向かったんだけど
+CharacterOff
+	エイリアン	竜鍵						天冥槍ペルセポネですか？\nたしかに彼女はふらりと来て……
+Se	回想
+FadeOut	white					.3
+ImageEffect	SpriteCamera	Sepia
+CharacterOff						0
+	ペルセポネ	すね顔2				0
+FadeIn	white					.3
+	ペルセポネ	すね顔2						まさか月にお餅用のお米がないとは\nこれでは餅つきできませんね？
+	ペルセポネ	通常2						セポネさんは困ってしまいましたので\n一度魔界に帰ることにします♪
+	ペルセポネ	無表情2						それに……
+	ペルセポネ	通常2						ううん、なんでもないです♪
+FadeOut	white					.3
+ImageEffectOff	SpriteCamera	Sepia
+CharacterOff						0
+	ディーア	絶望4				0
+FadeIn	white					.3
+Tween	ディーア	PunchPosition	y=30				NoWait
+	ディーア	絶望4						帰った！！！？
+	ディーア	悔しい4						こうしちゃいられない！\n急いで魔界に戻らないと……！
+Se	走る
+Tween	ディーア	MoveBy	x=800 time=1				NoWait
+	ディーア	笑い4						またな！ 竜鍵マナ！
+CharacterOff
+	エイリアン	竜鍵						あっ……
+	エイリアン	竜鍵						せっかくいらっしゃったのなら、\nお茶でも……
+	エイリアン	竜鍵						月に茶畑もありませんが……
+	エイリアン	竜鍵						はあ……\n私も魔界に行ければ……
+	エイリアン	竜鍵						……おや、これは？
+	ペルセポネの手紙	<Off>	1_2					お世話になったので、\nハロウィンのお菓子を置いていきます
+	ペルセポネの手紙	<Off>						これからもお仕事、\nがんばってください♪
+	ペルセポネの手紙	<Off>						はっぴーはろうぃーん♪
+	エイリアン	竜鍵						…………ふふ♪
+If	isdebug==true
+CharacterOff
+Jump	*E_1279_03
+EndIf
+EndScenario
+
+# E_1279_03
+Command	Arg1	Arg2	Arg3	Arg4	Arg5	Arg6	WaitType	Text	PageCtrl	Voice	WindowType
+Param	quest_name="クエスト名"
+ShowMessageWindow
+FadeOut	black					0
+StopSound
+Bgm	平和
+Bg	洞窟A					0
+	ディーア	絶望4
+FadeIn	black					1
+	ディーア	絶望4						ここにもいない……
+	ディーア	絶望4						セポネ、どこにいったんだー!!
+FadeOut	black					1
+CharacterOff						0
+Bg	アリス庭園					0
+	ペルセポネ	嬉しい2				0
+Wait						1
+FadeIn	black					1
+	ペルセポネ	嬉しい2						んふふー♪\nこのクッキーとってもおいしい♪
+	ペルセポネ	すね顔2						でもマスターさんがいないなんて、\nタイミング悪いですね？
+	ペルセポネ	すね顔2						おかえりナデナデも無いだなんて\nセポネさんはすねてしまいます
+CharacterOff
+	ハデス	通常2	p3
+	エウメニデス	驚き	p7b
+	ハデス	通常2						…………
+	エウメニデス	驚き						…………
+CharacterOff
+	ペルセポネ	通常2						あれ？\nはーちゃんにエウメニちゃん？\nどうかしたの？
+CharacterOff
+	ハデス	通常2	p3
+	エウメニデス	驚き	p7b
+	ハデス	通常2						な、なんでもない、です……！
+	エウメニデス	驚き						は、ハデスさん！\nいったいどうするんだ、です!?
+Tween	エウメニデス	PunchPosition	y=30				NoWait
+	エウメニデス	驚き						セポネさんが帰ってきちゃった、\nですよっ!?
+	ハデス	通常2						ま、マスターさんは……？
+	エウメニデス	驚き						月に行ったまま音信不通、です！
+	エウメニデス	通常						まあでもご主人だから、\nどうせ最後は帰ってくるだろ、です
+	エウメニデス	通常						だからそれまで、\nこのふらふらセポネさんを城の中に\n引き止めておかないと、です
+CharacterOff
+	ペルセポネ	通常2						さてさて、\nセポネさんは甘いお菓子で\nお腹がいっぱいです
+	ペルセポネ	通常2						マスターさんもネオちゃんさんに\n食べた後にすぐ寝るのはよくないって\nいつも言っていましたし
+	ペルセポネ	嬉しい2						セポネさんもまたお散歩に<dash=2>
+CharacterOff
+	ハデス	通常2	p3
+	エウメニデス	驚き	p7b
+	エウメニデス	驚き						っ……！！！？
+Tween	ハデス	PunchPosition	y=30				NoWait
+	ハデス	通常2						ま、まってぇ……！
+CharacterOff
+	ペルセポネ	通常2						はーちゃん、どうしたの？
+CharacterOff
+	ハデス	通常2	p3
+	エウメニデス	驚き	p7b
+	ハデス	通常2						えっと、その……
+	ハデス	通常2						な、なにか……\nなにかお姉ちゃんを引き止める\nお話をしないと……
+	エウメニデス	驚き						ハデスさんが困ってるぞ、です……！
+	エウメニデス	通常						ここはわたしがなんとか<dash=2>
+Tween	エウメニデス	PunchPosition	y=30				NoWait
+	エウメニデス	驚き						そうだっ！
+	エウメニデス	嬉しい						ペルセポネさん！\nお城の七不思議を知ってるか、です？
+CharacterOff
+	ペルセポネ	通常2						なな、ふしぎ……？
+CharacterOff
+	ハデス	通常2	p3
+	エウメニデス	嬉しい	p7b
+	エウメニデス	嬉しい						そうです！\nエイビシュタットは不思議がいっぱい
+	エウメニデス	嬉しい						だから面白い話を、\nたーくさん聞いたんだぞ、ですっ！
+	エウメニデス	嬉しい						ぜひ聞いてほしい、ですっ！
+CharacterOff
+	ペルセポネ	嬉しい2
+Tween	ペルセポネ	PunchPosition	y=30				NoWait
+	ペルセポネ	嬉しい2						わあ♪\nそれはおもしろそーだねぇ♪
+CharacterOff
+	ハデス	悲しい2	p3
+	エウメニデス	嬉しい	p7b
+	エウメニデス	嬉しい						ふう……なんとかなっ<dash=2>
+Shake	ハデス	悲しい2	x=3				NoWait
+	ハデス	悲しい2						七不思議……おばけ……
+Tween	エウメニデス	PunchPosition	y=30				NoWait
+	エウメニデス	慌て						わぁあああああ！\n違うんだぞ、です！ ハデスさん!!
+	エウメニデス	慌て						七不思議と言っても、\nおばけとかは出てこなくて、です！\nたぶん、おそらくっ！
+Se	フォーン
+CharacterOff
+	ハデスロスト	通常				1		大丈夫ですよ、こっちのハデス
+	ハデスロスト	通常						おばけのハデスがここにいるから\nお話のおばけは怖くないです
+CharacterOff
+	ペルセポネ	嬉しい2						ろーちゃん♪
+CharacterOff
+	ハデスロスト	通常						話は聞きました\nお姉ちゃんを引き止めるのに\nハデスも協力します
+CharacterOff
+	ハデス	通常2						それは助かります\n……ハデスはおばけ怖くないですけど
+CharacterOff
+	エウメニデス	嬉しい						じゃあ皆で面白い話をして、\nペルセポネさんを引き止めるぞ！\nですっ!!
+StopBgm
+Se	回想
+FadeOut	white					1
+ImageEffect	SpriteCamera	GrayScale
+CharacterOff						0
+Bg	酒場_宿屋					0
+	ディーア	にやけ4裸				0
+FadeIn	white					1
+Bgm	都市
+	ディーア	にやけ4裸						ホホホイ♪ ホホホイ♪
+Tween	ディーア	PunchPosition	y=30				NoWait
+	ディーア	にやけ4裸						ホホホイ♪ ホイ♪
+FadeOut	white					.3
+ImageEffectOff	SpriteCamera	GrayScale
+CharacterOff						0
+Bg	アリス庭園					0
+	ハデスロスト	怪しい				0
+FadeIn	white					.3
+	ハデスロスト	怪しい						そう言いながら、\nマスターさんはサンバのリズムで\n踊っていたんです……
+	ハデスロスト	怪しい						これがエイビシュタット七不思議の\n四番目「ホホホイマスターさん」です
+CharacterOff
+	ペルセポネ	通常2						なんでマスターさんはそんなことを？
+CharacterOff
+	エウメニデス	通常						いろいろ限界だったのか、です？
+	エウメニデス	通常						もう少し優しくしてあげようかな……
+CharacterOff
+	ハデス	通常2						ハデスには感情はありませんが、\nこの胸のざわつきは心配、ですか？
+CharacterOff
+	エウメニデス	通常						な、なんか変な雰囲気になりましたが\nいろいろなお話があるな、です♪
+CharacterOff
+	ハデス	通常2						増える氷と巨大化アルマースさんに
+	ハデス	通常2						異次元に通じる宝箱から飛び出る\nヘルゲストさん
+CharacterOff
+	ハデスロスト	通常						それになにもないところに\n話しかけているメイちゃんさんも\n不思議で気になるお話ですね？
+CharacterOff
+	エウメニデス	通常						この調子だと七つどころか\n百も二百も不思議が増えそうだぞ、\nですっ！
+CharacterOff
+	ペルセポネ	通常2						そういうお話なら、\nセポネも聞いたことがあるよ？
+CharacterOff
+	ハデス	通常2						お姉ちゃんも？\nそれってどういうお話だったの？
+CharacterOff
+	ペルセポネ	通常2						ええっと……
+Se	回想
+FadeOut	white					.3
+ImageEffect	SpriteCamera	Sepia
+CharacterOff						0
+Bg	酒場1F					0
+	ペルセポネ	通常2				0
+FadeIn	white					.3
+	ペルセポネ	通常2						それはセポネが\n夜中に目が覚めてふらふらしていた\n時のお話でした♪
+	ペルセポネ	通常2						マスターさんのお部屋の前を\n通りかかった時に<dash=2>
+FadeOut	black					.3
+CharacterOff						0
+Bg	酒場_宿屋(夜)					0
+	エウメニデス	照れ				0
+FadeIn	black					.3
+	エウメニデス	照れ						な、なんで、\nご主人に協力してるんだ、ですっ！\nバカ腕どもぉー！
+	エウメニデス	照れ						あ、だめっ！\nそこは脱がしたら<dash=2>
+FadeOut	black					.3
+CharacterOff						0
+Bg	酒場1F					0
+	ペルセポネ	通常2				0
+FadeIn	black					.3
+	ペルセポネ	通常2						わーお
+Se	回想
+FadeOut	white					.3
+ImageEffectOff	SpriteCamera	Sepia
+CharacterOff						0
+Bg	アリス庭園					0
+	ペルセポネ	通常2				0
+FadeIn	white					.3
+	ペルセポネ	通常2						夜に激しく大運動会な\nエウメニちゃんのお腕のお話です♪
+	ペルセポネ	通常2						お昼はそこまでじゃないのに、\n不思議ですね？
+CharacterOff
+	エウメニデス	慌て
+Tween	エウメニデス	PunchPosition	y=30				NoWait
+	エウメニデス	慌て						わぁあああああああああああ！\n見られてた、です!?
+CharacterOff
+	ハデスロスト	通常						…………
+CharacterOff
+	ハデス	通常2						…………
+CharacterOff
+	エウメニデス	慌て
+Tween	エウメニデス	PunchPosition	y=30				NoWait
+	エウメニデス	慌て						無言で見るのはやめてー、ですっ！
+CharacterOff
+	ペルセポネ	嬉しい2						他にも、\n入ったら気持ちよく眠れちゃう\nマスターさんのベッドとか♪
+	ペルセポネ	嬉しい2						いつのまにか\nマスターさんとお風呂にいる\nろーちゃんのお話も不思議ですねぇ♪
+CharacterOff
+	ハデスロスト	通常
+Tween	ハデスロスト	PunchPosition	y=30				NoWait
+	ハデスロスト	照れ						…………っ！
+CharacterOff
+	ハデス	通常2						ハデス=ロストさん……？
+CharacterOff
+	ハデスロスト	照れ						は、ハデスはおばけですから\nどこに現れても不思議じゃないです
+CharacterOff
+	ペルセポネ	嬉しい2						あとはーちゃんも<dash=2>
+CharacterOff
+	エウメニデス	慌て						これじゃただの暴露大会だぞ、です！\nもっと不思議な話にしないと！
+	エウメニデス	慌て						ええっと<dash=2>
+Tween	エウメニデス	PunchPosition	y=30				NoWait
+	エウメニデス	通常						そうだっ！
+StopBgm
+	wipe		wipe_start			0
+Tween	wipe	MoveTo	x=-800 islocal=true time=1.2	linear
+FadeOut	black					.1
+CharacterOff						0
+Bg	凍りついた神殿城					0
+	ハデス	通常2				0
+Wait						2
+FadeIn	black					.3
+Bgm	図書館
+	ハデス	通常2						ここが、そのお部屋ですか？
+CharacterOff
+	エウメニデス	通常						はいっ！\nアリス様の秘密の宝箱があるって\n地図には書いてあったけど
+	エウメニデス	通常						ご主人たちも\nなんにも見つけられなかった場所！
+CharacterOff
+	ハデスロスト	通常						確かに秘密はありそうですね……
+	ハデスロスト	通常						でもそれより、この雰囲気は<dash=2>
+	ハデスロスト	通常						ハデスさん？
+CharacterOff
+	ハデス	通常2						……はい
+	ハデス	通常2						すごい数のマイナス事象が……\nハデスたちの力の源がありますね
+CharacterOff
+Se	フォーン
+	ペルセポネ	無表情2						っ……！
+	ペルセポネ	無表情2						なにかが、くる……？
+StopBgm
+CharacterOff
+	ハデス	通常2						え……？
+Bgm	魔獣バトル
+Param	character_grayout=false
+CharacterOff
+	オーラ紫		エフェクト表
+	Ω級クレイモア型冥獣					1		オォオオオオオオオ!!
+Wait						.5
+CharacterOff
+	エウメニデス	慌て
+Tween	エウメニデス	PunchPosition	y=30				NoWait
+	エウメニデス	慌て						なんだこの魔物！\nどっから出てきた、ですっ!?
+CharacterOff
+	ハデス	通常2						ハデスたちが入ってきたから、\nマイナス事象が形になったんですか？
+	ハデス	通常2						ど、どうしましょう？\nハデスたちだけだと倒せな<dash=2>
+StopBgm
+CharacterOff
+	ペルセポネ	嬉しい2						ううん、大丈夫♪
+Se	走る
+Bgm	勇者バトル
+CharacterOff
+	ディーア	本気4				.5		うぉおおおおおおおおおおおお！
+CharacterOff						0
+ImageEffect	SpriteCamera	MotionBlur
+Se	シャキーン
+Bg	黒背景					0
+	黒背景		エフェクト表			0
+	斬撃(393C)		エフェクト裏			0
+Tween	黒背景	MoveBy	y=-3000 time=1
+Wait						.3
+Bg	凍りついた神殿城					0
+CharacterOff						0
+ImageEffectOff	SpriteCamera	MotionBlur
+	Ω級クレイモア型冥獣
+Se	ザシュ
+Shake	Ω級クレイモア型冥獣		x=3				NoWait
+	Ω級クレイモア型冥獣							！？！？
+CharacterOff
+	ディーア	本気4						はぁ、はぁ、はぁ……\nやっと戻ってこれた……
+Tween	ディーア	PunchPosition	y=30				NoWait
+	ディーア	悔しい4						みんな、無事か!?
+CharacterOff
+	ハデス	嬉しい2						マスターさん……！
+CharacterOff
+	エウメニデス	嬉しい						いいところに帰ってきた、です！
+CharacterOff
+	ディーア	驚き4						でもこれはいったい？
+CharacterOff
+	エウメニデス	慌て						ええっと、\n七不思議でホホホイでマイナス事象が
+	エウメニデス	慌て						とにかく、大変だった！ ですっ!!
+CharacterOff
+	ディーア	驚き4						な、なんのことかわからないけど
+	ディーア	本気4						まずは魔物を退治するぞ！
+If	isdebug==true
+CharacterOff
+Jump	*E_1279_04
+EndIf
+EndScenario
+
+# E_1279_04
+Command	Arg1	Arg2	Arg3	Arg4	Arg5	Arg6	WaitType	Text	PageCtrl	Voice	WindowType
+Param	quest_name="クエスト名"
+ShowMessageWindow
+FadeOut	black					0
+StopSound
+Bgm	平和
+Bg	凍りついた神殿城					0
+	ディーア	悔しい4				0
+FadeIn	black					1
+	ディーア	悔しい4						はあ、はあ……\nエイビシュタットにまだあんな魔物が\n眠っていたなんて……
+	ディーア	悔しい4						ここに溜まった魔力を吸収して\nさらに大きく成長していたら\n魔界存亡の危機に繋がったかも……
+	ディーア	笑い4						でも未然に防げたし、\nペルセポネにも追いついたから\n万事解決<dash=2>
+CharacterOff
+	ハデスロスト	通常						それについてですが……
+CharacterOff
+	エウメニデス	通常						そのぉ……です……
+CharacterOff
+	ハデス	通常2						お姉ちゃんが……
+CharacterOff
+	ディーア	絶望4						え……？
+Se	回想
+FadeOut	white					.3
+ImageEffect	SpriteCamera	Sepia
+CharacterOff						0
+	ペルセポネ	通常2				0
+FadeIn	white					.3
+	ペルセポネ	通常2						マスターさんが来てくれたなら\n安心ですね♪
+	ペルセポネ	無表情2						でも、さっきも……
+	ペルセポネ	無表情2						…………
+	ペルセポネ	通常2						はーちゃん、\nセポネはお食事の後の運動に行きます
+CharacterOff
+	ハデス	通常2
+Tween	ハデス	PunchPosition	y=30				NoWait
+	ハデス	通常2						ふえっ!?
+Se	回想
+FadeOut	white					.3
+ImageEffectOff	SpriteCamera	Sepia
+CharacterOff						0
+	ディーア	絶望4				0
+FadeIn	white					.3
+	ディーア	絶望4						それで行っちゃった……？
+	ディーア	絶望4						セポネぇえええええええ!?
+Se	ピューン
+Tween	ディーア	MoveBy	x=700 time=1				NoWait
+Wait						1
+CharacterOff
+	ハデス	通常2						あっ……
+CharacterOff
+	ハデスロスト	通常						マスターさん、\n行っちゃいましたね……
+CharacterOff
+	エウメニデス	通常						話を最後まで聞け、ですっ！
+Se	回想
+FadeOut	white					.3
+ImageEffect	SpriteCamera	Sepia
+CharacterOff						0
+	ハデス	悲しい2				0
+FadeIn	white					.3
+	ハデス	悲しい2						お、お出かけ前に待って……！
+	ハデス	悲しい2						お姉ちゃん、\n……ちゃんと帰ってくるよね？
+CharacterOff
+	ペルセポネ	嬉しい2						どうしてそんなこと聞くの？
+	ペルセポネ	嬉しい2						セポネは、\nはーちゃんたちから離れないよ？
+Tween	ペルセポネ	PunchPosition	y=30				NoWait
+	ペルセポネ	嬉しい2						ちゃーんと、帰ってくるから♪\nお土産を楽しみにしてて！
+FadeOut	white					.3
+ImageEffectOff	SpriteCamera	Sepia
+CharacterOff						0
+	ハデス	嬉しい2				0
+FadeIn	white					.3
+	ハデス	嬉しい2						まったく仕方のないお姉ちゃんです
+	ハデス	嬉しい2						エウメニデス、ハデス=ロストさん\n二人が帰って来た時のために\nハロウィンの準備を進めましょう♪
+If	isdebug==true
+CharacterOff
+Jump	*E_1279_05
+EndIf
+EndScenario
+
+# E_1279_05
+Command	Arg1	Arg2	Arg3	Arg4	Arg5	Arg6	WaitType	Text	PageCtrl	Voice	WindowType
+Param	quest_name="クエスト名"
+ShowMessageWindow
+FadeOut	black					0
+StopSound
+Bgm	平和
+Bg	荒野					0
+Param	character_grayout=false
+	ディーア	悔しい4
+FadeIn	black					1
+	ディーア	悔しい4						まさか、\nエイビシュタットですれ違うなんて
+Tween	ディーア	PunchPosition	y=30				NoWait
+	ディーア	悔しい4						だがオレはあきらめない……！
+	ディーア	本気4						覚悟しろよ、セポネ！\n見つけたらたくさんもふもふして！\nすーはーしてやるからなぁ!!
+	ディーア	本気4						どこだセポネぇええええええ！
+	wipe		wipe_start			0
+Tween	wipe	MoveTo	x=-800 islocal=true time=1.2	linear
+FadeOut	black					.1
+CharacterOff						0
+Bg	宝石鉱山					0
+	ペルセポネ	無表情2				0
+Wait						2
+FadeIn	black					.3
+	ペルセポネ	無表情2						あれれ？\nやまびこさんにのって\nマスターさんの声が聞こえたような？
+	ペルセポネ	無表情2						うーん、気の所為でしょうか？
+	ペルセポネ	無表情2						こんなに音がぐわんぐわんする\n洞窟の中だから聞き間違えかも？
+StopBgm
+CharacterOff
+	セレナ	泣き				1		うぅ、ぐすっ……！\n一つ掘っては借金のため……\n二つ掘っても借金のため……
+Bgm	わくわく
+	セレナ	泣き						せめて埋蔵金とか掘り出して\n一気に借金返済できないかなぁ……
+CharacterOff
+	ペルセポネ	通常2						わーお♪\n可愛い炭鉱夫さんを発見ですね♪
+CharacterOff
+	セレナ	驚き
+Tween	セレナ	PunchPosition	y=30				NoWait
+	セレナ	驚き						ふぇ……!?\nあなたは魔剣王さんのところの\n魔剣少女さんですよね!?
+CharacterOff
+	ペルセポネ	嬉しい2						はい、こんにちは♪\nかわいいかわいいセポネさんです♪
+CharacterOff
+	セレナ	泣き						あ、これはどうも……\n相変わらずどんくさくてポンコツな\nアホアホのセレナですぅ……
+	セレナ	本気						それでその、\nセポネちゃんはどうしてここに？\nまさか魔剣王さんも？
+	セレナ	やばい						できればそのぉ……\n泥だらけな格好は見られたくないなぁ\nとか思ったり悩んだり……
+CharacterOff
+	ペルセポネ	すね顔2						確かにナデナデされたら、\n髪の毛がゴワゴワしちゃうくらいに\n泥だらけですね……
+Tween	ペルセポネ	PunchPosition	y=30				NoWait
+	ペルセポネ	嬉しい2						でも♪\nセポネさんはちゃーんと知ってます
+	ペルセポネ	通常2						誰しも\n苦しみのなかでなにかに囚われ苦しみ
+	ペルセポネ	通常2						その中でも\n自由を得ようともがき苦しんで…
+	ペルセポネ	嬉しい2						なんやかんやあるので、\nきっとめいびー労働は尊いです♪\nセレナさんもすごいですっ♪
+CharacterOff
+	セレナ	きらーん						おおっ！ 本当ですかぁ!?\n今の私、すごいことしてますか？
+CharacterOff
+	ペルセポネ	すね顔2						でも世の中には\nじごーじとくという罪ぶかーい労働も\nあるらしいので注意が必要です
+	ペルセポネ	すね顔2						レイバーさんがよく、\nカニ漁に行ってウマイガニを\nお土産に持って帰ってくれますけど
+	ペルセポネ	すね顔2						それはシャッキンノカタという\n背徳の味がします
+CharacterOff
+	セレナ	やばい
+Shake	セレナ		x=3				NoWait
+	セレナ	やばい						うぐっ……!?
+CharacterOff
+	ペルセポネ	無表情2						あれ？\nどうしましたか、セレナさん？
+	ペルセポネ	無表情2						もしかしてセレナさんも……
+CharacterOff
+	セレナ	泣き						うぇええ……\nごめんなさい、実はそーなんですぅ！
+Tween	セレナ	PunchPosition	y=30				NoWait
+	セレナ	泣き						借金のせいで、\n鉱山で数百年も働くことにぃ……！
+Se	回想
+FadeOut	white					.3
+ImageEffect	SpriteCamera	Sepia
+CharacterOff						0
+Bg	市街地A					0
+	水天のアクア	通常				0
+FadeIn	white					.3
+	水天のアクア	通常						じゃあセレナ？\nアクア様は今日の宿を探してくるから\nあんたは食事を用意してね
+CharacterOff
+	セレナ	笑い						はい！ 任せてください！
+CharacterOff
+	水天のアクア	通常						元気な返事はいいけど\nちゃーんと荷物にも気をつけなさい？
+	水天のアクア	通常						そのバッグの中には、\n一ヶ月分の生活費もあるから、\n無くすと大変なことになる説あるわ
+	水天のアクア	通常						くれぐれも！\n変なことに使わないように……！
+CharacterOff
+	セレナ	笑い						大丈夫ですって！\n私、これでも成長してますから！
+	セレナ	笑い						魔剣王さんと共に魔界を救った\n太陽姫ですもん♪
+CharacterOff
+	水天のアクア	通常						調子がいいのは結構だけど、\nそういうところが心配な説あるのよね
+	水天のアクア	通常						まあいいわ、行ってくる！
+CharacterOff
+	セレナ	嬉しい						はーい！
+	セレナ	通常						そういえば一ヶ月分の生活費って\nどれくらいなのかな？
+	セレナ	通常						えーっと……
+Tween	セレナ	PunchPosition	y=30				NoWait
+	セレナ	慌て						うえっ、これだけ!?\nめちゃくちゃギリギリ……！
+	セレナ	やばい						こんなになってるなら、\nもっと頼ってくれたら良いのに
+	セレナ	きらーん						よしっ！
+	セレナ	きらーん						こうなったら、\n私の力で生活費を倍増させるぞっ！
+	セレナ	きらーん						マスターキーさんだって、\nよくわからないけど倒せた私だもん\nきっとなんとかなるはず♪
+	セレナ	本気						なにか楽できて簡単に\nお金がザクザクする方法とか……
+Tween	セレナ	PunchPosition	y=30				NoWait
+	セレナ	きらーん						っ……あれは！
+FadeOut	white					.3
+ImageEffectOff	SpriteCamera	Sepia
+CharacterOff						0
+Bg	宝石鉱山					0
+	セレナ	やばい				0
+FadeIn	white					.3
+	セレナ	やばい						そこで見つけたのが、\nすっごく金ぴかで大セール中な\n一攫千金を確実というピッケルで
+	セレナ	やばい						でも意気揚々と買ったら、\nメッキ貼った普通のピッケルで
+	セレナ	やばい						ピッケルを買う時の借金を返そうと\n急いで街で仕事を探したら、\nなんやかんやで借金だけ倍増して……
+	セレナ	泣き						借金取りのお兄さんたちに捕まって\n強制労働させられてるんですぅ！
+	セレナ	泣き						真っ当な肉体労働なだけ\nマシかもしれないですけど\n鉱山でウン百年働くことになって
+	セレナ	泣き						私の旅はここで終わりです……
+CharacterOff
+	ペルセポネ	無表情2						それは……ドンマイさんですね？
+	ペルセポネ	通常2						ですがセレナさん、\nセポネさんは聞いたことがあります
+	ペルセポネ	通常2						誰かをだまして得するくらいなら\nだまされる方がよっぽどいい
+CharacterOff
+	セレナ	きらーん						おおっ……！
+CharacterOff
+	ペルセポネ	嬉しい2						なので数百年、がんばりましょう♪
+CharacterOff
+	セレナ	泣き
+Shake	セレナ		x=4			NoWait
+	セレナ	泣き						いやぁあああああああ！
+CharacterOff
+	ペルセポネ	通常2						いやですか？
+CharacterOff
+	セレナ	泣き
+Tween	セレナ	PunchPosition	y=30				NoWait
+	セレナ	泣き						いやですよぉ！\n自分で選んだ仕事なら良いですけど\n強制労働ですからっ！
+	セレナ	泣き						それに姉さんにバレたら、\nいったいどれだけ怒られるか……\nもうお散歩も許されないかも……
+CharacterOff
+	ペルセポネ	すね顔2						むむむ……！\nお散歩ができないというのは\nとても困ってしまいます
+	ペルセポネ	すね顔2						セポネさんは今、\nセレナさんの気持ちを理解しました
+	ペルセポネ	通常2						お散歩の自由と尊厳を守るために\n立ち上がりましょう！
+CharacterOff
+	セレナ	嬉しい						セポネちゃん……！\nお手伝いしてくれるんですかぁ!?
+CharacterOff
+	ペルセポネ	通常2
+Tween	ペルセポネ	MoveBy	x=-50				NoWait
+	ペルセポネ	通常2						見ててください\nセポネさんもピッケルを持って<dash=2>
+Tween	ペルセポネ	PunchPosition	y=30				NoWait
+	ペルセポネ	すね顔2						……あうっ
+	ペルセポネ	通常2						ムリです♪
+Tween	ペルセポネ	MoveBy	x=50				NoWait
+	ペルセポネ	通常2						重すぎてお手々が痛いので、\nマスターさんにナデナデしてもらいに\n帰りますね
+CharacterOff
+	セレナ	泣き
+Tween	セレナ	PunchPosition	y=30				NoWait
+	セレナ	泣き						待って待って！\n置いて行かないでくださーい！
+	セレナ	本気						じゃあ掘るのは私がやるから、\n埋蔵金を見つける\n手伝いをしてくれませんか？
+StopBgm
+CharacterOff
+	ペルセポネ	無表情2						まいぞーきん？
+Bgm	作戦会議
+CharacterOff
+	セレナ	本気						実はこの鉱山には、\n私のルーツ……覇王にまつわる\n伝説があるらしいんです
+	セレナ	通常						戦いに敗れた覇王ゼフさんですが\n部下の太陽聖域の魔剣使いさんたちは\nいつか復活すると信じていました
+	セレナ	きらーん						そしてその時の軍資金として、\n煌めく黄金をこの山に隠したとか！
+	セレナ	きらーん						ご先祖のものは私のもの！\nそれを見つければ借金も一発返済！
+	セレナ	通常						もしかしたら、\n私の家族のことも分かるかもですしね
+	セレナ	通常						魔剣少女さんって\n不思議な力も使えるんですよね？
+	セレナ	通常						セポネちゃんなら、\nもしかして場所を見つけられません？
+CharacterOff
+	ペルセポネ	無表情2						そうですねぇ……\nマスターさんがいればきっと……
+	ペルセポネ	無表情2						……あれ？
+Tween	ペルセポネ	MoveBy	x=50				NoWait
+	ペルセポネ	無表情2						こっち……？
+	ペルセポネ	通常2						ここの奥に、\nなんだか不思議な感じがします！
+CharacterOff
+	セレナ	きらーん						ホントですか!?
+	セレナ	本気						じゃあ掘りますよぉ……！
+StopBgm
+Tween	セレナ	PunchPosition	y=30				NoWait
+	セレナ	本気						えいやーっ！
+CharacterOff						0
+ImageEffect	SpriteCamera	MotionBlur
+Se	火2
+Bg	黒背景					0
+	黒背景		エフェクト表			0
+	射撃(赤)		エフェクト裏			0
+Tween	黒背景	MoveBy	y=-3000 time=1
+Wait						.3
+Bg	宝石鉱山					0
+CharacterOff						0
+ImageEffectOff	SpriteCamera	MotionBlur
+	セレナ	きらーん						どうだぁ！
+Bgm	カジノ
+CharacterOff
+	キノコリオン	通常
+Tween	キノコリオン	PunchPosition	y=30				NoWait
+	キノコリオン	通常						ノコノコ！\n（シャバの空気はうまいノコ！）
+Se	ピューン
+Tween	キノコリオン	MoveBy	x=800 time=1				NoWait
+Wait						1
+CharacterOff
+	ペルセポネ	通常2						大発見ですね♪
+CharacterOff
+	セレナ	慌て						キノコリオンじゃないですか!?
+CharacterOff
+	ペルセポネ	通常2						売れませんか？
+CharacterOff
+	セレナ	慌て						売れませんよぉ！
+	セレナ	本気						でも確かに、\nセポネちゃんが示した場所から\nなにかが出てきた……
+	セレナ	慌て						せ、セポネちゃん！\n他にはなにか感じませんか？
+CharacterOff
+	ペルセポネ	無表情2						うーんと、うーんと……
+Tween	ペルセポネ	PunchPosition	y=30				NoWait
+	ペルセポネ	通常2						こっちです♪
+CharacterOff
+	セレナ	本気						どぉりゃぁああああああ！
+CharacterOff						0
+ImageEffect	SpriteCamera	MotionBlur
+Se	火2
+Bg	黒背景					0
+	黒背景		エフェクト表			0
+	射撃(赤)		エフェクト裏			0
+Tween	黒背景	MoveBy	y=-3000 time=1
+Wait						.3
+Bg	宝石鉱山					0
+CharacterOff						0
+ImageEffectOff	SpriteCamera	MotionBlur
+	セレナ	きらーん						あっ！\nなにか輝く金色が出て<dash=2>
+CharacterOff
+	ドリル	通常				1		やっと開通しましたのね！
+Tween	ドリル	PunchPosition	y=30				NoWait
+	ドリル	通常						……あら？
+CharacterOff
+	ペルセポネ	通常2						ドリルちゃん♪
+	ペルセポネ	通常2						じゃあセポネが感じたのは、\nお友達の気配だったんですね♪
+CharacterOff
+	ドリル	通常						ごきげんよう、ペルセポネさん
+	ドリル	通常						文字通りドリルの専門家として\n掘削工事の手伝いをしていたのですが\nここは終点ではないようですわね？
+	ドリル	通常						皆様！ ゴールはまだですわ！\n掘って掘って掘りまくりますわよ！\n目指せ、魔界貫通！
+	男たち	<Off>	1_2					オス！ ドリルお嬢!!
+CharacterOff
+	ペルセポネ	嬉しい2						面白そうなので、\nセポネもついていこーっと♪
+CharacterOff
+	セレナ	泣き						いかないでぇええ！
+	セレナ	慌て						ほ、他には！\nどこか変なのありませんか!?
+CharacterOff
+	ペルセポネ	通常2						うーんセレナさんの質問は\nなんだか雲をつかむようなお話です
+	ペルセポネ	通常2						セポネさんも筆の誤りといいますし\nなにかヒントを！
+StopBgm
+CharacterOff
+	セレナ	本気						そうですね……\n埋蔵金というからには表に出せない\nナイショで罪深い宝物です
+CharacterOff
+	ペルセポネ	無表情2						罪……
+Bgm	図書館
+Se	回想
+FadeOut	white					.3
+ImageEffect	SpriteCamera	Sepia
+CharacterOff						0
+Bg	戦場跡					0
+	          	<Off>	1_2			0
+FadeIn	white					.3
+Wait						2
+FadeOut	white					.3
+ImageEffectOff	SpriteCamera	Sepia
+CharacterOff						0
+Bg	宝石鉱山					0
+	ペルセポネ	無表情2				0
+FadeIn	white					.3
+	ペルセポネ	無表情2						それなら……
+	ペルセポネ	無表情2						あっち、です
+CharacterOff
+	セレナ	本気						三度目の正直ですっ！
+	セレナ	本気						えいやぁあああああ！！！！
+CharacterOff						0
+ImageEffect	SpriteCamera	MotionBlur
+Se	火2
+Bg	黒背景					0
+	黒背景		エフェクト表			0
+	射撃(赤)		エフェクト裏			0
+Tween	黒背景	MoveBy	y=-3000 time=1
+Wait						.3
+Bg	宝石鉱山					0
+CharacterOff						0
+ImageEffectOff	SpriteCamera	MotionBlur
+	土煙		エフェクト表			0
+	セレナ	きらーん						おぉ！\n土煙の奥から金色の輝き！\nこれこそ覇王の<dash=2>
+StopBgm
+CharacterOff
+	土煙		エフェクト表
+Wait						1
+CharacterOff	土煙					1
+	Gキノコリオン					1
+Bgm	バトル
+Tween	Gキノコリオン	PunchPosition	y=30				NoWait
+	Gキノコリオン							ノコォおおおおおお！
+CharacterOff
+	セレナ	慌て						ゴールデンなキノコリオン!?
+	セレナ	やばい						なんでこんなに、\nキノコリオンが埋まってるの!?
+	セレナ	慌て						そ、それよりどうしよう！\n私まだキノコリオンも倒せな<dash=2>
+CharacterOff
+	ディーア	本気4	画面外_右
+Se	ピューン
+Tween	ディーア	MoveBy	x=-550 time=0.5				NoWait
+	ディーア	本気4				1		ここか、セポネぇえええええ！
+CharacterOff
+	セレナ	慌て						ま、魔剣王さん!?
+CharacterOff
+	ディーア	驚き4						セレナ!?
+	ディーア	驚き4						どうしてお前が炭鉱に!?
+CharacterOff
+	セレナ	汗						な、なんというか……\nそのいろいろとありまして……
+	セレナ	通常						でもちょうどいいところに！\nこのキノコリオンを止めるのを\n手伝ってください！
+CharacterOff
+	ディーア	汗4						よくわからないけれど
+Tween	ディーア	PunchPosition	y=30				NoWait
+	ディーア	本気4						なんかわかった！
+If	isdebug==true
+CharacterOff
+Jump	*E_1279_06
+EndIf
+EndScenario
+
+# E_1279_06
+Command	Arg1	Arg2	Arg3	Arg4	Arg5	Arg6	WaitType	Text	PageCtrl	Voice	WindowType
+Param	quest_name="クエスト名"
+ShowMessageWindow
+FadeOut	black					0
+StopSound
+Bgm	平和
+Bg	宝石鉱山					0
+Param	character_grayout=false
+	ディーア	汗4
+FadeIn	black					1
+	ディーア	汗4						なんとか倒せたな……
+CharacterOff
+	セレナ	驚き						あはは……助かりましたぁ……
+	セレナ	驚き						でもどうして、\nこんなところにキノコリオンが？
+CharacterOff
+	ディーア	驚き4						それはオレにも<dash=2>
+	ディーア	驚き4						待て？\nこの奥になにかあるぞ？
+Se	走る
+FadeOut	black					1
+CharacterOff						0
+Bg	洞窟C					0
+	ディーア	驚き4				0
+Wait						1
+FadeIn	black					1
+	ディーア	驚き4						これは……？
+CharacterOff
+	セレナ	本気						なんだかキラキラしてますね……
+CharacterOff
+	ディーア	怪しい4						この場所、\n超高密度の魔力が溜まっていた\n痕跡があるな……
+Tween	ディーア	PunchPosition	y=30				NoWait
+	ディーア	驚き4						ほら、あの魔石とか！\nかなり貴重なものだぞ……！
+	ディーア	怪しい4						だけどもし、\nこれほどの魔力が暴発していたら\n魔界の地殻に大きな被害が出たかも
+	ディーア	怪しい4						そこから連鎖的に\nスーヴァ大火山が大活性でもしたら\n魔界が滅びていた可能性もある
+CharacterOff
+	セレナ	慌て						ほ、ほんとですか!?\nじゃあはやくなんとかしないと！
+CharacterOff
+	ディーア	通常4						今はもう大丈夫そうだよ\n魔力の濃度が少し高いくらいだ
+	ディーア	通常4						もしかしたら、\nリオン生命体がいたのが\n良かったのかもしれないな
+	ディーア	通常4						キノコリオンたち\nリオン生命体は魔力を食い荒らして\n環境のバランスを崩す
+	ディーア	通常4						だから退治する必要もあるけれど\nこういう魔力溜まりの空間に入れれば\n時間と共に魔力を安定化させる
+	ディーア	笑い4						ただのキノコリオンから\nゴールデンなアイツに進化するほどに\n魔力を吸ってくれたのかもな
+	ディーア	怪しい4						でも意図的にキノコリオンを\n放り込まないとこうはならないはずだ\nいったい誰が<dash=2>
+CharacterOff
+	セレナ	本気						もしかして、私のご先祖様が……？
+	セレナ	笑い						…………
+CharacterOff
+	ディーア	驚き4						セレナ？
+CharacterOff
+	セレナ	驚き						ご、ごめんなさい！\nちょっと想像していただけです！
+	セレナ	笑い						今も昔も魔界は異変だらけだけど\nなんとかしようとした人たちが\nいたのかも……って
+CharacterOff
+	ディーア	通常4						それは今も同じだ\nオレやセレナがそうであるように
+CharacterOff
+	セレナ	きらーん
+Tween	セレナ	PunchPosition	y=30				NoWait
+	セレナ	きらーん						えへへ♪ そーですかねぇ♪
+CharacterOff
+	ディーア	怪しい4						あ、そうだ！\nここにセポネがいたはずだけど<dash=2>
+CharacterOff
+	セレナ	笑い						ペルセポネちゃんのことなら、\nさっきまでそこに<dash=2>
+CharacterOff
+	ペルセポネ	通常
+Se	ポップイン
+Wait						.2
+CharacterOff	ペルセポネ
+Wait						.2
+Se	ポップイン
+	ペルセポネ	通常
+Wait						.2
+CharacterOff	ペルセポネ
+Wait						.2
+CharacterOff
+	ディーア	絶望4
+Tween	ディーア	PunchPosition	y=30				NoWait
+	ディーア	絶望4						いないっ!?\nまたふらーって行っちゃったのか!?
+	ディーア	絶望4						セポネぇええええええ！
+Se	ピューン
+Tween	ディーア	MoveBy	x=700 time=0.5				NoWait
+Wait						1
+CharacterOff
+	セレナ	驚き						行っちゃった……\nやっぱりすごいなぁ、魔剣王さん
+	セレナ	笑い						私も負けていられない\nちょっとずつでも力や家族のことを\n勉強して立派な王様に……！
+	セレナ	通常						となると、\nやっぱり次はあの国に行かないと
+	セレナ	泣き						ああでも、借金がぁ……
+	セレナ	きらーん						…………待って？
+	セレナ	きらーん						魔剣王さんの話だとこの魔石は\nすごーく貴重なはず
+Tween	セレナ	PunchPosition	y=30				NoWait
+	セレナ	きらーん						やったぁ！\n今度こそ一攫千金……！
+CharacterOff
+	水天のアクア	通常				1		へえ♪ 面白い話をしてる説あるわね
+CharacterOff
+	セレナ	絶望						…………
+Tween	セレナ	PunchPosition	y=30				NoWait
+	セレナ	泣き						ひぃいいいいいん！\n許してください、ねえさぁああん！
+If	isdebug==true
+CharacterOff
+Jump	*E_1279_07
+EndIf
+EndScenario
+
+# E_1279_07
+Command	Arg1	Arg2	Arg3	Arg4	Arg5	Arg6	WaitType	Text	PageCtrl	Voice	WindowType
+Param	quest_name="クエスト名"
+ShowMessageWindow
+FadeOut	black					0
+StopSound
+Bgm	平和
+Bg	魔術空間					0
+	ディーア	絶望4				0
+FadeIn	black					1
+	ディーア	絶望4						はあ、はあ……\nセレナと分かれた後も\nずいぶん走り回ったけれど……
+	ディーア	絶望4						セポネがどこにもいない……
+	ディーア	絶望4						まさかあのトンネルを通って、\n魔界の裏側に行っちゃってたり？
+	ディーア	絶望4						どこだ、セポネー！\nもうただのナデナデモフモフじゃ\nすませないからなぁー！
+Tween	ディーア	PunchPosition	y=30				NoWait
+	ディーア	絶望4					NoWait	今日はド級のナデナデで\nドナデご飯だぁー！
+	wipe		wipe_start			0
+Tween	wipe	MoveTo	x=-800 islocal=true time=1.2	linear
+FadeOut	black					.1
+CharacterOff						0
+Bg	市街地A(ハロウィン)					0
+	ペルセポネ	嬉しい2				0
+Wait						2
+FadeIn	black					.3
+	ペルセポネ	嬉しい2						んふふー♪\nかぼちゃのお菓子がおいしーです♪
+CharacterOff
+	酒場のおばちゃん							あらあら！\n可愛らしいお嬢さんだねぇ！
+Tween	酒場のおばちゃん	PunchPosition	y=30				NoWait
+	酒場のおばちゃん							数日早いけれど、\nハッピーハロウィンだよっ！
+CharacterOff
+	ペルセポネ	通常2						ありがとうございます♪\nかわいいセポネさんは喜んでます♪
+	ペルセポネ	無表情2						でもハロウィンが近くなって、\n本物のおばけさんが出てきそうな\n出てこないような……？
+	ペルセポネ	無表情2						ろーちゃんみたいな\nかわいいかわいいおばけさんなら\n大歓迎ですけれど
+	ペルセポネ	無表情2						一人だとセポネもまた、\nこわいこわいがでてきそうです……
+	ペルセポネ	すね顔2						こういう時にいない\nマスターさんのせいです、あーあ
+	ペルセポネ	通常2						帰ったらたくさん、\nナデナデしてもらうことにしましょう
+StopBgm
+	？？？？	<Off>	1_2					うばぁあああああああ……！
+	ペルセポネ	無表情2						うばぁ？
+FadeOut	black					1
+Param	character_grayout=false
+CharacterOff						0
+	カドゥハロウィン	拡大通常	エフェクト表			0
+Wait						2
+FadeIn	black					1
+Bgm	魔剣の日常
+	カドゥハロウィン	拡大通常						こわいだろぉ、うばぁあああ！
+CharacterOff
+	カドゥハロウィン	通常
+Tween	カドゥハロウィン	PunchPosition	y=30				NoWait
+	カドゥハロウィン	通常						ど、どうですか、ぶれひらさん！\nちゃんと怖かったですか？
+CharacterOff
+	包平Bハロウィン	通常						……まだまだ、ですね
+CharacterOff
+	カドゥハロウィン	通常						うばぁ!?
+CharacterOff
+	包平Bハロウィン	通常						今のカドゥケウスさんは確かに\nここ数年のハロウィンで\n一番のキレと驚きでしたが……
+Tween	包平Bハロウィン	PunchPosition	y=30				NoWait
+	包平Bハロウィン	通常						まだまだ、\n最強のハロウィンにほど遠いです
+	包平Bハロウィン	通常						ハロウィンはだんな様に\nドキドキしてもらう良い機会、\n誰より印象を残すのが大事
+	包平Bハロウィン	通常						そう例えば<dash=2>
+FadeOut	black					1
+CharacterOff						0
+	包平Bハロウィン	拡大通常	エフェクト表			0
+FadeIn	black					1
+	包平Bハロウィン	拡大通常						トリックオアトリートぉ♪
+	包平Bハロウィン	拡大通常						お菓子をくれなきゃ、\nイタズラしちゃいますよ♪
+CharacterOff
+	包平Bハロウィン	通常						いかがでしたか？\nかわいくてつよい名刀らしい\n伝説級の驚かしになっていますか？
+CharacterOff
+	カドゥハロウィン	通常						驚くより、かわいいような？
+CharacterOff
+	包平Bハロウィン	通常
+Shake	包平Bハロウィン		x=3				NoWait
+	包平Bハロウィン	通常						なん、ですって……？
+	包平Bハロウィン	通常						かわいくてつよい名刀として\nかわいいと評されるのは良いのですが
+	包平Bハロウィン	通常						むしろかわいい評価は当たり前、\nハロウィンらしく驚きも示せないと\n真のハロウィンにはできません
+	包平Bハロウィン	通常						本物のおばけさんもいるらしい\nハロウィンで存在が霞んでしまいます
+CharacterOff
+	カドゥハロウィン	通常						うばぁ……\n私なんてただでさえ影が薄いのに、\nさらに存在が霞んだら……
+	カドゥハロウィン	通常						おばけさんに\nムコウガワに連れて行かれても\n気づいてもらえないかも……
+CharacterOff
+	包平Bハロウィン	通常						そうはならないと思いますが、\nハロウィンの修行は\nもっと行う必要がありそうですね
+	包平Bハロウィン	通常						でも独学には限界があります\n誰かハロウィンの有識者がいれば……
+Se	ピューン
+CharacterOff
+	ペルセポネ	嬉しい2				1		呼びましたか♪
+	ペルセポネ	嬉しい2						おばけさんにはなんだか縁がある\nセポネがいますよ♪
+CharacterOff
+	カドゥハロウィン	通常
+Tween	カドゥハロウィン	PunchPosition	y=30				NoWait
+	カドゥハロウィン	通常						セポネさん、どうしてここに!?
+CharacterOff
+	ペルセポネ	嬉しい2						ふらふらーとしていたら♪
+	ペルセポネ	通常2						でもそんなに驚かれるなんて
+	ペルセポネ	通常2						もしかしたら、\nセポネさんはどこにでもいて\nどこにもいないのかもしれません
+	ペルセポネ	通常2						でもちゃんと体はあるので\n存在証明をどう定義するかという\n哲学的な問いかけになりますね
+CharacterOff
+	カドゥハロウィン	通常						うばぁぁ？
+CharacterOff
+	包平Bハロウィン	通常						よく分かりませんが、\nセポネさんが協力してくれるのなら\n心強いですね
+	包平Bハロウィン	通常						数いる魔剣さんの中でも\nだんな様をよく驚かせていますし
+	包平Bハロウィン	通常						天冥の魔剣は\n魂や冥界との繋がりが深いですから
+	包平Bハロウィン	通常						セポネさん、\nなにかアドバイスはありますか？
+	包平Bハロウィン	通常						本物のおばけさんみたいに、\nだんな様を驚かせて楽しませたいです
+CharacterOff
+	ペルセポネ	通常2						なるほどぉ\n本物のおばけさんみたいにですか
+	ペルセポネ	通常2						そういえば前に、\nはーちゃんが言っていましたね♪
+	ペルセポネ	通常2						おばけはわけがわからないから\n怖いんだって
+	ペルセポネ	通常2						はーちゃんやセポネさんを怖がらせる\nいけないおばけさんも、\n正体が分かれば怖くないらしいですよ
+CharacterOff
+	カドゥハロウィン	通常						つまり、\n私たちももっとわけわからない\nおばけの真似をすればいい？
+StopBgm
+CharacterOff
+	包平Bハロウィン	通常						それなら……コホン
+Bgm	緊迫
+Param	character_grayout=false
+CharacterOff
+	集中線		エフェクト表
+	包平Bハロウィン	拡大通常	エフェクト表
+	包平Bハロウィン	拡大通常						ちぇすとぉおおおおおおおお！
+CharacterOff
+	カドゥハロウィン	通常						うばぁ!?
+Bgm	コメディ
+CharacterOff
+	包平Bハロウィン	通常
+Tween	包平Bハロウィン	PunchPosition	y=30				NoWait
+	包平Bハロウィン	通常						ちぇすと、ちぇすと！\nちぇすとでごわす！
+CharacterOff
+	カドゥハロウィン	通常						ぶれひらさん、\nいったいどうしたんですか!?
+CharacterOff
+	包平Bハロウィン	通常						わけがわからない名刀になろうかと
+	包平Bハロウィン	通常						大昔の魔界には\nわけわからない強さのサムライがいた\nとナナ=ビーストさんが言ってました
+	包平Bハロウィン	通常						なんでもちぇすとの一言で片付けて\n敵をバッタバッタと葬ったとか
+CharacterOff
+	カドゥハロウィン	通常						確かにわけわからなかったですけど
+	カドゥハロウィン	通常						でも私たちは\nハロウィンのおばけ役になるけど、\nおばけをつくるわけじゃないですよ？
+CharacterOff
+	包平Bハロウィン	通常						……たしかに
+	包平Bハロウィン	通常						セポネさん、\n他に良いアイデアはありますか？
+CharacterOff
+	ペルセポネ	無表情2						そうですねぇ、\nマスターさんにとって\nこわーいおばけになるのなら
+	ペルセポネ	通常2						マスターさんが\n怖がることをすればいいんですよ♪
+CharacterOff
+	カドゥハロウィン	通常						マスターさんが怖いことって\nなんですか？
+CharacterOff
+	包平Bハロウィン	通常						だんな様はどんな魔物や敵にも\n立ち向かえる魔剣使いさんですよ？
+CharacterOff
+	ペルセポネ	嬉しい2						でもセポネさんは知っています♪\nマスターさんがとーっても嫌なもの♪
+	ペルセポネ	嬉しい2						だって前に\nマスターさんは言ってましたから
+Se	回想
+FadeOut	white					.3
+ImageEffect	SpriteCamera	Sepia
+CharacterOff						0
+Bg	酒場1F					0
+	ディーア	怪しい2				0
+FadeIn	white					.3
+	ディーア	怪しい2						あー、こわいなー、\nオレはすっごくこわいなー
+	ディーア	怪しい2						たくさんのケーキやお菓子が\nこわくてこわくてしかたないなー
+	ディーア	怪しい2						おしおきでケーキやお菓子を\nもらったらガクブルしちゃうなー
+FadeOut	white					.3
+ImageEffectOff	SpriteCamera	Sepia
+CharacterOff						0
+Bg	市街地A(ハロウィン)					0
+	ペルセポネ	嬉しい2				0
+FadeIn	white					.3
+	ペルセポネ	嬉しい2						リディさんに怒られた後とかに♪
+CharacterOff
+	カドゥハロウィン	通常						マスターさんにそんな弱点が！
+CharacterOff
+	包平Bハロウィン	通常						だったら私たちも、\nだんな様にケーキやお菓子を贈って\n怖がらせればいいんですね？
+CharacterOff
+	カドゥハロウィン	通常						そうですね！\nじゃあどんなケーキを贈ればいいか\n街で探してみましょう♪
+FadeOut	black					1
+CharacterOff						0
+	カドゥハロウィン	通常				0
+Wait						2
+FadeIn	black					1
+Shake	カドゥハロウィン		x=3				NoWait
+	カドゥハロウィン	通常						うばぁあああ……\nつい食べすぎてお腹がいっぱい……
+CharacterOff
+	包平Bハロウィン	通常						私は名刀なので、\nこれくらいのお菓子では……うぅ……
+CharacterOff
+	ペルセポネ	無表情2						セポネさんもまんぷくです……
+	ペルセポネ	通常2						でもおいしかったですね♪\nマスターさんがどうして怖がるのか\nわからないくらいに♪
+CharacterOff
+	包平Bハロウィン	通常						そうですね、\nだんな様がどのお菓子が怖いのか\nわからないと選べません……
+	包平Bハロウィン	通常						別の方法を考えましょう
+CharacterOff
+	カドゥハロウィン	通常						他におばけっぽいことですかぁ……
+CharacterOff
+	ペルセポネ	通常2						すーっと消えちゃったり？
+CharacterOff
+	カドゥハロウィン	通常						たしかに、\n出たり消えたりするのは\nおばけっぽいことですね……！
+	カドゥハロウィン	通常						でも私たち、\nそういう力を持った魔剣じゃないから\n透明にはなれませんね
+CharacterOff
+	包平Bハロウィン	通常						いいえ、大丈夫です
+	包平Bハロウィン	通常						心を極限まで落ち着けると\n明鏡止水の領域に到れるといいます
+	包平Bハロウィン	通常						そうなると存在感を完全に\n消し去ることができるそうです
+CharacterOff
+	カドゥハロウィン	通常						なるほど……！
+CharacterOff
+	包平Bハロウィン	通常						では集中して……
+CharacterOff
+	カドゥハロウィン	通常						むむむ……
+Se	フォーン
+CharacterOff	カドゥハロウィン					1
+Wait						.5
+CharacterOff
+	包平Bハロウィン	通常						集、中……
+Se	フォーン
+CharacterOff	包平Bハロウィン					1
+Wait						1
+StopBgm
+CharacterOff
+	ペルセポネ	嬉しい2						すごいすごい！\nお二人がすーって消えました！
+	ペルセポネ	通常2						………………
+	ペルセポネ	通常2						………………
+	ペルセポネ	通常2						………………
+	ペルセポネ	通常2						消えたのはすごいですけど\n怖さも驚きもないですね
+	ペルセポネ	通常2						このままだとさびしいので、\nセポネさんは帰<dash=2>
+Bgm	平和
+CharacterOff
+	カドゥハロウィン	通常				.5
+Tween	カドゥハロウィン	PunchPosition	y=30				NoWait
+	カドゥハロウィン	通常						うばぁああああああああ！\n帰らないでぇ！
+CharacterOff
+	ペルセポネ	嬉しい2						あ！ おかえりなさい♪
+CharacterOff
+	包平Bハロウィン	通常						消えたのはいいですけれど、\n明鏡止水のままでは動けませんね
+CharacterOff
+	カドゥハロウィン	通常						明鏡止水というか、\nただ魔力をうすーくしただけというか
+	カドゥハロウィン	通常						でもあのまま誰にも気づかれずに、\nおばけさんの仲間入りもありうるかも
+CharacterOff
+	包平Bハロウィン	通常						やはり想像だけで\n怖いものやおばけの真似事をしても\n限界があるかもしれません
+	包平Bハロウィン	通常						もっとお手本になるような経験を\nできればいいのですが……
+CharacterOff
+	ペルセポネ	通常2						おてほん？
+	ペルセポネ	通常2						それじゃあ、\n本物のおばけに会えればいいんです♪
+	ペルセポネ	通常2						考えてみると、\nいるべき場所にいてくれるなら、\nおばけさんは普通のおばけさんですし
+	ペルセポネ	嬉しい2						怖がらなくても良いですよね♪
+Tween	ペルセポネ	PunchPosition	y=30				NoWait
+	ペルセポネ	嬉しい2						ということで、ごーごー♪
+StopBgm
+CharacterOff
+	包平Bハロウィン	通常						セポネさん、いったいどこに？
+Se	走る
+	wipe		wipe_start			0
+Tween	wipe	MoveTo	x=-800 islocal=true time=1.2	linear
+FadeOut	black					.1
+CharacterOff						0
+Bg	冥界					0
+	包平Bハロウィン	通常				0
+Wait						2
+FadeIn	black					.3
+	包平Bハロウィン	通常						あ、あれ……？\nここ、どこでしょうか……？
+CharacterOff
+	ペルセポネ	通常2						うーん
+Bgm	緊迫
+	ペルセポネ	嬉しい2						たぶん地獄ですね♪
+Bgm	コメディ
+CharacterOff
+	カドゥハロウィン	通常
+Tween	カドゥハロウィン	PunchPosition	y=30				NoWait
+	カドゥハロウィン	通常						地獄ですね♪\nじゃないですよぉぉーっ!?
+	カドゥハロウィン	通常						私たち、\n地獄に落ちちゃったんですか？\nこれからお裁きですかぁ!?
+Shake	カドゥハロウィン		x=3				NoWait
+	カドゥハロウィン	通常						うばぁあああああ！\nそんなに悪いことしてないので許して
+Tween	カドゥハロウィン	PunchPosition	y=30				NoWait
+	カドゥハロウィン	通常						ぎんいろさんの使用済みタオルを\n隠れてスーハーしたくらいですぅ！
+CharacterOff
+	包平Bハロウィン	通常						落ち着いてくださいカドゥケウスさん\n地獄のような異空間であって、\nおそらく本物の地獄ではありませんよ
+	包平Bハロウィン	通常						ハロウィンは\n魔界の境界が緩んでしまう期間です\nその影響でどこかに来たのかも
+	包平Bハロウィン	通常						ですがセポネさん、\nここは望む場所ではなさそうです\n大人しく帰って<dash=2>
+StopBgm
+CharacterOff
+	ペルセポネ	無表情2						あれ？
+Bgm	図書館
+	？？？？	<Off>	1_2					…………
+	ペルセポネ	無表情2						また、誰かが、呼んでる……？
+Se	フォーン
+CharacterOff	ペルセポネ					1
+Wait						1
+CharacterOff
+	カドゥハロウィン	通常						せ、セポネさん？\nいったいどこに行くんですか？
+CharacterOff
+	包平Bハロウィン	通常						本当に地獄なら、\n一人で行動するのは危険です！\n私たちと一緒に<dash=2>
+StopBgm
+Shake	包平Bハロウィン		x=3
+	包平Bハロウィン	通常						っ……！
+Bgm	魔獣バトル
+Se	闇1
+CharacterOff
+	魔物		2_3_m			1		■■■■■■！！
+CharacterOff
+	カドゥハロウィン	通常						うばっ！\n魔物が出てきましたよぉ!?
+CharacterOff
+	包平Bハロウィン	通常						カドゥケウスさん、私の後ろに！
+	包平Bハロウィン	通常						そこまで強力な魔物ではありませんが\nだんな様がいないと<dash=2>
+CharacterOff
+	ディーア	絶望4				1		はぁ、はぁ……
+	ディーア	絶望4						ここは、どこ、だ……？
+CharacterOff
+	包平Bハロウィン	通常
+Tween	包平Bハロウィン	PunchPosition	y=30				NoWait
+	包平Bハロウィン	通常						だんな様!?\nどうしてここに!?
+CharacterOff
+	ディーア	驚き4						かねひらブレイズとカドゥケウス!?
+	ディーア	驚き4						オレはセポネをおって、\n地面を掘り続けていたんだけど\n気がついたらここに
+CharacterOff
+	カドゥハロウィン	通常						セポネさんを探すために\nどうして地面を掘っていたのかは\nよくわかりませんですけど……
+CharacterOff
+	包平Bハロウィン	通常						流石はだんな様、\n最高のタイミングでした
+	包平Bハロウィン	通常						だんな様がいれば、\n魔物なんて敵ではありません
+CharacterOff
+	ディーア	悔しい4						よく状況はわからないけれど
+	ディーア	目閉じ4						この魔力……\nやっとセポネにも追いつけたみたいだ
+Tween	ディーア	PunchPosition	y=30				NoWait
+	ディーア	怒り4						よし、まずはこの魔物を倒すぞ！
+If	isdebug==true
+CharacterOff
+Jump	*E_1279_07
+EndIf
+EndScenario
+
+# E_1279_08
+Command	Arg1	Arg2	Arg3	Arg4	Arg5	Arg6	WaitType	Text	PageCtrl	Voice	WindowType
+Param	quest_name="クエスト名"
+ShowMessageWindow
+FadeOut	black					0
+StopSound
+Bgm	図書館
+Bg	冥界					0
+Param	character_grayout=false
+	ディーア	悔しい4				0
+FadeIn	black					1
+	ディーア	悔しい4						魔物の討伐は完了したな
+	ディーア	怒り4						それで二人とも、\nペルセポネはどこに行ったんだ？
+CharacterOff
+	カドゥハロウィン	通常						それが……
+CharacterOff
+	包平Bハロウィン	通常						突然、ぼーっとしながらあちらへ
+CharacterOff
+	ディーア	驚き4						この空間の奥に？
+CharacterOff
+	包平Bハロウィン	通常						セポネさんは、\nこの空間を地獄だと呼んでいました
+CharacterOff
+	ディーア	怒り4						たしかにそんな雰囲気だな
+	ディーア	怒り4						だけど前に、\nハデス=ロストが創り出した冥界とは\n魔力の質が異なっている
+	ディーア	怪しい4						もっと異質なナニカだ
+CharacterOff
+	カドゥハロウィン	通常						異質、ですかぁ？
+CharacterOff
+	ディーア	怒り4						ああ、\n思えば今回のセポネの放浪は\nどこか変だった気がする
+	ディーア	怒り4						月やエイビシュタット、\nセレナと会ったあの炭鉱もそうだし\nこの謎の空間……
+	ディーア	怒り4						セポネが到着した途端に、\n何かしらの異常が発生していた
+	ディーア	怒り4						まるで<dash=2>
+CharacterOff
+	包平Bハロウィン	通常						セポネさんが引き寄せられたように？
+CharacterOff
+	ディーア	目閉じ4						そして今、\nセポネはこの奥に向かって行った
+	ディーア	怒り4						急ごう、\nなにかがこの先にいるかもしれない
+	wipe		wipe_start			0
+Tween	wipe	MoveTo	x=-800 islocal=true time=1.2	linear
+FadeOut	black					.1
+CharacterOff						0
+Bg	天界					0
+	ペルセポネ	通常2				0
+Wait						2
+FadeIn	black					.3
+	ペルセポネ	通常2						ふんふんふーん♪
+	ペルセポネ	通常2						わーお、\nすごくキラキラな場所に来ました
+	ペルセポネ	通常2						ここはどこかなー？
+Se	フォーン
+CharacterOff
+	ラスボス？	ハテナ				1		ふふ♪\n客が来るなんて驚きだね……
+CharacterOff
+	ペルセポネ	無表情2						え……？
+CharacterOff
+	ラスボス？	ハテナ						やあ、天冥槍ペルセポネ
+CharacterOff
+	ペルセポネ	無表情2						あなたは誰ですか？
+CharacterOff
+	ラスボス？	ハテナ						ボクかい？
+	ラスボス？	ハテナ						そうだね端的に言うなら……
+CharacterOff
+	ラスボス？	拡大通常	エフェクト表					ラスボス、かな？
+If	isdebug==true
+CharacterOff
+Jump	*E_1279_09
+EndIf
+EndScenario
+
+# E_1279_09
+Command	Arg1	Arg2	Arg3	Arg4	Arg5	Arg6	WaitType	Text	PageCtrl	Voice	WindowType
+Param	quest_name="クエスト名"
+ShowMessageWindow
+FadeOut	black					0
+StopSound
+Bgm	図書館
+Bg	天界					0
+Param	character_grayout=false
+	ペルセポネ	通常2				0
+FadeIn	black					1
+	ペルセポネ	通常2						らすぼすさん、ですか？
+CharacterOff
+	ラスボス？	通常						そうだよ、こわーいラスボス
+CharacterOff
+	ペルセポネ	嬉しい2						でしたらセポネは\nかわいいかわいいセポネさんです♪\nよろしくお願いします♪
+CharacterOff
+	ラスボス？	笑い						うん、よろしく♪
+	ラスボス？	通常						あまり驚かないみたいだね？
+CharacterOff
+	ペルセポネ	無表情2						驚いたほうが良いですか？
+CharacterOff
+	ラスボス？	通常						さあ、ボクも常識には疎いけど\n普通は驚くんじゃないかな？
+	ラスボス？	通常						いきなりラスボスを自称する子が\n現れちゃったんだから
+CharacterOff
+	ペルセポネ	無表情2						なるほど……！
+Tween	ペルセポネ	PunchPosition	y=30				NoWait
+	ペルセポネ	嬉しい2						きゃー、すごーい♪\nラスボスに会えちゃいましたー♪
+	ペルセポネ	通常2						こんな感じでいかがでしょう？\nセポネさん今年で一番の驚きです
+CharacterOff
+	ラスボス？	笑い						ふふふ♪\nそういう驚き方もたしかにあったね♪\nこれはボクが驚かされた♪
+	ラスボス？	通常						実のところは、\n出会ったらすごい人ではなくて、\n出会ったらいけない人だけど
+CharacterOff
+	ペルセポネ	無表情2						もしかして、悪い人ですか？
+CharacterOff
+	ラスボス？	通常						どうだろう？\nボクはそういう役目を担っているから\nそこに善も悪も置いてはいない
+	ラスボス？	通常						だけど魔界に生きる全生命体にとって\nボクは悪役なんだろう
+	ラスボス？	通常						勝手に生み出しておいて、\n勝手に滅びよと言いだすなんて、\nとんでもない母親だからね
+CharacterOff
+	ペルセポネ	無表情2						母親……？
+CharacterOff
+	ラスボス？	通常						伝承を基盤とした世界設計を行った者\nつまり魔剣伝承の生みの親
+	ラスボス？	通常						キミたちの起源であり、ママでもある
+	ラスボス？	通常						《<ruby=キーマスター>鍵職人</ruby>》とか\n《<ruby=ファウンダー>選出者</ruby>》だったり\nボクらを表す名は他にもあるけれど
+	ラスボス？	通常						ボク自身がしっくりきているのは、\nママでありラスボスさ
+	ラスボス？	通常						ということで早速だけど、\n魔界は今から滅亡することになる
+CharacterOff
+	ペルセポネ	無表情2						なんだかいきなりですね？
+CharacterOff
+	ラスボス？	通常						ラスボスというのは、\nそういう理不尽な役どころだろう？
+	ラスボス？	通常						それにボクって
+FadeOut	white					2
+Bg	白背景					0
+CharacterOff						0
+	ラスボス？	拡大足	エフェクト表			0
+	          
+FadeIn	white					.3
+Wait						2
+FadeOut	white					.3
+CharacterOff						0
+	ラスボス？	拡大胸	エフェクト表			0
+	          
+FadeIn	white					.3
+Wait						2
+FadeOut	white					.3
+Bg	天界					0
+CharacterOff						0
+	ラスボス？	通常				0
+	          
+FadeIn	white					.3
+	ラスボス？	通常						そんなことをいきなり言い出しそうな\n風体をしているじゃないか
+CharacterOff
+	ペルセポネ	通常2						たしかにそうですねー♪
+	ペルセポネ	通常2						セポネさん、納得しました♪
+	ペルセポネ	通常2						ラスボスという言葉に対する\n理解が足りなかったかもしれません\nまだまだ勉強しがいがあります♪
+CharacterOff
+	ラスボス？	笑い						参考になって良かった\nもう世界、終わっちゃうけれどね
+StopBgm
+	ラスボス？	通常						それじゃあ、ハジメよう
+Bgm	緊迫
+	ラスボス？	悲しい						予定より早すぎる目覚めだけど、\nそれだけ魔界の崩壊は早かった……\nあちらこちらの境界は崩壊寸前だ
+	ラスボス？	悲しい						何もかも手遅れになる前に、\nせめて穏やかな終焉を\nそして新たな未来のハジマリを
+FadeOut	black					1
+CharacterOff						0
+Bg	冥界					0
+	ディーア	悔しい4				0
+Wait						1
+Shake	Graphics		x=3 y=3 time=5				NoWait
+FadeIn	black					1
+Se	火事
+	ディーア	悔しい4						…………っ!?
+	ディーア	悔しい4						なんだ、この揺れは……？
+CharacterOff
+	包平Bハロウィン	通常						空間だけじゃありません、\n魔界全体が揺らいでいるような
+CharacterOff
+	カドゥハロウィン	通常						は、ハロウィンだからですかぁ？
+CharacterOff
+	ディーア	悔しい4						いや、それだけじゃない
+	ディーア	驚き4						こちらとあちらの\n境界線が揺らいでいるところに、\nなにか強い力が加わっている？
+	ディーア	驚き4						まさか……\n行く先々で異変が起こっていたのも\nこれが原因なのか？
+FadeOut	black					1
+CharacterOff						0
+Bg	天界					0
+	ラスボス？	通常				0
+Wait						1
+FadeIn	black					1
+	ラスボス？	通常						これでよし
+	ラスボス？	悲しい						自ら創った世界を壊すというのは\nとても悲しいけれど
+	ラスボス？	悲しい						そういうラスボスを担ったのだから\n仕方がないね
+	ラスボス？	怪しい						だがボクが動く前に、\n本来ならアムが対処するはずだった\nそこは気になる<dash=2>
+CharacterOff
+	ペルセポネ	通常2						ママさん？
+CharacterOff
+	ラスボス？	通常						どうしたんだい、ペルセポネ？
+CharacterOff
+	ペルセポネ	無表情2						魔界は滅びるんですか？\nいきなり？
+CharacterOff
+	ラスボス？	通常						うん、そうだよ
+	ラスボス？	通常						世界の滅亡というのは、\nそんなに準備できるもんじゃない
+	ラスボス？	通常						ボクらの時も、\nイタズラに長引かせたことで、\n逆に未来に遺せない物が多かった
+	ラスボス？	通常						ボクがこうして存在するのも、\nそんな過去を反省したからなんだよ
+	ラスボス？	通常						でも安心して？\n終わりの後には新しい始まりがある
+CharacterOff
+	ペルセポネ	無表情2						そうなんですか……
+	ペルセポネ	無表情2						確かにセポネさんは今、\nすごい切迫感を感じています
+	ペルセポネ	無表情2						今までにない何か凄い一体感を\n滅亡……
+	ペルセポネ	無表情2						なんでしょう\n吹いてきてます確実に、着実に\nセポネさんたちのほうに……
+	ペルセポネ	すね顔2						ふう……\nすごくシリアスなセポネになろうと\n思いましたが疲れてしまいました
+	ペルセポネ	通常2						とりあえず滅亡は横において、\nハロウィンパーティーをしたいと\n思うのですが、いかがでしょう？
+CharacterOff
+	ラスボス？	笑い						ふふふ♪\nそれはとても愉快なお誘いだね♪
+	ラスボス？	通常						でも残念、滅亡は避けられないよ
+CharacterOff
+	ペルセポネ	すね顔2						どうしても、ですかぁ？\nはーちゃんにお菓子を渡したいのに
+	ペルセポネ	すね顔2						マスターさんにも\nわー！ とか、むぎゅーをしたいのに
+CharacterOff
+	ラスボス？	通常						ラスボスというのが、\n出てきた以上は諦めてほしいな
+	ラスボス？	通常						だけど驚いたよ、\nまさかキミが反対するなんて
+CharacterOff
+	ペルセポネ	無表情2						どうして？
+CharacterOff
+	ラスボス？	通常						だってペルセポネ、キミは……
+StopBgm
+	ラスボス？	通常						世界を憎んでいるだろう？
+CharacterOff
+	ペルセポネ	無表情2						…………
+FadeOut	black					2
+CharacterOff						0
+Bg	冥界					0
+	           	<Off>				0
+Wait						1
+FadeIn	black					2
+Se	闇1
+	魔物		2_3_m			1
+Bgm	バトル
+	魔物							■■■……！
+CharacterOff
+	ディーア	悔しい4						また魔物まで出てきた……\nこの奥に、いったいなにがいるんだ
+	ディーア	悔しい4						セポネ、無事でいてくれ……！
+	ディーア	本気4						今行くからな！
+If	isdebug==true
+CharacterOff
+Jump	*E_1279_10
+EndIf
+EndScenario
+
+# E_1279_10
+Command	Arg1	Arg2	Arg3	Arg4	Arg5	Arg6	WaitType	Text	PageCtrl	Voice	WindowType
+Param	quest_name="クエスト名"
+ShowMessageWindow
+FadeOut	black					0
+StopSound
+Bgm	ロルリアンレットB
+Bg	天界					0
+Param	character_grayout=false
+	ラスボス？	悲しい				0
+FadeIn	black					1
+	ラスボス？	悲しい						キミは魔界を憎んでいる
+	ラスボス？	悲しい						大切な妹を戦いの道具として消耗させ\n自分のことも傷つけた人類を
+	ラスボス？	悲しい						それを許容しなければ存在できない\n魔界そのものさえも
+	ラスボス？	悲しい						罪を吸い上げあらゆる悲劇を起こす\n天冥槍ペルセポネ
+	ラスボス？	悲しい						その悲劇を力に変え、\n更なる戦場を……罪を引き起こす\n天冥杖ハデス
+	ラスボス？	悲しい						人類はキミたちを\n効率のよい破壊兵器として運用し
+	ラスボス？	悲しい						ハデスは感情を失い、\nキミは心さえも壊してしまった
+	ラスボス？	悲しい						罪を喰らい、罪を赦す魔剣は\n魔界の大きすぎる罪を赦せなかった
+CharacterOff
+	ペルセポネ	無表情2						…………
+Se	回想
+FadeOut	white					.3
+ImageEffect	SpriteCamera	Sepia
+CharacterOff						0
+Bg	市街地A					0
+	街の人	<Off>				0
+FadeIn	white					.3
+	街の人	<Off>						あいつの魂を返せよ……！
+	街の人	<Off>						あんたたちは\n不幸しか起こさないんだ！
+CharacterOff
+	ハデス	通常2無し						やめて……！\nお姉ちゃんは悪くないんです……！
+	ハデス	通常2無し						酷いことならハデスだけに……！
+CharacterOff
+	ペルセポネ	無表情2
+Tween	ペルセポネ	PunchPosition	y=30				NoWait
+	ペルセポネ	無表情2						ダメ！\nはーちゃんに手を出さないで！\n私がぜんぶ受け止めるから！
+FadeOut	white					.3
+CharacterOff						0
+Bg	戦場跡					0
+	ペルセポネ	<Off>				0
+FadeIn	white					.3
+	ペルセポネ	<Off>						言われるままに戦ったのに、\n勝っても負けても酷いことをされた
+	ペルセポネ	<Off>						その罪さえも減刑したのに、\n罪は次から次へと増えていった……
+	ペルセポネ	<Off>						そして先に限界を迎えたのは\n大切な妹だった
+FadeOut	white					.3
+CharacterOff						0
+Bg	市街地A					0
+	ハデス	悲しい2無し				0
+FadeIn	white					.3
+	ハデス	悲しい2無し						やめて……！\nいたい、いたい……！
+	ハデス	悲しい2無し						いやぁああああああ!!!!
+CharacterOff
+Se	チャージ
+CharacterOff
+	オーラ青		エフェクト表			.5
+Wait						.5
+FadeOut	white					1
+CharacterOff
+Se	光3
+CharacterOff
+Se	闇3
+CharacterOff
+Bg	灰の大地					0
+	ペルセポネ	<Off>
+Wait						1
+FadeIn	white					1
+	ペルセポネ	<Off>						それを見た時、\nきっと私も壊れてしまったの……
+	ペルセポネ	<Off>						だって私が罪を赦さなければ\nはーちゃんは更なる力を使えない\n私だってあの子を傷つけた共犯だ
+	ペルセポネ	<Off>						大切だから守ろうとして、\nでもこの力は妹をさらに傷つけて
+	ペルセポネ	<Off>						私は、なにもかもが嫌になった
+FadeOut	white					.3
+ImageEffectOff	SpriteCamera	Sepia
+CharacterOff						0
+Bg	天界					0
+	ラスボス？	悲しい				0
+FadeIn	white					.3
+	ラスボス？	悲しい						それがキミの失われた過去だ
+	ラスボス？	悲しい						キミはなにもかもに蓋をして\nハデスからも離れる道を選んだ
+	ラスボス？	悲しい						キミの力は\nあらゆる悲劇を無差別に起こす
+	ラスボス？	悲しい						いつかキミから溢れ出す悲劇は\nハデスさえ巻き込むから
+	ラスボス？	悲しい						だから今だってキミは、\n自身が不安定になるたびに放浪する
+	ラスボス？	悲しい						そんなキミが、\n今の魔界を庇うことはないと思うな
+CharacterOff
+	ペルセポネ	無表情2						そう、でしょうか？
+CharacterOff
+	ラスボス？	通常						ボクは魔剣の母で、\n母とは子の幸せを願う役回りだ
+	ラスボス？	通常						だからボクは、\nキミが幸せじゃない世界であるなら\nまたやり直す方が良いと思う
+	ラスボス？	通常						キミの記憶を見て分かる
+	ラスボス？	通常						魔界はボクらが望んだような\n素晴らしい世界にはならなかった
+	ラスボス？	怪しい						ボクという終末装置が、\nこんなに早く目覚めてしまったのも\nその証拠だとボクは考える
+	ラスボス？	通常						ラスボスに敗れることは、\n悲劇であっても悲嘆することはない
+	ラスボス？	通常						どんな形であっても、\n新しい世界は必ず生まれるのだから
+	ラスボス？	笑い						次はキミもハデスも幸せになれる\nそんな世界を創ろう
+StopBgm
+CharacterOff
+	ペルセポネ	無表情2						…………はーちゃんの幸せ
+	ペルセポネ	無表情2						そうですね……\nラスボスさんの言うとおりです
+	ペルセポネ	無表情2						この世界はすごく残酷で、\nはーちゃんはいつも泣いていて\nセポネはなにもかもわからなくなって
+	ペルセポネ	無表情2						セポネたちを壊したなら、\n世界だって壊れちゃえって思ったのを\nセポネは思い出しました……
+CharacterOff
+	ラスボス？	通常						そうなんだね……
+	ラスボス？	通常						安心して？\nもうその苦しみは終わるから
+	ラスボス？	通常						キミも妹も魔界の全ての魂も\nぜんぶボクの中に還って生まれ直す
+	ラスボス？	通常						だから<dash=2>
+CharacterOff
+	ペルセポネ	通常2						だけど<dash=2>
+Bgm	凱旋
+Se	走る
+CharacterOff
+	ディーア	本気4				1		セポネ、どこだ!?
+Wait						.5
+CharacterOff
+	ペルセポネ	嬉しい2						っ！ マスターさん……！
+CharacterOff
+	ディーア	悔しい4						はあ、はあ、やっと追いついた……
+	ディーア	悔しい4						ところで、\nこれはどういう状況なんだ……？
+CharacterOff
+	ペルセポネ	通常2						それがですねー\nおさんぽしていたら\nラスボスさんにであって
+	ペルセポネ	通常2						いきなり魔界滅亡らしいです♪
+Tween	ペルセポネ	PunchPosition	y=30				NoWait
+	ペルセポネ	通常2						困っちゃうので、\nマスターさんとセポネで\nストップしましょう♪
+CharacterOff
+	ディーア	驚き4						…………はい？
+CharacterOff
+	ラスボス？	通常						それでいいのかい？\nだってキミはまだ<dash=2>
+CharacterOff
+	ペルセポネ	通常2						はい、そうですね\n苦しいことも悲しいこともたくさん
+	ペルセポネ	通常2						セポネは今も、\nあんまり難しいことは考えられません
+	ペルセポネ	通常2						でも……\nそれでもいいのかもって思います
+	ペルセポネ	通常2						だって色々なことがわかりすぎると\n本当に大切なことが隠れてしまいます
+	ペルセポネ	嬉しい2						少しでも笑えるようになった\nはーちゃん
+	ペルセポネ	嬉しい2						おばけだったけど仲間に戻れた\nろーちゃん
+	ペルセポネ	通常2						そんなはーちゃんたちを\n大切にしてくれる\nエウメニちゃんやみんな
+	ペルセポネ	嬉しい2						スイセンはいつも一緒♪
+	ペルセポネ	通常2						今日も失敗ばかりだけど\nなんだか楽しいお姫様に会いましたし
+	ペルセポネ	嬉しい2						お月さまにも\nコツコツがんばってお仕事をしてる\n真面目なお姉さんもいました
+Tween	ペルセポネ	PunchPosition	y=30				NoWait
+	ペルセポネ	嬉しい2						ハロウィンの街はにぎやかで\nお菓子をくれる優しい人がいっぱい
+	ペルセポネ	嬉しい2						それにやっぱり\nマスターさんは探しに来てくれました
+	ペルセポネ	通常2						それなら、今のままで良いです
+	ペルセポネ	通常2						今の魔界がいいです
+	ペルセポネ	嬉しい2						昔のことも、魔界のことも\nかわいいセポネは赦してあげます♪
+StopBgm
+	ペルセポネ	通常2						だから<dash=2>
+Bgm	決戦
+Se	チャージ
+FadeOut	white					2
+Bg	白背景					0
+CharacterOff						0
+	セポネ魔王	拡大足	エフェクト表			0
+FadeIn	white					.3
+	セポネ魔王	拡大足						こちらとあちらの橋渡し
+FadeOut	white					.3
+CharacterOff						0
+	セポネ魔王	拡大胸	エフェクト表			0
+FadeIn	white					.3
+	セポネ魔王	拡大胸						天冥の魔槍セポネさんによる
+FadeOut	white					.3
+Bg	天界					0
+CharacterOff						0
+	セポネ魔王	通常				0
+FadeIn	white					.3
+Tween	セポネ魔王	PunchPosition	y=30				NoWait
+	セポネ魔王	通常						超特大、空前絶後の\n罪の減刑キャンペーン開始です♪
+CharacterOff
+	ラスボス？	本気						…………
+	ラスボス？	笑い						そうか♪
+CharacterOff
+	ディーア	驚き4						魔王装!?\nな、なにがどうしてこうなった!?
+Tween	ディーア	PunchPosition	y=30				NoWait
+	ディーア	絶望4						というか本当に、\nいったいどういう状況なんだ？\n流石に訳がわからないぞ？
+CharacterOff
+	セポネ魔王	通常						そんなに慌てて、\n困ったマスターさんですねえ……
+	セポネ魔王	通常						心配しなくても、\nいつも通りのただのおさんぽ♪
+CharacterOff
+	セポネ魔王	拡大通常	エフェクト表					そのついでに世界も救いましょう♪
+If	isdebug==true
+CharacterOff
+Jump	*E_1279_11
+EndIf
+EndScenario
+
+# E_1279_11
+Command	Arg1	Arg2	Arg3	Arg4	Arg5	Arg6	WaitType	Text	PageCtrl	Voice	WindowType
+Param	quest_name="クエスト名"
+ShowMessageWindow
+FadeOut	black					0
+StopSound
+Bgm	凱旋
+Bg	天界					0
+Param	character_grayout=false
+	ラスボス？	本気				0
+FadeIn	black					1
+	ラスボス？	本気						魔王装は己の根源、過去に向き合い\nその本質を受け止めた証拠
+	ラスボス？	本気						世界の罪を減刑することを\n他ならぬキミが認めたなによりの証
+	ラスボス？	本気						キミさえも世界を赦せるのなら
+	ラスボス？	通常						計画外にボクが目覚めてしまったのは\n単なるエラーかもしれないね
+	ラスボス？	通常						まだ魔界は滅びる時ではない、と
+	ラスボス？	悲しい						だとしたら、\nボクはこれからどうしようかな？
+	ラスボス？	悲しい						早く目覚めすぎたラスボスなんて\n世にも珍しいから
+CharacterOff
+	セポネ魔王	通常						それなら、\nおさんぽしてみるのはどうでしょう？
+	セポネ魔王	通常						モヤモヤする時でも困った時も、\nおさんぽして色んな人に出会えたら\nスッキリすると思いますよ？
+CharacterOff
+	ラスボス？	通常						ラスボスが散歩、か
+	ラスボス？	笑い						ふふ♪\nたしかにそういうのも良いかもね♪
+	ラスボス？	通常						ラスボスたる魔剣の母、\n困っている子どもがいるのなら、\n手を差し伸べるのも母の役目
+	ラスボス？	通常						せっかくの機会だ、\n今の魔界をもう少し見てみようかな
+CharacterOff
+	ディーア	本気4						ま、待ってくれ！
+	ディーア	怒り4						お前はいったい何者なんだ？
+	ディーア	悔しい4						今の戦いだって、\nまるで本気を出していなかった
+	ディーア	悔しい4						ただオレたちを試しただけ
+Tween	ディーア	PunchPosition	y=30				NoWait
+	ディーア	悔しい4						そもそもラスボスとか、\n魔界が滅ぶとか計画がどうとか\nなんの話をしている？
+CharacterOff
+	ラスボス？	通常						おや？\nあの子たちはすでに近くにいるのに\nキミは聞かされていないのかい？
+	ラスボス？	通常						ボクは■■■■
+	ラスボス？	本気						っと、まだ情報は制限されているか
+	ラスボス？	通常						それなら……
+	ラスボス？	通常						魔剣伝承の起源にして\n全ての魔剣少女の系統的な始祖
+	ラスボス？	通常						魔剣のママで、\n古き世を終了させる魔界のラスボス
+CharacterOff
+	ハジマリ	拡大通常	エフェクト表					故にボクはハジマリと名乗ろう
+CharacterOff
+	ハジマリ	通常						またね、無垢のディーア♪\nそう遠くないうちにまた会おう♪
+Se	フォーン
+CharacterOff	ハジマリ					1
+Wait						1
+CharacterOff
+	セポネ魔王	通常						また今度ー♪
+CharacterOff
+	ディーア	驚き4						…………ハジマリ？
+	ディーア	驚き4						なんて、あからさまな偽名……
+	wipe		wipe_start			0
+Tween	wipe	MoveTo	x=-800 islocal=true time=1.2	linear
+FadeOut	black					.1
+CharacterOff						0
+Bg	荒野					0
+	ハジマリ	通常
+Wait						2
+FadeIn	black					.3
+	ハジマリ	通常						さて、まずは<dash=2>
+	ハジマリ	本気						おや？\nさっきから誰かが見ているような\n気がしていたけれど……
+	ハジマリ	笑い						ふふ♪\nボクに用事でもあるのかい？
+StopBgm						0
+Bg	黒背景					0
+CharacterOff						0
+	ハジマリ	<Off>	1_2					眠りネズミ
+FadeOut	black					1
+CharacterOff						0
+Bg	アリス庭園					0
+	ハデス	通常2				0
+Wait						2
+FadeIn	black					1
+Bgm	平和
+	ハデス	通常2						エウメニデス、\nかぼちゃのケーキが焼けましたから\n味見をしてもらっていいですか？
+CharacterOff
+	エウメニデス	嬉しい						ハデスさんの手作りケーキを\n食べられるなんてやったー、です♪
+	エウメニデス	嬉しい						それじゃあ、あー<dash=2>
+CharacterOff
+Se	走る
+	セポネ魔王	通常				.5		ただいまー♪
+Wait						.5
+CharacterOff
+	エウメニデス	驚き
+Tween	エウメニデス	PunchPosition	y=30				NoWait
+	エウメニデス	驚き						わあっ!?
+CharacterOff
+	ハデス	通常2						お、お姉ちゃん!?
+CharacterOff
+	エウメニデス	驚き						び、びっくりしたぞ、ですっ！
+CharacterOff
+	セポネ魔王	通常						ふふふ♪\nなんといってもハロウィンですから♪
+	セポネ魔王	通常						トリックオアトリート♪\nお菓子をくれないとイタズラ<dash=2>
+	セポネ魔王	通常						あれ？\nもうセポネはイタズラしちゃいました
+	セポネ魔王	通常						もしかして、\nセポネさんはお菓子抜きですかぁ？
+CharacterOff
+	ディーア	笑い4						大丈夫、\nちゃんとセポネの分のお菓子もあるよ
+	ディーア	通常4						なあ、みんな？
+CharacterOff
+	ハデスロスト	通常						はい、もちろん
+CharacterOff
+	エウメニデス	嬉しい						イタズラなんて、\nなんどやってもいいから、です♪
+CharacterOff
+	ハデス	嬉しい2						むしろこれくらい、\nお姉ちゃんのいつも通りですから
+	ハデス	嬉しい2						あとハデスは驚いていません\nハデスには感情がありませんからね
+CharacterOff
+	セポネ魔王	通常						そっか♪
+	セポネ魔王	通常						それではセポネさんは、\nもーっと驚くことをしちゃいます！
+	セポネ魔王	通常						次は世界の壁も超えて<dash=2>
+CharacterOff
+	ディーア	絶望4
+Tween	ディーア	PunchPosition	y=30				NoWait
+	ディーア	絶望4						わあああああああ!?\n今日はもう、\n変なところに行くのはやめてくれ！
+CharacterOff
+	セポネ魔王	通常						もー♪\nマスターさんは仕方ないですねぇ♪
+	セポネ魔王	通常						そんなに\nセポネに近くにいてほしいだなんて
+	セポネ魔王	通常						それなら♪
+CharacterOff
+	オーラ桃		エフェクト表
+	セポネ魔王	拡大通常	エフェクト裏					たーくさん撫でて褒めて甘やかして♪
+FadeOut	white					2
+CharacterOff						0
+	イベントロゴ1279		エフェクト表			3
+FadeIn	white					1
+Wait						3
+FadeOut	white					2
+If	isdebug==true
+CharacterOff
+Jump	*E_1279_01
+EndIf
+EndScenario
