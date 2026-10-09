@@ -1937,9 +1937,15 @@
     "versions": [
       {
         "ts": "2026/10/01 18:00:00",
-        "file": "04828_20261001.html",
+        "file": "04828_20261001_v20261001180000.html",
         "hash": "f4331b716de7a37ea2de4c298909acecc8a8d095cd9dca2709df2d0dcba1e2bc",
         "ts_source": "rss"
+      },
+      {
+        "ts": "2026/10/09 18:05:00",
+        "file": "04828_20261001.html",
+        "hash": "dcd863138e712ca3a31f725008c8b5cd841f09d86483f8500f2b6c54087b7a07",
+        "ts_source": "tsuiki"
       }
     ]
   },
