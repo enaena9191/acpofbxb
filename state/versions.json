@@ -2056,5 +2056,17 @@
         "ts_source": "rss"
       }
     ]
+  },
+  "4837": {
+    "slug": "g_849",
+    "canonical": "04837_20261013.html",
+    "versions": [
+      {
+        "ts": "2026/10/13 16:00:00",
+        "file": "04837_20261013.html",
+        "hash": "e0bd6e5598c80d5edfb56f620f54a727c68d4e026124f14d562306ab67b7e196",
+        "ts_source": "rss"
+      }
+    ]
   }
 }

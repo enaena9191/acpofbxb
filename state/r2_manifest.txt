@@ -9035,6 +9035,11 @@ bxb-assets/images/topics/gachas/848/title_848_2.jpg
 bxb-assets/images/topics/gachas/848/title_848_3.jpg
 bxb-assets/images/topics/gachas/848/title_848_4.jpg
 bxb-assets/images/topics/gachas/848/title_848_5.jpg
+bxb-assets/images/topics/gachas/849/title_849_1.jpg
+bxb-assets/images/topics/gachas/849/title_849_2.jpg
+bxb-assets/images/topics/gachas/849/title_849_3.jpg
+bxb-assets/images/topics/gachas/849/title_849_4.jpg
+bxb-assets/images/topics/gachas/849/title_849_5.jpg
 bxb-assets/images/topics/goods/2021summer_goods/2021summer_goods_title.jpg
 bxb-assets/images/topics/goods/2021summer_goods/image_01.jpg
 bxb-assets/images/topics/goods/2021summer_goods/image_02.jpg
@@ -9725,6 +9730,7 @@ bxb-assets/images/topics/item/1520005/icon.png
 bxb-assets/images/topics/item/1521011/icon.png
 bxb-assets/images/topics/item/1521019/icon.png
 bxb-assets/images/topics/item/1521022/icon.png
+bxb-assets/images/topics/item/1521704/icon.png
 bxb-assets/images/topics/item/1522003/icon.png
 bxb-assets/images/topics/item/1523011/icon.png
 bxb-assets/images/topics/item/1524019/icon.png
@@ -10619,6 +10625,7 @@ bxb-assets/images/topics/materials/53080065/large.png
 bxb-assets/images/topics/materials/53080066/large.png
 bxb-assets/images/topics/materials/53080068/large.png
 bxb-assets/images/topics/materials/53080069/large.png
+bxb-assets/images/topics/materials/53080074/large.png
 bxb-assets/images/topics/materials/54060006/large.png
 bxb-assets/images/topics/materials/54080018/large.png
 bxb-assets/images/topics/materials/54080021/large.png
@@ -15151,6 +15158,7 @@ bxb-assets/images/topics/weapons/1521011.jpg
 bxb-assets/images/topics/weapons/1521019.jpg
 bxb-assets/images/topics/weapons/152102.jpg
 bxb-assets/images/topics/weapons/1521022.jpg
+bxb-assets/images/topics/weapons/1521704.jpg
 bxb-assets/images/topics/weapons/1522003.jpg
 bxb-assets/images/topics/weapons/152201.jpg
 bxb-assets/images/topics/weapons/152202.jpg
