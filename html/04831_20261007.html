@@ -3,7 +3,7 @@
  <head>
   <meta content="noindex" name="robots"/>
   <title>
-   【重要】10月14日(水)メンテナンスのお知らせ - ブレイブソード×ブレイズソウル
+   【10/14 13:00追記】【重要】10月14日(水)メンテナンスのお知らせ - ブレイブソード×ブレイズソウル
   </title>
   <meta charset="utf-8"/>
   <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport"/>
@@ -11,7 +11,7 @@
   <link href="css/bootstrap.min.css" rel="stylesheet"/>
   <link href="css/application-8b5a79c93669c65fd3c25248879bc4eb50b055b177681c54b3789c39c3959504.css" media="all" rel="stylesheet"/>
   <meta content="authenticity_token" name="csrf-param"/>
-  <meta content="UKoZzOy9fvqSz7bDPMhWTABY+eEzx3qtyCSQKCjrkerR+wVLEZSPwr/Fo5KMWScii9J9jqL7N+KbeX52qqNkvw==" name="csrf-token"/>
+  <meta content="pKs8w/g8VdugQWpoqw+wH/s7Em3N1wOv3wuJyIZxddC5WOiH4pnez5+ci4LrTFAjpHHqMWG4Xu+I4qipkk61Mw==" name="csrf-token"/>
   <script src="js/jquery.min.js">
   </script>
   <script src="js/jquery-migrate.min.js">
@@ -35,8 +35,16 @@
      </div>
      <div class="news_title">
       <a class="title_text">
-       【重要】10月14日(水)メンテナンスのお知らせ
+       【10/14 13:00追記】【重要】10月14日(水)メンテナンスのお知らせ
       </a>
+      <select class="version_select" onchange="if(this.value)bxbSwitchVersion(this.value)" style="margin-left:8px;max-width:200px">
+       <option selected="selected" value="./04831_20261007.html">
+        2026/10/14 13:00:00
+       </option>
+       <option value="./04831_20261007_v20261007150000.html">
+        2026/10/07 15:00:00
+       </option>
+      </select>
      </div>
      <div class="category">
       <img alt="List important" class="img-responsive" src="assets/list_important-4dadc09debd20f48976ec841d09da1fdaff9a24c3bb34f3d0c85d40f739718e8.png"/>
@@ -98,6 +106,66 @@
              <br/>
              <div class="mini_area">
               ・老朽化した魔界環境システムの取り替え
+             </div>
+            </div>
+           </div>
+          </div>
+         </div>
+        </div>
+        <div class="area">
+         <div class="content">
+          <div class="_content_block">
+           <div class="mini_area left" style="margin-top:20px;">
+            <div style="margin-top:-10px; margin-bottom:5px;">
+             <span class="update_info_title_subject" style="width:initial !important;">
+              解消済みの不具合
+             </span>
+            </div>
+            <div class="update_1info_container round4px">
+             <div class="update_info_container_timestamp font8 left gtext67">
+              10/14 13:00
+             </div>
+             <div class="update_info_container_title" id="tgl_wrapper">
+              一部のミニミッションがクリアできない
+             </div>
+             <div class="update_info_container_body" id="tgl_content">
+              8/1 0:00 ～ 10/14 13:00頃まで、以下のミニミッションがクリアできない不具合が発生しておりました。
+              <br/>
+              ・火菌王マセキノコリオンを探せ
+              <br/>
+              ・水菌王マセキノコリオンを探せ
+              <br/>
+              ・風菌王マセキノコリオンを探せ
+              <br/>
+              ・光菌王マセキノコリオンを探せ
+              <br/>
+              ・闇菌王マセキノコリオンを探せ
+              <br/>
+              <br/>
+              不具合のご報告および修正が遅くなりましたことを、心よりお詫び申し上げます。
+              <br/>
+              現在は修正が完了しており、正しい条件でクリアできることを確認しております。
+              <br/>
+              <br/>
+              本不具合のお詫びとして、以下の内容でプレゼントを実施いたします。
+              <br/>
+              <div class="mini_mini_area left">
+               ■ プレゼント内容
+               <br/>
+               ・魔宝石ダイヤ×2
+               <br/>
+               <br/>
+               ■ 対象の魔剣使い様
+               <br/>
+               2026/10/14 13:00頃までに魔界にいらした全ての魔剣使い様
+               <br/>
+              </div>
+              <br/>
+              プレゼントは順次配布されます。配布まで今しばらくお待ちください。
+              <br/>
+              <br/>
+              改めまして、この度は申し訳ございませんでした。
+              <br/>
              </div>
             </div>
            </div>
@@ -263,6 +331,20 @@ gtag('config', 'G-C5DZFTSEB3');
     return false;
   });
 });
+  </script>
+  <script id="version-switcher-js">
+   function bxbSwitchVersion(u){
+  fetch(u).then(function(r){return r.text();}).then(function(t){
+    var d = new DOMParser().parseFromString(t, "text/html");
+    var nb = d.querySelector(".news_body");
+    var cur = document.querySelector(".news_body");
+    if (nb && cur) { cur.replaceWith(document.importNode(nb, true)); }
+    var tm = d.querySelector(".news_heading .time");
+    var ct = document.querySelector(".news_heading .time");
+    if (tm && ct) { ct.replaceWith(document.importNode(tm, true)); }
+    if (window.twttr && twttr.widgets && twttr.widgets.load) { twttr.widgets.load(); }
+  });
+}
   </script>
  </body>
 </html>

@@ -1985,9 +1985,15 @@
     "versions": [
       {
         "ts": "2026/10/07 15:00:00",
-        "file": "04831_20261007.html",
+        "file": "04831_20261007_v20261007150000.html",
         "hash": "3bc6ed5418596c39bbf024921d7a48dcfd99501d3c1318177be8c0b31bc4fb14",
         "ts_source": "rss"
+      },
+      {
+        "ts": "2026/10/14 13:00:00",
+        "file": "04831_20261007.html",
+        "hash": "bb1961e59713a7ebeabc2f302e1edfd51154898b5f28e156c2e4a6980ea6ef4c",
+        "ts_source": "tsuiki"
       }
     ]
   },
