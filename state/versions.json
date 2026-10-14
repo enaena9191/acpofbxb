@@ -2074,5 +2074,29 @@
         "ts_source": "rss"
       }
     ]
+  },
+  "4838": {
+    "slug": "info_4koma_596",
+    "canonical": "04838_20261014.html",
+    "versions": [
+      {
+        "ts": "2026/10/14 19:00:00",
+        "file": "04838_20261014.html",
+        "hash": "e1a42bcecb3a3c7d4551eb6af6ce3f87ed2d1f42337c6d2d049d4da08f3adc35",
+        "ts_source": "rss"
+      }
+    ]
+  },
+  "4839": {
+    "slug": null,
+    "canonical": "04839_20261014.html",
+    "versions": [
+      {
+        "ts": "2026/10/14 19:00:00",
+        "file": "04839_20261014.html",
+        "hash": "51a236953defe99caec64666295ccdd1d3f4526aa71264379a87515ef71a8df4",
+        "ts_source": "page_time"
+      }
+    ]
   }
 }
