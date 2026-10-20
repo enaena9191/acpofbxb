@@ -2098,5 +2098,17 @@
         "ts_source": "page_time"
       }
     ]
+  },
+  "4840": {
+    "slug": "g_850",
+    "canonical": "04840_20261020.html",
+    "versions": [
+      {
+        "ts": "2026/10/20 16:00:00",
+        "file": "04840_20261020.html",
+        "hash": "10e2f3ba5e93ff08fc4514c69ebd658ea9b0ac6861d3d01dd178176e0d9eb621",
+        "ts_source": "rss"
+      }
+    ]
   }
 }

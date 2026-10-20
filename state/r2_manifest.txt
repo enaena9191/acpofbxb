@@ -9042,6 +9042,11 @@ bxb-assets/images/topics/gachas/849/title_849_2.jpg
 bxb-assets/images/topics/gachas/849/title_849_3.jpg
 bxb-assets/images/topics/gachas/849/title_849_4.jpg
 bxb-assets/images/topics/gachas/849/title_849_5.jpg
+bxb-assets/images/topics/gachas/850/title_850_1.jpg
+bxb-assets/images/topics/gachas/850/title_850_2.jpg
+bxb-assets/images/topics/gachas/850/title_850_3.jpg
+bxb-assets/images/topics/gachas/850/title_850_4.jpg
+bxb-assets/images/topics/gachas/850/title_850_5.jpg
 bxb-assets/images/topics/goods/2021summer_goods/2021summer_goods_title.jpg
 bxb-assets/images/topics/goods/2021summer_goods/image_01.jpg
 bxb-assets/images/topics/goods/2021summer_goods/image_02.jpg
