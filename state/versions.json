@@ -2110,5 +2110,17 @@
         "ts_source": "rss"
       }
     ]
+  },
+  "4841": {
+    "slug": "info_kaini_202610",
+    "canonical": "04841_20261021.html",
+    "versions": [
+      {
+        "ts": "2026/10/21 16:00:00",
+        "file": "04841_20261021.html",
+        "hash": "8c11cb911b1e2a4322283af3465d1de6d60129269f02a3dbcc28e665353daf00",
+        "ts_source": "rss"
+      }
+    ]
   }
 }
