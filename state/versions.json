@@ -2122,5 +2122,41 @@
         "ts_source": "rss"
       }
     ]
+  },
+  "4842": {
+    "slug": "update_v2_5_37",
+    "canonical": "04842_20261021.html",
+    "versions": [
+      {
+        "ts": "2026/10/21 18:00:00",
+        "file": "04842_20261021.html",
+        "hash": "8747a98ac396e91583b3ef521761b8e3c9acdb5381270cd68dc4f93c208312ba",
+        "ts_source": "rss"
+      }
+    ]
+  },
+  "4843": {
+    "slug": "info_4koma_597",
+    "canonical": "04843_20261021.html",
+    "versions": [
+      {
+        "ts": "2026/10/21 19:00:00",
+        "file": "04843_20261021.html",
+        "hash": "398a1e9c71142b39ecc5bcf11e5f4a324e611a00d9685d5f76ff118deebc08b3",
+        "ts_source": "rss"
+      }
+    ]
+  },
+  "4844": {
+    "slug": null,
+    "canonical": "04844_20261021.html",
+    "versions": [
+      {
+        "ts": "2026/10/21 19:00:00",
+        "file": "04844_20261021.html",
+        "hash": "86fc56daab02a2faade46d502607038690f43cdb39adcc82eac07381c395757f",
+        "ts_source": "page_time"
+      }
+    ]
   }
 }

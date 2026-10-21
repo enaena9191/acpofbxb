@@ -1,6 +1,6 @@
 {
-  "latest_id": 4841,
-  "last_change_at": "2026-10-21T07:02:22+00:00",
+  "latest_id": 4844,
+  "last_change_at": "2026-10-21T10:34:48+00:00",
   "rss": {
     "yokoku_MachinaHeartBeating": {
       "pubDate": "Wed, 10 Jun 2026 18:00:00 +0900",
@@ -501,6 +501,14 @@
     "info_kaini_202610": {
       "pubDate": "Wed, 21 Oct 2026 16:00:00 +0900",
       "id": 4841
+    },
+    "update_v2_5_37": {
+      "pubDate": "Wed, 21 Oct 2026 18:00:00 +0900",
+      "id": 4842
+    },
+    "info_4koma_597": {
+      "pubDate": "Wed, 21 Oct 2026 19:00:00 +0900",
+      "id": 4843
     }
   }
 }
