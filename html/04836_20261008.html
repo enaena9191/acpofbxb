@@ -3,7 +3,7 @@
  <head>
   <meta content="noindex" name="robots"/>
   <title>
-   【イベント】せぽねさんぽ -いきなり魔界滅亡編-【気ままに魔界めぐり】 - ブレイブソード×ブレイズソウル
+   【10/22 19:00追記】【イベント】せぽねさんぽ -いきなり魔界滅亡編-【気ままに魔界めぐり】 - ブレイブソード×ブレイズソウル
   </title>
   <meta charset="utf-8"/>
   <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport"/>
@@ -11,7 +11,7 @@
   <link href="css/bootstrap.min.css" rel="stylesheet"/>
   <link href="css/application-8b5a79c93669c65fd3c25248879bc4eb50b055b177681c54b3789c39c3959504.css" media="all" rel="stylesheet"/>
   <meta content="authenticity_token" name="csrf-param"/>
-  <meta content="ltnwIpFWskFsilfQbzsFFnQXtaIJPEWcIxP8GqbxEXyImS1As88B8yQZZi8mzNWifT8U4u0+WxAjnOV8tpM38A==" name="csrf-token"/>
+  <meta content="6OV8OX/+unE9Cmr7HBttTXSUhOeUeJkINCktWWmOpFPeZR4FiLYlOhJV7WGAxSxu/BOUh/QQmaD9vlEuZa4eNA==" name="csrf-token"/>
   <script src="js/jquery.min.js">
   </script>
   <script src="js/jquery-migrate.min.js">
@@ -35,8 +35,16 @@
      </div>
      <div class="news_title">
       <a class="title_text">
-       【イベント】せぽねさんぽ -いきなり魔界滅亡編-【気ままに魔界めぐり】
+       【10/22 19:00追記】【イベント】せぽねさんぽ -いきなり魔界滅亡編-【気ままに魔界めぐり】
       </a>
+      <select class="version_select" onchange="if(this.value)bxbSwitchVersion(this.value)" style="margin-left:8px;max-width:200px">
+       <option selected="selected" value="./04836_20261008.html">
+        2026/10/22 19:00:00
+       </option>
+       <option value="./04836_20261008_v20261008160000.html">
+        2026/10/08 16:00:00
+       </option>
+      </select>
      </div>
      <div class="category">
       <img alt="List event" class="img-responsive" src="assets/list_event-1ec3993c68de98ae70efddda6716ff7291da609e65e37acd38ca5629fa96cc19.png"/>
@@ -45,6 +53,32 @@
     <div class="news_body">
      <div class="news_scrollbox">
       <div class="news_inner">
+       <div class="mini_area left">
+        <div class="update_1info_container round4px">
+         <div class="update_info_container_timestamp font8 left gtext67">
+          10/22 19:00
+         </div>
+         <div class="update_info_container_title" id="tgl_wrapper">
+          BONUSクエストのせぽねさんが散歩に出かけている
+         </div>
+         <div class="update_info_container_body" id="tgl_content">
+          10/22 16:00より、BONUSクエストからせぽねさんがいなくなる不具合が発生しております。
+          <br/>
+          ご迷惑をおかけし、誠に申し訳ございません。
+          <br/>
+          <br/>
+          なお、本不具合発生中も、クエストのクリアは正常に行えることを確認しております。
+          <br/>
+          <br/>
+          現在局員が、急ぎせぽねさんの行方を探しております。
+          <br/>
+          また、本件によるお詫びについても併せて検討を進めております。
+          <br/>
+          <br/>
+          大変恐縮ではございますが、せぽねさんが戻るまで今しばらくお待ちくださいますようお願い申し上げます。
+         </div>
+        </div>
+       </div>
        <div class="news">
         魔剣機関 中央議会です。
         <br/>
@@ -526,6 +560,20 @@ gtag('config', 'G-C5DZFTSEB3');
     return false;
   });
 });
+  </script>
+  <script id="version-switcher-js">
+   function bxbSwitchVersion(u){
+  fetch(u).then(function(r){return r.text();}).then(function(t){
+    var d = new DOMParser().parseFromString(t, "text/html");
+    var nb = d.querySelector(".news_body");
+    var cur = document.querySelector(".news_body");
+    if (nb && cur) { cur.replaceWith(document.importNode(nb, true)); }
+    var tm = d.querySelector(".news_heading .time");
+    var ct = document.querySelector(".news_heading .time");
+    if (tm && ct) { ct.replaceWith(document.importNode(tm, true)); }
+    if (window.twttr && twttr.widgets && twttr.widgets.load) { twttr.widgets.load(); }
+  });
+}
   </script>
  </body>
 </html>
