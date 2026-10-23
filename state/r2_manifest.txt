@@ -9130,8 +9130,10 @@ bxb-assets/images/topics/guardian/68031/ll.png
 bxb-assets/images/topics/guardian/73200/ll.png
 bxb-assets/images/topics/guardian/80410/ll.png
 bxb-assets/images/topics/guardian/81043/ll.png
+bxb-assets/images/topics/guardian/81111/ll.png
 bxb-assets/images/topics/guardian/81150/ll.png
 bxb-assets/images/topics/guardian/81187/ll.png
+bxb-assets/images/topics/guild_battle/guild_title_special.jpg
 bxb-assets/images/topics/guild_battle/info_guild_battle_20220404.jpg
 bxb-assets/images/topics/guild_battle/info_support_shop_20230217.jpg
 bxb-assets/images/topics/guild_battle/leaflet_001.jpg
@@ -11747,6 +11749,7 @@ bxb-assets/images/topics/souls/1571/stand_ll.png
 bxb-assets/images/topics/souls/1572/stand_ll.png
 bxb-assets/images/topics/souls/1573/stand_ll.png
 bxb-assets/images/topics/souls/1574/stand_ll.png
+bxb-assets/images/topics/souls/1575/stand_ll.png
 bxb-assets/images/topics/tape_04.jpg
 bxb-assets/images/topics/tape_04_soul.jpg
 bxb-assets/images/topics/title/info_header_gr_questionnaire.jpg
