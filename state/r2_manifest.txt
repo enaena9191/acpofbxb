@@ -9236,6 +9236,7 @@ bxb-assets/images/topics/innocent_shop/innocent_shop_information_202606.jpg
 bxb-assets/images/topics/innocent_shop/innocent_shop_information_202607.jpg
 bxb-assets/images/topics/innocent_shop/innocent_shop_information_202608.jpg
 bxb-assets/images/topics/innocent_shop/innocent_shop_information_202609.jpg
+bxb-assets/images/topics/innocent_shop/innocent_shop_information_202610.jpg
 bxb-assets/images/topics/item/1001011/icon.png
 bxb-assets/images/topics/item/1001022/icon.png
 bxb-assets/images/topics/item/1001704/icon.png
@@ -9513,6 +9514,7 @@ bxb-assets/images/topics/item/1299001/icon.png
 bxb-assets/images/topics/item/1300001/icon.png
 bxb-assets/images/topics/item/1300006/icon.png
 bxb-assets/images/topics/item/1300011/icon.png
+bxb-assets/images/topics/item/1301004/icon.png
 bxb-assets/images/topics/item/1304020/icon.png
 bxb-assets/images/topics/item/1304028/icon.png
 bxb-assets/images/topics/item/1310003/icon.png
@@ -10276,6 +10278,7 @@ bxb-assets/images/topics/materials/43060019/large.png
 bxb-assets/images/topics/materials/43060021/large.png
 bxb-assets/images/topics/materials/43060022/large.png
 bxb-assets/images/topics/materials/43060023/large.png
+bxb-assets/images/topics/materials/43060025/large.png
 bxb-assets/images/topics/materials/43070001/large.png
 bxb-assets/images/topics/materials/43070002/large.png
 bxb-assets/images/topics/materials/43070006/large.png
@@ -10903,6 +10906,8 @@ bxb-assets/images/topics/materials/62010443/large.png
 bxb-assets/images/topics/materials/62010444/large.png
 bxb-assets/images/topics/materials/62010446/large.png
 bxb-assets/images/topics/materials/62010447/large.png
+bxb-assets/images/topics/materials/62010448/large.png
+bxb-assets/images/topics/materials/62010449/large.png
 bxb-assets/images/topics/materials/63020106/large.png
 bxb-assets/images/topics/materials/63020107/large.png
 bxb-assets/images/topics/materials/64150092/large.png
@@ -11101,6 +11106,7 @@ bxb-assets/images/topics/medal_shop/medal_weapon_information_202606.jpg
 bxb-assets/images/topics/medal_shop/medal_weapon_information_202607.jpg
 bxb-assets/images/topics/medal_shop/medal_weapon_information_202608.jpg
 bxb-assets/images/topics/medal_shop/medal_weapon_information_202609.jpg
+bxb-assets/images/topics/medal_shop/medal_weapon_information_202610.jpg
 bxb-assets/images/topics/mirrativ/mirrativ_header_20220427.jpg
 bxb-assets/images/topics/nama/marriage_wave13_1.jpg
 bxb-assets/images/topics/nama/marriage_wave13_2.jpg
@@ -11462,6 +11468,7 @@ bxb-assets/images/topics/picture/7095_sample.jpg
 bxb-assets/images/topics/picture/7096_sample.jpg
 bxb-assets/images/topics/picture/7097_sample.jpg
 bxb-assets/images/topics/picture/7098_sample.jpg
+bxb-assets/images/topics/picture/7099_sample.jpg
 bxb-assets/images/topics/picture/8016_sample.jpg
 bxb-assets/images/topics/picture/9043_sample.jpg
 bxb-assets/images/topics/picture/9046_sample.jpg
@@ -14541,6 +14548,7 @@ bxb-assets/images/topics/weapons/130001.jpg
 bxb-assets/images/topics/weapons/1300011.jpg
 bxb-assets/images/topics/weapons/130002.jpg
 bxb-assets/images/topics/weapons/130003.jpg
+bxb-assets/images/topics/weapons/1301004.jpg
 bxb-assets/images/topics/weapons/130103.jpg
 bxb-assets/images/topics/weapons/130201.jpg
 bxb-assets/images/topics/weapons/130203.jpg

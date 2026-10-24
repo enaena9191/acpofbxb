@@ -2182,5 +2182,17 @@
         "ts_source": "rss"
       }
     ]
+  },
+  "4846": {
+    "slug": "medal_202610",
+    "canonical": "04846_20261024.html",
+    "versions": [
+      {
+        "ts": "2026/10/24 16:00:00",
+        "file": "04846_20261024.html",
+        "hash": "aa611be40233b59fa6e3953224f1a7170fe4db3da43dd5f53717d69517085355",
+        "ts_source": "rss"
+      }
+    ]
   }
 }
