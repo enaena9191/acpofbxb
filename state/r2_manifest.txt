@@ -9029,6 +9029,11 @@ bxb-assets/images/topics/gachas/845/title_845_1.jpg
 bxb-assets/images/topics/gachas/845/title_845_2.jpg
 bxb-assets/images/topics/gachas/845/title_845_3.jpg
 bxb-assets/images/topics/gachas/845/title_845_4.jpg
+bxb-assets/images/topics/gachas/846/title_846_1.jpg
+bxb-assets/images/topics/gachas/846/title_846_2.jpg
+bxb-assets/images/topics/gachas/846/title_846_3.jpg
+bxb-assets/images/topics/gachas/846/title_846_4.jpg
+bxb-assets/images/topics/gachas/846/title_846_5.jpg
 bxb-assets/images/topics/gachas/847/title_847_1.jpg
 bxb-assets/images/topics/gachas/847/title_847_2.jpg
 bxb-assets/images/topics/gachas/847/title_847_3.jpg
@@ -11375,6 +11380,7 @@ bxb-assets/images/topics/picture/4081_sample.jpg
 bxb-assets/images/topics/picture/4082_sample.jpg
 bxb-assets/images/topics/picture/4083_sample.jpg
 bxb-assets/images/topics/picture/4084_sample.jpg
+bxb-assets/images/topics/picture/4085_sample.jpg
 bxb-assets/images/topics/picture/5014_sample.jpg
 bxb-assets/images/topics/picture/5015_sample.jpg
 bxb-assets/images/topics/picture/5016_sample.jpg

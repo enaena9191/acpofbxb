@@ -2194,5 +2194,17 @@
         "ts_source": "rss"
       }
     ]
+  },
+  "4847": {
+    "slug": "g_846",
+    "canonical": "04847_20261027.html",
+    "versions": [
+      {
+        "ts": "2026/10/27 16:00:00",
+        "file": "04847_20261027.html",
+        "hash": "67f8bd7e058658c4d09309a982e7f2035902d4ddc5cda01273f159395aef88ce",
+        "ts_source": "rss"
+      }
+    ]
   }
 }
