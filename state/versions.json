@@ -2206,5 +2206,29 @@
         "ts_source": "rss"
       }
     ]
+  },
+  "4848": {
+    "slug": "info_4koma_598",
+    "canonical": "04848_20261028.html",
+    "versions": [
+      {
+        "ts": "2026/10/28 19:00:00",
+        "file": "04848_20261028.html",
+        "hash": "ebc5a53b4c2791bd9ba2c71ba6fbf93a65bbf681f1ab43c2ec13fa8ac4705edd",
+        "ts_source": "rss"
+      }
+    ]
+  },
+  "4849": {
+    "slug": null,
+    "canonical": "04849_20261028.html",
+    "versions": [
+      {
+        "ts": "2026/10/28 19:00:00",
+        "file": "04849_20261028.html",
+        "hash": "5ecdd385eb15cf9a1e65be141fbb6754635badb7a6ed7c7c87d3df93f1e1e635",
+        "ts_source": "page_time"
+      }
+    ]
   }
 }
