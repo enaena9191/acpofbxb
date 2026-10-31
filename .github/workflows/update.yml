@@ -85,6 +85,7 @@ jobs:
           echo "asset_version_status=$(jq -r '.asset_version_status // "none"' "$F")" >> "$GITHUB_OUTPUT"
           echo "scenario_status=$(jq -r '.scenario_status // "none"' "$F")" >> "$GITHUB_OUTPUT"
           echo "scenario_version=$(jq -r '.scenario_version // ""' "$F")" >> "$GITHUB_OUTPUT"
+          echo "scenario_error=$(jq -r '.scenario_error // "" | gsub("\n"; " ")' "$F")" >> "$GITHUB_OUTPUT"
 
       - name: Refresh rarity4 ids on R2
         if: steps.sum.outputs.snapshot_status == 'archived'
@@ -157,3 +158,12 @@ jobs:
           git commit -q -m "data(master-tables): sync $(date -u +%FT%TZ)"
           git pull --rebase origin data/master-tables || true
           git push origin HEAD:data/master-tables
+
+      - name: Fail on scenario error
+        if: steps.sum.outputs.scenario_error != ''
+        env:
+          VER: ${{ steps.sum.outputs.scenario_version }}
+          ERR: ${{ steps.sum.outputs.scenario_error }}
+        run: |
+          echo "::error::scenario $VER: $ERR"
+          exit 1

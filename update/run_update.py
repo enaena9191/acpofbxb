@@ -103,7 +103,8 @@ def module_scenario(session) -> dict:
         tail = ""
     print(f"  scenario {ver}: {res['status']}{tail}")
     return {"scenario_status": res["status"], "scenario_version": ver,
-            "scenario_added": res.get("added", []), "scenario_modified": res.get("modified", [])}
+            "scenario_added": res.get("added", []), "scenario_modified": res.get("modified", []),
+            "scenario_error": res.get("error") or ""}
 
 
 def _warp_pool():
