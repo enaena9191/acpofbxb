@@ -2254,5 +2254,17 @@
         "ts_source": "rss"
       }
     ]
+  },
+  "4852": {
+    "slug": "loginbonus_202611",
+    "canonical": "04852_20141101.html",
+    "versions": [
+      {
+        "ts": "2026/11/01 00:00:00",
+        "file": "04852_20141101.html",
+        "hash": "3d9025d2f3d947317e7972de9b71b85f4eb2f8a24dbe118b42472ac225bca477",
+        "ts_source": "rss"
+      }
+    ]
   }
 }
