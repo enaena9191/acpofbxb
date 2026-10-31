@@ -1,5 +1,5 @@
 # update / repost-telegraph 依赖
-pycryptodome      # api_client AES-256-CBC (login/master_data 加解密)
+pycryptodome<4    # api_client AES-256-CBC (login/master_data 加解密);pycryptoplus 要 Crypto.Util.py3compat、4.0 已移除 → 锁 <4
 msgpack           # master/manifest msgpack
 requests          # API + 资源 CDN HTTP + Telegram/Telegraph
 UnityPy           # .dat → PNG (图标源) / npc-motion 时长 / scenario TSV
