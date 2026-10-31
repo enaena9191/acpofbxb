@@ -1,0 +1,2714 @@
+# E_1282_01
+Command	Arg1	Arg2	Arg3	Arg4	Arg5	Arg6	WaitType	Text	PageCtrl	Voice	WindowType
+Param	quest_name="クエスト名"
+ShowMessageWindow
+FadeOut	black					0
+StopSound
+Bgm	わくわく
+Bg	市街地A					0
+Param	character_grayout=false
+	魔劍グラム=オルタ	通常2
+FadeIn	black					1
+	魔劍グラム=オルタ	通常2						私、グラム=オルタ
+	魔劍グラム=オルタ	嬉しい2						お姉ちゃんとマスターさん、\nそして仲間のみんなとの日常が\n大好きで
+	魔劍グラム=オルタ	通常2						まだちょっと\n自分に自信がもてない普通の魔剣少女
+	魔劍グラム=オルタ	通常2						だけど今は、\nお姉ちゃんやみんなに言えない\n秘密ができたんです……
+	魔劍グラム=オルタ	本気2						私には似合わないかもしれないけど\nとっても大事なお仕事
+StopBgm
+	魔劍グラム=オルタ	本気2						その秘密を知っているのは、\nマスターさんと<dash=2>
+Bgm	緊迫
+Se	走る
+CharacterOff
+	ディーア	悔しい4				1		オルタ、大変だ！
+CharacterOff
+	魔劍グラム=オルタ	慌て2						マスターさん、\nもしかしてまた……!?
+CharacterOff
+	ディーア	怒り4						ああ、「クワイエット」だ！
+	ディーア	悔しい4						だけどいつもとは違う、\n今回は全魔界を覆い尽くす規模の\n「カムカム空間」を発生させている
+Tween	ディーア	PunchPosition	y=30				NoWait
+	ディーア	悔しい4						クワイエットはきっと、\n今日ですべてに決着をつける気だ\nつまり<dash=2>
+CharacterOff
+	魔劍グラム=オルタ	本気2						魔界の終わり……
+Tween	魔劍グラム=オルタ	PunchPosition	y=30				NoWait
+	魔劍グラム=オルタ	本気2						でも、させません……！
+	魔劍グラム=オルタ	本気2						魔界を終わらせたりしません！\n希望を諦めません……！
+	魔劍グラム=オルタ	本気2						それが魔剣少女の、\nううん<dash=2>
+StopBgm
+Tween	魔劍グラム=オルタ	PunchPosition	y=30				NoWait
+	魔劍グラム=オルタ	本気2						魔法少女の役目だから！
+Bgm	ウイニングラン
+Se	チャージ
+	オーラ桃		エフェクト表			1
+	魔劍グラム=オルタ	本気2						ブレイズハート、フルチャージ！
+	魔劍グラム=オルタ	本気2						愛と希望よ、私に力を……！\nすべてを守る魔法を貸して……！
+Se	チャージ
+FadeOut	white					2
+Bg	白背景					0
+CharacterOff						0
+	オルタ魔法少女	拡大足	エフェクト表			0
+FadeIn	white					.3
+	オルタ魔法少女	拡大足						魔界を守る奇跡の光！
+FadeOut	white					.3
+CharacterOff						0
+	オルタ魔法少女	拡大胸	エフェクト表			0
+FadeIn	white					.3
+	オルタ魔法少女	拡大胸						愛と希望と魔法の使者♪
+FadeOut	white					.3
+Bg	市街地A					0
+CharacterOff						0
+	オルタ魔法少女	笑い				0
+FadeIn	white					.3
+	オルタ魔法少女	笑い						魔法少女ミラクルオルタ！\n参上♪
+Tween	オルタ魔法少女	PunchPosition	y=30				NoWait
+	オルタ魔法少女	笑い						さあ、行きましょう！\nマスターさん！
+CharacterOff
+	ディーア	本気4						ああ！\n魔界の平和はオレたちが守るんだ！
+	wipe		wipe_start			0
+Tween	wipe	MoveTo	x=-800 islocal=true time=1.2	linear
+FadeOut	black					.1
+CharacterOff						0
+Bg	市街地B2(紫)					0
+	シズカニーA	通常	p3			0
+	シズカニーB	通常	p7b			0
+Param	character_grayout=true
+Wait						2
+FadeIn	black					.3
+Tween	シズカニーA	PunchPosition	y=30				NoWait
+	シズカニーA	通常						シズカニー！
+Tween	シズカニーB	PunchPosition	y=30				NoWait
+	シズカニーB	通常						シズカニー！
+Param	character_grayout=false
+CharacterOff
+	オーラ桃		エフェクト裏
+	酒場のおばちゃん	通常
+Shake	酒場のおばちゃん		x=3				NoWait
+	酒場のおばちゃん	通常						うぅ……、\nこの魔物に元気を吸われて……
+	酒場のおばちゃん	通常						うごくこともできない……
+CharacterOff
+	サイレンサー	通常						クククク！\nモエネルギーの回収は順調だな！
+	サイレンサー	通常						このまま魔界をカムカム空間で覆い、\n静寂で完全な世界を<dash=2>
+	オルタの声	<Off>	1_2					させません！
+Tween	サイレンサー	PunchPosition	y=30				NoWait
+	サイレンサー	通常						っ……この声、まさか！
+CharacterOff
+	オルタ魔法少女	通常
+Tween	オルタ魔法少女	PunchPosition	y=30				NoWait
+	オルタ魔法少女	通常						そこまでです、シズカニー！\nそしてサイレンサー！
+Tween	オルタ魔法少女	PunchPosition	y=30				NoWait
+	オルタ魔法少女	通常						魔界はこの、\nミラクルオルタが守ってみせます！
+CharacterOff
+	ディーア	通常4						オレもいるぞ！
+CharacterOff
+	サイレンサー	通常						ええい！\nまた邪魔をするのか、魔法少女！
+Param	character_grayout=true
+CharacterOff
+	オルタ魔法少女	通常	p3b
+	ディーア	怒り4	p7
+	オルタ魔法少女	通常						マスターさん、\nすごい数のシズカニーがいますね
+	ディーア	怒り4						きっと変身した最初のころなら、\n勝つことは出来なかった
+	ディーア	怒り4						だけど……！
+	オルタ魔法少女	本気						はい……！
+	ナレーション？	<Off>	1_2					固い信頼で結ばれた二人は微笑む
+	ナレーション？	<Off>						これまでも襲ってきた\n悪の組織クワイエットの手先たち
+	ナレーション？	<Off>						幾度も戦い、幾度も迷い、\n時には涙を流してベッドで丸まった
+	ナレーション？	<Off>						だがその経験が、\nオルタを立派な魔法少女に変えたのだ
+	ナレーション？	<Off>						今の二人に、怖いものはない
+	ナレーション？	<Off>						そして愛と希望を信じることこそが\n魔法少女の力だ
+Param	character_grayout=false
+Se	チャージ
+	オーラ青		エフェクト表			.5
+	オルタ魔法少女	本気						ブレイズハート、全力全開！
+	オルタ魔法少女	本気						不完全世界ファーヴニル！！！！
+Se	光2
+	魔法陣1	赤	effect_c			.5
+Tween	魔法陣1	ScaleBy	x=5 y=5				NoWait
+Wait						.5
+Se	光2
+	魔法陣2	赤	effect_b			.5
+Tween	魔法陣2	ScaleBy	x=6 y=6				NoWait
+Wait						.5
+Se	光2
+	魔法陣3	赤	effect_a			.5
+Tween	魔法陣3	ScaleBy	x=7 y=7				NoWait
+Wait						1
+CharacterOff
+	オルタ魔法少女	拡大通常	エフェクト表					いっけぇえええええええええ！
+Se	光3
+FadeOut	white					2						音とともに光が広がる
+CharacterOff						0
+Se	光3											Seを重ねて派手に
+Se	闇3											光の裏で攻撃が起こる意図
+Se	火事
+	サイレンサー					0
+Param	character_grayout=true
+FadeIn	white					.2						戻る時はパッと
+Shake	Graphics		x=10				NoWait
+	サイレンサー	通常						ぐあぁああああああ!?
+Se	倒れる
+CharacterOff	サイレンサー					1
+Wait						1
+CharacterOff
+	オルタ魔法少女	本気						はあ、はあ……
+CharacterOff
+	ディーア	笑い4						よし！\nシズカニーたちはすべて倒せたな！
+StopBgm
+	ディーア	笑い4						奪われた元気のカケラ\nモエネルギーも人々に戻って<dash=2>
+Bgm	緊迫
+Se	フォーン
+CharacterOff
+	スリーピー	怪しい				1		ふわぁ……\nまたあなたたちですかぁ……？
+CharacterOff
+	ディーア	驚き4						お前は<dash=2>
+CharacterOff
+	オルタ魔法少女	通常						スリーピーちゃん!?
+Param	character_grayout=false
+CharacterOff
+	スリーピー	通常						はい、そーですよぉー♪
+	スリーピー	通常						クワイエット四天王最後の一人、\n"熟睡"のスリーピー♪
+Se	チャージ
+	オーラ誘惑		エフェクト裏			1
+Tween	スリーピー	PunchPosition	y=30				NoWait
+	スリーピー	笑い						みなさーん、おやすみなさーい♪
+CharacterOff
+	オーラ誘惑		エフェクト裏
+	旅人	黒						ぐぅ……
+CharacterOff
+	オーラ誘惑		エフェクト裏
+	勇者A	黒						すやすや……
+CharacterOff
+	オルタ魔法少女	通常						街の人たちがみんな眠っちゃった？
+CharacterOff
+	スリーピー	笑い						みなさんきっと、\nたのしいたのしい夢を見ています♪
+	スリーピー	笑い						永遠に覚めない夢ですけど♪
+CharacterOff
+	オルタ魔法少女	通常
+Tween	オルタ魔法少女	PunchPosition	y=30				NoWait
+	オルタ魔法少女	通常						す、スリーピーちゃん！\nいったいなにを企んでるんですか!?
+CharacterOff
+	スリーピー	通常						決まっているじゃないですかぁ♪
+	スリーピー	通常						魔界を静かで完全な世界に
+	スリーピー	通常						それがあなたたちに倒された、\n他の四天王の宿願
+	スリーピー	通常						そして私は願いを叶えると契約して\n悪の幹部になりました
+	スリーピー	通常						ギブ＆テイク
+	スリーピー	笑い						私、契約はちゃんと守るんです♪
+	スリーピー	通常						この闇が魔界を覆いつくしたその時\n静かで穏やかな魔界になる
+	スリーピー	通常						それがクワイエットの理想、\nそして……私が夢見た魔界の姿♪
+Tween	スリーピー	PunchPosition	y=30				NoWait
+	スリーピー	通常						もう邪魔はさせませんよぉ？
+Param	character_grayout=true
+CharacterOff
+	ディーア	悔しい4	p7
+	オルタ魔法少女	通常	p3b
+	オルタ魔法少女	通常						うっ……この、プレッシャーは……
+	ディーア	悔しい4						きっと、\n他の四天王たちの力も受け取って\n何倍にも力が高まっているんだ
+	ディーア	悔しい4						あの子もこの戦いを最後にすると\n決意しているんだろう
+StopBgm
+	オルタ魔法少女	通常						でも、それでも……！
+Bgm	決戦
+	オルタ魔法少女	本気						私は魔界の皆さんの希望を背負って\n魔法少女になりました！
+Tween	オルタ魔法少女	PunchPosition	y=30				NoWait
+	オルタ魔法少女	本気						静かで真っ暗な魔界なんて、\n認めるわけにはいかないんです！
+	ディーア	本気4						ああ、オレもだ！
+	ディーア	本気4						スリーピーを倒し、\nクワイエットの野望を阻止する！
+Tween	ディーア	PunchPosition	y=30				NoWait
+	ディーア	本気4						そして、\n希望の未来へオレたちは向かう！
+	オルタ魔法少女	本気						はい……！
+Tween	オルタ魔法少女	PunchPosition	y=30				NoWait
+	オルタ魔法少女	本気						一緒に戦ってください！
+	ナレーション？	<Off>	1_2					遂に始まった最後の戦い……！
+	ナレーション？	<Off>						このままだと魔界は\n静かで真っ暗な世界になってしまう
+	ナレーション？	<Off>						負けないで、オルタちゃん！
+	ナレーション？	<Off>						魔界の愛と希望を守って……！
+If	isdebug==true
+CharacterOff
+Jump	*E_1282_02
+EndIf
+EndScenario
+
+# E_1282_02
+Command	Arg1	Arg2	Arg3	Arg4	Arg5	Arg6	WaitType	Text	PageCtrl	Voice	WindowType
+Param	quest_name="クエスト名"
+ShowMessageWindow
+FadeOut	black					0
+StopSound
+Bgm	決戦
+Bg	市街地B2(紫)					0
+Param	character_grayout=false
+	スリーピー	通常				0
+FadeIn	black					1
+	スリーピー	通常						魔法少女オルタちゃん、\nもう戦いはやめにしませんかぁ？
+	スリーピー	通常						だって……\n本当はあなたも疲れてるでしょう？
+	スリーピー	通常						オルタちゃんは自分に自信がなくて\n戦うのも苦手な普通の女の子
+	スリーピー	通常						世界の平和なんて使命のために\n戦う必要なんてないじゃないですか？
+CharacterOff
+	オルタ魔法少女	泣き						それ、は……
+CharacterOff
+	スリーピー	笑い						あとはたのしい夢の中で、\n大好きな人と永遠に生きましょう♪
+StopBgm
+Se	チャージ
+	オーラ誘惑		エフェクト裏			1
+	スリーピー	通常						<ruby=エンドレスカーム>無限静寂</ruby>
+Bgm	絶望
+CharacterOff
+	オーラ誘惑		エフェクト裏
+	ディーア	絶望4						うぅ、あぁ……
+	ディーア	絶望4						オレの、モエネルギーが……
+	ディーア	絶望4						だめ、だ……オレも、ねむ、い……
+Tween	ディーア	PunchPosition	y=10				NoWait
+	ディーア	にやけ4						ぐぅ……♪
+CharacterOff
+	オルタ魔法少女	泣き
+Tween	オルタ魔法少女	PunchPosition	y=30				NoWait
+	オルタ魔法少女	泣き						マスターさん……!?
+CharacterOff
+	スリーピー	通常						とっても穏やかな顔をしていますね
+	スリーピー	通常						やっぱり、静寂こそが救いなんです
+	スリーピー	通常						誰もが疲れて、お休みしたくて、\nでも世界は許してくれない
+	スリーピー	笑い						だから悪として、\n私たちが世界を救うんですよぉ♪
+CharacterOff
+	オルタ魔法少女	通常						…………
+	オルタ魔法少女	通常						たしかに、\nスリーピーちゃんが言ってることも\n正しいかもしれません……
+	オルタ魔法少女	通常						生きるのは大変で、\n嫌なことも疲れることもたくさんで\nずっとお休みできたらって……
+	オルタ魔法少女	通常						そう、思ったこともあります……
+Tween	オルタ魔法少女	PunchPosition	y=30				NoWait
+	オルタ魔法少女	本気						でも……！
+Bgm	ウイニングラン
+CharacterOff
+	村の少女	怒り						負けないで、ミラクルオルタ！
+	村の少女	怒り						私、明日も起きていたい！
+Tween	村の少女	PunchPosition	y=30				NoWait
+	村の少女	怒り						学校に行ったり、\n家族とおでかけしたりしたい！
+CharacterOff
+	村の少年	怒り						俺も明日は運動会に出るんだ！\n大活躍してヒーローになるんだ！
+	村の少年	怒り						寝坊なんて、できない！
+Tween	村の少年	PunchPosition	y=30				NoWait
+	村の少年	怒り						がんばって、ミラクルオルタ！
+CharacterOff
+	オルタ魔法少女	本気						感じます……！\nみんなの愛と希望を……！
+CharacterOff
+	ディーア	通常4						明日を願うみんなのモエネルギーが\nオレたちに集まっているんだ
+CharacterOff
+	オルタ魔法少女	本気						マスターさん!!
+CharacterOff
+	ディーア	通常4						あんな声を聞いたら、\n起きないわけにはいかないからな
+CharacterOff
+	オルタ魔法少女	本気						はい……！
+Se	チャージ
+	オーラ青		エフェクト表			1
+	オルタ魔法少女	本気						みんなの明日への希望が世界への愛が\n私に力をくれます……！
+CharacterOff
+	スリーピー	笑い						くっ……！\nそんな、子どもの戯言に……！
+CharacterOff
+	オーラ青		エフェクト表
+	オルタ魔法少女	本気						この子たちも魔界も、\nまだ寝るには早すぎます……！
+	オルタ魔法少女	本気						私もまだ、起きていたい……！
+	オルタ魔法少女	本気						お願い、奇跡の魔法よ！！！！
+CharacterOff
+	オルタ魔法少女	拡大通常	エフェクト表					はぁあああああああああああ！！
+Se	光3
+FadeOut	white					2						音とともに光が広がる
+StopBgm
+CharacterOff						0
+Se	光3											Seを重ねて派手に
+Se	闇3											光の裏で攻撃が起こる意図
+Se	火事
+	スリーピー	怪しい				0
+Param	character_grayout=true
+Wait						3
+FadeIn	white					.2						戻る時はパッと
+Bgm	凱旋
+	スリーピー	怪しい						あと、ちょっとだったのに……
+	スリーピー	怪しい						でもやっと……■■もやすめる……
+Se	フォーン
+CharacterOff	スリーピー					1
+Wait						1
+CharacterOff
+	オルタ魔法少女	本気						はぁ、はぁ……終わった、の……？
+CharacterOff
+	ディーア	通常4
+Tween	ディーア	PunchPosition	y=30				NoWait
+	ディーア	通常4						ああ、勝ったんだ！\nクワイエットの野望ももう終わりだ！
+	ディーア	通常4						ありがとう、ミラクルオルタ！
+CharacterOff
+	オルタ魔法少女	照れ						え、えへへへ……♪
+	オルタ魔法少女	照れ						そんなに褒められると、照れますよぉ
+	オルタ魔法少女	笑い						でもそっか……\n魔法少女の役目を果たせたんですね
+	オルタ魔法少女	笑い						これで戦いは終わり
+	オルタ魔法少女	笑い						みんなとの平和な日常が戻ってくる
+	オルタ魔法少女	笑い						私もまた、\nちょっと自信がない女の子に……
+	オルタ魔法少女	本気						それ、なら
+Tween	オルタ魔法少女	PunchPosition	y=30				NoWait
+	オルタ魔法少女	通常						ま、マスターさん！
+CharacterOff
+	ディーア	驚き4						オルタ？
+Param	character_grayout=true
+CharacterOff
+	オルタ魔法少女	通常						今のうちに私、\nマスターさんに伝えたいことが！
+	オルタ魔法少女	本気						わ、私はあなたのことが<dash=2>
+	ナレーション？	<Off>	1_2					こうしてすべての戦いは終わった
+	ナレーション？	<Off>						オルタとマスターがどうなったか？
+	ナレーション？	<Off>						それを語るのは、\nまたいつかどこかで……♪
+	ナレーション？	<Off>						魔法少女ミラクルオルタ、完<dash=2>
+Param	character_grayout=false
+CharacterOff						0
+Se	マイクノイズ	TRUE
+StopBgm						0
+Bg	神殿B					0
+	？？？？	<Off>						ダメだよ、\nこれは真の最終回なんかじゃない\nだからまだ<dash=2>
+	イベントロゴ1282		エフェクト表			2
+Wait						1
+	？？？？	<Off>						エンドカードじゃ終わらせない♪
+StopSe						0
+Se	チャージ
+CharacterOff						0
+	           	<Off>	1_2
+Se	雨	TRUE
+ImageEffect	SpriteCamera	Sepia
+Bg	遺跡C_過去
+Wait						.1
+Bg	山岳B_過去
+Wait						.1
+ImageEffectOff	SpriteCamera	Sepia
+ImageEffect	SpriteCamera	GrayScale
+Bg	魔術空間_過去
+Wait						.1
+ImageEffectOff	SpriteCamera	GrayScale
+ImageEffect	SpriteCamera	Sepia
+Bg	宝石鉱山_過去
+Wait						.1
+ImageEffectOff	SpriteCamera	Sepia
+ImageEffect	SpriteCamera	GrayScale
+Bg	教会内部
+Wait						.1
+ImageEffectOff	SpriteCamera	GrayScale
+ImageEffect	SpriteCamera	Sepia
+Bg	市街地C
+Wait						.1
+ImageEffectOff	SpriteCamera	Sepia
+ImageEffect	SpriteCamera	GrayScale
+Bg	遺跡C_過去
+Wait						.1
+ImageEffectOff	SpriteCamera	GrayScale
+ImageEffect	SpriteCamera	Sepia
+Bg	山岳B_過去
+Wait						.1
+ImageEffectOff	SpriteCamera	Sepia
+ImageEffect	SpriteCamera	GrayScale
+Bg	魔術空間_過去
+Wait						.1
+ImageEffectOff	SpriteCamera	GrayScale
+ImageEffect	SpriteCamera	Sepia
+Bg	宝石鉱山_過去
+Wait						.1
+ImageEffectOff	SpriteCamera	Sepia
+ImageEffect	SpriteCamera	GrayScale
+Bg	教会内部
+Wait						.1
+ImageEffectOff	SpriteCamera	GrayScale
+ImageEffect	SpriteCamera	Sepia
+Bg	市街地A
+Wait						.1
+ImageEffectOff	SpriteCamera	Sepia
+StopSe						.5
+FadeOut	white					2
+Wait						1
+CharacterOff						0
+Bg	市街地A					0
+	魔劍グラム=オルタ	通常2				0
+Wait						3
+FadeIn	black					1
+Bgm	わくわく
+	魔劍グラム=オルタ	通常2						私、グラム=オルタ
+	魔劍グラム=オルタ	嬉しい2						お姉ちゃんとマスターさん、\nそして仲間のみんなとの日常<dash=2>
+StopBgm
+	魔劍グラム=オルタ	本気2						…………
+Bgm	コメディ
+Tween	魔劍グラム=オルタ	PunchPosition	y=30				NoWait
+	魔劍グラム=オルタ	慌て2						うわぁああああん、\nまた戻っちゃったぁああああああ？
+	ナレーション？	<Off>	1_2					大丈夫、\nまだ1723969回目の最終回だよ
+	ナレーション？	<Off>						諦めたらダメだ、ミラクルオルタ
+Tween	魔劍グラム=オルタ	PunchPosition	y=30				NoWait
+	魔劍グラム=オルタ	慌て2						"まだ"じゃないですよ、\n"もう"ですよぉ！
+	魔劍グラム=オルタ	慌て2						いったいいつになったら、\n本当の最終回を迎えるんですかぁ！
+	魔劍グラム=オルタ	慌て2						ナレーションさんをしてないで\n教えてくださいよぉ！
+Tween	魔劍グラム=オルタ	PunchPosition	y=30				NoWait
+	魔劍グラム=オルタ	慌て2						ハジマリちゃん……！
+CharacterOff
+	ミニマリ	通常				1		ごめんね、それはわからないんだ
+	ミニマリ	通常						ボクはあくまで、\n魔法少女を支えて導くマスコット
+	ミニマリ	笑い						それが、\nこの物語における役目だから♪
+If	isdebug==true
+CharacterOff
+Jump	*E_1282_03
+EndIf
+EndScenario
+
+# E_1282_03
+Command	Arg1	Arg2	Arg3	Arg4	Arg5	Arg6	WaitType	Text	PageCtrl	Voice	WindowType
+Param	quest_name="クエスト名"
+ShowMessageWindow
+FadeOut	black					0
+StopSound
+Bgm	平和
+CharacterOff
+Bg	市街地A					0
+Param	character_grayout=false
+	ディーア	悔しい4				0
+FadeIn	black					1
+	ディーア	悔しい4						オルタ、また……？
+CharacterOff
+	魔劍グラム=オルタ	悲しい2						はい、戻ってしまったみたいです
+CharacterOff
+	ディーア	悔しい4						くっ……\nいったいなんなんだこの異変は？
+	ディーア	悔しい4						何度も何度も繰り返しても、\n本当の最終回とやらにたどり着かない
+Tween	ディーア	PunchPosition	y=30				NoWait
+	ディーア	怪しい4						ハジマリ、\n本当にお前はなにも知らないのか？
+	ディーア	怪しい4						この原因は向こうの<dash=2>
+CharacterOff
+	ミニマリ	悲しい						ごめんね
+	ミニマリ	悲しい						でも本当にボクにはわからないんだ
+	ミニマリ	本気						この体はあくまで、\n本当のボク自身から分かれた分体
+	ミニマリ	本気						記憶も力も中途半端
+	ミニマリ	本気						だからこそ、\nクワイエットの野望を挫くために\nオルタに魔法少女になってもらった
+	ミニマリ	通常						魔法少女になりたいと願った、\n純粋な少女に、ね♪
+CharacterOff
+	黒グラデーション		エフェクト裏			1
+	魔劍グラム=オルタ	本気2						そう、ハジマリちゃんの言う通り
+	魔劍グラム=オルタ	本気2						確かにあの時、私は願った……
+	魔劍グラム=オルタ	本気2						愛と希望を守る、\n魔法少女になってみたいって
+StopBgm
+Se	回想
+FadeOut	white					1
+ImageEffect	SpriteCamera	Sepia
+CharacterOff						0
+Bg	魔導コロシアム					0
+	フィノ	きらーん	p3b			0
+	シェリー	笑い	p7			0
+	フィノ&シェリー	<Off>	1_2			0
+FadeIn	white					1
+Wait						1
+ImageEffectOff	SpriteCamera	Sepia				1
+Bgm	風属性バトル
+	フィノ&シェリー	<Off>						<size=40>変身!!</size>
+FadeOut	white					.3
+CharacterOff						0
+Wait						.3
+	イベントスチル51602		エフェクト表			0
+	フィノ	<Off>				0
+Se	シャキーン
+FadeIn	white					.3
+	フィノ	<Off>						愛と勇気の守護者！\n魔法少女ローズフィノ、参上！
+FadeOut	white					.3
+CharacterOff						0
+Wait						.3
+	イベントスチル51605		エフェクト表			0
+	シェリー	<Off>				0
+Se	シャキーン
+FadeIn	white					.3
+	シェリー	<Off>						夢と希望の守護者、\n魔法少女ブルーシェリー降臨♪
+FadeOut	white					.5
+CharacterOff						0
+	イベントスチル51610		エフェクト表			0
+FadeIn	white					.5
+Se	キラン
+	フィノ	<Off>						二人合わせて！\nシャイン☆ファンタジア！
+FadeOut	black					.3
+CharacterOff						0
+	魔劍グラム=オルタ	照れ2				0
+FadeIn	black					.3
+	魔劍グラム=オルタ	照れ2						わぁああああああ……！
+Tween	魔劍グラム=オルタ	PunchPosition	y=30				NoWait
+	魔劍グラム=オルタ	照れ2						すごい、キラキラしてる……！
+CharacterOff
+	ライオンハート	通常
+Tween	ライオンハート	PunchPosition	y=30				NoWait
+	ライオンハート	通常						がんばれー！\nシャイン☆ファンタジアー！
+CharacterOff
+	マナ	嬉しい						がんばってくださーい！
+CharacterOff
+	ライオンハート	通常						ほら、オルタちゃんも！
+CharacterOff
+	魔劍グラム=オルタ	照れ2						うん……！
+Tween	魔劍グラム=オルタ	PunchPosition	y=30				NoWait
+	魔劍グラム=オルタ	照れ2						が、がんばれー！
+Param	character_grayout=true
+CharacterOff
+	フィノ	進化通常	p3b
+	シェリー	進化通常	p7
+	フィノ	進化通常						みんなの応援パワー、もらったよ！
+Tween	フィノ	PunchPosition	y=30				NoWait
+	フィノ	進化通常						全力で魔物をぶっと<dash=2>
+Tween	シェリー	PunchPosition	y=30				NoWait
+	シェリー	進化通常						フィノ！\n言葉！ 言葉遣いがまた……！
+	フィノ	進化通常						ご、ごめん！
+Tween	フィノ	PunchPosition	y=30				NoWait
+	フィノ	進化通常						愛と希望で世界を救うよ♪
+	シェリー	進化通常						魔界のみんなの笑顔は、\n私たちが守ってみせるわ！
+FadeOut	white					2
+StopBgm
+CharacterOff						0
+Bg	遊園地					0
+	ディーア	笑い4				0
+Wait						3
+FadeIn	white					2
+Bgm	平和
+	ディーア	笑い4						みんな、楽しかったか？
+CharacterOff
+	ライオンハート	通常						うん！
+CharacterOff
+	マナ	悲しい						たのしかったですけど……
+	マナ	悲しい						おしごと、おやすみしちゃいました
+	マナ	悲しい						『むだんけっきん』で『りすとら』に\nなっちゃわないですか？
+CharacterOff
+	ディーア	通常4						大丈夫だって、マナ
+	ディーア	笑い4						今日は社会見学という立派な仕事
+	ディーア	通常4						この経験を活かして、\nまたおしごとをがんばってくれ！
+CharacterOff
+	マナ	嬉しい						はい！ わかりましたぁ♪
+CharacterOff
+	ディーア	通常4						オルタも引率を手伝ってくれて、\nありがとうな
+	ディーア	通常4						フィノとシェリーの魔法少女ショーを\n見に行きたいって子が多くて
+CharacterOff
+	魔劍グラム=オルタ	通常2						い、いえ……！\n私もすごく楽しめましたから……
+CharacterOff
+	ライオンハート	通常						最後は一番、\nおっきな声で応援してたもんね♪
+CharacterOff
+	魔劍グラム=オルタ	照れ2						あう……
+CharacterOff
+	ディーア	通常4						恥ずかしがることはないさ
+	ディーア	通常4						元々はフィノの\nもっと魔法少女らしくなるための\n練習だったけれど
+	ディーア	通常4						それが子どもたちに広まって、\n今や大人気のショーだ
+	ディーア	笑い4						魔剣としても\n二人が活躍してくれているから
+	ディーア	笑い4						子どもたちにとっては、\n本物の魔法少女と出会えて\n愛と夢と希望をもらえる場になった
+	ディーア	通常4						希望を届ける魔法少女の物語は\n色々な形で魔界中に広がっている
+	ディーア	笑い4						オルタが夢中になったのも、\nそんな二人の本気が伝わったからさ
+CharacterOff
+	魔劍グラム=オルタ	通常2						そ、そうですね……
+	魔劍グラム=オルタ	通常2						フィノちゃんとシェリーちゃんの\n活躍を見て応援して
+	魔劍グラム=オルタ	通常2						私ももっともっと頑張らないとって\n胸が熱くなりました
+	魔劍グラム=オルタ	にやけ2						私もいつかあんなふうに……\n誰かの希望になれたら……
+CharacterOff
+	ディーア	通常4						本当にオルタはすごく変わったよな\n自信も勇気もついて\n今みたいに希望も言えるようになった
+	ディーア	通常4						今のオルタは魔剣王の頼れる魔剣で\n立派な魔剣少女
+	ディーア	笑い4						もしかしたらオルタなら、\n本当に魔法少女にもなれるかもなっ！
+CharacterOff
+	魔劍グラム=オルタ	慌て2
+Shake	魔劍グラム=オルタ		x=3				NoWait
+	魔劍グラム=オルタ	慌て2						そ、それは言いすぎですよぉ！
+	魔劍グラム=オルタ	通常2						たしかにみんなに大事にしてもらって\n前より自信がつきました
+	魔劍グラム=オルタ	通常2						でもまだまだお姉ちゃんたちと比べて\nうまくいかないことも多いし
+	魔劍グラム=オルタ	通常2						もっともっと、\n強くならないとって思っていますから
+	魔劍グラム=オルタ	悲しい2						みんなに希望を伝える存在……\n魔法少女になれる自信はありません
+CharacterOff
+	ディーア	通常4						そうかな？\n今だって十分に立派だと思うぞ？
+	ディーア	笑い4						それにオレは見たいな！\nオルタのかわいい魔法少女姿！
+CharacterOff
+	魔劍グラム=オルタ	慌て2
+Tween	魔劍グラム=オルタ	PunchPosition	y=30				NoWait
+	魔劍グラム=オルタ	慌て2						ふえっ!?
+	魔劍グラム=オルタ	照れ2						そ、それは、どういう<dash=2>
+CharacterOff
+	ライオンハート	通常						おにいちゃーん！\nお兄ちゃんも魔法少女になったことが\nあるってホント？
+CharacterOff
+	マナ	通常						『とくべつきんろーてあて』とか、\n出たりしたんですかぁ？
+CharacterOff
+	ディーア	汗4						そ、それは……\nあの時のノリと勢いで……
+	ディーア	汗4						いい思い出だけど、\n今なるのは恥ずかしいな……
+CharacterOff
+	ライオンハート	通常
+Tween	ライオンハート	PunchPosition	y=30				NoWait
+	ライオンハート	通常						えー、見せてよぉー！
+CharacterOff
+	マナ	嬉しい						マナも見てみたいです♪
+CharacterOff
+	ディーア	汗4						じゃあ、今度こっそりな？
+CharacterOff
+	魔劍グラム=オルタ	照れ2						うぅ……\nどういう意味か聞きそびれちゃった
+	魔劍グラム=オルタ	通常2						私が魔法少女みたいに、\nキラキラで可愛くてフリフリな\nお衣装に着替えたら……
+	魔劍グラム=オルタ	通常2						それでみんなを守って戦って、\n誰かの憧れになれたら
+	魔劍グラム=オルタ	照れ2						マスターさんにももっと……♪
+	魔劍グラム=オルタ	慌て2						って！\nまた欲張りなこと考えちゃってる！
+	魔劍グラム=オルタ	悲しい2						そもそも自分に自信がない私なんかじゃ\n魔法少女になれないもん
+	魔劍グラム=オルタ	通常2						でもいつかは<dash=2>
+	？？？？	<Off>	1_2					魔法少女になりたいのかい？
+CharacterOff
+	魔劍グラム=オルタ	本気2						え……？
+CharacterOff
+	ミニマリ	通常				1		ちょうど良かった、\nキミのような子を探していたんだよ
+	ミニマリ	通常						魔劍グラム=オルタ
+Tween	ミニマリ	PunchPosition	y=30				NoWait
+	ミニマリ	笑い						ボクと契約して、\n魔法少女になってよ♪
+CharacterOff
+	魔劍グラム=オルタ	本気2						小さい、妖精さん……？
+StopBgm
+	wipe		wipe_start			0
+Tween	wipe	MoveTo	x=-800 islocal=true time=1.2	linear
+FadeOut	black					.1
+CharacterOff						0
+	ディーア	驚き4				0
+Wait						2
+FadeIn	black					.3
+	ディーア	驚き4						あれ？\nオルタはいったいどこに行ったんだ？\n迷子になるわけが<dash=2>
+Bgm	魔獣バトル
+Param	character_grayout=false
+Se	闇1
+	オーラ誘惑		エフェクト表			1
+	ディーア	悔しい4						っ……!?
+	ディーア	悔しい4						なん、だ……？\n体から力がぬけていく……？
+Se	闇1
+CharacterOff
+	シズカニーA	通常	p3			1
+	シズカニーB	通常	p7b			1
+	シズカニーA	通常						シズカニー！
+	シズカニーB	通常						シズカニー！
+CharacterOff
+	ライオンハート	通常						お兄ちゃん！\nいきなり変な魔物が出てきたよ!?
+CharacterOff
+	マナ	慌て
+Tween	マナ	PunchPosition	y=30				NoWait
+	マナ	慌て						ふしんしゃさん、です！
+CharacterOff
+	ディーア	悔しい4						体調がおかしくなったのは、\nこいつらが原因なのか？
+Param	character_grayout=true
+	周囲の人の声	<Off>	1_2					ああああ……\nたすけて、うごけない……
+Param	character_grayout=false
+	ディーア	悔しい4						敵が何者かはわからないけれど\nこのままにはしておけない
+Tween	ディーア	PunchPosition	y=30				NoWait
+	ディーア	本気4						はぁあああああああ！
+CharacterOff						0
+ImageEffect	SpriteCamera	MotionBlur
+Se	シャキーン
+Bg	黒背景					0
+	黒背景		エフェクト表			0
+	斬撃(393C)		エフェクト裏			0
+Tween	黒背景	MoveBy	y=-3000 time=1
+Wait						.3
+Bg	遊園地					0
+CharacterOff						0
+	シズカニーA
+ImageEffectOff	SpriteCamera	MotionBlur
+Shake	シズカニーA		x=3				NoWait
+	シズカニーA							…………
+Tween	シズカニーA	PunchPosition	y=30				NoWait
+	シズカニーA							シズカニー！
+CharacterOff
+	ディーア	驚き4						ダメージがない？\nなんだ、この妙な感覚は……？
+Se	フォーン
+CharacterOff
+	サイレンサー	通常				1		ククク♪\nそんなモエネルギーなしの攻撃が\n我々に効くわけがないだろう！
+CharacterOff
+	ディーア	悔しい4						言葉を話す魔物まで出てきた
+	ディーア	怒り4						お前がこの魔物のリーダーか？\nモエネルギーっていったいなんだ？
+CharacterOff
+	サイレンサー	通常						うるさいっ！\n質問は一度に一つまでにしろ！
+	サイレンサー	通常						だが冥土の土産に教えてやろう\n我らは悪の組織クワイエット
+Tween	サイレンサー	PunchPosition	y=30				NoWait
+	サイレンサー	通常						そして私はボスではない\n部隊長を任されたサイレンサーだ！
+	サイレンサー	通常						我が悪の組織クワイエットのボスは\n素晴らしいお方
+	サイレンサー	通常						すぐに魔界を\n理想の静寂なる世界に変えてくれる
+	サイレンサー	通常						モエネルギーはそのために必要な力
+Tween	サイレンサー	PunchPosition	y=30				NoWait
+	サイレンサー	通常						貴様らは我らにモエネルギーを捧げ、\n野望の生贄となるのだ！
+StopBgm
+	？？？？	<Off>	1_2					そ、そこまでです……！
+Tween	サイレンサー	PunchPosition	y=30				NoWait
+	サイレンサー	通常						だれだ!?
+Bgm	タイトル
+CharacterOff
+	オルタ魔法少女	通常						悪の組織クワイエットの野望は\nこ、この私が挫きます……！
+Tween	オルタ魔法少女	PunchPosition	y=30				NoWait
+	オルタ魔法少女	通常						魔法少女、ミラクルオルタ、参上！
+CharacterOff
+	ディーア	驚き4						………………へ？
+Tween	ディーア	PunchPosition	y=30				NoWait
+	ディーア	驚き4						お、オルタが魔法少女に？\nいったいなにがどうなってるんだ!?
+CharacterOff
+	オルタ魔法少女	驚き						えっと、その……これは、\n私にもあんまりよくわからなくて……
+Shake	オルタ魔法少女		x=3				NoWait
+	オルタ魔法少女	驚き						あうぅうううう……！\nや、やっぱり恥ずかしすぎます！
+CharacterOff
+	ミニマリ	笑い						自信をもって、オルタ\nキミは立派な魔法少女になれるよ
+	ミニマリ	笑い						このラスボスが証明する♪
+CharacterOff
+	ディーア	驚き4						お前はこの間の……!?\nそれにどうしてそんなに小さく!?
+CharacterOff
+	ミニマリ	通常						詳しい説明は後だよ、魔剣王
+	ミニマリ	通常						オルタがいれば、\nクワイエットに対抗することができる
+Tween	ミニマリ	PunchPosition	y=30				NoWait
+	ミニマリ	笑い						さあ、愛と希望で魔界を救ってくれ♪
+CharacterOff
+	集中線		エフェクト表			.5
+	ディーア	絶望4						わけがわからないぞ！！？？
+If	isdebug==true
+CharacterOff
+Jump	*E_1282_04
+EndIf
+EndScenario
+
+# E_1282_04
+Command	Arg1	Arg2	Arg3	Arg4	Arg5	Arg6	WaitType	Text	PageCtrl	Voice	WindowType
+Param	quest_name="クエスト名"
+ShowMessageWindow
+FadeOut	black					0
+StopSound
+Bgm	都市
+Bg	遊園地					0
+	サイレンサー	通常				0
+FadeIn	black					1
+	サイレンサー	通常						俺がやられるとは……\nこれが、魔法少女の力……
+	サイレンサー	通常						だが、忘れるな……
+	サイレンサー	通常						これは始まりにすぎない\nクワイエットは必ず世界を静かに……
+Se	フォーン
+CharacterOff	サイレンサー					1
+Wait						1
+CharacterOff
+	ディーア	悔しい4	p3
+	オルタ魔法少女	通常	p7b
+	ディーア	悔しい4						魔物は消滅したけど、\nいったいなにが起こっているんだ？
+	ディーア	怪しい4						お前は前に、\nラスボスを名乗っていた子だろう？
+	ディーア	怪しい4						オルタが魔法少女になったことや\nクワイエットとかいう組織のことも\nお前が関係しているのか？
+CharacterOff
+	ミニマリ	通常						そうだよ、魔剣王
+	ミニマリ	通常						改めて自己紹介をしよう
+	ミニマリ	通常						ボクはハジマリ
+	ミニマリ	通常						魔剣伝承の起源、\nすべての魔剣少女の系統的な母
+	ミニマリ	笑い						そして魔界にとっては、\n早く目覚めすぎてしまったラスボスさ
+	ミニマリ	笑い						だが前の戦いから色々あってね\n今はこんな小さな風体になってしまい\n魔法少女のお供をしている♪
+Tween	ミニマリ	PunchPosition	y=30				NoWait
+	ミニマリ	通常						だからキミにも、\n魔界を救うために協力してほしいんだ
+CharacterOff
+	ディーア	絶望4	p3
+	オルタ魔法少女	通常	p7b
+Tween	ディーア	PunchPosition	y=30				NoWait
+	ディーア	絶望4						省いた色々が重要だと思うんだが!?
+	オルタ魔法少女	通常						そ、それに、ハジマリちゃん？
+CharacterOff
+	ミニマリ	通常						ママと呼んでくれても良いよ？
+CharacterOff
+	ディーア	怪しい4	p3
+	オルタ魔法少女	驚き	p7b
+Tween	オルタ魔法少女	PunchPosition	y=30				NoWait
+	オルタ魔法少女	驚き						ふえっ!?\nそ、それはなんか変なような……
+CharacterOff
+	ミニマリ	怪しい						そう？
+	ミニマリ	怪しい						まあ力が百分の一にも満たない\n今の姿なら、\nそう思うのもムリはないことだね
+	ミニマリ	通常						質問を遮ってごめん\nなにを聞きたいのかな、オルタ？
+CharacterOff
+	ディーア	怪しい4	p3
+	オルタ魔法少女	通常	p7b
+	オルタ魔法少女	通常						その……ラスボスっていうなら\nむしろ魔界を滅ぼす方じゃないです？
+CharacterOff
+	ミニマリ	笑い						よくわかったね♪ そうだよ♪
+CharacterOff
+	ディーア	怪しい4	p3
+	オルタ魔法少女	驚き	p7b
+Tween	オルタ魔法少女	PunchPosition	y=30				NoWait
+	オルタ魔法少女	驚き						認めないでくださいよぉ！
+CharacterOff
+	ミニマリ	通常						本質的にボクは終末装置だ\nそこはどんな姿になっても変わらない
+	ミニマリ	通常						だけど、\nラスボスにも流儀というものがある
+	ミニマリ	通常						気に入る滅び方と、\n気に入らない滅び方があるんだよ
+	ミニマリ	通常						ボクは滅亡が確定した世界を終わらせ\n新たなハジマリへ導く役割
+	ミニマリ	通常						未来への可能性が無い滅亡なんて\n望んでいないんだ
+CharacterOff
+	ディーア	怪しい4	p3
+	オルタ魔法少女	通常	p7b
+	ディーア	怪しい4						つまり……\nクワイエットのやり方は気に入らない\nだからオレたちに協力する
+	ディーア	怪しい4						そういう認識でいいのか？
+	ディーア	怪しい4						じゃあそのクワイエットの目的は\n一体なんなんだ？
+	オルタ魔法少女	通常						静かにとか、静寂とか言ってましたね
+CharacterOff
+	ミニマリ	通常						文字通りだよ
+	ミニマリ	通常						クワイエットは\n古より存在する悪の秘密組織
+	ミニマリ	通常						あらゆる存在から活動エネルギー\nモエネルギーを奪い
+	ミニマリ	通常						すべてが静まり返った、\n生命もなにもかもが停止した\n静謐な世界に変えてしまう
+	ミニマリ	通常						それが彼女たちの理想だ
+	ミニマリ	本気						そんなゴールを迎えてしまったら\n新たな世界の萌芽もない\nラスボスだからこそ認められないよ
+	ミニマリ	通常						だからボクはオルタに力を託したんだ\n静寂を消し去る生きる活力
+	ミニマリ	笑い						希望を象徴する魔法少女の力を♪
+Tween	ミニマリ	PunchPosition	y=30				NoWait
+	ミニマリ	通常						ボクが言った通り、\nオルタの力で彼らに対抗できただろ？
+CharacterOff
+	ディーア	怪しい4	p3
+	オルタ魔法少女	通常	p7b
+	ディーア	怪しい4						なる、ほど……？
+	オルタ魔法少女	通常						どうしましょう、マスターさん？
+	ディーア	怒り4						怪しいことこの上ないけれど、\nオルタに力をくれたのは本当だしな
+	ディーア	目閉じ4						それに実害を出している\nクワイエットの方が放置できない
+	ディーア	怒り4						警戒はしながら、\nでも今は協力するのが得策だと思う
+	ディーア	怪しい4						……まだなにか知っていそうだし
+	オルタ魔法少女	本気						わ、わかりました……！
+CharacterOff
+	ミニマリ	通常						疑い深いね
+	ミニマリ	通常						魔法少女の協力者という役なら\nもっと純朴で人を信じやすい子で\nあるべきだと思うよ
+	ミニマリ	通常						でも並行世界を旅して、\nただ一つの答えを探した者ならば\n当然の思考回路だろう
+CharacterOff
+	ディーア	怪しい4	p3
+	オルタ魔法少女	通常	p7b
+	ディーア	怪しい4						そういうハジマリこそ\n魔法少女のお供のマスコットなら\nもっと可愛くしゃべるべきじゃ？
+CharacterOff
+	ミニマリ	通常						それはたしかに
+Tween	ミニマリ	PunchPosition	y=30				NoWait
+	ミニマリ	笑い						オルタちゃん、マスターちゃん！\nわたしと一緒に世界を守ってマリ♪
+	ミニマリ	笑い						みたいなのはどうだい？
+CharacterOff
+	ディーア	怪しい4	p3
+	オルタ魔法少女	通常	p7b
+	ディーア	怪しい4						…………
+	オルタ魔法少女	通常						…………
+	ディーア	怪しい4						チェンジで
+StopBgm
+	wipe		wipe_start			0
+Tween	wipe	MoveTo	x=-800 islocal=true time=1.2	linear
+FadeOut	black					.1
+Param	character_grayout=false
+ImageEffect	SpriteCamera	GrayScale
+CharacterOff						0
+Bg	市街地A					0
+Wait						2
+	ミニマリ	笑い	p7			0
+	オルタ魔法少女	驚き	p3b			0
+FadeIn	black					.3
+Bgm	キノコリオン
+	オルタ魔法少女	驚き						それから私は、\nマスターさんとハジマリちゃんと\n魔法少女として活動を始めました
+FadeOut	white					1
+CharacterOff						0
+Bg	市街地C					0
+	村の少女	笑い	p3			0
+	オルタ魔法少女	笑い	p7b			0
+FadeIn	white					1
+	オルタ魔法少女	笑い						困っている人を助けたり
+FadeOut	white					1
+CharacterOff						0
+Bg	荒野					0
+	シズカニーA	通常	p3			0
+	オルタ魔法少女	本気	p7b			0
+FadeIn	white					1
+	オルタ魔法少女	本気						襲いかかるクワイエットと戦ったり
+FadeOut	white					1
+CharacterOff						0
+Bg	遺跡A					0
+	スリーピー	通常	p3			0
+	オルタ魔法少女	驚き	p7b			0
+FadeIn	white					1
+	オルタ魔法少女	驚き						その中にはクワイエットの幹部の\nスリーピーちゃんたちもいて
+FadeOut	white					1
+CharacterOff						0
+Bg	酒場_宿屋(夜)					0
+	オルタ魔法少女	泣き				0
+FadeIn	white					1
+	オルタ魔法少女	泣き						つまずくこともピンチもあったけど\nうまくできていた……はずなのに
+Se	回想
+FadeOut	white					1
+ImageEffectOff	SpriteCamera	GrayScale
+CharacterOff						0
+Bg	市街地A					0
+	ディーア	絶望4	p3			0
+	オルタ魔法少女	驚き	p7b			0
+StopBgm
+Wait						2
+FadeIn	white					1
+Bgm	作戦会議
+Param	character_grayout=true
+	オルタ魔法少女	驚き						いつのまにか、\n何度も最終回がループしてて！
+Tween	オルタ魔法少女	PunchPosition	y=30				NoWait
+	オルタ魔法少女	驚き						どうして、こうなったんでしょう!?
+	ディーア	絶望4						ハハハ、\n最終決戦って何度言ったんだろう
+	ディーア	絶望4						何千、何万、何億と\n同じことを繰り返したか分からないし\nもう疲れてきた……
+CharacterOff
+	ミニマリ	笑い						大丈夫♪\n変化がないループの時の記憶は、\n時々消去しているから
+	ミニマリ	笑い						キミたちの魂が摩耗することはないよ
+CharacterOff
+	ディーア	絶望4	p3
+	オルタ魔法少女	驚き	p7b
+Tween	ディーア	PunchPosition	y=30				NoWait
+	ディーア	絶望4						そんなことしてたのか!?
+	オルタ魔法少女	驚き						ハジマリちゃんのやったことの方が、\n悪の組織みたいですよぉ!?
+CharacterOff
+	ミニマリ	通常						そうは言うけどキミだって、\nあの並行世界の旅の二の舞なんて\nしたくないだろう？
+CharacterOff
+	ディーア	怪しい4	p3
+	オルタ魔法少女	通常	p7b
+	ディーア	怪しい4						オレの悪魔の鍵のことまで……
+	ディーア	汗4						お助けポジションなのに\nやってくれることが怪しすぎる
+	オルタ魔法少女	通常						私も同じ気持ちですけど、\n今はそれよりも<dash=2>
+	ディーア	汗4						繰り返される\n最終決戦を終わらせるほうが先だな
+	ディーア	目閉じ4						一度、状況を整理しよう
+	ディーア	目閉じ4						ループするきっかけは\nクワイエットとの最終決戦だった
+	オルタ魔法少女	通常						そうですね……\n魔界がすごい規模の異変に襲われて\n対抗しないといけなくなって……
+	ディーア	目閉じ4						そして多くの場合\n相手は四天王の一人スリーピーだ
+	ディーア	怒り4						彼女たちの策略で、\n魔界はカムカム空間に呑まれかけ、\nそのままだと滅亡まっしぐら
+	ディーア	怒り4						だけど魔法少女ミラクルオルタが\n人々の声援を受けて撃破
+	ディーア	怒り4						オルタがなにかを言おうとすると\n時間が元に戻ってしまう
+	ディーア	目閉じ4						まるで物語の中に閉じ込められて、\n最終回のエンディングに\n辿り着けないような妙な異変
+	ディーア	怪しい4						ちなみにオルタは、\nオレになにを伝えようとしたんだ？
+Tween	オルタ魔法少女	PunchPosition	y=30				NoWait
+	オルタ魔法少女	驚き						はわわっ!?
+Tween	オルタ魔法少女	MoveBy	x=20				NoWait
+	オルタ魔法少女	驚き						そ、それは、\nループとは絶対関わりないですから！
+Shake	オルタ魔法少女		x=4				NoWait
+	オルタ魔法少女	驚き						最初に思わず言いそうになったから\nそのまま続けちゃってて……
+CharacterOff
+	ミニマリ	通常						ただ最終決戦と言っても、\nまったく同じ流れではないのは\n気になるところだね？
+	ミニマリ	通常						魔界は滅亡に向かうのは同じでも、\n手段は時折変わる
+	ミニマリ	通常						他の幹部が生きていることもある\n再生怪人というヤツだ
+	ミニマリ	怪しい						最初はオルタが、\n魔法少女として未熟だったから\n最終決戦にならないのかも
+	ミニマリ	怪しい						なんてことを思ったけどね
+CharacterOff
+	ディーア	通常4	p3
+	オルタ魔法少女	通常	p7b
+	ディーア	通常4						演技指導のおかげで、\n今じゃ立派な魔法少女だもんな
+	オルタ魔法少女	通常						胸の奥はバクバクですけれど……
+CharacterOff
+	ミニマリ	怪しい						クワイエットが野望を果たすために\n敗北のたびにやり直しているのか\nとも思ったんだけど……
+	ミニマリ	本気						試しに放置してみたら、\n異変がまったく進まなくなったのは\nキミも知っての通り
+	ミニマリ	本気						ボクらは彼らと戦うしかない
+	ミニマリ	怪しい						だけど幾度繰り返しても、\nボクらは異変を解決できていない
+	ミニマリ	本気						こういうループというのには\n原因やゴールがつきものだ
+	ミニマリ	本気						無限に時を巻き戻すなんて、\n「あの子」だって行うことはできない
+	ミニマリ	本気						限定した空間、限定した条件でのみ\nこんな異変は成立する
+	ミニマリ	本気						なのに何度繰り返しても、\nその糸口が見えないというのは、\nボクも気になるところだね
+CharacterOff
+	ディーア	怒り4	p3
+	オルタ魔法少女	通常	p7b
+	ディーア	怒り4						なあハジマリ、\n本当になにかヒントはないのか？\nだってこれは<dash=2>
+StopBgm
+CharacterOff
+	ミニマリ	通常						ああ、ボクの力が原因だからね
+	ミニマリ	通常						ボクの本体にして、\n悪の組織クワイエットの首魁、\n"終焉"のハジマリの♪
+	wipe		wipe_start			0
+Tween	wipe	MoveTo	x=-800 islocal=true time=1.2	linear
+FadeOut	black					.1
+CharacterOff						0
+Bg	神殿B					0
+	ハジマリ	通常				0
+Wait						2
+FadeIn	black					.3
+Bgm	絶望
+	ハジマリ	通常						そろそろ向こうのボクも、\n同じことの繰り返しに焦れる頃だ\n次の一手を打ってくるだろうね
+	ハジマリ	通常						ならば、\nボクたちも作戦会議をするとしよう
+	ハジマリ	笑い						悪の幹部とは、\nそういう役回りだからね……♪
+If	isdebug==true
+CharacterOff
+Jump	*E_1282_05
+EndIf
+EndScenario
+
+# E_1282_05
+Command	Arg1	Arg2	Arg3	Arg4	Arg5	Arg6	WaitType	Text	PageCtrl	Voice	WindowType
+Param	quest_name="クエスト名"
+ShowMessageWindow
+FadeOut	black					0
+StopSound
+Bgm	絶望
+Bg	神殿B					0
+Param	character_grayout=false
+	ハジマリ	通常				0
+FadeIn	black					1
+	ハジマリ	笑い						では今日こそ、\n魔界を滅亡させるために<dash=2>
+CharacterOff
+	スリーピー	通常						すー、すー♪
+CharacterOff
+	キュービ	通常	2_3_m
+Tween	キュービ	PunchPosition	y=30				NoWait
+	キュービ	通常						す、スリーピーちゃん……！\nもう会議、はじまっちゃいますよ！
+CharacterOff
+	スリーピー	怪しい						むにゃむにゃ♪
+CharacterOff
+	キュービ	通常	2_3_m					ふえぇ……\nダメ、ぜんぜん起きないよぉ……
+	キュービ	通常						コキュートスちゃんも、\n起こすのに協力してくれませんかぁ？
+CharacterOff
+	コキュートス	通常	2_3_m					……実に合理的ね
+	コキュートス	通常						この部屋で熟睡すれば、\n寝坊して遅刻することはないし、\nキュービに起こしてもらえるわ
+	コキュートス	通常						時と労力に無駄がない、素晴らしい
+CharacterOff
+	キュービ	通常	2_3_m					感心してないでよぉ……！
+Tween	キュービ	PunchPosition	y=30				NoWait
+	キュービ	通常						は、ハジマリちゃんも！\nこのままじゃ会議もできませんし、\nなんとかしてくださいよぉ……！
+CharacterOff
+	ハジマリ	通常						おちついて、キュービ\nボクはぜんぜんかまわないよ♪
+	ハジマリ	通常						彼女は"熟睡"のスリーピー\n実に名前を体現した行動じゃないか
+	ハジマリ	通常						それにスリーピーとボクは\n契約を結んだ間柄\n最後にはちゃんと動いてくれる
+	ハジマリ	通常						それにボクらは全員、\n一時"退場"してしまっている身で\n動けるのはスリーピーだけ
+	ハジマリ	通常						彼女は休ませて、\nボクらは作戦をたてるとしようよ
+Tween	ハジマリ	PunchPosition	y=30				NoWait
+	ハジマリ	笑い						悪の組織らしく、\n世界の終焉を望む悪役らしく、ね♪
+CharacterOff
+	キュービ	通常	2_3_m					そ、そうですね、\nわたしとコキュートスちゃんは\nこんな身体になっていますし
+	キュービ	通常						まずはスリーピーちゃんから……
+CharacterOff
+	コキュートス	通常	2_3_m					本当の最終回を、迎えるために
+CharacterOff
+	キュービ	通常	2_3_m					ここまでは、順調……ですよね？
+	キュービ	通常						魔法少女ちゃんと\nわたしたちは何度も戦って、\n何度も終わりを迎えることができた
+CharacterOff
+	コキュートス	通常	2_3_m					モエネルギーも十分に溜まったわ
+	コキュートス	通常						今ならもっと、\n規模の大きい異変も起こせるわよ
+	コキュートス	通常						例えば……\nコキュートスの冷気を暴走させて、\n街を氷漬けにしちゃったり
+	コキュートス	通常						キリンもゾウも氷になれば\n誰も声を出せない静かな魔界になるわ
+CharacterOff
+	ハジマリ	笑い						なるほど♪\nそれは実に悪役らしいアイデアだね♪
+	ハジマリ	通常						キュービはなにかあるかい？
+CharacterOff
+	キュービ	通常	2_3_m					え、えっと……わたしのなんて、\n大したアイデアじゃないと思うけど
+	キュービ	通常						なんでも呑み込んじゃう\n亜空間を生み出して\nぜんぶ吸い込んじゃうとかは？
+CharacterOff
+	コキュートス	通常	2_3_m					…………
+CharacterOff
+	ハジマリ	怪しい						…………
+CharacterOff
+	キュービ	通常	2_3_m
+Tween	キュービ	PunchPosition	y=30				NoWait
+	キュービ	通常						はうう!?\nなにか変なこと言っちゃいました？
+CharacterOff
+	コキュートス	通常	2_3_m					合理的だけど、恐ろしいわね
+CharacterOff
+	ハジマリ	笑い						キミはひかえめなのに\n時々とても怖いことを言うよね♪
+	ハジマリ	通常						じゃあボクもアイデアを出そうか
+	ハジマリ	通常						そうだね……\nラスボスらしく最強の敵となって、\n正面から魔法少女を倒す
+CharacterOff
+	コキュートス	通常	2_3_m					なにも工夫をしないの？
+CharacterOff
+	ハジマリ	笑い						しないよ♪
+	ハジマリ	通常						最終決戦だからこそ、\nそういうのがふさわしくないかい？
+	ハジマリ	通常						それに<dash=2>
+CharacterOff
+	キュービ	通常	2_3_m
+Se	アラート
+FadeOut	red					.3
+FadeIn	red					.3
+Wait						.5
+FadeOut	red					.3
+FadeIn	red					.3
+Wait						.5
+Tween	キュービ	PunchPosition	y=30				NoWait
+	キュービ	通常						ひゃっ!?
+CharacterOff
+	コキュートス	通常	2_3_m					敵襲？
+CharacterOff
+	ハジマリ	笑い						ほら、\n彼らもそのつもりのようだ
+	ハジマリ	通常						行ってくれるかい、スリーピー？
+CharacterOff
+	スリーピー	通常						ふわぁー♪\nたーくさんお休みくれましたから
+	スリーピー	笑い						ギブ＆テイク
+	スリーピー	笑い						スリーピーにおまかせあれぇ♪
+	wipe		wipe_start			0
+Tween	wipe	MoveTo	x=-800 islocal=true time=1.2	linear
+FadeOut	black					.1
+CharacterOff						0
+Bg	遺跡A					0
+	シズカニーA	通常	p3			0
+	シズカニーB	通常	p7b			0
+Wait						2
+Param	character_grayout=true
+FadeIn	black					.3
+Bgm	バトル
+	シズカニーA	通常						シズカニー！
+	シズカニーB	通常						シズカニー！
+CharacterOff
+	サイレンサー	通常
+Tween	サイレンサー	PunchPosition	y=30				NoWait
+	サイレンサー	通常						魔法少女がなぜここに!?
+CharacterOff
+	オルタ魔法少女	驚き						ほ、本拠地に突撃なんて、\nしちゃっていいんでしょうか？
+	オルタ魔法少女	驚き						魔法少女らしくない気が……
+CharacterOff
+	ディーア	怒り4						魔法少女らしいことが、\nループを抜け出す条件かどうかも\nオレたちには分からないからな
+	ディーア	怒り4						できることは試してみないと！
+	ディーア	怪しい4						それにこの先には<dash=2>
+CharacterOff
+	ミニマリ	通常						感じるよ、\nボクの本体が待っているはずだ
+	ミニマリ	怪しい						まったく彼女もボクと同じはずなのに\nどうしてこんなことをしたのか
+	ミニマリ	通常						まあボクの方がこんなに小さいし\n本来の意思は向こう、\nなんてこともありえるけれどね？
+CharacterOff
+	ディーア	怒り4						そしてその本体を倒せれば、\n基盤を失ったループも\n終わるかもしれない
+	ディーア	目閉じ4						所詮は裏技、ちゃぶ台返し
+Tween	ディーア	PunchPosition	y=30				NoWait
+	ディーア	本気4						だけど、やる価値はある！
+	ディーア	通常4						オルタ、一緒にがんばろう！
+CharacterOff
+	オルタ魔法少女	通常						は、はい……！
+	オルタ魔法少女	通常						そうだ、\nマスターさんを助けられるのは\n魔法少女の私だけ
+	オルタ魔法少女	通常						魔界を救えるのも私だけ……
+	オルタ魔法少女	本気						わかりました……！
+Tween	オルタ魔法少女	PunchPosition	y=30				NoWait
+	オルタ魔法少女	本気						私がみんなを助けます！
+If	isdebug==true
+CharacterOff
+Jump	*E_1282_06
+EndIf
+EndScenario
+
+# E_1282_06
+Command	Arg1	Arg2	Arg3	Arg4	Arg5	Arg6	WaitType	Text	PageCtrl	Voice	WindowType
+Param	quest_name="クエスト名"
+ShowMessageWindow
+FadeOut	black					0
+StopSound
+Bgm	凱旋
+Bg	遺跡A					0
+Param	character_grayout=false
+	ディーア	笑い4				0
+FadeIn	black					1
+	ディーア	笑い4						よし、これで突破できる
+	ディーア	通常4						先は長いし、早く行こう
+CharacterOff
+	オルタ魔法少女	本気						は、はい……！
+CharacterOff
+	サイレンサー	通常						魔法少女を通してしまうとは……
+	サイレンサー	通常						申し訳ございません、ハジマリ様……
+CharacterOff
+	オルタ魔法少女	通常						…………
+	オルタ魔法少女	通常						あのぉ？
+	オルタ魔法少女	通常						どうして、\nそんなにクワイエットに忠誠を？
+CharacterOff
+	ディーア	驚き4						オルタ？
+CharacterOff
+	サイレンサー	通常						なぜ、そんなことを？\n勝者だからこその驕りか？
+CharacterOff
+	オルタ魔法少女	驚き
+Tween	オルタ魔法少女	PunchPosition	y=30				NoWait
+	オルタ魔法少女	驚き						ご、ごめんなさい！\nそうじゃなくて、えっと……
+	オルタ魔法少女	驚き						何度も戦っているのに、\nそういえばなにも知らないから……
+	オルタ魔法少女	通常						立派な魔法少女ならこういう時、\nこうするのかなって想像して
+CharacterOff
+	サイレンサー	通常						ふふふ♪\n流石は魔法少女、甘いもんだ……
+	サイレンサー	通常						だけど君には分からないさ\n悪役としてしか\n存在できない者の気持ちなんて
+CharacterOff
+	オルタ魔法少女	通常						……悪役？
+CharacterOff
+	サイレンサー	通常						他者を呪い、自分を呪い、\nだが自分たちでは終われない哀れな者
+	サイレンサー	通常						だが彼女はそんな我々に、\n居場所と救いをもたらしてくれた……
+	サイレンサー	通常						いつ終わるともしれない\n戦いだとしても\n従う理由はそれで十分だ……
+StopBgm
+CharacterOff
+	オルタ魔法少女	通常						…………
+Se	回想
+FadeOut	white					.3
+ImageEffect	SpriteCamera	Sepia
+CharacterOff						0
+Bg	白背景					0
+	イベントスチル1012E		エフェクト表			0
+FadeIn	white					.3
+Bgm	神秘
+	魔剣グラム	<Off>						だから、約束して
+	魔剣グラム	<Off>						自分で自分を傷つけることはしないと
+	魔剣グラム	<Off>						胸を張って、\nこの私の隣に立ち続けると
+	魔剣グラム	<Off>						そして誇りなさい\n完成品の力を受け継いだ、\n魔剣グラムの妹であることを
+	魔劍グラム=オルタ	<Off>						…………っ
+	魔劍グラム=オルタ	<Off>						……私なんかが、いいのかな
+	魔劍グラム=オルタ	<Off>						……私って、いつもそうだ\nお姉ちゃんのためにやったことが、\nいつもこうして裏目に出ちゃう
+	魔劍グラム=オルタ	<Off>						お姉ちゃんみたいに、\n"完全"になんかなれない
+	魔劍グラム=オルタ	<Off>						……私なんかが、お姉ちゃんの隣に\nいる資格なんてあるのかな
+	魔剣グラム	<Off>						……何を馬鹿なことを
+	魔剣グラム	<Off>						当然でしょう\n貴女は、\nこのグラムの名を持つ妹なのだから
+FadeOut	white					.3
+ImageEffectOff	SpriteCamera	Sepia
+CharacterOff						0
+Bg	遺跡A					0
+	オルタ魔法少女	通常				0
+FadeIn	white					.3
+	オルタ魔法少女	通常						その気持ちなら、私にも……
+CharacterOff
+	ディーア	驚き4						ハジマリ、どういうことだ？
+	ディーア	驚き4						本体のお前が、\nクワイエットの仲間に与える救い\nそれはいったい……？
+CharacterOff
+	ミニマリ	通常						…………
+	ミニマリ	通常						終わりがない者を終わらせるには\nどうすればいい？
+	ミニマリ	通常						魔剣王、キミならどう答える？
+CharacterOff
+	ディーア	怪しい4						待ってくれ、\n質問をしたのはオレのほうだろう？
+CharacterOff
+	ミニマリ	悲しい						ごめんね、\nだけどボクは答えるべきじゃない
+	ミニマリ	悲しい						ボクは終末装置、ラスボス、\n終わらせるために存在する者なんだ
+	ミニマリ	悲しい						世界も、なにもかもを
+	ミニマリ	悲しい						このボクも本体のボクも、\nこと終わらせるという行為に対して\nボクが選べる択は一つだけ
+	ミニマリ	通常						だけど……\nキミたちはラスボスじゃないし、\nむしろラスボスを超えようとする者
+	ミニマリ	通常						なら答えは、\nキミたち自身で考えてほしいんだ
+	ミニマリ	笑い						もしかしたら、\nそれが終わらない最終決戦を超える\n鍵になるかもしれないしね？
+CharacterOff
+	ディーア	怪しい4						また意味深なことを……
+CharacterOff
+	オルタ魔法少女	通常						じゃあ、魔法少女は？
+CharacterOff
+	ディーア	驚き4						オルタ？
+CharacterOff
+	オルタ魔法少女	通常						ハジマリちゃんはどうして、\n私なんかに\n魔法少女の力をくれたんですか？
+	オルタ魔法少女	通常						魔法少女って、なんなんですか？
+CharacterOff
+	ミニマリ	通常						魔法少女の物語とは一般的に\n倒すべき敵や共に戦う仲間\n奪われた想い人などが出てくるもの
+	ミニマリ	通常						でもキミが聞きたいのは、\nそういうことではないだろうから
+	ミニマリ	通常						とある魔法少女に成った\n魔剣少女曰く<dash=2>
+	ミニマリ	通常						<dash=2>魔法少女
+	ミニマリ	通常						それは、颯爽と現れて\nみんなのために戦う正義の味方
+	ミニマリ	笑い						キラキラしてて、かわいくて\nそして<dash=2>すごく強い
+	ミニマリ	笑い						どんな悪にも勇気をもって\n立ち向かい、人々に夢と希望を与える\nみんなが憧れる、素敵な存在
+	ミニマリ	笑い						キミ自身が憧れたように
+CharacterOff
+	オルタ魔法少女	通常						…………
+	オルタ魔法少女	通常						私が、憧れたように……
+If	isdebug==true
+CharacterOff
+Jump	*E_1282_07
+EndIf
+EndScenario
+
+# E_1282_07
+Command	Arg1	Arg2	Arg3	Arg4	Arg5	Arg6	WaitType	Text	PageCtrl	Voice	WindowType
+Param	quest_name="クエスト名"
+ShowMessageWindow
+FadeOut	black					0
+StopSound
+Bgm	緊迫
+Bg	遺跡A					0
+Param	character_grayout=false
+	スリーピー	通常				2
+Se	フォーン
+FadeIn	black					1
+	スリーピー	通常						ふわぁあ♪\n侵入者さんを発見しましたぁー♪
+CharacterOff
+	オルタ魔法少女	驚き
+Tween	オルタ魔法少女	PunchPosition	y=30				NoWait
+	オルタ魔法少女	驚き						っ、スリーピーちゃん!?
+CharacterOff
+	スリーピー	通常						せっかく、\n世界を滅ぼす準備中だったのにぃ\n邪魔しないでくださーい
+	スリーピー	通常						スリーピーは\n契約不履行しない悪役なんですから\n邪魔するなら容赦しませんよぉ？
+CharacterOff
+	オルタ魔法少女	通常						…………スリーピーちゃん
+CharacterOff
+	スリーピー	通常						あなたたちの狙いはわかっています\nボスの命ですよね？
+	スリーピー	通常						一度は倒したと言っても、\n"終焉"のハジマリは必ず復活します
+	スリーピー	通常						だから今度こそトドメを刺して、\nクワイエットを壊滅させたい
+	スリーピー	通常						つまりここが最終決戦<dash=2>
+CharacterOff
+	オルタ魔法少女	本気
+Tween	オルタ魔法少女	PunchPosition	y=30				NoWait
+	オルタ魔法少女	本気						す、スリーピーちゃん……！
+CharacterOff
+	スリーピー	通常						……なんですかぁ？
+StopBgm
+CharacterOff
+	オルタ魔法少女	本気						あの、その……よかったら……
+Bgm	神秘
+	オルタ魔法少女	通常						お話を、しない？
+CharacterOff
+	スリーピー	通常						……お話ってなんですかぁ？
+CharacterOff
+	オルタ魔法少女	驚き
+Tween	オルタ魔法少女	PunchPosition	y=30				NoWait
+	オルタ魔法少女	驚き						ふえっ！\nそ、その、会話とか、トークとか！
+CharacterOff
+	スリーピー	通常						お話の概念くらいはわかりますよ？\n私が気になるのは「なぜ」？
+	スリーピー	通常						どうして悪役の私が、\nあなたと話をする必要があるんです？
+CharacterOff
+	オルタ魔法少女	通常						それは……
+	オルタ魔法少女	通常						し、知りたいから……
+CharacterOff
+	ディーア	驚き4						オルタ？
+CharacterOff
+	オルタ魔法少女	通常						私は、何度も戦ったけど、\nあなたのことをぜんぜん知らない……
+	オルタ魔法少女	通常						でもさっき、\n門番さんと少しだけ話ができて……\n気持ちがちょっとわかって……
+CharacterOff
+	スリーピー	通常						だから私とも会話がしたい？\n魔法少女なのに？
+CharacterOff
+	オルタ魔法少女	通常						魔法少女、だから……じゃダメ？
+CharacterOff
+	ミニマリ	通常						…………ふふ♪
+CharacterOff
+	オルタ魔法少女	笑い						私は憧れたの、\nキラキラ輝いて可愛くてかっこよくて\nみんなを救える魔法少女に……
+	オルタ魔法少女	笑い						憧れているの、\n私なんかを必要だって言ってくれて、\n守ってくれる存在に……
+	オルタ魔法少女	笑い						お姉ちゃんやマスターさんみたいに\nなってみたいって……
+	オルタ魔法少女	通常						私はまだそんな憧れには遠いけれど、\nこんなすごい力を貰ったから
+	オルタ魔法少女	通常						形だけでも、偽物でも、\n魔法少女らしくなれたらいいって……
+	オルタ魔法少女	通常						それで、その……\n魔法少女はただ倒すだけじゃなくて、\nたとえ敵だって救っ<dash=2>
+StopBgm
+CharacterOff						0
+ImageEffect	SpriteCamera	MotionBlur
+Se	光3
+Bg	黒背景					0
+	黒背景		エフェクト表			0
+	射撃(青)		エフェクト裏			0
+Tween	黒背景	MoveBy	y=-3000 time=1
+Wait						.3
+Bg	遺跡A					0
+CharacterOff						0
+	オルタ魔法少女	泣き
+ImageEffectOff	SpriteCamera	MotionBlur
+Shake	オルタ魔法少女	泣き	x=5				NoWait
+	オルタ魔法少女	泣き						きゃっ!?
+Bgm	魔獣バトル
+CharacterOff
+	スリーピー	笑い						優しいですねぇ、オルタちゃんは\n流石は魔法少女です
+	スリーピー	笑い						だから覚えておいた方がいいですよ？
+	スリーピー	笑い						優しさ、博愛、友情……
+Tween	スリーピー	PunchPosition	y=30				NoWait
+	スリーピー	笑い						そういうのを大切にする\n立派な魔法少女こそ\n本当に悪い悪役の餌食になるって♪
+CharacterOff
+	ディーア	悔しい4
+Tween	ディーア	PunchPosition	y=30				NoWait
+	ディーア	悔しい4						大丈夫か、オルタ？
+CharacterOff
+	オルタ魔法少女	通常						は、はい、私は……！
+CharacterOff
+	ミニマリ	怪しい						残念ながら交渉は決裂みたいだね
+CharacterOff
+	オルタ魔法少女	通常						でも、私はまだ……！
+CharacterOff
+	スリーピー	通常						お話がしたい？
+Tween	スリーピー	PunchPosition	y=30				NoWait
+	スリーピー	笑い						すごいです！\nオルタちゃんは余裕があるんですね♪
+Se	チャージ
+	オーラ青		エフェクト表			1
+	スリーピー	通常						だったら、\n私も本気を出しても良いですかぁ？
+CharacterOff
+	ディーア	悔しい4
+Tween	ディーア	PunchPosition	y=30				NoWait
+	ディーア	悔しい4						なっ……!?
+CharacterOff
+	オーラ青		エフェクト表
+	スリーピー	通常						悪の組織クワイエット四天王\n"熟睡"のスリーピー♪
+	スリーピー	通常						魔界に永遠の静寂あれ♪
+If	isdebug==true
+CharacterOff
+Jump	*E_1282_08
+EndIf
+EndScenario
+
+# E_1282_08
+Command	Arg1	Arg2	Arg3	Arg4	Arg5	Arg6	WaitType	Text	PageCtrl	Voice	WindowType
+Param	quest_name="クエスト名"
+ShowMessageWindow
+FadeOut	black					0
+StopSound
+Bgm	魔獣バトル
+Bg	遺跡A					0
+Param	character_grayout=false
+	オルタ魔法少女	泣き				0
+FadeIn	black					1
+Shake	オルタ魔法少女		x=4				NoWait
+	オルタ魔法少女	泣き						きゃあっ!?
+CharacterOff
+	ディーア	悔しい4						いつもより、\n攻撃がずっとはげしい……！
+	ディーア	怒り4						本当に本気を出していなかった？\nだとしたらどうして？
+	ディーア	怒り4						これだけの力を持っていたなら、\n最初から本気を出せば\nオルタやオレに勝てていたはず
+	ディーア	怪しい4						なのにそうしなかった……\n今も本気を出しているか分からない
+	ディーア	怒り4						じゃあスリーピーの目的は、\nオレたちに勝つことじゃないのか？
+CharacterOff
+	スリーピー	通常						考えているヒマがありますかぁ？
+CharacterOff						0
+ImageEffect	SpriteCamera	MotionBlur
+Se	光3
+Bg	黒背景					0
+	黒背景		エフェクト表			0
+	射撃(青)		エフェクト裏			0
+Tween	黒背景	MoveBy	y=-3000 time=1
+Wait						.3
+Bg	遺跡A					0
+CharacterOff						0
+ImageEffectOff	SpriteCamera	MotionBlur
+	ディーア	悔しい4
+Shake	ディーア		x=3				NoWait
+	ディーア	悔しい4						ぐぁあっ!?
+CharacterOff
+	オルタ魔法少女	泣き
+Tween	オルタ魔法少女	PunchPosition	y=30				NoWait
+	オルタ魔法少女	泣き						マスターさん……!!
+	オルタ魔法少女	泣き						やめて、スリーピーちゃん！\n私はあなたとお話がしたいの……！
+CharacterOff
+	スリーピー	通常						コキュートスちゃんがいるなら\n合理的じゃないって言ってますねぇ
+	スリーピー	通常						でも戦場では時々いますよ？\nオルタちゃんみたいな人
+	スリーピー	通常						お話をしたい、助けてほしい、\nそういって戦いから逃げようとする人
+	スリーピー	通常						でもスリーピーはベテランさんだから\nあなたに教えてあげます
+	スリーピー	通常						敵に意思を通そうとするなら、\n力を持っていないといけないんです
+	スリーピー	通常						じゃないと気を取られて<dash=2>
+CharacterOff
+	オルタ魔法少女	本気
+Tween	オルタ魔法少女	PunchPosition	y=30				NoWait
+	オルタ魔法少女	本気						っ……！
+CharacterOff
+	スリーピー	笑い						手遅れになっちゃいますから♪
+Se	光2
+	魔法陣1	青	effect_c			.5
+Tween	魔法陣1	ScaleBy	x=5 y=5				NoWait
+Wait						.5
+Se	光2
+	魔法陣2	青	effect_b			.5
+Tween	魔法陣2	ScaleBy	x=6 y=6				NoWait
+Wait						.5
+Se	光2
+	魔法陣3	青	effect_a			.5
+Tween	魔法陣3	ScaleBy	x=7 y=7				NoWait
+Wait						1
+CharacterOff
+	ミニマリ	本気						オルタ、魔剣王……！
+CharacterOff
+	ディーア	悔しい4						これ以上は……！
+CharacterOff
+	オルタ魔法少女	本気						なら……！
+	オルタ魔法少女	本気						お話を聞いてもらうために<dash=2>
+StopBgm
+CharacterOff						0
+ImageEffect	SpriteCamera	MotionBlur
+Se	シャキーン
+Bg	黒背景					0
+	黒背景		エフェクト表			0
+	斬撃(393C)		エフェクト裏			0
+Tween	黒背景	MoveBy	y=-3000 time=1
+Wait						.3
+Bg	遺跡A					0
+CharacterOff						0
+ImageEffectOff	SpriteCamera	MotionBlur
+	スリーピー	笑い
+Wait						.5
+Se	ぐちゃ
+	血痕A		エフェクト表			0
+	スリーピー	笑い						あはっ…………
+Bgm	図書館
+CharacterOff
+	オルタ魔法少女	泣き						え……？\n今のでどうして……？
+CharacterOff
+	スリーピー	笑い						ま、まさか、\nこの私がやられるなんて<dash=2>
+Se	パリン
+FadeOut	white					.1
+CharacterOff						0
+	マナアリス	笑い				0
+FadeIn	white					.1
+	マナアリス	笑い						これでマナは……
+CharacterOff
+	ディーア	驚き4						っ……!?
+CharacterOff
+	オルタ魔法少女	通常						マナ、ちゃん……？
+CharacterOff
+	ミニマリ	本気						夢と現を貪る者……眠りネズミ
+CharacterOff
+	マナアリス	怪しい						ふわぁ、眠くなってきましたぁ
+	マナアリス	怪しい						おやすみなさーい……
+Se	フォーン
+CharacterOff						1
+	          	<Off>	1_2
+Wait						1
+StopSe						0
+Se	チャージ
+CharacterOff						0
+Se	雨	TRUE
+ImageEffect	SpriteCamera	Sepia
+Bg	遺跡C_過去
+Wait						.1
+Bg	山岳B_過去
+Wait						.1
+ImageEffectOff	SpriteCamera	Sepia
+ImageEffect	SpriteCamera	GrayScale
+Bg	魔術空間_過去
+Wait						.1
+ImageEffectOff	SpriteCamera	GrayScale
+ImageEffect	SpriteCamera	Sepia
+Bg	宝石鉱山_過去
+Wait						.1
+ImageEffectOff	SpriteCamera	Sepia
+ImageEffect	SpriteCamera	GrayScale
+Bg	教会内部
+Wait						.1
+ImageEffectOff	SpriteCamera	GrayScale
+ImageEffect	SpriteCamera	Sepia
+Bg	市街地C
+Wait						.1
+ImageEffectOff	SpriteCamera	Sepia
+ImageEffect	SpriteCamera	GrayScale
+Bg	遺跡C_過去
+Wait						.1
+ImageEffectOff	SpriteCamera	GrayScale
+ImageEffect	SpriteCamera	Sepia
+Bg	山岳B_過去
+Wait						.1
+ImageEffectOff	SpriteCamera	Sepia
+ImageEffect	SpriteCamera	GrayScale
+Bg	魔術空間_過去
+Wait						.1
+ImageEffectOff	SpriteCamera	GrayScale
+ImageEffect	SpriteCamera	Sepia
+Bg	宝石鉱山_過去
+Wait						.1
+ImageEffectOff	SpriteCamera	Sepia
+ImageEffect	SpriteCamera	GrayScale
+Bg	教会内部
+Wait						.1
+ImageEffectOff	SpriteCamera	GrayScale
+ImageEffect	SpriteCamera	Sepia
+Bg	市街地C
+Wait						.1
+ImageEffectOff	SpriteCamera	Sepia
+StopSe						.5
+FadeOut	white					5
+If	isdebug==true
+CharacterOff
+Jump	*E_1282_09
+EndIf
+EndScenario
+
+# E_1282_09
+Command	Arg1	Arg2	Arg3	Arg4	Arg5	Arg6	WaitType	Text	PageCtrl	Voice	WindowType
+Param	quest_name="クエスト名"
+ShowMessageWindow
+FadeOut	black					0
+StopSound
+Bgm	平和
+Bg	市街地A					0
+Param	character_grayout=false
+	魔劍グラム=オルタ	通常2				0
+FadeIn	black					1
+	魔劍グラム=オルタ	通常2						私、グラム=オルタ
+	魔劍グラム=オルタ	嬉しい2						お姉ちゃんとマスターさん、\nそして仲間のみんなとの日常<dash=2>
+StopBgm
+	魔劍グラム=オルタ	悲しい2						…………
+Bgm	図書館
+CharacterOff
+	ディーア	悔しい4						また、戻ってきたな
+CharacterOff
+	魔劍グラム=オルタ	悲しい2						マスターさん、\nどうしてマナちゃんが……？
+CharacterOff
+	ディーア	怒り4						あれはオレたちが知っている\nマナガルムじゃない
+CharacterOff
+	ミニマリ	本気						アリスファミリーの"眠りネズミ"\nマナガルム.ALICE、だね
+CharacterOff
+	ディーア	怪しい4						知っていたのか？
+CharacterOff
+	ミニマリ	本気						ひと目見ただけでわかるよ\nボクはラスボスで魔剣少女のママだ
+	ミニマリ	本気						あの子が、\n魔帝アリスが力を分け与えた眷属\n悪魔の鍵で変質した魔剣
+CharacterOff
+	ディーア	目閉じ4						そうだな……\n《<ruby=アリス・イン・ワンダーランド>彷徨う少女と夢幻の鍵</ruby>》
+	ディーア	目閉じ4						ハートの女王になったオズや、\n怪物になったホロウ、\n帽子屋になったラストリゾート
+	ディーア	怒り4						あの子も同じだ
+	ディーア	怒り4						自らの願いを<ruby=ワンダーランド>理想郷</ruby>で叶える鍵を持った\n別の世界から来たマナ
+CharacterOff
+	魔劍グラム=オルタ	本気2						でもマスターさんが\nエイビシュタットを譲り受けたときに
+	魔劍グラム=オルタ	本気2						アリスファミリーの指揮官も\nマスターさんになったはずじゃ？
+CharacterOff
+	ディーア	汗4						そのはずだった……んだけど
+	ディーア	目閉じ4						"眠りネズミ"たち、\n長期任務で離れていたファミリーとは\n連絡さえ取れないままでいた
+	ディーア	怪しい4						アリス様が直々に与えた、\n最優先の任務だから連絡にも応じない
+	ディーア	怪しい4						オズ.ALICEやホロウ.ALICEに聞いても\n任務に支障が出るといけないからって\n教えてくれなかった
+CharacterOff
+	ミニマリ	通常						でも情報は知っていただろう？
+	ミニマリ	通常						アリスファミリーの中でも、\n敵勢力の殲滅に特化した決戦兵器
+	ミニマリ	通常						アリスの指令があれば\nどんな困難な状況でも任務を完遂する\nファミリーの仕事人
+	ミニマリ	通常						それが夢も現実も貪り尽くすという\n"眠りネズミ"だ
+	ミニマリ	通常						"バンダースナッチ"が\n強大な個でも破壊しうる怪物なら\n彼女は広範囲兵器と言ったところかな
+CharacterOff
+	ディーア	怒り4						オレが知っているマナガルムからは\nまったく想像できないけどな
+	ディーア	怒り4						でもどうして\nマナガルム.ALICEは\n悪の組織の一員になっているんだ？
+	ディーア	怒り4						魔界を滅ぼそうとしているんだ？
+	ディーア	悔しい4						そもそも、\n悪の組織や魔法少女に最終決戦って\nこの舞台じみた異変はなんだ？
+	ディーア	悔しい4						まさか<ruby=ワンダーランド>理想郷</ruby>？\nでもハジマリの力らしいし……
+Tween	ディーア	PunchPosition	y=30				NoWait
+	ディーア	絶望4						ダメだ！\nますます分からなくなっていく！
+CharacterOff
+	魔劍グラム=オルタ	悲しい2						…………
+	魔劍グラム=オルタ	悲しい2						ごめんなさい
+	魔劍グラム=オルタ	悲しい2						私、また間違えちゃったみたいです
+CharacterOff
+	ディーア	驚き4						オルタ……
+CharacterOff
+	魔劍グラム=オルタ	悲しい2						私がお話したいと思ったから、\n敵のハジマリちゃんに辿りつけなくて
+	魔劍グラム=オルタ	泣き2						スリーピー……\nマナガルム.ALICEちゃんにだって\n本気を出させちゃって……
+	魔劍グラム=オルタ	泣き2						また私は余計なことを……
+StopBgm
+CharacterOff
+	ディーア	通常4						そんなことないよ
+CharacterOff
+	魔劍グラム=オルタ	悲しい2						マスターさん……？
+Bgm	神秘
+CharacterOff
+	ディーア	通常4						あの選択を選べたオルタのことを\nオレはすごいと思ったよ
+	ディーア	通常4						お前は魔法少女として、\n敵をただ倒すだけじゃいけないって\nそう思ったんだろう？
+	ディーア	通常4						何度戦っていようと、\n印象に囚われずに向き合おうとした
+	ディーア	笑い4						オルタが感じたように、\nそれはとても優しくてあたたかい\n魔法少女らしい考えだと思う
+	ディーア	通常4						ハジマリも、そう思うだろ？
+CharacterOff
+	ミニマリ	通常						その通りだよ
+	ミニマリ	笑い						少なくともラスボスには出せない\n選択肢だと思うよ
+CharacterOff
+	ディーア	通常4						それに今回は収穫もあった
+CharacterOff
+	魔劍グラム=オルタ	悲しい2						収穫、ですか？
+CharacterOff
+	ディーア	通常4						今までは\n最終決戦っぽい雰囲気の中で\n戦いに勝ったらループした
+	ディーア	笑い4						だけど今回は？
+CharacterOff
+	魔劍グラム=オルタ	通常2						……あっ！
+Tween	魔劍グラム=オルタ	PunchPosition	y=30				NoWait
+	魔劍グラム=オルタ	通常2						最終決戦に勝っていません！
+CharacterOff
+	ディーア	通常4						そうだオレたちは\nマナガルム.ALICEを倒しただけで\n目的は果たせず仕舞いだった
+CharacterOff
+	ミニマリ	通常						つまりこのループは、\n彼女の消滅をキーとして発生する
+	ミニマリ	通常						そういうことだね？
+CharacterOff
+	ディーア	笑い4						ようやくわかりやすい結論を\n言ってくれたな！
+Tween	ディーア	PunchPosition	y=30				NoWait
+	ディーア	笑い4						さすがはラスボス！
+CharacterOff
+	ミニマリ	悲しい						珍しく褒めてくれたけど、\nそれラスボスと関係あるかなぁ？
+	ミニマリ	通常						……キミの、\nオルタの行動は無駄なんかじゃない
+	ミニマリ	通常						眠りネズミの目的を明かすことが\nループから脱出する近道だ
+CharacterOff
+	ディーア	通常4						オルタとあの子が話し合えれば\n解決に大きくつながる
+	ディーア	通常4						それにオルタは……\nそういう魔法少女になりたいんだろ？
+CharacterOff
+	魔劍グラム=オルタ	通常2						は、はい……
+CharacterOff
+	ディーア	笑い4						なら納得できるまでやっていいんだ
+	ディーア	通常4						魔法少女は夢と希望を届ける存在
+	ディーア	笑い4						だったら魔法少女本人だって、\n自分の夢と希望を叶えないとだろ？
+CharacterOff
+	魔劍グラム=オルタ	嬉しい2						マスターさん……\n本当にありがとうございます♪
+	魔劍グラム=オルタ	嬉しい2						よしっ、今度こそ<dash=2>
+StopBgm
+	wipe		wipe_start			0
+Tween	wipe	MoveTo	x=-800 islocal=true time=1.2	linear
+FadeOut	black					.1
+CharacterOff						0
+Bg	市街地B2(紫)					0
+	オルタ魔法少女	通常				0
+Wait						2
+FadeIn	black					.3
+Bgm	バトル
+Tween	オルタ魔法少女	PunchPosition	y=30				NoWait
+	オルタ魔法少女	通常						す、スリーピーちゃん！\nはやく出てきてくださーい！
+CharacterOff
+	スリーピー	笑い						ふわぁー♪\nやっぱり来ましたね、魔剣少女♪
+	スリーピー	笑い						このスリーピーを呼び出すなんて\nなにかの作戦でしょうか？
+	スリーピー	笑い						でも残念♪\n魔界は今日こそ終わりの時を<dash=2>
+CharacterOff
+	オルタ魔法少女	本気						ま、マナ.ALICEちゃん！\n今回こそ私とお話をしよう……！
+CharacterOff
+	スリーピー	通常						…………
+	スリーピー	通常						ああ、正体がバレたんですねぇ？
+Se	光1
+FadeOut	white					.1
+CharacterOff						0
+	マナアリス	本気				0
+FadeIn	white					.1
+	マナアリス	本気						ならなおさら、\nあなたたちを一刻も早く倒さないと
+CharacterOff
+	オルタ魔法少女	通常						どうして……？
+CharacterOff
+	マナアリス	本気						だってマナ.ALICEは悪役ですから
+	マナアリス	本気						悪役の正体がバレる時なんて、\nわかりやすい退場フラグですよぉ？
+	マナアリス	本気						ギブ＆テイク
+	マナアリス	本気						マナ.ALICEは契約した以上、\n確実にお仕事をやりとげないと
+	マナアリス	本気						だから、\n世界を滅ぼさないといけないのに\nそんなピンチは御免です♪
+CharacterOff
+	オルタ魔法少女	通常
+Tween	オルタ魔法少女	PunchPosition	y=30				NoWait
+	オルタ魔法少女	通常						ま、待って……！\n私はただお話がしたいだけで<dash=2>
+CharacterOff
+	マナアリス	嬉しい						魔法少女さんたち♪\nおネムの時間ですよぉー♪
+Tween	マナアリス	PunchPosition	y=30				NoWait
+	マナアリス	嬉しい						永遠に♪
+If	isdebug==true
+CharacterOff
+Jump	*E_1282_10
+EndIf
+EndScenario
+
+# E_1282_10
+Command	Arg1	Arg2	Arg3	Arg4	Arg5	Arg6	WaitType	Text	PageCtrl	Voice	WindowType
+Param	quest_name="クエスト名"
+ShowMessageWindow
+FadeOut	black					0
+StopSound
+Bgm	絶望
+Bg	神殿B					0
+Param	character_grayout=false
+	ハジマリ	通常				0
+FadeIn	black					1
+	ハジマリ	通常						……この感じ
+CharacterOff
+	コキュートス	通常	2_3_m					スリーピー……\nマナ.ALICEが正体を明かしたのね
+CharacterOff
+	ハジマリ	通常						ああ、そのようだ
+CharacterOff
+	キュービ	通常	2_3_m					ど、どうしますか……？
+CharacterOff
+	ハジマリ	通常						どうもこうもしないよ
+	ハジマリ	通常						ボクらは悪の組織
+	ハジマリ	通常						目的のために力を合わせ、\n決して馴れ合うことはしない\nはみ出しものの集まりだ
+	ハジマリ	笑い						それに彼女なら、\n必ず目的を達成するはずだよ
+	ハジマリ	通常						自らのために、そして<dash=2>
+	ハジマリ	通常						世界のためにも
+StopBgm
+FadeOut	black					1
+CharacterOff						0
+Bg	市街地B2(紫)					0
+	マナアリス	本気				0
+Wait						2
+FadeIn	black					1
+Bgm	魔王バトル
+	マナアリス	本気						どうしましたかぁ？
+	マナアリス	本気						魔法少女なのに\n戦わないんですかぁ？
+	マナアリス	本気						悪役を放置するんですかぁ？
+	マナアリス	本気						それなら……
+Tween	マナアリス	PunchPosition	y=30				NoWait
+	マナアリス	嬉しい						魔界はもう終わりです♪
+CharacterOff
+	ミニマリ	本気						どうするんだい、オルタ？
+	ミニマリ	本気						マナ.ALICEは話す隙さえ見せずに\n攻撃してくる
+	ミニマリ	本気						このままキミが敗れたら\n魔界が滅びてしまうかもしれない
+CharacterOff
+	オルタ魔法少女	本気						っ……
+CharacterOff
+	ミニマリ	本気						今までの繰り返しではすべて\n魔法少女の勝利で終わっていたから\nどうなるかはボクにも未知数だ
+	ミニマリ	本気						そのリスクを負ってでも、\nまだキミは対話を望むのかい？
+CharacterOff
+	オルタ魔法少女	本気						…………はい
+	オルタ魔法少女	本気						大丈夫です、ハジマリちゃん
+	オルタ魔法少女	本気						私だって魔法少女である前に\nマスターさんと一緒に戦ってきた\n魔剣少女なんです
+	オルタ魔法少女	本気						戦うための兵器で、同時に女の子
+	オルタ魔法少女	本気						戦いながらでも、\nあの子のことをわかってみせます
+Tween	オルタ魔法少女	PunchPosition	y=30				NoWait
+	オルタ魔法少女	本気						だから、マスターさん……！
+CharacterOff
+	ディーア	笑い4						ふふ♪\n本当にオルタは立派になったな
+Tween	ディーア	PunchPosition	y=30				NoWait
+	ディーア	本気4						わかった！\nマスターとしてオルタを信じる
+CharacterOff
+	オルタ魔法少女	笑い						はい……！
+	オルタ魔法少女	本気						きっと次にあの子がするのは<dash=2>
+	オルタ魔法少女	本気						その時が、勝負です
+If	isdebug==true
+CharacterOff
+Jump	*E_1282_11
+EndIf
+EndScenario
+
+# E_1282_11
+Command	Arg1	Arg2	Arg3	Arg4	Arg5	Arg6	WaitType	Text	PageCtrl	Voice	WindowType
+Param	quest_name="クエスト名"
+ShowMessageWindow
+FadeOut	black					0
+StopSound
+Bgm	バトル
+Bg	市街地B2(紫)					0
+Param	character_grayout=false
+	マナアリス	嬉しい				0
+FadeIn	black					1
+	マナアリス	嬉しい						ようやく\n最終決戦らしくなってきました♪
+	マナアリス	笑い						マナ.ALICEのお仕事は\nクワイエットとの契約通りに\n世界を終わらせること
+	マナアリス	笑い						だけど、\nせっかく世界が終わるんだったら\nたーくさん悪い事して
+Tween	マナアリス	PunchPosition	y=30				NoWait
+	マナアリス	嬉しい						魔法少女のオルタちゃんだって\n倒して終わらせたい♪
+CharacterOff
+	黒グラデーション		エフェクト裏			1
+	オルタ魔法少女	本気						…………
+	オルタ魔法少女	本気						攻撃はすごくて、\nマナ.ALICEちゃんは楽しそう……
+	オルタ魔法少女	本気						本当に魔法少女の物語に出てくる\n悪役そのものみたい
+	オルタ魔法少女	本気						だけど\n私が知っているマナちゃんは<dash=2>
+Se	回想
+FadeOut	white					.3
+ImageEffect	SpriteCamera	Sepia
+CharacterOff						0
+Bg	遊園地					0
+	マナ	悲しい				0
+FadeIn	white					.3
+	マナ	悲しい						たのしかったですけど……
+	マナ	悲しい						おしごと、おやすみしちゃいました
+	マナ	悲しい						『むだんけっきん』で『りすとら』に\nなっちゃわないですか？
+FadeOut	white					.3
+ImageEffectOff	SpriteCamera	Sepia
+CharacterOff						0
+Bg	市街地B2(紫)					0
+	黒グラデーション		エフェクト裏			0
+	オルタ魔法少女	通常				0
+FadeIn	white					.3
+	オルタ魔法少女	通常						心配しちゃうくらいに\nいつも一生懸命で、\nだれよりも頑張り屋さんだった
+	オルタ魔法少女	通常						どんなに変わったとしても、\nマナちゃんが悪い子になるなんて\n私には信じられない
+	オルタ魔法少女	通常						だからきっと<dash=2>
+CharacterOff	黒グラデーション
+Tween	オルタ魔法少女	PunchPosition	y=30				NoWait
+	オルタ魔法少女	本気						マスターさん……！\nここからは本気でいきます……！
+CharacterOff
+	ディーア	本気4						わかった！
+CharacterOff
+	オルタ魔法少女	本気						っ……
+Se	チャージ
+	オーラ青		エフェクト表			.5
+	オルタ魔法少女	本気						ブレイズハート、全力全開！
+	オルタ魔法少女	本気						不完全世界<dash=2>
+CharacterOff
+	マナアリス	笑い						ああ、やっと<dash=2>
+StopBgm
+CharacterOff
+	オーラ青		エフェクト表
+	オルタ魔法少女	本気						…………
+CharacterOff	オーラ青					1
+Wait						1
+Bgm	図書館
+CharacterOff
+	マナアリス	本気						えっ……？
+	マナアリス	本気						なにをしているんですか？
+	マナアリス	本気						今の必殺技をうって\n悪の幹部を倒す展開でしたよね？
+	マナアリス	本気						なんで、技を止めたんですか？
+CharacterOff
+	オルタ魔法少女	本気						だってマナちゃんの狙いは、\n魔法少女に倒されることだって\nわかったから
+CharacterOff
+	マナアリス	本気						…………
+CharacterOff
+	オルタ魔法少女	本気						このループの前、\n私はただお話をしたかったから\nあなたを止めようと攻撃した
+	オルタ魔法少女	本気						でもマナちゃんは\n防げたはずの攻撃を防がなかった
+CharacterOff
+	ディーア	怒り4						オレも感じたよ
+	ディーア	怒り4						お前が断罪を受け入れるように\n力を抜いたのを
+	ディーア	怒り4						そしてもう一つ
+	ディーア	怒り4						オレたちは\n大きな勘違いをしていたみたいだ
+	ディーア	目閉じ4						毎回同じような展開になる物語に\nやられては復活する敵
+	ディーア	目閉じ4						だからオレは、\n時間が巻き戻るループだとばかり\n思っていたけれど……
+	ディーア	怒り4						時間は戻ったりしていない
+	ディーア	怒り4						前に門番を倒しただろう、\n彼はたしかにこう言っていた
+Se	回想
+FadeOut	white					.3
+ImageEffect	SpriteCamera	Sepia
+CharacterOff						0
+Bg	遺跡A					0
+	サイレンサー	通常				0
+FadeIn	white					.3
+	サイレンサー	通常						いつ終わるとしれない戦いだとしても\n従う理由はそれで十分だ……
+FadeOut	white					.3
+ImageEffectOff	SpriteCamera	Sepia
+CharacterOff						0
+Bg	市街地B2(紫)					0
+	ディーア	怒り4				0
+FadeIn	white					.3
+	ディーア	怒り4						彼は繰り返される戦いを\n認知しているような口ぶりだった
+	ディーア	目閉じ4						だけどマナガルム.ALICEは違う\n前にオレたちが正体を暴いたことも\n記憶していない
+	ディーア	目閉じ4						そして魔剣王として、\nあの魔力結晶体が崩壊する反応は\n本物だったと確信できる
+	ディーア	怒り4						つまり<dash=2>
+CharacterOff
+	ミニマリ	通常						時は戻っていない\n事象もループしてなんかいない\n倒されたものは倒されたまま
+	ミニマリ	通常						オルタとキミは、\n無数のマナガルム.ALICEを倒した
+	ミニマリ	通常						その"眠りネズミ"が\nこうしてボクらの前に立っているのは\nそれがキミの力だから……かな？
+	ミニマリ	笑い						そう考えると納得できる
+	ミニマリ	通常						時を巻き戻すことは神業だけど\n限定空間の時の流れを停滞させるのは\n困難だが世界の理には反しない
+	ミニマリ	通常						時間は連続していたが、\nループしていると誤認させていた\nというのが真相だったんだね
+	ミニマリ	通常						まったく\n本体のボクもめんどうなことを♪
+CharacterOff
+	マナアリス	本気						…………
+CharacterOff
+	オルタ魔法少女	通常						マナちゃん、あなたは……
+	オルタ魔法少女	通常						そんなに消えてしまいたかったの？
+	オルタ魔法少女	通常						悪役として嫌われ者として、\n私たちに倒されることが望みなの？
+CharacterOff
+	マナアリス	本気						…………っ
+	マナアリス	本気						はあ、バレちゃいました……
+	マナアリス	本気						ループしてると思ってくれたなら\nマナ.ALICEがすごい悪い子だって\n思ってくれていたら
+	マナアリス	本気						迷わず倒してくれるって\nそう思っていたんですけどね……
+	マナアリス	本気						本当の最終回が先にあるって信じて
+	マナアリス	本気						世界に迷惑をかけた悪役が、\n正義の魔法少女に倒される最終回
+	マナアリス	本気						それはきっと、\n誰も不幸にならない結末だから……
+CharacterOff
+	オルタ魔法少女	通常						マナちゃ<dash=2>
+CharacterOff
+	マナアリス	本気						その名前で呼ばないでください
+	マナアリス	本気						マナ.ALICEは\nマナガルムじゃないんですから
+	マナアリス	本気						もう仕方がありませんね……
+StopBgm
+	マナアリス	本気						マナ.ALICEは悪として、\nだんな様に倒されないといけない\nだから<dash=2>
+Bgm	魔王バトル
+CharacterOff						0
+ImageEffect	SpriteCamera	Bloom
+Bg	黒背景
+Param	character_grayout=false
+	スチルアリスファミリー	マナアリス1	エフェクト裏			0
+	黒背景		エフェクト表			0
+Se	光2
+Tween	黒背景	MoveBy	x=1500 time=2				NoWait
+	マナアリス	<Off>						《<ruby=アリス・イン・ワンダーランド>彷徨う少女と夢幻の鍵</ruby>》
+Se	光3
+	スチルアリスファミリー	マナアリス2				2
+Wait						2.5
+ImageEffectOff	SpriteCamera	Bloom
+FadeOut	black					.1
+ImageEffectOff	SpriteCamera	Bloom
+ImageEffect	SpriteCamera	MotionBlur
+CharacterOff						0
+StopSe
+	スチルマナアリス魔法陣		エフェクト表
+	イベントスチル1048A		エフェクト裏
+Wait						.1
+FadeIn	black					.1
+Wait						.5
+Se	光2
+	展開魔法陣緑色		g000045300
+Tween	展開魔法陣緑色	ScaleBy	x=10 y=10				NoWait
+Wait						1
+Se	光3
+FadeOut	white					1
+CharacterOff						0
+Bg	市街地B2(紫)					0
+	マナアリスA	通常	p3b			2
+	マナアリスB	通常	p7b			2
+	マナアリスC	通常	p1b			2
+	マナアリスD	通常	p9b			2
+	マナアリス	嬉しい				0
+	オーラ青	通常	エフェクト表			0
+ImageEffectOff	SpriteCamera	MotionBlur
+FadeIn	white					1
+	マナアリス	嬉しい						無尽狼牙の夢の主♪\nアリスファミリーの眠りネズミ♪
+	マナアリス	嬉しい						マナガルム.ALICEです♪
+	マナアリス	嬉しい						お願いします、だんな様
+Tween	マナアリス	PunchPosition	y=30				NoWait
+	マナアリス	嬉しい						この悪役を倒して、\n物語を終わらせてください♪
+If	isdebug==true
+CharacterOff
+Jump	*E_1282_12
+EndIf
+EndScenario
+
+# E_1282_12
+Command	Arg1	Arg2	Arg3	Arg4	Arg5	Arg6	WaitType	Text	PageCtrl	Voice	WindowType
+Param	quest_name="クエスト名"
+ShowMessageWindow
+FadeOut	white					0
+StopSound
+Bgm	図書館
+Bg	凍りついた神殿城					0
+Param	character_grayout=false
+ImageEffect	SpriteCamera	Sepia
+	アリス	通常魔帝				0
+FadeIn	white					1
+	アリス	通常魔帝						勝利には様々な定義がある
+	アリス	通常魔帝						敵勢力を殲滅すること、\n作戦目標を達成することもそうだが
+	アリス	通常魔帝						生き残ること
+	アリス	通常魔帝						生存こそが生命の存在第一義ならば\n危機を乗り越え生存したことは\n生命体にとって根源的な勝利だろう
+CharacterOff
+	マナ	悲しい						…………
+CharacterOff
+	アリス	通常魔帝						マナガルムよ、\n貴様は自身の世界で唯一生き残った
+	アリス	通常魔帝						帽子屋のように\n幸運が全ての困難を退けたのではなく\n危機の渦中で生き残り続けた
+	アリス	通常魔帝						貴様の生存性能は、\n数多の並行世界の中でも特異なものだ
+CharacterOff
+	マナ	悲しい						……どうでもいいです
+	マナ	悲しい						それよりもお仕事をください
+CharacterOff
+	アリス	通常魔帝						仕事だと？
+CharacterOff
+	マナ	悲しい						この世界にも、\nだんな様がいるんですよね……？
+	マナ	悲しい						アリス様はこの世界を守るために\nマナの力が必要なんですよね？
+	マナ	悲しい						だったらなんでもやります
+	マナ	悲しい						どんな苦しいことでも嫌なことでも\n文句は言いません
+	マナ	悲しい						みんなが嫌がる、\n痛いことでも汚いことでもやります\nううん、やらせてください
+	マナ	悲しい						マナのために、\nみんなが自分を犠牲にしました……
+	マナ	悲しい						だんな様も家族の皆さんも\nマナを逃がして、盾になった……
+	マナ	悲しい						昔と同じように……\nまた、みんな……いなくなって……
+Tween	マナ	PunchPosition	y=30				NoWait
+	マナ	悲しい						だからそれくらいしないと\n生かして貰った意味がないんです！
+	マナ	悲しい						マナに生きている意味をください
+CharacterOff
+	アリス	通常魔帝						ならば報酬はどうする？
+	アリス	通常魔帝						労働には対価が必要だ
+	アリス	通常魔帝						ファミリーとして、\n私はその働きに対価で報いよう
+	アリス	通常魔帝						貴様の叶えたい願いはなんだ？
+CharacterOff
+	マナ	悲しい						だったら…………家族
+	マナ	悲しい						寝ている間だけでも良いから\n家族の夢を見せてください……
+	マナ	悲しい						絶対にいなくならない、\n家族の夢を……
+CharacterOff
+	アリス	通常魔帝						現実ではなく夢の中で、か……
+	アリス	通常魔帝						良いだろう、哀れなみなしごよ
+Se	フォーン
+FadeOut	white					1
+CharacterOff						0
+	マナアリス	本気				0
+	魔帝アリス	<Off>	1_2			0
+FadeIn	black					1
+	魔帝アリス	<Off>						これより貴様は"眠りネズミ"だ
+	魔帝アリス	<Off>						現と夢の狭間を彷徨い、\n理想の家族を守り続けると良い
+	魔帝アリス	<Off>						貴様が一人に戻り、\n夢から覚めるその時まで……な
+StopBgm
+Se	回想
+FadeOut	white					1
+ImageEffectOff	SpriteCamera	Sepia
+CharacterOff						0
+Bg	市街地B2(紫)					0
+	マナアリスA	通常	p3b			0
+	マナアリスB	通常	p7b			0
+	マナアリスC	通常	p1b			0
+	マナアリスD	通常	p9b			0
+	マナアリス	通常				0
+Wait						2
+FadeIn	white					1
+Bgm	魔王バトル
+	マナアリス	通常						ポットに落ちていらっしゃい♪
+	マナアリス	通常						終わることない夢の国♪
+Se	チャージ
+	オーラ青		エフェクト表			1
+	マナアリス	通常						ネズミの巣穴は底なしですよぉ♪
+Se	光3
+FadeOut	white					2
+CharacterOff						0
+Se	光3
+Se	闇3
+Se	火事
+	オルタ魔法少女	通常				0
+FadeIn	white					.2
+	土煙		エフェクト表			1
+Shake	オルタ魔法少女		x=10				NoWait
+	オルタ魔法少女	通常						きゃああああああっ!?
+CharacterOff
+	ディーア	悔しい4						くっ……
+CharacterOff
+	マナアリス	本気						どうして戦おうとしないんですかぁ？
+	マナアリス	怪しい						こんなんじゃ、\nマナ.ALICEは眠くなっちゃいます♪
+	マナアリス	怪しい						それでネズミが眠っている間に\nだんな様はかじられて穴ボコだらけ
+	マナアリス	本気						そうなってもいいんですかぁ？
+CharacterOff
+	ディーア	悔しい4						確かに防戦いっぽうはキツイな\nそれに<dash=2>
+CharacterOff
+	オルタ魔法少女	通常						どうしてこんなにマナちゃんが？
+CharacterOff
+	マナアリス	通常						これだけだと思いますかぁ？
+	マナアリス	笑い						まだまだ増えますよぉ♪
+Se	闇1
+	マナアリスA	通常	p3b			2
+	マナアリスB	通常	p7b			2
+Wait						2
+CharacterOff
+	オルタ魔法少女	本気						っ……！
+CharacterOff
+	マナアリス	本気						何千、何万、何億……\nぜーんぶマナ.ALICEなんです
+	マナアリス	本気						これが最後に残った家族\n絶対に生き残っちゃう\nマナ.ALICEだけの群れ……
+	マナアリス	本気						ずっと夢うつつだったから、\nいつからか外に出てきてしまいました
+	マナアリス	怪しい						もうマナ.ALICEにも\n誰が本物なのかなんてわかりません
+	マナアリス	怪しい						それが夢と現実の狭間を歩いて\n現実を侵食してしまった理想の果て
+	マナアリス	嬉しい						敵を殲滅するためには、\nすーっごく便利だったんですけどね♪
+CharacterOff
+	ディーア	悔しい4						ラスリゾ.ALICEのように\n現実に影響を与える<ruby=ワンダーランド>理想郷</ruby>か
+StopBgm
+	ディーア	怒り4						でも、それはもう<dash=2>
+CharacterOff
+	マナアリス	嬉しい
+Tween	マナアリス	PunchPosition	y=30				NoWait
+	マナアリス	嬉しい						さすが、だんな様♪\nもうわかってくれたんですねぇ♪
+Bgm	ロルリアンレットB
+	マナアリス	笑い						この夢はもう止まれません
+	マナアリス	笑い						マナ.ALICEたちはこのまま増えて\n魔界を埋め尽くします
+	マナアリス	本気						マナ.ALICEだけが生き残った……\n罪深くて血と汚れに塗れた\nどうしようもない魔界になります
+CharacterOff
+	オルタ魔法少女	本気						マナ、ちゃん……
+CharacterOff
+	マナアリス	本気						オルタお姉さん、\nだからもうマナガルムと呼ばないで
+	マナアリス	本気						なにも知らなかった\n純粋だったマナにはもう戻れません
+	マナアリス	本気						自分が一人になった理由にも気づかず\n無邪気に働いてきた頃には
+	マナアリス	本気						マナ.ALICEは"眠りネズミ"
+	マナアリス	本気						契約を結べば\nどんな敵でも確実に殲滅してくる\nアリスファミリーの最終兵器
+	マナアリス	本気						そして、\nもうすぐ魔界を滅ぼす悪役なんです
+	マナアリス	本気						だんな様たちの未来には\nマナ.ALICEは必要ありません……
+CharacterOff
+	ディーア	目閉じ4						だから、倒されたい……
+	ディーア	目閉じ4						あの時のハジマリの謎掛け
+	ディーア	目閉じ4						終わりがない者を終わらせるには\nどうすればいい？
+	ディーア	怒り4						伝承とそれに基づく魔剣だったら\n一つ強引な仮説がある
+	ディーア	怒り4						「終わり」を書き加える
+	ディーア	怒り4						伝承に、世界に、\n完全に終了したと認識させること
+	ディーア	怒り4						かつて兵器として降り立ったロストが\n魔剣になれたのと逆
+	ディーア	悔しい4						マナ.ALICEは結末を迎えて\nもう二度と復活することはない
+	ディーア	悔しい4						そんな伝承を付け加える
+	ディーア	怒り4						本来魔剣は不老不死\n理論的には可能かもしれないけれど\nそれが実現するまでどれだけ……
+	ディーア	怒り4						ああ、そうか
+	ディーア	悔しい4						本当の最終回まで\n終わらない物語と復活する敵幹部
+	ディーア	怒り4						何度も何度も倒される行程を経て\n世界に定着させる儀式
+	ディーア	怒り4						魔法少女はその執行人の役
+	ディーア	悔しい4						ここはそのための……！
+CharacterOff
+	マナアリス	笑い						リディちゃん……\n魔剣殺しがまだ機能していたのなら\n単純だったんですけどねぇ
+	マナアリス	笑い						でも魔剣殺しで破壊されても\n魔剣伝承には伝承が記録されたまま
+	マナアリス	笑い						マナ.ALICEは消え去りません
+	マナアリス	嬉しい						ラスボスであるハジマリちゃんだから\n実現できる方法です
+	マナアリス	本気						ここで最後の一匹になるまで\nマナ.ALICEが倒されれば\nこの伝承は終わりを迎えるでしょう
+CharacterOff
+	ミニマリ	本気						なるほどね、だからか……
+	ミニマリ	本気						ボクの本体がそうしたことにも\n理解はできるよ
+	ミニマリ	本気						彼女は終わらせようとした\nマナガルム.ALICEの<ruby=ワンダーランド>理想郷</ruby>という\n一つの世界を
+	ミニマリ	本気						クワイエット……\n誰もいない静かな眠りを……とは\nおあつらえむきの名前だね
+CharacterOff
+	オルタ魔法少女	本気						で、でも、それでいいの!?
+	オルタ魔法少女	本気						マナちゃんはそれで！\n悪役として倒されてもいいの!?\n満足なのっ!?
+CharacterOff
+	マナアリス	本気						オルタお姉さん……
+	マナアリス	本気						じゃあ逆に聞きますけど、\nマナ.ALICEがいる意味ってなんです？
+CharacterOff
+	オルタ魔法少女	通常						えっ……？
+CharacterOff
+	マナアリス	本気						最初の家族は\nマナを守るために犠牲になりました
+	マナアリス	本気						次の家族も……\nだんな様たちもマナ.ALICEをかばって\nみんないなくなりました
+	マナアリス	本気						ビジネスの関係だったけど\nアリス様もマナ.ALICEの\nファミリーだったのに……
+	マナアリス	本気						なにも、できなかった
+	マナアリス	本気						最初はマナ.ALICEの理想郷も\nネズミだらけじゃなかったんですよ
+Se	回想
+FadeOut	white					.3
+ImageEffect	SpriteCamera	GrayScale
+CharacterOff						0
+Bg	酒場1F					0
+	リディ	通常2	p2b			0
+	ディーア	通常2	p8b			0
+	マナアリス	本気				0
+FadeIn	white					.3
+	マナアリス	本気						夢の中なら\nだんな様やみんなにも出会えた……
+CharacterOff	リディ					1
+	マナアリス	本気						でも、いつしか消えてしまいました
+	マナアリスA	通常	p2b			1
+	マナアリス	本気						代わりにネズミが増えていきました
+CharacterOff	ディーア					1
+	マナアリス	本気						きっとマナ.ALICEが\n信じることができなかったから……
+	マナアリスB	通常	p8b			1
+	マナアリス	本気						夢の中でも、\nみんながずっと一緒だなんて\n信じられなかったから……
+	マナアリス	本気						またマナ.ALICEのせいで\nいなくなると分かっていたから
+	マナアリス	本気						みんなを犠牲に、\nまたマナ.ALICEは生き残っちゃうから
+FadeOut	white					.3
+ImageEffectOff	SpriteCamera	GrayScale
+CharacterOff						0
+Bg	市街地B2(紫)					0
+	マナアリス	本気				0
+FadeIn	white					.3
+	マナアリス	本気						アリス様がいなくなってからは、\nもう歯止めが効かなくなったんです
+	マナアリス	本気						だから最後に\nハジマリちゃんと取引をしました
+Se	回想
+FadeOut	white					.3
+ImageEffect	SpriteCamera	Sepia
+CharacterOff						0
+Bg	荒野					0
+	ハジマリ	通常				0
+FadeIn	white					.3
+	ハジマリ	通常						アリスからボクに対する監視役……\nいや刺客か
+	ハジマリ	通常						たしかに無限に増殖するキミならば\nラスボスに対抗できるね
+	ハジマリ	通常						ボクが終わらせようとしても\nキミは始まり続けるのだから……
+	ハジマリ	本気						でもいいのかい？
+	ハジマリ	本気						ボクを倒せたとしても、\nその先はキミによる滅亡だよ……？
+CharacterOff
+	マナアリス	本気						はい、わかっています
+	マナアリス	笑い						だから……取引をしませんか？
+	マナアリス	笑い						あなたはラスボスの役目を負って\n一度だけどんな世界でも壊せるって\n聞いています
+	マナアリス	笑い						その力で<ruby=ワンダーランド>理想郷</ruby>もろとも\nマナ.ALICEを壊してください
+CharacterOff
+	ハジマリ	通常						なるほど、夢だろうと世界は世界
+	ハジマリ	通常						ボクの力を消費させることで\n魔界を滅びから遠ざけることができる
+	ハジマリ	通常						でもボクが断れば\nキミの増殖で魔界は滅亡してしまう
+CharacterOff
+	マナアリス	笑い						あなたの望まない\n新しいハジマリがない終わり方で
+CharacterOff
+	ハジマリ	笑い						まいったね、\nだったらボクは協力するしかない♪
+	ハジマリ	通常						それにラスボスと同時に\nボクはキミたちのママでもあるんだ
+	ハジマリ	通常						キミが望む終わり方があるのなら、\nそれを叶えよう
+FadeOut	white					.3
+ImageEffectOff	SpriteCamera	Sepia
+CharacterOff						0
+Bg	市街地B2(紫)					0
+	ミニマリ	本気				0
+FadeIn	white					.3
+	ミニマリ	本気						だから完全な悪役として、\n魔界を滅ぼそうとした敵として、\n倒されようとした……
+CharacterOff
+	オルタ魔法少女	本気						そん、なの……
+CharacterOff
+	マナアリス	本気						オルタお姉さんはさっき、\n「悪役として倒されてもいいの」\nって言ってましたよね？
+	マナアリス	本気						でもそれは違います
+	マナアリス	本気						大事な家族をめちゃくちゃにして\n魔界を滅ぼしかけている
+	マナアリス	本気						マナ.ALICEはれっきとした悪役です
+	マナアリス	本気						存在したら、いけないんです……！
+If	isdebug==true
+CharacterOff
+Jump	*E_1282_13
+EndIf
+EndScenario
+
+# E_1282_13
+Command	Arg1	Arg2	Arg3	Arg4	Arg5	Arg6	WaitType	Text	PageCtrl	Voice	WindowType
+Param	quest_name="クエスト名"
+ShowMessageWindow
+FadeOut	black					0
+StopSound
+Bgm	魔王バトル
+Bg	市街地B2(紫)					0
+Param	character_grayout=false
+	マナアリス	笑い				0
+FadeIn	black					1
+	マナアリス	笑い						だんな様、オルタお姉さん\nそろそろ諦めて\n本当の最終回にしましょうよ
+	マナアリス	嬉しい						悪の幹部スリーピーを倒して\nハッピーエンド♪
+	マナアリス	笑い						同情する必要なんてありません
+	マナアリス	笑い						マナ.ALICEは\nあなたたちのマナガルムとは別人
+	マナアリス	笑い						あなたたちのマナガルムを守るには\nマナ.ALICEは邪魔者です
+	マナアリス	笑い						"眠りネズミ"として、\n今まで倒してきた敵と同じ存在
+	マナアリス	嬉しい						良く考えたら、\n前よりもっと最終回にふさわしい\nシチュエーションですよね？
+Tween	マナアリス	PunchPosition	y=30				NoWait
+	マナアリス	嬉しい						このままだと\n悪いネズミが世界を覆い尽くして\n世界の終わり♪
+	マナアリス	嬉しい						だけどそこに、\nさっそうと現れた魔法少女が\n悪役を倒して世界を救うんです
+	マナアリス	嬉しい						マナ.ALICEは悪役に、\nオルタお姉さんは主人公にふさわしい
+	マナアリス	嬉しい						だから早く<dash=2>
+StopBgm
+CharacterOff
+	オルタ魔法少女	本気
+Tween	オルタ魔法少女	PunchPosition	y=30				NoWait
+	オルタ魔法少女	本気						だ、だめ……！
+CharacterOff
+	マナアリス	本気						え……？
+Bgm	雪の街
+CharacterOff
+	オルタ魔法少女	本気						そんなのハッピーエンドじゃない\n本当の最終回なんかじゃない
+	オルタ魔法少女	本気						私はあなたを倒したくない、\nマナちゃんを悪役にしたくない……！
+Tween	オルタ魔法少女	PunchPosition	y=30				NoWait
+	オルタ魔法少女	本気						こんな形であなたを犠牲にして、\nあなたがいないエンドカードじゃ\n終わらせたくない！
+CharacterOff
+	マナアリス	本気						はあ、まだそんなことを……
+	マナアリス	本気						わかっていますか？
+	マナアリス	本気						マナ.ALICEはアリスファミリー
+	マナアリス	本気						今までずーっと戦ってきた\n一人でも強いベテランなんですよ
+	マナアリス	本気						それがこんなにたくさん
+Se	闇1
+	マナアリスA	通常	p3b			2
+	マナアリスB	通常	p7b			2
+	マナアリス	本気						相手を助けようとか雑念を抱いて\n勝てる相手だと思うんですか？
+CharacterOff
+	オルタ魔法少女	本気						勝つんじゃないの、助けるの……
+	オルタ魔法少女	本気						だってそれが……魔法少女だから
+	オルタ魔法少女	本気						本当はただの設定でも舞台でも、\nなんの意味もなかったとしても……
+	オルタ魔法少女	本気						私が夢見たのは、\nそんな希望を届けられる魔法少女
+Tween	オルタ魔法少女	PunchPosition	y=30				NoWait
+	オルタ魔法少女	本気						だから、諦めたくない……！
+CharacterOff
+	マナアリス	通常						オルタお姉さん……
+CharacterOff
+	オルタ魔法少女	笑い						えへへ……\n別の世界の私はこんなふうなことを\nたぶん言えなかったよね？
+	オルタ魔法少女	笑い						うん、私もそう思う
+	オルタ魔法少女	本気						私は自信がなくて弱虫で臆病で\n誰もが憧れる正義の魔法少女は\n似合わないと思うの……
+	オルタ魔法少女	本気						でも傷ついている人がいたら\n寄り添いたいし助けたい気持ちは本当
+	オルタ魔法少女	本気						だって、私も同じだったから……
+CharacterOff
+	マナアリス	通常						…………
+CharacterOff
+	オルタ魔法少女	本気						さっき攻撃を止めた時\nどうしてあなたの気持ちに気づけたか\nマナちゃんにはわかる……？
+	オルタ魔法少女	本気						今戦っている時も、\nあなたは自分を守ろうとしてなかった
+	オルタ魔法少女	本気						投げやりになって\n自分で自分を傷つけたがっている\nみたいだった……
+	オルタ魔法少女	本気						私が、そうだったみたいに……
+	オルタ魔法少女	本気						私も同じだったの
+Se	回想
+FadeOut	white					.3
+ImageEffect	SpriteCamera	Sepia
+CharacterOff						0
+Bg	白背景					0
+	イベントスチル1012E		エフェクト表			0
+FadeIn	white					.3
+	オルタ魔法少女	<Off>	1_2					お姉ちゃんの偽物として生まれて、\nでも本物を超えちゃって
+	オルタ魔法少女	<Off>						こんな伝承があることが\n生きていることが申し訳なくて……
+	オルタ魔法少女	<Off>						早く消えたいって、\nそんなことばっかり思ってた……
+	オルタ魔法少女	<Off>						特別だって言われても、\nこんな特別ならいらないって\n自分を傷つけたりもした
+	オルタ魔法少女	<Off>						あの頃の私があなたと同じ立場なら\nきっと同じことをしたと思う
+FadeOut	white					.3
+ImageEffectOff	SpriteCamera	Sepia
+CharacterOff						0
+Bg	市街地B2(紫)					0
+	オルタ魔法少女	笑い				0
+FadeIn	white					.3
+	オルタ魔法少女	笑い						でもね……？\nお姉ちゃんは私に言ってくれたの
+	オルタ魔法少女	笑い						私が必要だって、大好きだって
+	オルタ魔法少女	笑い						私がいるから、\nお姉ちゃんが存在できるんだって
+	オルタ魔法少女	笑い						マスターさんも支えてくれたの、\n私が立派な魔剣になれるように\n自分を好きになれるように
+	オルタ魔法少女	笑い						今の私は前よりも、\n自分で自分が好きになれた……
+	オルタ魔法少女	笑い						魔法少女になってみたいなんて\nだいそれた希望も持てるようになった
+	オルタ魔法少女	笑い						だから<dash=2>
+CharacterOff
+	マナアリス	通常						マナ.ALICEも同じように救われる？\nそう言いたいんですか？
+CharacterOff
+	オルタ魔法少女	本気						ううん、違うよ\nそんな無責任なこと、いえない
+	オルタ魔法少女	本気						でも私は、あなたの力になりたい
+CharacterOff
+	マナアリス	本気						っ…………
+CharacterOff
+	オルタ魔法少女	本気						悲しいことがあったら、\n一緒に悲しむこともできるし
+	オルタ魔法少女	本気						八つ当たりしたいなら、\nこの体で受け止めることもできる
+	オルタ魔法少女	本気						みんなのおかげで強くなれたから\n同じようにしてあげたい
+	オルタ魔法少女	本気						それが私の夢見た理想
+	オルタ魔法少女	本気						私だからできること、したいこと
+CharacterOff
+	マナアリス	本気						なんなんですか……
+	マナアリス	本気						それを信じられるとでも？
+Tween	マナアリス	PunchPosition	y=30				NoWait
+	マナアリス	本気						マナ.ALICEは救われたいんじゃない\nもう終わりたいんです……！
+	マナアリス	本気						一人で生き延びるのも\n戦って失い続けるのももうたくさん！
+	マナアリス	本気						戦っても、誰も守れないっ……！
+Tween	マナアリス	PunchPosition	y=30				NoWait
+	マナアリス	本気						これが永遠に続くなら、\nキレイな形でエンディングにしたい！
+	マナアリス	本気						それがマナガルム.ALICEの願い
+StopBgm
+CharacterOff
+	ディーア	怒り4						だったらどうして、\nオレたちを相手に選んだんだ？
+CharacterOff
+	マナアリス	通常						え……？
+Bgm	ロルリアンレットC
+CharacterOff
+	ディーア	怒り4						アリスファミリーとして動く間は\n一度も接触しなかったのに\n最後の最後でお前は姿を見せてくれた
+	ディーア	怒り4						変装していたけど、\nマスクと偽名なんて簡単なものだけ
+	ディーア	怒り4						最後にもう一度、\n家族に会いたかったんじゃないのか？
+	ディーア	怒り4						どんなに辛い道のりを歩いて傷ついて\n心がすり減ってしまっても
+	ディーア	怒り4						お前は自分で魔界を滅ぼすのを\nよしとしなかった
+	ディーア	怒り4						自分自身では\nお前は恐ろしい兵器で悪役のような\n存在だと思えてしまっても
+	ディーア	通常4						オレたちに見えるのは、\n不器用だけど一生懸命で頑張り屋で\n責任感が強いマナガルムだ
+	ディーア	通常4						今も居場所を守るために戦っている\nかわいくて寂しがり屋な女の子
+CharacterOff
+	オルタ魔法少女	笑い						だから、お話をしよう？
+	オルタ魔法少女	本気						マナちゃんが感じたこと言いたいこと\n私も聞きたいから……！
+CharacterOff
+	マナアリス	泣き
+Tween	マナアリス	PunchPosition	y=30				NoWait
+	マナアリス	泣き						そんな希望で騙さないでください!!
+	マナアリス	泣き						どうせまた、\nだんな様もオルタお姉さんも\nマナの前から消えちゃうんです……！
+Tween	マナアリス	PunchPosition	y=30				NoWait
+	マナアリス	泣き						一人になるなんて、もう嫌……っ！
+StopBgm
+CharacterOff
+	オルタ魔法少女	本気						そうだよね、\n簡単には信じられないよね……
+Bgm	風属性バトル
+Tween	オルタ魔法少女	PunchPosition	y=30				NoWait
+	オルタ魔法少女	本気						だから証明させて……！
+CharacterOff
+	ディーア	本気4						ああ！\nマナを救うために戦おう……！
+	ディーア	怒り4						どんな敵が襲いかかって来ても\nオレたちは消えたりしない\nマナに寄り添って希望を届けられる
+	ディーア	本気4						それを証明するために！
+CharacterOff
+	オルタ魔法少女	笑い						はい！
+CharacterOff
+	マナアリス	泣き						無尽狼牙の夢の主\nアリスファミリーの眠りネズミ！
+	マナアリス	泣き						マナガルム.ALICE！
+CharacterOff
+	ディーア	怒り4						魔剣王、\n<param=name>
+	ディーア	怒り4						そして<dash=2>
+CharacterOff
+	オルタ魔法少女	笑い						魔界を守る奇跡の光！\n愛と希望と魔法の使者！
+	オルタ魔法少女	笑い						魔法少女ミラクルオルタ！
+CharacterOff
+	オルタ魔法少女	拡大笑い	エフェクト表					あなたに\n愛と希望を届けてみせます……！
+If	isdebug==true
+CharacterOff
+Jump	*E_1282_14
+EndIf
+EndScenario
+
+# E_1282_14
+Command	Arg1	Arg2	Arg3	Arg4	Arg5	Arg6	WaitType	Text	PageCtrl	Voice	WindowType
+Param	quest_name="クエスト名"
+ShowMessageWindow
+FadeOut	black					0
+StopSound
+Bgm	決戦
+Bg	市街地B2(紫)					0
+Param	character_grayout=false
+	マナアリス	泣き				0
+FadeIn	black					1
+	マナアリス	泣き						なんで、どうして……？
+Tween	マナアリス	PunchPosition	y=30				NoWait
+	マナアリス	泣き						なんでマナを\n放っておいてくれないんですか……！
+CharacterOff
+	オルタ魔法少女	本気						放っておけるわけないよ……！
+	オルタ魔法少女	本気						だってがんばってきたんでしょ？
+	オルタ魔法少女	本気						一人になって寂しくて心細くて\nみんなに謝りたくて
+	オルタ魔法少女	本気						それでも生かされたから、\nお仕事で返そうとしてきたんでしょ？
+	オルタ魔法少女	本気						辛いことが多すぎて、\n心も体も疲れちゃったかもしれない
+Tween	オルタ魔法少女	PunchPosition	y=30				NoWait
+	オルタ魔法少女	本気						だったらそれを、\n私たちも背負いたいよ……！
+	オルタ魔法少女	本気						私たちだって、\nあなたが守ってくれた魔界で生きる\n家族なんだから……！
+CharacterOff
+	マナアリス	泣き						で、でも、マナは……！
+	マナアリス	泣き						こんなはずじゃなかったのに……\n悪役だって蔑まれて……\nそのまま消えるはずだったのに……
+	マナアリス	泣き						なんで、みんな優しいんですか……？
+Shake	マナアリス		x=3				NoWait
+	マナアリス	泣き						ぐすっ……\nなんで、みんな、消えちゃって……
+CharacterOff
+	ディーア	怒り4						マナが大事だったからだよ
+	ディーア	怒り4						お前が大好きだから、\nどうしても守ってあげたかったんだ
+	ディーア	怒り4						残されたお前にはつらいことだけど\n彼らは後悔しなかったはずだ
+	ディーア	目閉じ4						だけどその人たちは、\nお前がどんなにがんばっていても\n褒めてあげることはできないから
+	ディーア	通常4						ギブ＆テイク……\nいろいろと勉強したんだよな？
+	ディーア	笑い4						ならがんばったマナ.ALICEには\n報酬を与えないと……！
+CharacterOff
+	オルタ魔法少女	本気						はい……！
+CharacterOff
+	マナアリス	泣き						でも、どうやって？
+	マナアリス	泣き						マナは……\nもうどれが本物かもわからなくて……
+CharacterOff
+	オルタ魔法少女	笑い						そんなことないよ？
+	オルタ魔法少女	笑い						私たちにはちゃんとわかってる
+	オルタ魔法少女	笑い						どんなに増えて見えても\n心はみんな同じマナ.ALICEちゃん
+	オルタ魔法少女	笑い						ずっとがんばってきた、\n私たちの仲間で、家族だから！
+CharacterOff
+	マナアリス	泣き						っ…………
+StopBgm
+Se	回想
+FadeOut	white					.3
+ImageEffect	SpriteCamera	Sepia
+CharacterOff						0
+Bg	凍りついた神殿城					0
+	アリス	通常魔帝				0
+FadeIn	white					.3
+	アリス	通常魔帝						貴様が一人に戻り、\n夢から覚めるその時まで……な
+FadeOut	white					.3
+ImageEffectOff	SpriteCamera	Sepia
+CharacterOff						0
+Bg	市街地B2(紫)					0
+	黒グラデーション		エフェクト表
+	マナアリス	泣き				0
+FadeIn	white					.3
+Bgm	結婚
+	マナアリス	泣き						アリス様……\nこういうことだったんですか？
+	マナアリス	泣き						マナが、\nまた一人になってもいいって……\n安心できたら……
+	マナアリス	泣き						この夢は、終わらせられるんですか？
+CharacterOff	黒グラデーション					1
+	マナアリス	泣き						それ、なら……
+	マナアリス	通常						もし本当に報酬をくれるなら
+	マナアリス	嬉しい						夢から覚めても、一人になっても\nまた家族にしてくれますか？
+CharacterOff
+	ディーア	笑い4
+Tween	ディーア	PunchPosition	y=30				NoWait
+	ディーア	笑い4						ああ、もちろん！
+	ディーア	笑い4						今までがんばってきたんだから
+CharacterOff
+	オルタ魔法少女	笑い						私たちはちゃんとここにいる
+	オルタ魔法少女	笑い						愛と希望があれば、\n魔法少女はぜったいに消えない
+	オルタ魔法少女	笑い						これで、証明できたかな？
+CharacterOff
+	マナアリス	通常						……………………
+	マナアリス	嬉しい						えへへ♪
+	マナアリス	嬉しい						今まで……\nちゃんと眠るのが怖かったんです
+	マナアリス	嬉しい						夢の中でみんなに再会したときに\nすごく悲しくなるから
+	マナアリス	嬉しい						でも今なら……\nあなたたち家族の近くでなら……
+	マナアリス	嬉しい						ゆっくり、眠れそうな気がします……
+CharacterOff						0
+ImageEffect	SpriteCamera	Bloom
+Bg	黒背景
+Param	character_grayout=false
+	スチルアリスファミリー	マナアリス2	エフェクト裏			0
+	黒背景		エフェクト表			0
+Se	フォーン
+Tween	黒背景	MoveBy	x=1500 time=3				NoWait
+Wait						1
+Se	パリン
+FadeOut	white					1
+Bg	白背景					0
+ImageEffectOff	SpriteCamera	Bloom
+	スチルアリスファミリー	マナアリス3	エフェクト裏			0
+FadeIn	white					2
+Wait						2
+FadeOut	white					2
+CharacterOff						0
+Bg	市街地B					0
+	マナアリス	怪しい				0
+StopBgm
+Wait						2
+FadeIn	black					2
+Bgm	凱旋
+	マナアリス	怪しい						すぅー♪ すぅー♪
+CharacterOff
+	オルタ魔法少女	笑い						泣き疲れて、寝ちゃいましたね
+	オルタ魔法少女	笑い						これでハッピーエンド
+CharacterOff
+	ディーア	通常4						ああ、そうだな
+	ディーア	笑い4						魔法少女が\n悪役だと思い込もうとしていた子の\n命と心を救うことができた
+	ディーア	笑い4						本当に成長したな、オルタ
+CharacterOff
+	オルタ魔法少女	笑い						マスターさんたちのおかげ
+	オルタ魔法少女	笑い						むしろ私のほうが\nなんだか救われた気がします……
+	オルタ魔法少女	笑い						みんなが私にくれたものを、\nちゃんと力に変えることができたから
+	オルタ魔法少女	笑い						でもこれからもっと、\n私にできるやり方で成長しますよ
+	オルタ魔法少女	笑い						それが皆に希望を貰って、\n希望を届けられるようになった私の\nやりたいことですから
+CharacterOff
+	ディーア	笑い4						ああっ！
+	ディーア	通常4						そして……
+	ディーア	通常4						ハジマリ
+Se	フォーン
+CharacterOff
+	ミニマリ	通常				1		おや？\nもうボクの役割は終わったとばかり\n思っていたけれどね
+CharacterOff
+	ディーア	通常4						魔法少女のお供なら、\nむしろねぎらいをかけるほうだろ？
+	ディーア	怪しい4						途中から、\nもう役目は済んだみたいな顔をして\n姿を隠してたけど……
+	ディーア	通常4						ハジマリ、\nこれがお前の望みだったんだろう？
+CharacterOff
+	ミニマリ	通常						ふふ、それはどういうことだい？
+CharacterOff
+	ディーア	通常4						とぼけるなよ
+	ディーア	通常4						お前と本体とは別々の意思で\n動いていたわけじゃないんだろう？
+	ディーア	通常4						たしかにここは\nお前がマナ.ALICEを終わらせるために\n作り上げた舞台だったけれど
+	ディーア	通常4						それは悪役として\n絶望を抱えさせたまま終わらせる\nためじゃない
+	ディーア	通常4						お前は自分を悪役だと思い込んでいた\nあの子を救いたかった
+	ディーア	通常4						そうだろう？
+CharacterOff
+	ミニマリ	通常						壮大な舞台を用意して\n登場人物を操るというのは\nラスボスらしい行動だけれど
+	ミニマリ	通常						ボクがキミの視点に立ったとしたら\n悪辣なラスボスが\n自分の邪魔をする"眠りネズミ"を騙し
+	ミニマリ	通常						自滅させようとしたと考えても\nおかしくないと思うよ？
+	ミニマリ	通常						実際に彼女の悪魔の鍵の力、\n終焉に抗える無限増殖は\n機能を停止したわけだしね？
+	ミニマリ	本気						そんなに楽観的に考えていいの？
+CharacterOff
+	ディーア	笑い4						だったら、\nどうして魔法少女だったんだ？
+	ディーア	通常4						悪役にあてる相手として\n勇者でも英雄でもない\n魔法少女オルタをお前は選んだ
+	ディーア	通常4						魔法少女は希望を届ける女の子\nその源泉はきっと他者への共感だ
+	ディーア	通常4						正義でも悪でもなく、\n相手のことを一生懸命に考えて、\n世界を良くしようとすることだ
+	ディーア	通常4						ただの敵として、\nマナガルム.ALICEを倒す目的なら\n魔法少女は必要ない
+CharacterOff
+	ミニマリ	本気						…………
+	ミニマリ	笑い						ふふ♪
+	ミニマリ	通常						ボクはラスボスだ\n役目として世界を終わらせる者だ
+	ミニマリ	通常						だけどこうして早く目覚めて、\n世界は滅びかけだけど\n本当の終わりにはまだまだ早くて
+	ミニマリ	通常						世界を創った者の一人として、\n魔剣少女たちの起源である母として\nなにかできないかと考えた……
+	ミニマリ	通常						母とは子の幸せを願うものだろう？
+	ミニマリ	悲しい						だから自分を否定するあの子たちを\n放ってはおけなかった
+	ミニマリ	悲しい						魔界を傷つけた罪悪感なんて、\nボク以外が持つ必要なんてないんだ
+	ミニマリ	怪しい						でもボクはラスボスで、\nいずれはキミたちが抗う対象\n救い主なんかに成ってはいけない
+	ミニマリ	通常						キミとオルタを巻き込んだのは\nそういう理由から
+	ミニマリ	通常						オルタも元々は望まれぬ存在、\n真の魔剣たるグラムにとっての悪役
+	ミニマリ	通常						キミたちはそんな運命を変えて、\nオルタを幸せにした
+	ミニマリ	通常						キミとオルタなら、\nあの子たちの救いになるかも……\nなんて考えてしまったんだ
+CharacterOff
+	ディーア	通常4						……そっか
+	ディーア	笑い4						めちゃくちゃ怪しかったし\n実際に黒幕だったけど\nお前のことを信じてよかったよ
+	ディーア	通常4						それで？\nオレたちはお眼鏡にかなったのか？
+CharacterOff
+	ミニマリ	笑い						うん♪ 見込んだ通りだった♪
+	ミニマリ	笑い						ボクの想像を超えたキミとなら、\nもう一度新しいものを創れるかもって\n思ってしまうくらいに♪
+	ミニマリ	通常						そういう信頼できる存在を、\n今の魔界だとなんて呼ぶべきかな？
+	ミニマリ	笑い						ツガイ？ 伴侶？
+	ミニマリ	笑い						あるいはママの隣に立つ者として\nパパになっちゃうのはどう？
+	ミニマリ	笑い						キミなら良いパパになりそうだ♪
+CharacterOff
+	ディーア	絶望4
+Tween	ディーア	PunchPosition	y=30				NoWait
+	ディーア	絶望4						なんでそうなる!?
+	ディーア	笑い4						でもこれで異変は終わ<dash=2>
+StopBgm						0
+StopSe						0
+Se	チャージ
+CharacterOff						0
+	           	<Off>	1_2
+Se	雨	TRUE
+ImageEffect	SpriteCamera	Sepia
+Bg	遺跡C_過去
+Wait						.1
+Bg	山岳B_過去
+Wait						.1
+ImageEffectOff	SpriteCamera	Sepia
+ImageEffect	SpriteCamera	GrayScale
+Bg	魔術空間_過去
+Wait						.1
+ImageEffectOff	SpriteCamera	GrayScale
+ImageEffect	SpriteCamera	Sepia
+Bg	宝石鉱山_過去
+Wait						.1
+ImageEffectOff	SpriteCamera	Sepia
+ImageEffect	SpriteCamera	GrayScale
+Bg	教会内部
+Wait						.1
+ImageEffectOff	SpriteCamera	GrayScale
+ImageEffect	SpriteCamera	Sepia
+Bg	市街地C
+Wait						.1
+ImageEffectOff	SpriteCamera	Sepia
+ImageEffect	SpriteCamera	GrayScale
+Bg	遺跡C_過去
+Wait						.1
+ImageEffectOff	SpriteCamera	GrayScale
+ImageEffect	SpriteCamera	Sepia
+Bg	山岳B_過去
+Wait						.1
+ImageEffectOff	SpriteCamera	Sepia
+ImageEffect	SpriteCamera	GrayScale
+Bg	魔術空間_過去
+Wait						.1
+ImageEffectOff	SpriteCamera	GrayScale
+ImageEffect	SpriteCamera	Sepia
+Bg	宝石鉱山_過去
+Wait						.1
+ImageEffectOff	SpriteCamera	Sepia
+ImageEffect	SpriteCamera	GrayScale
+Bg	教会内部
+Wait						.1
+ImageEffectOff	SpriteCamera	GrayScale
+ImageEffect	SpriteCamera	Sepia
+Bg	市街地A
+Wait						.1
+ImageEffectOff	SpriteCamera	Sepia
+StopSe						.5
+FadeOut	white					2
+Wait						1
+CharacterOff						0
+Bg	市街地A					0
+	魔劍グラム=オルタ	通常2				0
+Wait						3
+FadeIn	black					1
+Bgm	コメディ
+	魔劍グラム=オルタ	通常2						私、グラム=オルタ
+	魔劍グラム=オルタ	嬉しい2						お姉ちゃんとマスターさん、\nそして仲間のみんなとの日常<dash=2>
+	魔劍グラム=オルタ	慌て2						…………
+CharacterOff
+	ディーア	絶望4
+Tween	ディーア	PunchPosition	y=30				NoWait
+	ディーア	絶望4						なんでどうしてっ!?
+CharacterOff
+	ミニマリ	通常						だって救われたのは、\nマナガルム.ALICEだけだろう？
+Tween	ミニマリ	PunchPosition	y=30				NoWait
+	ミニマリ	笑い						残る悪役たちも救ってほしい♪\n頼むよ、魔剣王♪
+	ミニマリ	通常						そうしないと、\n魔界は大変なことになるんだから
+	ミニマリ	通常						それに、\nあの子たちが悪役になったのは\nキミにも大いに責任があるんだよ？
+CharacterOff
+	ディーア	驚き4						え……？
+StopBgm
+	wipe		wipe_start			0
+Tween	wipe	MoveTo	x=-800 islocal=true time=1.2	linear
+FadeOut	black					.1
+CharacterOff						0
+Bg	神殿B					0
+	キュービ		2_3_m			0
+Wait						3
+FadeIn	black					.3
+Bgm	絶望
+	キュービ	通常						マナガルム.ALICEちゃんは\n別の結末を迎えたみたいですね
+CharacterOff
+	コキュートス	通常	2_3_m					それが彼女の結論なら、\n私たちは同志として歓迎すべきよ
+	コキュートス	通常						でも私たちは彼女と違う
+	コキュートス	通常						私たちは\nしっかり終わりを迎えないと……
+Se	フォーン
+CharacterOff
+	ハジマリ	通常				1		集まっているね、\nキュービにコキュートス♪
+CharacterOff
+	キュービ	通常	2_3_m					ハジマリちゃん、\nそろそろわたしたちも……！
+CharacterOff
+	ハジマリ	通常						会議の前に少し待ってくれ
+	ハジマリ	笑い						実はキミたちに新たな同志\nいや、リーダーを紹介したいんだ♪
+CharacterOff
+	キュービ	通常	2_3_m					リーダー？
+CharacterOff
+	コキュートス	通常	2_3_m					どうしていきなり？\nすごく非合理的に聞こえるけれど？
+CharacterOff
+	ハジマリ	通常						そうかな？\nだってボクも四天王の一人なのに\n首領も兼任だったんだよ？
+	ハジマリ	通常						リーダーにその配下の四天王の方が\n配役として普通じゃないかい？
+StopBgm
+	ハジマリ	笑い						ということで入ってくれ♪
+Bgm	魔王バトル
+CharacterOff
+	ディーア	怪しい4				1		クククク♪\nオレこそが悪逆非道の魔剣王
+	ディーア	本気4						今日よりオレが、\nクワイエットの大首領となって、\n魔界支配を完遂してみせる！
+CharacterOff
+	コキュートス	通常	2_3_m					……えっ？
+CharacterOff
+	キュービ	通常	2_3_m					なぜ……？
+CharacterOff
+	ディーア	怒り4						魔界よ<dash=2>
+Tween	ディーア	PunchPosition	y=30				NoWait
+	ディーア	怒り4						この魔剣王に従え！
+	ディーア	怒り4						オレが野望を果たすその時まで\nまだ……！
+CharacterOff
+	ディーア	拡大本気4	エフェクト表4					エンドカードじゃ終わらせない！
+FadeOut	white					2
+CharacterOff						0
+	イベントロゴ1282		エフェクト表			2
+FadeIn	white					1
+	          	<Off>						To Be Continued……
+FadeOut	white					2
+If	isdebug==true
+CharacterOff
+Jump	*E_1282_01
+EndIf
+EndScenario
