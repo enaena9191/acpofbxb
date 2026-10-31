@@ -2242,5 +2242,17 @@
         "ts_source": "rss"
       }
     ]
+  },
+  "4853": {
+    "slug": "yokoku_AkunoHimitsusoshiki",
+    "canonical": "04853_20261031.html",
+    "versions": [
+      {
+        "ts": "2026/10/31 16:00:00",
+        "file": "04853_20261031.html",
+        "hash": "4eecc320ee045b3054b54845f937ac537ba2716b915c840165fb99e9300ee4a4",
+        "ts_source": "rss"
+      }
+    ]
   }
 }

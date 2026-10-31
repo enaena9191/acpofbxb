@@ -4861,6 +4861,7 @@ bxb-assets/images/topics/events/1279/leaflet_11279_8.jpg
 bxb-assets/images/topics/events/1279/leaflet_11279_9.jpg
 bxb-assets/images/topics/events/1279/title.jpg
 bxb-assets/images/topics/events/1279/yokoku_SeponeSampo.jpg
+bxb-assets/images/topics/events/1282/yokoku_AkunoHimitsusoshiki.jpg
 bxb-assets/images/topics/events/2001/title_2001.jpg
 bxb-assets/images/topics/events/2001/title_2001_1.jpg
 bxb-assets/images/topics/events/2001/title_2001_3.jpg
