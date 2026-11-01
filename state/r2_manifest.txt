@@ -4861,6 +4861,14 @@ bxb-assets/images/topics/events/1279/leaflet_11279_8.jpg
 bxb-assets/images/topics/events/1279/leaflet_11279_9.jpg
 bxb-assets/images/topics/events/1279/title.jpg
 bxb-assets/images/topics/events/1279/yokoku_SeponeSampo.jpg
+bxb-assets/images/topics/events/1282/leaflet_11282_1.jpg
+bxb-assets/images/topics/events/1282/leaflet_11282_2.jpg
+bxb-assets/images/topics/events/1282/leaflet_11282_3.jpg
+bxb-assets/images/topics/events/1282/leaflet_11282_4.jpg
+bxb-assets/images/topics/events/1282/leaflet_11282_5.jpg
+bxb-assets/images/topics/events/1282/leaflet_11282_6.jpg
+bxb-assets/images/topics/events/1282/leaflet_11282_7.jpg
+bxb-assets/images/topics/events/1282/title.jpg
 bxb-assets/images/topics/events/1282/yokoku_AkunoHimitsusoshiki.jpg
 bxb-assets/images/topics/events/2001/title_2001.jpg
 bxb-assets/images/topics/events/2001/title_2001_1.jpg
@@ -10316,6 +10324,7 @@ bxb-assets/images/topics/materials/43070053/large.png
 bxb-assets/images/topics/materials/43070054/large.png
 bxb-assets/images/topics/materials/43070057/large.png
 bxb-assets/images/topics/materials/43070061/large.png
+bxb-assets/images/topics/materials/43070065/large.png
 bxb-assets/images/topics/materials/43080054/large.png
 bxb-assets/images/topics/materials/43080055/large.png
 bxb-assets/images/topics/materials/43080056/large.png
@@ -10519,6 +10528,7 @@ bxb-assets/images/topics/materials/52140098/large.png
 bxb-assets/images/topics/materials/52140099/large.png
 bxb-assets/images/topics/materials/52140100/large.png
 bxb-assets/images/topics/materials/52140103/large.png
+bxb-assets/images/topics/materials/52140105/large.png
 bxb-assets/images/topics/materials/521405/large.png
 bxb-assets/images/topics/materials/52150003/large.png
 bxb-assets/images/topics/materials/52150007/large.png
@@ -11321,6 +11331,7 @@ bxb-assets/images/topics/picture/2046_sample.jpg
 bxb-assets/images/topics/picture/2047_sample.jpg
 bxb-assets/images/topics/picture/2048_sample.jpg
 bxb-assets/images/topics/picture/2049_sample.jpg
+bxb-assets/images/topics/picture/2050_sample.jpg
 bxb-assets/images/topics/picture/4009_sample.jpg
 bxb-assets/images/topics/picture/4010_sample.jpg
 bxb-assets/images/topics/picture/4013_sample.jpg
@@ -11778,6 +11789,7 @@ bxb-assets/images/topics/souls/1572/stand_ll.png
 bxb-assets/images/topics/souls/1573/stand_ll.png
 bxb-assets/images/topics/souls/1574/stand_ll.png
 bxb-assets/images/topics/souls/1575/stand_ll.png
+bxb-assets/images/topics/souls/1576/stand_ll.png
 bxb-assets/images/topics/tape_04.jpg
 bxb-assets/images/topics/tape_04_soul.jpg
 bxb-assets/images/topics/title/info_header_gr_questionnaire.jpg
@@ -11862,6 +11874,7 @@ bxb-assets/images/topics/updates/premium/title_50002_1.jpg
 bxb-assets/images/topics/updates/premium/title_50002_2.jpg
 bxb-assets/images/topics/updates/premium/title_510100.jpg
 bxb-assets/images/topics/updates/premium/title_510101.jpg
+bxb-assets/images/topics/updates/premium/title_510102.jpg
 bxb-assets/images/topics/updates/premium/title_51027.jpg
 bxb-assets/images/topics/updates/premium/title_51029.jpg
 bxb-assets/images/topics/updates/premium/title_51030.jpg
