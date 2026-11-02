@@ -2290,5 +2290,17 @@
         "ts_source": "rss"
       }
     ]
+  },
+  "4855": {
+    "slug": "yokoku_851",
+    "canonical": "04855_20261102.html",
+    "versions": [
+      {
+        "ts": "2026/11/02 16:00:00",
+        "file": "04855_20261102.html",
+        "hash": "11afaae11df5d4101aa9cc14ac5dcab1ee33287ebfe46611fd445a0fe73b7a1b",
+        "ts_source": "rss"
+      }
+    ]
   }
 }
