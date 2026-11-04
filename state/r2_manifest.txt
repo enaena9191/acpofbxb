@@ -1917,6 +1917,8 @@ bxb-assets/images/topics/4koma/comic_597_awsyijhga.png
 bxb-assets/images/topics/4koma/comic_597_tn_280_open.png
 bxb-assets/images/topics/4koma/comic_598_lghsbhjtg.png
 bxb-assets/images/topics/4koma/comic_598_tn_280_open.png
+bxb-assets/images/topics/4koma/comic_599_rhdlfirjyase.png
+bxb-assets/images/topics/4koma/comic_599_tn_280_open.png
 bxb-assets/images/topics/4koma/comic_59_tn_280_open.png
 bxb-assets/images/topics/4koma/comic_5_tn_280_open.png
 bxb-assets/images/topics/4koma/comic_6.png
@@ -14595,6 +14597,8 @@ bxb-assets/images/topics/weapons/1300011.jpg
 bxb-assets/images/topics/weapons/130002.jpg
 bxb-assets/images/topics/weapons/130003.jpg
 bxb-assets/images/topics/weapons/1301004.jpg
+bxb-assets/images/topics/weapons/130101.jpg
+bxb-assets/images/topics/weapons/130102.jpg
 bxb-assets/images/topics/weapons/130103.jpg
 bxb-assets/images/topics/weapons/130201.jpg
 bxb-assets/images/topics/weapons/130203.jpg

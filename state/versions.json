@@ -2314,5 +2314,29 @@
         "ts_source": "rss"
       }
     ]
+  },
+  "4857": {
+    "slug": "info_4koma_599",
+    "canonical": "04857_20261104.html",
+    "versions": [
+      {
+        "ts": "2026/11/04 19:00:00",
+        "file": "04857_20261104.html",
+        "hash": "cc9cde33062faeb5511c187978ae269f2cf48bce41e47731f2b89541633ac942",
+        "ts_source": "rss"
+      }
+    ]
+  },
+  "4858": {
+    "slug": null,
+    "canonical": "04858_20261104.html",
+    "versions": [
+      {
+        "ts": "2026/11/04 19:00:00",
+        "file": "04858_20261104.html",
+        "hash": "83310164409750764cc7db5999c825d8b4098450313f82f6c2b8f5488fee1bfd",
+        "ts_source": "page_time"
+      }
+    ]
   }
 }
