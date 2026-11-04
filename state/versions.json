@@ -2338,5 +2338,17 @@
         "ts_source": "page_time"
       }
     ]
+  },
+  "4859": {
+    "slug": "c_summergoods2_2026",
+    "canonical": "04859_20261104.html",
+    "versions": [
+      {
+        "ts": "2026/11/04 19:30:00",
+        "file": "04859_20261104.html",
+        "hash": "6ad584c968f090f38b5d344e60f5c23989d191837714981af1e2c9a4809bebd2",
+        "ts_source": "rss"
+      }
+    ]
   }
 }

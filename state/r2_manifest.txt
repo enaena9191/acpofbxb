@@ -2378,6 +2378,7 @@ bxb-assets/images/topics/campaign/1278/title_1278_06.jpg
 bxb-assets/images/topics/campaign/1280/title_1280.jpg
 bxb-assets/images/topics/campaign/1280/title_1280_01.jpg
 bxb-assets/images/topics/campaign/1280/title_1280_02.jpg
+bxb-assets/images/topics/campaign/1280/title_1280_03.jpg
 bxb-assets/images/topics/campaign/1284/title_1284.jpg
 bxb-assets/images/topics/campaign/1284/title_1284_01.jpg
 bxb-assets/images/topics/campaign/1284/title_1284_02.jpg
