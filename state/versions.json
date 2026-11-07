@@ -2350,5 +2350,17 @@
         "ts_source": "rss"
       }
     ]
+  },
+  "4860": {
+    "slug": "g_852",
+    "canonical": "04860_20261107.html",
+    "versions": [
+      {
+        "ts": "2026/11/07 16:00:00",
+        "file": "04860_20261107.html",
+        "hash": "3bd2f198f260b57c6c5044dc167ea90772696835ca9be71c73ac2bcb09d0ccb0",
+        "ts_source": "rss"
+      }
+    ]
   }
 }

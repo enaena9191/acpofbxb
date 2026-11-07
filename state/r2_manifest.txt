@@ -9086,6 +9086,10 @@ bxb-assets/images/topics/gachas/851/title_851_2.jpg
 bxb-assets/images/topics/gachas/851/title_851_3.jpg
 bxb-assets/images/topics/gachas/851/title_851_4.jpg
 bxb-assets/images/topics/gachas/851/title_851_5.jpg
+bxb-assets/images/topics/gachas/852/title_852_1.jpg
+bxb-assets/images/topics/gachas/852/title_852_2.jpg
+bxb-assets/images/topics/gachas/852/title_852_3.jpg
+bxb-assets/images/topics/gachas/852/title_852_4.jpg
 bxb-assets/images/topics/goods/2021summer_goods/2021summer_goods_title.jpg
 bxb-assets/images/topics/goods/2021summer_goods/image_01.jpg
 bxb-assets/images/topics/goods/2021summer_goods/image_02.jpg
@@ -10761,6 +10765,7 @@ bxb-assets/images/topics/materials/54150107/large.png
 bxb-assets/images/topics/materials/54160001/large.png
 bxb-assets/images/topics/materials/54160002/large.png
 bxb-assets/images/topics/materials/54160003/large.png
+bxb-assets/images/topics/materials/54160004/large.png
 bxb-assets/images/topics/materials/55010051/large.png
 bxb-assets/images/topics/materials/55010069/large.png
 bxb-assets/images/topics/materials/55010073/large.png

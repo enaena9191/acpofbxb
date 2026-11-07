@@ -1,6 +1,6 @@
 {
-  "latest_id": 4859,
-  "last_change_at": "2026-11-04T11:02:02+00:00",
+  "latest_id": 4860,
+  "last_change_at": "2026-11-07T07:02:51+00:00",
   "rss": {
     "yokoku_MachinaHeartBeating": {
       "pubDate": "Wed, 10 Jun 2026 18:00:00 +0900",
@@ -561,6 +561,10 @@
     "c_summergoods2_2026": {
       "pubDate": "Wed, 04 Nov 2026 19:30:00 +0900",
       "id": 4859
+    },
+    "g_852": {
+      "pubDate": "Sat, 07 Nov 2026 16:00:00 +0900",
+      "id": 4860
     }
   }
 }
