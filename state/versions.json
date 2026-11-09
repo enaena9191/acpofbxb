@@ -2374,5 +2374,17 @@
         "ts_source": "rss"
       }
     ]
+  },
+  "4862": {
+    "slug": "yokoku_852",
+    "canonical": "04862_20261109.html",
+    "versions": [
+      {
+        "ts": "2026/11/09 17:00:00",
+        "file": "04862_20261109.html",
+        "hash": "ed6f732b7b63fb7fd79fb230683aded2a655247b4ebd390f1c40ecd33485e9bb",
+        "ts_source": "rss"
+      }
+    ]
   }
 }
