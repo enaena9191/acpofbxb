@@ -9091,6 +9091,12 @@ bxb-assets/images/topics/gachas/852/title_852_2.jpg
 bxb-assets/images/topics/gachas/852/title_852_3.jpg
 bxb-assets/images/topics/gachas/852/title_852_4.jpg
 bxb-assets/images/topics/gachas/853/title.jpg
+bxb-assets/images/topics/gachas/853/title_853_1.jpg
+bxb-assets/images/topics/gachas/853/title_853_2.jpg
+bxb-assets/images/topics/gachas/853/title_853_3.jpg
+bxb-assets/images/topics/gachas/853/title_853_4.jpg
+bxb-assets/images/topics/gachas/853/title_853_5.jpg
+bxb-assets/images/topics/gachas/853/title_853_6.jpg
 bxb-assets/images/topics/goods/2021summer_goods/2021summer_goods_title.jpg
 bxb-assets/images/topics/goods/2021summer_goods/image_01.jpg
 bxb-assets/images/topics/goods/2021summer_goods/image_02.jpg
@@ -9421,6 +9427,7 @@ bxb-assets/images/topics/item/1180004/icon.png
 bxb-assets/images/topics/item/1180006/icon.png
 bxb-assets/images/topics/item/1180019/icon.png
 bxb-assets/images/topics/item/1180022/icon.png
+bxb-assets/images/topics/item/1180050/icon.png
 bxb-assets/images/topics/item/1181005/icon.png
 bxb-assets/images/topics/item/1181006/icon.png
 bxb-assets/images/topics/item/1181011/icon.png
@@ -10619,6 +10626,7 @@ bxb-assets/images/topics/materials/53020273/large.png
 bxb-assets/images/topics/materials/53020278/large.png
 bxb-assets/images/topics/materials/53020283/large.png
 bxb-assets/images/topics/materials/53020292/large.png
+bxb-assets/images/topics/materials/53020303/large.png
 bxb-assets/images/topics/materials/53030026/large.png
 bxb-assets/images/topics/materials/53030027/large.png
 bxb-assets/images/topics/materials/53030028/large.png
@@ -13817,6 +13825,9 @@ bxb-assets/images/topics/w_voice/1696-10.mp3
 bxb-assets/images/topics/w_voice/1697-03.mp3
 bxb-assets/images/topics/w_voice/1697-04.mp3
 bxb-assets/images/topics/w_voice/1697-08.mp3
+bxb-assets/images/topics/w_voice/1698-03.mp3
+bxb-assets/images/topics/w_voice/1698-06.mp3
+bxb-assets/images/topics/w_voice/1698-08.mp3
 bxb-assets/images/topics/w_voice/1700-03.mp3
 bxb-assets/images/topics/w_voice/1700-06.mp3
 bxb-assets/images/topics/w_voice/1700-08.mp3
@@ -14218,6 +14229,7 @@ bxb-assets/images/topics/weapons/118001.jpg
 bxb-assets/images/topics/weapons/1180019.jpg
 bxb-assets/images/topics/weapons/118002.jpg
 bxb-assets/images/topics/weapons/1180022.jpg
+bxb-assets/images/topics/weapons/1180050.jpg
 bxb-assets/images/topics/weapons/1181005.jpg
 bxb-assets/images/topics/weapons/1181006.jpg
 bxb-assets/images/topics/weapons/118101.jpg
@@ -15684,6 +15696,7 @@ bxb-assets/images/topics/weapons/169602.jpg
 bxb-assets/images/topics/weapons/169701.jpg
 bxb-assets/images/topics/weapons/169702.jpg
 bxb-assets/images/topics/weapons/169801.jpg
+bxb-assets/images/topics/weapons/169802.jpg
 bxb-assets/images/topics/weapons/170001.jpg
 bxb-assets/images/topics/weapons/170002.jpg
 bxb-assets/images/vote/chara_ranking_l2020_01.png

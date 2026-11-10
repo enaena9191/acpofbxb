@@ -2386,5 +2386,17 @@
         "ts_source": "rss"
       }
     ]
+  },
+  "4863": {
+    "slug": "g_853",
+    "canonical": "04863_20261110.html",
+    "versions": [
+      {
+        "ts": "2026/11/10 16:00:00",
+        "file": "04863_20261110.html",
+        "hash": "24ca54d5f2b3d3d27e0edef5f98aca96e3ee6cf9eb5f2dc06c6a6a2cbe94662f",
+        "ts_source": "rss"
+      }
+    ]
   }
 }
