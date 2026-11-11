@@ -12897,6 +12897,9 @@ bxb-assets/images/topics/w_voice/1344-09.mp3
 bxb-assets/images/topics/w_voice/1346-03.mp3
 bxb-assets/images/topics/w_voice/1346-05.mp3
 bxb-assets/images/topics/w_voice/1346-06.mp3
+bxb-assets/images/topics/w_voice/1347-03.mp3
+bxb-assets/images/topics/w_voice/1347-05.mp3
+bxb-assets/images/topics/w_voice/1347-06.mp3
 bxb-assets/images/topics/w_voice/1348-03.mp3
 bxb-assets/images/topics/w_voice/1348-05.mp3
 bxb-assets/images/topics/w_voice/1348-06.mp3
@@ -14213,6 +14216,7 @@ bxb-assets/images/topics/weapons/117601.jpg
 bxb-assets/images/topics/weapons/1176011.jpg
 bxb-assets/images/topics/weapons/117602.jpg
 bxb-assets/images/topics/weapons/117701.jpg
+bxb-assets/images/topics/weapons/117702.jpg
 bxb-assets/images/topics/weapons/1178001.jpg
 bxb-assets/images/topics/weapons/1178009.jpg
 bxb-assets/images/topics/weapons/117801.jpg
@@ -14706,6 +14710,7 @@ bxb-assets/images/topics/weapons/134203.jpg
 bxb-assets/images/topics/weapons/134601.jpg
 bxb-assets/images/topics/weapons/134603.jpg
 bxb-assets/images/topics/weapons/1346702.jpg
+bxb-assets/images/topics/weapons/134702.jpg
 bxb-assets/images/topics/weapons/1348009.jpg
 bxb-assets/images/topics/weapons/134801.jpg
 bxb-assets/images/topics/weapons/134803.jpg
