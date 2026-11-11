@@ -1,0 +1,220 @@
+# master_data changelog: 2026_11_11_00_00_00 → 2026_11_11_15_58_05
+
+## 总览
+
+| 表 | 新增 | 删除 | 调整 |
+|---|---:|---:|---:|
+| weapons | 0 | 0 | 16 |
+
+## weapons
+
+### 调整 (16)
+
+- [`117701`](weapons.json#L70786) 神剣アマノムラクモ
+  - base_name: 神剣アマノムラクモ (costume: 魔装)
+  - element=火(1) / type=長剣(1) / rarity=S(3) / cv=山崎はるか
+  - max stats: HP=10200 / ATK=7200 / DEF=6120 / SPD=19 / BREAK=3900
+  - hit_counts=[2, 4, 2] (3段)  motion_speed=[4.0/4.0/1.0]  mp=256
+  - three_size=姉さんと同じ / initial_slot=2
+  - BD: 十握叢雲・神機久沙凪 (arts_id=177)
+    - description: 敵全体に超強力な25連ダメージ＆99秒間ブレイク20%UP
+    - cost=5 / hit_count=25 / value=3.96 / additional_value=0.0
+  - innate skills (2):
+    - GuardBreak Multiply ×1.5 — 火属性の魔剣が大幅にガードブレイクしやすく
+    - **新增: Attack Multiply ×1.1 — 火属性の魔剣の攻撃力がアップ**
+- [`117702`](weapons.json#L70943) 神剣アマノムラクモ【極】
+  - base_name: 神剣アマノムラクモ (costume: 極魔装)
+  - element=火(1) / type=長剣(1) / rarity=S(3) / cv=山崎はるか
+  - max stats: HP=13260 / ATK=9360 / DEF=7960 / SPD=19 / BREAK=5070
+  - hit_counts=[3, 4, 5] (3段)  motion_speed=[4.0/4.0/1.0]  mp=256
+  - three_size=姉さんと同じ / initial_slot=3
+  - BD: 十握叢雲・神機久沙凪 (arts_id=177)
+    - description: 敵全体に超強力な25連ダメージ＆99秒間ブレイク20%UP
+    - cost=5 / hit_count=25 / value=3.96 / additional_value=0.0
+  - innate skills (3):
+    - GuardBreak Multiply ×1.75 — 火属性の魔剣が絶大にガードブレイクしやすく
+    - **新增: Attack Multiply ×1.25 — 火属性の魔剣の攻撃力がかなりアップ**
+    - **新增: Enemy_BreakAttack Multiply ×3.0 — ブレイク時に火属性の魔剣の攻撃力が3倍**
+- [`121501`](weapons.json#L87759) サイネリア
+  - base_name: サイネリア (costume: 魔装)
+  - element=水(2) / type=大鎌(12) / rarity=S(3) / cv=山本希望
+  - max stats: HP=9640 / ATK=3520 / DEF=5140 / SPD=31 / BREAK=1600
+  - hit_counts=[4, 4, 4] (3段)  motion_speed=[2.0/2.0/1.0]  mp=94
+  - three_size=81/58/80 / **initial_slot=1 → 3**
+  - BD: オルウェイズデライト (arts_id=215)
+    - description: 敵全体に超強力な31連ダメージ＆自分HP回復
+    - cost=4 / hit_count=31 / value=2.62 / additional_value=0.0
+  - innate skills (1):
+    - Defense Multiply ×1.25 — 水属性の魔剣の防御力がかなりアップ
+- [`121502`](weapons.json#L87897) サイネリア【極】
+  - base_name: サイネリア (costume: 極魔装)
+  - element=水(2) / type=大鎌(12) / rarity=S(3) / cv=山本希望
+  - max stats: HP=14460 / ATK=4580 / DEF=7710 / SPD=31 / BREAK=2400
+  - hit_counts=[5, 4, 7] (3段)  motion_speed=[2.0/2.0/1.0]  mp=94
+  - three_size=81/58/80 / **initial_slot=2 → 4**
+  - BD: オルウェイズデライト (arts_id=215)
+    - description: 敵全体に超強力な31連ダメージ＆自分HP回復
+    - cost=4 / hit_count=31 / value=2.62 / additional_value=0.0
+  - innate skills (2):
+    - Defense Multiply ×1.5 — 水属性の魔剣の防御力が大幅にアップ
+    - **新增: DamageLimitBreak Addition +1000000000.0 — 自身のダメージ上限が10億アップ**
+- [`121503`](weapons.json#L88054) サイネリア【極弐】
+  - base_name: サイネリア (costume: 極弐魔装)
+  - element=水(2) / type=大鎌(12) / rarity=S(3) / cv=山本希望
+  - max stats: HP=18800 / ATK=5960 / DEF=10030 / SPD=35 / BREAK=3120
+  - hit_counts=[6, 5, 7] (3段)  motion_speed=[3.0/2.2/1.3]  mp=102
+  - three_size=81/58/80 / **initial_slot=3 → 5**
+  - BD: エヴァーブライト (arts_id=10215)
+    - description: 敵全体に超強力な31連ダメージ＆自分HP回復
+    - cost=4 / hit_count=31 / value=2.62 / additional_value=0.0
+  - innate skills (2):
+    - Defense Multiply ×1.75 — 水属性の魔剣の防御力が絶大にアップ
+    - **新增: DamageLimitBreak Addition +1000000000.0 — 自身のダメージ上限が10億アップ**
+- [`129401`](weapons.json#L123013) ティナ
+  - base_name: ティナ (costume: 魔装)
+  - element=闇(5) / type=大鎌(12) / rarity=S(3) / cv=洲崎綾
+  - max stats: HP=7980 / ATK=4600 / DEF=3800 / SPD=48 / BREAK=500
+  - hit_counts=[7, 7, 13] (3段)  motion_speed=[2.0/2.0/1.0]  mp=308
+  - three_size=66/49/65 / **initial_slot=2 → 3**
+  - BD: 闇色星煌ソルシエール (arts_id=294)
+    - description: 敵全体に超強力な22連ダメージ＆15秒ﾓｰｼｮﾝ50%高速化
+    - cost=5 / hit_count=22 / value=4.5 / additional_value=0.0
+  - innate skills (2):
+    - Speed Multiply ×1.5 — 闇属性の魔剣の行動速度が大幅にアップ
+    - SapphireDrop Multiply ×2.0 — 自分の獲得するサファイアの量がかなり増加
+- [`129402`](weapons.json#L123170) ティナ【極】
+  - base_name: ティナ (costume: 極魔装)
+  - element=闇(5) / type=大鎌(12) / rarity=S(3) / cv=洲崎綾
+  - max stats: HP=10380 / ATK=5980 / DEF=4940 / SPD=48 / BREAK=650
+  - hit_counts=[8, 7, 16] (3段)  motion_speed=[2.0/2.0/1.0]  mp=308
+  - three_size=66/49/65 / **initial_slot=3 → 4**
+  - BD: 闇色星煌ソルシエール (arts_id=294)
+    - description: 敵全体に超強力な22連ダメージ＆15秒ﾓｰｼｮﾝ50%高速化
+    - cost=5 / hit_count=22 / value=4.5 / additional_value=0.0
+  - innate skills (4):
+    - Speed Multiply ×1.75 — 闇属性の魔剣の行動速度が絶大にアップ
+    - SapphireDrop Multiply ×3.0 — 自分の獲得するサファイアの量が大幅に増加
+    - **新增: Attack Multiply ×1.25 — 自身の攻撃力がかなりアップ**
+    - **新增: DamageLimitBreak Addition +1000000000.0 — 自身のダメージ上限が10億アップ**
+- [`129403`](weapons.json#L123365) ティナ【極弐】
+  - base_name: ティナ (costume: 極弐魔装)
+  - element=闇(5) / type=大鎌(12) / rarity=S(3) / cv=洲崎綾
+  - max stats: HP=13500 / ATK=8970 / DEF=6430 / SPD=52 / BREAK=850
+  - hit_counts=[9, 8, 16] (3段)  motion_speed=[1.0/1.2/1.0]  mp=336
+  - three_size=66/49/65 / **initial_slot=4 → 5**
+  - BD: 黒魔星煌スターマジック (arts_id=10294)
+    - description: 敵全体に超強力な22連ダメージ＆15秒ﾓｰｼｮﾝ50%高速化
+    - cost=5 / hit_count=22 / value=4.5 / additional_value=0.0
+  - innate skills (4):
+    - **新增: Speed Multiply ×1.75 — 闇属性の魔剣の行動速度が絶大にアップ【熟度UPにつれてさらに効果値UP】**
+    - SapphireDrop Multiply ×4.0 — 自分の獲得するサファイアの量が絶大に増加
+    - **新增: Attack Multiply ×1.25 — 自身の攻撃力がかなりアップ**
+    - **新增: DamageLimitBreak Addition +1000000000.0 — 自身のダメージ上限が10億アップ**
+    - **删除: Speed Multiply ×1.75 — 闇属性の魔剣の行動速度が絶大にアップ**
+- [`130101`](weapons.json#L126409) メギストス
+  - base_name: メギストス (costume: 魔装)
+  - element=火(1) / type=長剣(1) / rarity=S(3) / cv=奥野香耶
+  - max stats: HP=12300 / ATK=9150 / DEF=3840 / SPD=56 / BREAK=2300
+  - hit_counts=[2, 4, 3] (3段)  motion_speed=[4.0/4.0/1.0]  mp=180
+  - three_size=82/60/84 / initial_slot=2
+  - BD: 楽園創成セラフ=イレ (arts_id=301)
+    - description: 敵全体に超絶強力な25連ダメージ＆1waveスピード25%UP
+    - cost=3 / hit_count=25 / value=3.12 / additional_value=0.0
+  - innate skills (2):
+    - AllTarget Multiply ×0.6 — 攻撃力は下がるが自分の攻撃範囲が敵全体になる
+    - **新增: Attack Multiply ×1.25 — 全属性の魔剣の攻撃力がかなりアップ**
+- [`130102`](weapons.json#L126566) メギストス【極】
+  - base_name: メギストス (costume: 極魔装)
+  - element=火(1) / type=長剣(1) / rarity=S(3) / cv=奥野香耶
+  - max stats: HP=15990 / ATK=11900 / DEF=5000 / SPD=56 / BREAK=2990
+  - hit_counts=[3, 4, 6] (3段)  motion_speed=[4.0/4.0/1.0]  mp=180
+  - three_size=82/60/84 / initial_slot=3
+  - BD: 楽園創成セラフ=イレ (arts_id=301)
+    - description: 敵全体に超絶強力な25連ダメージ＆1waveスピード25%UP
+    - cost=3 / hit_count=25 / value=3.12 / additional_value=0.0
+  - innate skills (4):
+    - AllTarget Multiply ×0.8 — 攻撃力はやや下がるが自分の攻撃範囲が敵全体になる
+    - **新增: Attack Multiply ×1.5 — 全属性の魔剣の攻撃力が大幅にアップ**
+    - **新增: HitCount Addition +1.0 — 長剣の魔剣の1撃目2撃目3撃目のヒット数を+1する**
+    - **新增: DamageLimitBreak Addition +600000000.0 — 長剣の魔剣のダメージ上限が6億アップ**
+- [`130103`](weapons.json#L126761) メギストス【極弐】
+  - base_name: メギストス (costume: 極弐魔装)
+  - element=火(1) / type=長剣(1) / rarity=S(3) / cv=奥野香耶
+  - max stats: HP=20790 / ATK=13820 / DEF=6500 / SPD=60 / BREAK=3890
+  - hit_counts=[4, 5, 6] (3段)  motion_speed=[4.0/4.0/1.4]  mp=200
+  - three_size=83/60/84 / initial_slot=4
+  - BD: 凰々楽土エクシリウム (arts_id=10301)
+    - description: 敵全体に超絶強力な25連ダメージ＆1waveスピード25%UP
+    - cost=3 / hit_count=25 / value=3.12 / additional_value=0.0
+  - innate skills (4):
+    - AllTarget Multiply ×1.0 — 攻撃力を下げずに自分の攻撃範囲が敵全体になる
+    - **新增: Attack Multiply ×1.75 — 全属性の魔剣の攻撃力が絶大にアップ**
+    - **新增: HitCount Addition +1.0 — 長剣の魔剣の1撃目2撃目3撃目のヒット数を+1する**
+    - **新增: DamageLimitBreak Addition +600000000.0 — 長剣の魔剣のダメージ上限が6億アップ**
+- [`134701`](weapons.json#L142549) リンドヴルム
+  - base_name: リンドヴルム (costume: 魔装)
+  - element=風(3) / type=大鎌(12) / rarity=S(3) / cv=浜崎奈々
+  - max stats: HP=10100 / ATK=7500 / DEF=7200 / SPD=20 / BREAK=2500
+  - hit_counts=[4, 3, 3] (3段)  motion_speed=[3.0/3.0/2.0]  mp=260
+  - three_size=75/55/76 / **initial_slot=2 → 3**
+  - BD: ブレイブリーラヴウィング (arts_id=347)
+    - description: 敵全体に超絶強力な39連ダメージ＆自分HP回復
+    - cost=6 / hit_count=39 / value=20.5 / additional_value=0.0
+  - innate skills (2):
+    - BlazeAttack Multiply ×2.5 — 風属性の魔剣のB.D.攻撃力が大幅にアップ
+    - **新增: HP Multiply ×1.1 — 風属性の魔剣のHPがアップ**
+- [`134702`](weapons.json#L142706) リンドヴルム【極】
+  - base_name: リンドヴルム (costume: 極魔装)
+  - element=風(3) / type=大鎌(12) / rarity=S(3) / cv=浜崎奈々
+  - max stats: HP=13130 / ATK=9750 / DEF=9360 / SPD=20 / BREAK=3250
+  - hit_counts=[5, 3, 6] (3段)  motion_speed=[3.0/3.0/2.0]  mp=260
+  - three_size=75/55/76 / **initial_slot=3 → 4**
+  - BD: ブレイブリーラヴウィング (arts_id=347)
+    - description: 敵全体に超絶強力な39連ダメージ＆自分HP回復
+    - cost=6 / hit_count=39 / value=20.5 / additional_value=0.0
+  - innate skills (3):
+    - BlazeAttack Multiply ×3.0 — 風属性の魔剣のB.D.攻撃力が絶大にアップ
+    - **新增: HP Multiply ×1.25 — 風属性の魔剣のHPがかなりアップ**
+    - **新增: DamageLimitBreak Addition +1600000000.0 — 自身のダメージ上限が16億アップ**
+- [`138701`](weapons.json#L157644) スカーミリオネ
+  - base_name: スカーミリオネ (costume: 魔装)
+  - element=闇(5) / type=投擲(9) / rarity=S(3) / cv=加隈亜衣
+  - max stats: HP=6800 / ATK=3220 / DEF=5000 / SPD=28 / BREAK=300
+  - hit_counts=[2, 6, 9] (3段)  motion_speed=[2.0/1.5/1.0]  mp=150
+  - three_size=77/56/69 / initial_slot=1
+  - BD: 悶絶絶叫ヘヴン状態 (arts_id=387)
+    - description: 敵全体に超強力な38連ダメージ＆敵が数秒だけ動けなくなる
+    - cost=6 / hit_count=38 / value=2.94 / additional_value=0.0
+  - innate skills (2):
+    - MotionSpeed Multiply ×1.5 — 闇属性の魔剣の攻撃モーションがかなり加速
+    - **新增: Attack Multiply ×1.1 — 闇属性の魔剣の攻撃力がアップ**
+- [`138702`](weapons.json#L157801) スカーミリオネ【極】
+  - base_name: スカーミリオネ (costume: 極魔装)
+  - element=闇(5) / type=投擲(9) / rarity=S(3) / cv=加隈亜衣
+  - max stats: HP=8840 / ATK=4190 / DEF=6500 / SPD=28 / BREAK=390
+  - hit_counts=[3, 6, 12] (3段)  motion_speed=[2.0/1.5/1.0]  mp=150
+  - three_size=77/56/69 / initial_slot=2
+  - BD: 悶絶絶叫ヘヴン状態 (arts_id=387)
+    - description: 敵全体に超強力な38連ダメージ＆敵が数秒だけ動けなくなる
+    - cost=6 / hit_count=38 / value=2.94 / additional_value=0.0
+  - innate skills (2):
+    - MotionSpeed Multiply ×2.0 — 闇属性の魔剣の攻撃モーションが大幅に加速
+    - **新增: Attack Multiply ×1.25 — 闇属性の魔剣の攻撃力がかなりアップ**
+- [`138703`](weapons.json#L157958) スカーミリオネ【極弐】
+  - base_name: スカーミリオネ (costume: 極弐魔装)
+  - element=闇(5) / type=投擲(9) / rarity=S(3) / cv=加隈亜衣
+  - max stats: HP=12820 / ATK=7130 / DEF=9430 / SPD=30 / BREAK=510
+  - hit_counts=[4, 7, 12] (3段)  motion_speed=[2.0/1.5/1.1]  mp=165
+  - three_size=77/56/69 / initial_slot=3
+  - BD: 絶･恍惚昇天ヘヴン状態 (arts_id=10387)
+    - description: 敵全体に超強力な38連ダメージ＆敵が数秒だけ動けなくなる
+    - cost=6 / hit_count=38 / value=2.94 / additional_value=0.0
+  - innate skills (2):
+    - MotionSpeed Multiply ×2.33 — 闇属性の魔剣の攻撃モーションが絶大に加速
+    - **新增: Attack Multiply ×1.5 — 闇属性の魔剣の攻撃力が大幅にアップ**
+
+---
+
+★ 跳过的 derived 表(非 local-master.dat 产物,需 server response 聚合):
+- `memory_slot_skills.json`
+- `npc_motions.json`
