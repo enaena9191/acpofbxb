@@ -2441,9 +2441,27 @@
     "versions": [
       {
         "ts": "2026/11/11 17:00:00",
-        "file": "04867_20261111.html",
+        "file": "04867_20261111_v20261111170000.html",
         "hash": "347b9cced4c7171d430154313317cc60ee5d77d3a0db7183528a1f420081720e",
         "ts_source": "page_time"
+      },
+      {
+        "ts": "2026/11/11 19:04:57",
+        "file": "04867_20261111.html",
+        "hash": "4de1e50de86639ee9c0742b2d1cb303586777eed992eb963d1db7aa297bced5b",
+        "ts_source": "detected"
+      }
+    ]
+  },
+  "4866": {
+    "slug": "info_4koma_600",
+    "canonical": "04866_20261111.html",
+    "versions": [
+      {
+        "ts": "2026/11/11 19:00:00",
+        "file": "04866_20261111.html",
+        "hash": "ab80cd502e7b838960735febb0c10ad0ba8f7699ec8318bb9963e4455b75a48d",
+        "ts_source": "rss"
       }
     ]
   }
