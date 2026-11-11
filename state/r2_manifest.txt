@@ -1922,6 +1922,7 @@ bxb-assets/images/topics/4koma/comic_599_tn_280_open.png
 bxb-assets/images/topics/4koma/comic_59_tn_280_open.png
 bxb-assets/images/topics/4koma/comic_5_tn_280_open.png
 bxb-assets/images/topics/4koma/comic_6.png
+bxb-assets/images/topics/4koma/comic_600_tn_280_soon.png
 bxb-assets/images/topics/4koma/comic_60_tn_280_open.png
 bxb-assets/images/topics/4koma/comic_61_tn_280_open.png
 bxb-assets/images/topics/4koma/comic_62_tn_280_open.png
@@ -4873,6 +4874,7 @@ bxb-assets/images/topics/events/1282/leaflet_11282_6.jpg
 bxb-assets/images/topics/events/1282/leaflet_11282_7.jpg
 bxb-assets/images/topics/events/1282/title.jpg
 bxb-assets/images/topics/events/1282/yokoku_AkunoHimitsusoshiki.jpg
+bxb-assets/images/topics/events/1283/yokoku_AkunoHimitsusoshiki2.jpg
 bxb-assets/images/topics/events/2001/title_2001.jpg
 bxb-assets/images/topics/events/2001/title_2001_1.jpg
 bxb-assets/images/topics/events/2001/title_2001_3.jpg

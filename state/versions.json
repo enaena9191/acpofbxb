@@ -2422,5 +2422,29 @@
         "ts_source": "rss"
       }
     ]
+  },
+  "4865": {
+    "slug": "yokoku_AkunoHimitsusoshiki2",
+    "canonical": "04865_20261111.html",
+    "versions": [
+      {
+        "ts": "2026/11/11 17:00:00",
+        "file": "04865_20261111.html",
+        "hash": "bf885996316f54353694aa2275acc39e71f0b202e52527cc49b945ba43b3a393",
+        "ts_source": "rss"
+      }
+    ]
+  },
+  "4867": {
+    "slug": null,
+    "canonical": "04867_20261111.html",
+    "versions": [
+      {
+        "ts": "2026/11/11 17:00:00",
+        "file": "04867_20261111.html",
+        "hash": "347b9cced4c7171d430154313317cc60ee5d77d3a0db7183528a1f420081720e",
+        "ts_source": "page_time"
+      }
+    ]
   }
 }
