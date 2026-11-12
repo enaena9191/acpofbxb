@@ -1,0 +1,2464 @@
+# E_1283_01
+Command	Arg1	Arg2	Arg3	Arg4	Arg5	Arg6	WaitType	Text	PageCtrl	Voice	WindowType
+Param	quest_name="クエスト名"
+ShowMessageWindow
+FadeOut	black					0
+StopSound
+Bgm	魔王バトル
+Bg	市街地B2(紫)					0
+	キュービ	通常2
+FadeIn	black					1
+Tween	キュービ	PunchPosition	y=30				NoWait
+	キュービ	通常2						わ、わたし！\n悪の組織クワイエットの四天王\n"沈黙"のキュービ……
+	キュービ	通常2						魔界を静かな場所に変えるため、\n毎日悪巧み中です
+	キュービ	通常2						そして今日こそ、\nわたしたちの野望を邪魔する\n正義の魔法少女と最終決戦を……！
+StopBgm
+	キュービ	泣き						と思ったのにぃ……！
+Bgm	コメディ
+CharacterOff
+	オルタ魔法少女	通常						魔界を守る奇跡の光！\n愛と希望と魔法の使者！
+Tween	オルタ魔法少女	PunchPosition	y=30				NoWait
+	オルタ魔法少女	通常						魔法少女ミラクルオルタ！
+CharacterOff
+	シェリー	進化通常
+Tween	シェリー	PunchPosition	y=30				NoWait
+	シェリー	進化通常						夢と希望の守護者、\n魔法少女ブルーシェリー♪
+CharacterOff
+	フィノ	進化通常
+Tween	フィノ	PunchPosition	y=30				NoWait
+	フィノ	進化通常						愛と勇気の守護者！\n魔法少女ローズフィノ！
+CharacterOff
+	ユノ魔法少女	通常
+Tween	ユノ魔法少女	PunchPosition	y=30				NoWait
+	ユノ魔法少女	通常						禁断の愛の守護者♪\n魔法少女ミステリアスユノ♪
+CharacterOff
+	ロルリアンテイン	きらーん2						煌めくハートは正義のココロ！\n悪い悪魔は一撃必殺♪
+Tween	ロルリアンテイン	PunchPosition	y=30				NoWait
+	ロルリアンテイン	きらーん2						魔剣少女ロルリアンテイン、\nここに推参♪
+Shake	ロルリアンテイン		x=3				NoWait
+	ロルリアンテイン	慌て2						って、なんで私までぇええええ!?
+CharacterOff
+	オルタ魔法少女	笑い						魔界を守る五つ星♪\n魔法少女ミラクルスターズ集合！
+Tween	オルタ魔法少女	PunchPosition	y=30				NoWait
+	オルタ魔法少女	本気						キュービちゃん！\n魔界はぜったいに守ってみせます！
+CharacterOff
+	キュービ	泣き						ふえっ……!?
+Tween	キュービ	PunchPosition	y=30				NoWait
+	キュービ	泣き						なんでこんなにいるんですかぁ!?
+	キュービ	泣き						わたし一人じゃムリですよぉ……！
+CharacterOff
+	ロルリアンテイン	通常2						悪の幹部って聞いたけど\nそんなに強くはなさそうね……！
+	ロルリアンテイン	通常2						恨みはないけれど、\n一刻も早く人前から隠れたいの\n倒させてもらうわ……！
+CharacterOff
+	キュービ	泣き						ひぃん……！
+StopBgm
+CharacterOff
+	オルタ魔法少女	本気
+	？？？？	<Off>	1_2					待ていっ!!
+	オルタ魔法少女	本気						あ、あなたは……！
+Bgm	魔王バトル
+CharacterOff
+	ディーア	本気4
+Tween	ディーア	PunchPosition	y=30				NoWait
+	ディーア	本気4						我が部下、\nキュービをやらせはしないっ！
+	ディーア	本気4						このクワイエット大首領！\n魔剣王が相手になるぞ……！
+Bgm	コメディ
+	ディーア	きらーん4						ククク♪\nロルリアンテインには\n特製のヌルヌル魔法を用意<dash=2>
+CharacterOff
+	ロルリアンテイン	怒り2
+Tween	ロルリアンテイン	PunchPosition	y=30				NoWait
+	ロルリアンテイン	怒り2						あのバカ魔剣使い！\nまた変なことを考えているわよ！
+CharacterOff
+	オルタ魔法少女	本気						させません！\n魔界の平和は私たちが守るんです！
+	オルタ魔法少女	本気						そしてマスターさん、\nあなたを必ず正義の道に戻します！
+	ナレーション？	<Off>	1_2					ついに始まる、\n魔法少女と悪の組織の最終決戦！
+	ナレーション？	<Off>	1_2					負けるな魔剣少女！\n愛と希望が魔界を救うと信じて！
+Param	character_grayout=false
+CharacterOff
+	集中線		エフェクト表
+	キュービ	拡大通常	エフェクト裏					なんでこんなことにぃ……！
+Param	character_grayout=true
+	ナレーション？	<Off>	1_2					そして泣かないで！ 悪の幹部!!
+FadeOut	white					1
+StopBgm						0
+StopSe						0
+Se	チャージ
+CharacterOff						0
+	           	<Off>	1_2
+Se	雨	TRUE
+ImageEffect	SpriteCamera	Sepia
+Bg	遺跡C_過去
+FadeIn	white					.3
+Wait						.1
+Bg	山岳B_過去
+Wait						.1
+ImageEffectOff	SpriteCamera	Sepia
+ImageEffect	SpriteCamera	GrayScale
+Bg	魔術空間_過去
+Wait						.1
+ImageEffectOff	SpriteCamera	GrayScale
+ImageEffect	SpriteCamera	Sepia
+Bg	宝石鉱山_過去
+Wait						.1
+ImageEffectOff	SpriteCamera	Sepia
+ImageEffect	SpriteCamera	GrayScale
+Bg	教会内部
+Wait						.1
+ImageEffectOff	SpriteCamera	GrayScale
+ImageEffect	SpriteCamera	Sepia
+Bg	市街地C
+Wait						.1
+ImageEffectOff	SpriteCamera	Sepia
+ImageEffect	SpriteCamera	GrayScale
+Bg	遺跡C_過去
+Wait						.1
+ImageEffectOff	SpriteCamera	GrayScale
+ImageEffect	SpriteCamera	Sepia
+Bg	山岳B_過去
+Wait						.1
+ImageEffectOff	SpriteCamera	Sepia
+ImageEffect	SpriteCamera	GrayScale
+Bg	魔術空間_過去
+Wait						.1
+ImageEffectOff	SpriteCamera	GrayScale
+ImageEffect	SpriteCamera	Sepia
+Bg	宝石鉱山_過去
+Wait						.1
+ImageEffectOff	SpriteCamera	Sepia
+ImageEffect	SpriteCamera	GrayScale
+Bg	教会内部
+Wait						.1
+ImageEffectOff	SpriteCamera	GrayScale
+ImageEffect	SpriteCamera	Sepia
+Bg	市街地A
+Wait						.1
+ImageEffectOff	SpriteCamera	Sepia
+StopSe						.5
+FadeOut	white					2
+Wait						1
+CharacterOff						0
+Bg	神殿B					0
+	キュービ	泣き				0
+Wait						3
+FadeIn	black					1
+Bgm	作戦会議
+	キュービ	泣き						また負けましたぁああああ……！
+	キュービ	通常2						なんで敵が増えてるんですかぁ、\nただでさえ魔法少女ちゃんは強いのに\n五人なんて反則ですよぉ！
+CharacterOff
+	コキュートス	通常2						落ち着いてキュービ\n負けるのは私たちの望みでしょう？
+	コキュートス	通常2						何度も負けて、負け続けて、\n世界に「終わり」を認識してもらう
+	コキュートス	通常2						それが私たちが\nハジマリの誘いに乗った理由だから
+CharacterOff
+	キュービ	通常2						そ、そうですけど……
+	キュービ	通常2						ハジマリちゃん、\nこんな調子で負ければいいんですか？
+CharacterOff
+	ハジマリ	笑い						うん、ダメだね♪
+CharacterOff
+	キュービ	通常2
+Tween	キュービ	PunchPosition	y=30				NoWait
+	キュービ	通常2						ダメなんですかぁ!?
+CharacterOff
+	ハジマリ	笑い						だってほら、\n負け方って言うものがあるでしょ？
+	ハジマリ	通常						ラスボスならラスボスという役らしく\n華々しく散っていくものさ
+	ハジマリ	通常						悪の組織と魔法少女との最終決戦にも\n同じことが言える
+	ハジマリ	通常						だけどあんなあっさりやられたら、\n大幹部どころかゲスト怪人
+	ハジマリ	通常						魔界はキミたちの物語が\n終わったと認識してはくれないよ
+	ハジマリ	通常						伝承もまた、終わることはない
+CharacterOff
+	マナアリス	怪しい						ふわぁ……
+	マナアリス	通常						マナ.ALICEも\nだんな様とたーくさん戦いましたが\n結局最終回できませんでしたし
+	マナアリス	通常						本当の最終回って\nハジマリちゃんはあっさり言うけど\nけっこう難しいですよね？
+CharacterOff
+	コキュートス	通常2						でも合理的ね\n本来は不可能であり永続するはずの\n伝承を終わらせようというなら
+	コキュートス	通常2						それくらいの労力は必要となるはず
+	コキュートス	通常2						だからキュービ、\nあの魔法少女たち全員に勝つのよ\nファイト……！
+CharacterOff
+	キュービ	泣き						無茶言わないでくださいよぉ!?
+Tween	キュービ	PunchPosition	y=30				NoWait
+	キュービ	泣き						そもそもなんで！\nミラクルオルタちゃんだけだったのに\n先輩魔法少女が増えるんですかぁ！
+	キュービ	悲しい						わたし、一人でどうやって勝てば……
+CharacterOff
+	ディーア	本気4						甘い！ 甘すぎるぞ！
+	ディーア	本気4						それでもお前は悪の大幹部なのか\n"沈黙"のキュービ!!
+	ディーア	悔しい4						たとえ敵が主役でも、\n主役なのにこちらより数が多くても
+Tween	ディーア	PunchPosition	y=30				NoWait
+	ディーア	本気4						男なら、\n負けるとわかっているとしても\n戦わねばならない時がある……！
+CharacterOff
+	キュービ	泣き						わたし、女の子ですけどぉ!?
+	キュービ	泣き						しかも魔剣王様が来てくれても\n負けちゃいましたし！
+CharacterOff
+	ディーア	悔しい4						だとしてもお前は悪の大幹部！\n野望のために作戦を立てて実行し、\n敗れても諦めない存在だ！
+	ディーア	悔しい4						この程度で泣き言を言ってはダメだ！
+CharacterOff
+	コキュートス	笑い	p3
+	キュービ	泣き	p7b
+Tween	キュービ	MoveBy	x=-50				NoWait
+	キュービ	泣き						ひぃいいん……！\nコキュートスちゃぁん……！
+	コキュートス	笑い						よしよし、大丈夫よ
+	コキュートス	怪しい						確かにあなたの言葉は合理的よ
+	コキュートス	怪しい						だけどキュービの責任を問うよりも\nあなた自身の責任はどうなの？
+	コキュートス	怪しい						あなたが魔法少女を裏切って\nクワイエットのボスに就任してから\n彼女たちはパワーアップしたわ
+	コキュートス	怪しい						奪われた大切な人を取り戻すために\nより魔法少女らしくなった
+	コキュートス	怪しい						私たちが負けているのは\nあなたの存在が原因ではないの？
+CharacterOff
+	ディーア	本気4						いいや！ 間違っているぞ！\n"殲滅"のコキュートス！
+Tween	ディーア	PunchPosition	y=30				NoWait
+	ディーア	本気4						オレが来る前から、\nお前たちには悪の組織として\n致命的な弱点があった……！
+StopBgm
+CharacterOff
+	コキュートス	通常2	p3
+	キュービ	通常2	p7b
+	キュービ	通常2						弱、点……ですか？
+CharacterOff
+	ディーア	目閉じ4						ああ、その通り！\n悪の幹部としてお前たちには<dash=2>
+Param	character_grayout=false
+Bgm	緊迫
+CharacterOff
+	集中線		エフェクト表
+	ディーア	拡大本気4	エフェクト裏
+	ディーア	拡大本気4						美学が足りない！！！！
+Param	character_grayout=true
+StopBgm
+CharacterOff
+	マナアリス	嬉しい						おお……！
+CharacterOff
+	ハジマリ	笑い						ふふ……♪
+CharacterOff
+	コキュートス	通常2	p3
+	キュービ	通常2	p7b
+	キュービ	通常2						…………
+	コキュートス	通常2						…………
+Bgm	わくわく
+	キュービ	通常2						び、美学ですかぁ？
+	コキュートス	通常2						非合理的ね\n美学になんの価値があるのかしら？
+	コキュートス	通常2						悪とは行為の結果よ\n世界に仇なし人々を傷つけた行為を\n世界は悪として排斥するの
+CharacterOff
+	ハジマリ	通常						そうだね、\n今の世界とは相容れないもの
+CharacterOff
+	マナアリス	笑い						世界から忌み嫌われるもの♪\nそれが悪です
+CharacterOff
+	ディーア	怪しい4						それも間違っていないし\n孤高なる悪ならばそれでもいい
+	ディーア	怒り4						だが悪の組織となると違う
+	ディーア	怒り4						あえて悪になろうとするもの\n悪となっても為したいことがある者
+	ディーア	悔しい4						事情は違えど\nお互いの譲れぬ理想のために\n集って組織になっているんだ！
+	ディーア	怒り4						たとえば宇宙の支配を夢見て、\n星々を支配しようとする黒き帝王とか
+	ディーア	目閉じ4						改造人間によって\n世界を裏側から支配しようとする\n悪の秘密結社とか……！
+	ディーア	悔しい4						世界を終わらせる悪の親玉を\n復活させるために\n特殊なアイテムを集めたりもする
+Param	character_grayout=false
+	ディーア	本気4						彼らは己の美学という芯をもって\n幾度やられても諦めない！
+Se	火1
+	オーラ炎		エフェクト表				1
+	ディーア	本気4						そんな名悪役だからこそ！\n誰もの記憶に残る最終回になる!!
+Param	character_grayout=true
+CharacterOff
+	コキュートス	通常2	p3
+	キュービ	通常2	p7b
+	キュービ	通常2						魔剣王様が燃えていますぅ……！
+CharacterOff
+	ディーア	怪しい4						だがキュービ、コキュートス！\n今のお前たちはどうだ？
+Tween	ディーア	PunchPosition	y=30				NoWait
+	ディーア	本気4						まるでやられ役AとB！\n最終回を彩れる格が足りていない！
+	ディーア	怒り4						最後にふさわしい戦いをしたいなら\n相手が誰だろうと立ち向かう、\n立派な悪の幹部になるのが先だ！
+	ディーア	怒り4						そうだろう？
+CharacterOff
+	コキュートス	通常2	p3
+	キュービ	通常2	p7b
+	コキュートス	悲しい						うっ……\nた、たしかに、一理あるわ……
+CharacterOff
+	ハジマリ	笑い						さすがはボクらの大首領だ♪\nすごい熱量だね♪
+CharacterOff
+	マナアリス	笑い						マナ.ALICEの眠気も覚めちゃいました
+CharacterOff
+	コキュートス	通常2	p3
+	キュービ	通常2	p7b
+	キュービ	通常2						悪の、美学……
+	キュービ	通常2						それじゃあ……
+	キュービ	通常2						魔剣王様の美学ってなんですかぁ？
+CharacterOff
+	ディーア	怪しい4						ククク♪\nよくぞ聞いてくれた……！\nそれは<dash=2>
+StopBgm
+CharacterOff
+	キュービ	通常2						ごくりっ！
+Bgm	カジノ
+CharacterOff
+	ディーア	にやけ4
+Tween	ディーア	PunchPosition	y=30				NoWait
+	ディーア	にやけ4						魔法少女を捕まえて、\nあんなことやこんなことすること!!
+	ディーア	にやけ4						魔法少女のパートナーとか\nヒーローとして甘々イチャイチャも\nそれは素晴らしいものだったが
+Tween	ディーア	PunchPosition	y=30				NoWait
+	ディーア	にやけ4						悪になったからには、\n悪らしくあの純粋でキラキラな子を\nオレ色に染め上げて……♪
+	ディーア	驚き4						はっ……！
+CharacterOff
+	ハジマリ	通常						…………
+CharacterOff
+	マナアリス	通常						…………
+CharacterOff
+	キュービ	通常2						…………
+CharacterOff
+	コキュートス	通常2						…………
+StopBgm
+CharacterOff
+	ディーア	絶望4						というのは冗談で！\nにぎやかすぎて滅亡一直線の魔界を\n静かで平和な世界に……！
+Bgm	平和
+CharacterOff
+	ハジマリ	通常						今から言い訳しても無駄だよ♪
+CharacterOff
+	マナアリス	怪しい						契約更新……考え直します
+CharacterOff
+	キュービ	悲しい						この人について行っていいのかなぁ
+CharacterOff
+	コキュートス	通常2						でも本気であることは伝わったわ……
+CharacterOff
+	ディーア	悔しい4
+Tween	ディーア	PunchPosition	y=30				NoWait
+	ディーア	悔しい4						と、とにかく！\n特にキュービとコキュートスには\n悪役としての格が足りない！
+	ディーア	怒り4						みんなが悪役として強くならないと\nオレの野望も叶わないし、\nみんなが望む最終回も起こらない！
+	ディーア	怒り4						二人にはないのか？\n世界を敵に回してでも成し遂げたい\n夢や野望は……!?
+CharacterOff
+	キュービ	悲しい						そんなこと言われましてもぉ……
+CharacterOff
+	コキュートス	通常2						………………
+CharacterOff
+	ディーア	目閉じ4						仕方がない、だったら<dash=2>
+CharacterOff
+	キュービ	通常2						だったら？
+CharacterOff
+	ディーア	本気4
+Tween	ディーア	PunchPosition	y=30				NoWait
+	ディーア	本気4						特訓だ!!
+If	isdebug==true
+CharacterOff
+Jump	*E_1283_02
+EndIf
+EndScenario
+
+# E_1283_02
+Command	Arg1	Arg2	Arg3	Arg4	Arg5	Arg6	WaitType	Text	PageCtrl	Voice	WindowType
+Param	quest_name="クエスト名"
+ShowMessageWindow
+FadeOut	black					0
+StopSound
+Bgm	バトル
+Bg	神殿B					0
+Param	character_grayout=false
+	シズカニーA	通常	p3			0
+	シズカニーB	通常	p7b			0
+FadeIn	black					1
+Tween	シズカニーA	PunchPosition	y=30				NoWait
+	シズカニーA	通常						シズカニー！
+Tween	シズカニーB	PunchPosition	y=30				NoWait
+	シズカニーB	通常						シズカニー！
+CharacterOff
+	キュービ	通常2						なんでわたしたちが\nシズカニーと模擬戦を……？
+CharacterOff
+	コキュートス	通常2						こんな戦いに意味があるとは思えない\n非合理的だわ
+CharacterOff
+	ディーア	悔しい4						いいや、オレには見えているぞ！\nお前たちに足りないものが！
+Tween	ディーア	PunchPosition	y=30				NoWait
+	ディーア	本気4						キュービ！\n相手を攻撃しようとするたびに\n力が抜けているぞっ！
+CharacterOff
+	キュービ	通常2						えっ!?
+CharacterOff
+	ディーア	本気4
+Tween	ディーア	PunchPosition	y=30				NoWait
+	ディーア	本気4						コキュートス！\n相手の急所が見えているのに、\nわざと外しているだろ？
+CharacterOff
+	コキュートス	通常2						っ……!?
+CharacterOff
+	ディーア	怒り4						最終回を迎えて倒されたい\nそれが望みなのはオレもわかっている
+	ディーア	怒り4						だがそんな思いだけが先にたって、\n心が負けている！
+Tween	ディーア	PunchPosition	y=30				NoWait
+	ディーア	悔しい4						そんなことで、\n世界が納得する最終回が起きるか!?\n魔法少女の大勝利が盛り上がるか!?
+	ディーア	悔しい4						待っていろ……！
+Param	character_grayout=true
+CharacterOff
+	キュービ	通常2
+	ディーア	本気4	画面外_右
+Se	ピューン
+Tween	ディーア	MoveBy	x=-550 time=1				NoWait
+Wait						.5
+Tween	キュービ	PunchPosition	y=30				NoWait
+	キュービ	通常2						うひゃあっ!?
+	ディーア	本気4						戦いはこうやるんだぁあああああ！
+Param	character_grayout=false
+CharacterOff						0
+ImageEffect	SpriteCamera	MotionBlur
+Se	光3
+Bg	黒背景					0
+	黒背景		エフェクト表			0
+	斬撃(393C)		エフェクト裏			0
+Tween	黒背景	MoveBy	y=-3000 time=1
+Wait						.3
+Bg	神殿B					0
+StopBgm						1
+CharacterOff						0
+ImageEffectOff	SpriteCamera	MotionBlur
+	サイレンサー	通常
+Shake	サイレンサー		x=3				NoWait
+	サイレンサー	通常						ぐぁあああああああ!?
+CharacterOff
+	キュービ	通常2						はぁ、はぁ……
+Bgm	平和
+CharacterOff
+	サイレンサー	通常						ぼ、ボス！ やりすぎですよ!?
+CharacterOff
+	ディーア	汗4						ご、ごめん！ つい……！
+	ディーア	汗4						どうだった、キュービ？
+CharacterOff
+	キュービ	通常2						えっと……その……\nたしかに、すごかったですぅ……
+	キュービ	通常2						魔剣王様の魔力が、\nわたしの中でバチバチって広がって\nすごい力が出て……
+	キュービ	笑い						こんなの久し<dash=2>
+Se	回想
+FadeOut	white					.3
+ImageEffect	SpriteCamera	Sepia
+CharacterOff						0
+Bg	神社（昼）					0
+	？？？？	<Off>				0
+FadeIn	white					.3
+	？？？？	<Off>						私たち二人が揃えば\nいかなる獣も恐るるにたりません
+	？？？？	<Off>						そうですよね、■■？
+FadeOut	white					.3
+ImageEffectOff	SpriteCamera	Sepia
+CharacterOff						0
+Bg	神殿B					0
+	キュービ	悲しい				0
+FadeIn	white					.3
+	キュービ	悲しい						…………
+CharacterOff
+	ディーア	驚き4						キュービ？
+CharacterOff
+	キュービ	悲しい
+Tween	キュービ	PunchPosition	y=30				NoWait
+	キュービ	悲しい						ご、ごめんなさい！
+	キュービ	悲しい						でもやっぱり……\nあなたがいう美学とかそういうのは\nわたしには似合わない気がします
+	キュービ	悲しい						せいぜいわたしは、\n大首領の引き立て役Bなんです……
+CharacterOff
+	ディーア	怪しい4						今の攻撃の威力はすごかったし\nそんなことないと思うけど
+	ディーア	通常4						コキュートスはどうだ？\n魔剣としてオレと一緒に戦えば\nなにか掴めるかも！
+CharacterOff
+	コキュートス	通常2						私も……？
+CharacterOff
+	ディーア	通常4						ああ！
+CharacterOff
+	コキュートス	通常2						人間と一緒に……
+	コキュートス	悲しい						………………
+	コキュートス	悲しい						やめておくわ\n人と一緒にいていいことなんてない\nこれが合理的な選択よ
+CharacterOff
+	マナアリス	嬉しい
+Tween	マナアリス	PunchPosition	y=30				NoWait
+	マナアリス	嬉しい						それなら♪\nマナ.ALICEがお付き合いしますよ♪
+CharacterOff
+	ディーア	通常4						そうか！ じゃあ<dash=2>
+CharacterOff
+	マナアリス	笑い						ちょっと待ってくださいねぇ……\n一時間の契約だと……
+Tween	マナアリス	PunchPosition	y=30				NoWait
+	マナアリス	嬉しい						報酬はこれくらいでお願いします♪
+CharacterOff
+	ディーア	絶望4
+Tween	ディーア	PunchPosition	y=30				NoWait
+	ディーア	絶望4						高いっ!?
+	ディーア	絶望4						模擬戦一回だけだぞ!?
+CharacterOff
+	マナアリス	笑い						マナ.ALICEは経験豊富なベテラン♪\n適正料金です♪
+	マナアリス	笑い						ですがだんな様とは\n既に専属契約を結んでいますから
+	マナアリス	嬉しい						ギブ＆テイク♪\n二時間ナデナデしてくれるなら\n割引しますねぇ♪
+CharacterOff
+	ディーア	笑い4						やった！
+CharacterOff
+	コキュートス	通常2						………………
+CharacterOff
+	ハジマリ	通常						コキュートス、どうしたんだい？
+CharacterOff
+	コキュートス	通常2						なんでもないわ
+CharacterOff
+	ハジマリ	通常						そうかな？\nなんだか羨ましそうに見ていたけど
+CharacterOff
+	コキュートス	通常2						羨ましい？ そんなことないわ
+	コキュートス	怪しい						どうしたというなら、\nハジマリ、あなたの方に聞きたいわ
+	コキュートス	怪しい						どうして彼を\nクワイエットに引き入れたのよ
+	コキュートス	通常2						彼と出会って、\nマナ.ALICEは真の最終回を目指すのを\nやめてしまったわ……
+	コキュートス	通常2						それを裏切りというつもりはないし\n彼女が幸せなら良い
+	コキュートス	通常2						でも私やキュービは、\n彼女とは事情もなにもかもが違うわ
+	コキュートス	通常2						魔剣王を引き入れて\n心変わりをさせたいのなら間違いよ
+CharacterOff
+	ハジマリ	笑い						ふふ♪ 誤解だよ\nボクにそんなつもりはないさ
+	ハジマリ	通常						ラスボスとして、\nキミたちの根源であるママとして
+	ハジマリ	通常						ボクはキミたちが望む最終回に\n伝承の終わりに連れて行ってあげたい
+	ハジマリ	通常						魔剣王はそのために\n必要不可欠な要素だと信じている
+	ハジマリ	通常						それにボクはあくまで、\n終わるための舞台を整えただけだ\nあとはキミたちがどうするか次第
+CharacterOff
+	コキュートス	悲しい						……どうするかは決めているわ
+	コキュートス	悲しい						私は完全に停止したい\n誰にも知られることなく沈黙したい
+	コキュートス	悲しい						それだけが望みよ
+CharacterOff
+	ハジマリ	笑い						応援しているよ♪
+	ハジマリ	通常						ただ……\nいくら時間を遅らせてると言っても\n外の世界でもだいぶ経った
+	ハジマリ	通常						世界の滅亡が日常茶飯時の魔界だ\n予想外のことも起こるかもしれない\nそろそろ急いで<dash=2>
+StopBgm
+Se	アラート
+FadeOut	red					.3
+FadeIn	red					.3
+Wait						.5
+FadeOut	red					.3
+FadeIn	red					.3
+Wait						.5
+Bgm	緊迫
+	ハジマリ	本気						これは……？
+CharacterOff
+	キュービ	通常2						い、いきなりなんですかぁ？
+Se	走る
+CharacterOff
+	オルタ魔法少女	通常				1		ま、マスターさん……！
+	オルタ魔法少女	通常						じゃなくて、\n悪の組織クワイエットの魔剣王さん！
+CharacterOff
+	ディーア	驚き4						オルタ!?\nいきなりここに来たらダメ<dash=2>
+Tween	ディーア	PunchPosition	y=30				NoWait
+	ディーア	悔しい4						じゃなくて！\nなにをしに来たんだ、魔法少女よ！
+CharacterOff
+	オルタ魔法少女	本気						それはこちらのセリフです！
+	オルタ魔法少女	本気						この結界の外で……いいえ、\n魔界のあちこちで封印されていた\n霊獣や魔導兵器が暴れ出して……！
+Tween	オルタ魔法少女	PunchPosition	y=30				NoWait
+	オルタ魔法少女	本気						これもあなたの仕業ですか!?
+CharacterOff
+	ディーア	驚き4						な、なんだって……？
+CharacterOff
+	ハジマリ	本気						…………
+	ハジマリ	本気						なるほど
+	ハジマリ	本気						確かに妙な反応が\n魔界の各地で発生しているようだ
+CharacterOff
+	キュービ	通常2						で、でも、\nここにいれば関係ありませんよね？
+	キュービ	通常2						わたしたちは\nこのまま続ければいいのでは……？
+CharacterOff
+	マナアリス	通常						それはどうでしょう？
+	マナアリス	通常						このままだと\n魔界は復活した魔物たちによって\n滅亡の危機を迎えます
+	マナアリス	通常						世界にとっては、\n片隅で起こる最終回よりも\n眼の前の滅亡の方が一大事です
+CharacterOff
+	コキュートス	通常2						私たちの終わりを、\n世界が認めてはくれなくなる……\nそういうことかしら？
+CharacterOff
+	ハジマリ	通常						おそらく♪
+StopBgm
+CharacterOff
+	ディーア	怪しい4						ククク♪
+Bgm	魔剣バトル
+	ディーア	怪しい4						どこの誰かは知らないが\n余計な真似をしてくれたなぁ……！
+Tween	ディーア	PunchPosition	y=30				NoWait
+	ディーア	本気4						諸君！\n悪の組織クワイエットとして\nオレたちがすることはただ一つだ！
+CharacterOff
+	コキュートス	通常2						まさか……？
+CharacterOff
+	ディーア	怒り4						魔界を支配し沈黙させるのも、\n悪の組織を名乗るのも\n我らクワイエット以外に必要ない！
+	ディーア	本気4						この異変を起こした邪魔者を倒す！
+CharacterOff
+	キュービ	通常2						……！
+CharacterOff
+	ディーア	怒り4						待っていろ、未知なる敵よ！
+	ディーア	怒り4						お前たちの大勝利な展開のまま
+Param	character_grayout=false
+CharacterOff						0
+	イベントロゴ1282		エフェクト表			2
+Wait						1
+	ディーア	<Off>						エンドカードじゃ終わらせない!!
+FadeOut	white					2
+StopBgm
+CharacterOff						0
+Bg	荒野					0
+	アリエッタ	通常				0
+Wait						3
+FadeIn	white					2
+Bgm	絶望
+	アリエッタ	通常						ふふふ♪\nやはり神は私を導いてくれます♪
+	アリエッタ	通常						なにやら\n愉快なことをしていたようですが\nこれほど好都合なこともない
+	アリエッタ	嬉しい						その最終回、\n私が神に捧げてもらいましょう♪\n悪役の皆様♪
+If	isdebug==true
+CharacterOff
+Jump	*E_1283_03
+EndIf
+EndScenario
+
+# E_1283_03
+Command	Arg1	Arg2	Arg3	Arg4	Arg5	Arg6	WaitType	Text	PageCtrl	Voice	WindowType
+Param	quest_name="クエスト名"
+ShowMessageWindow
+FadeOut	black					0
+StopSound
+Bgm	作戦会議
+Bg	神殿B					0
+Param	character_grayout=false
+	ディーア	怒り4
+FadeIn	black					1
+	ディーア	怒り4						魔剣機関やE.D.E.N.の対応はどうだ？
+CharacterOff
+	サイレンサー	通常						既に迎撃に出ているようですが\nいかんせん数が多すぎるようですね
+CharacterOff
+	ディーア	怒り4						取りこぼしが多いってことか……
+CharacterOff
+	オルタ魔法少女	本気						マス……魔剣王さん！\n私たち魔法少女も今は協力します！
+CharacterOff
+	ディーア	笑い4						助かる！\n街の人の避難を手伝って\n情報収集を続けてくれ……！
+	ディーア	通常4						不安でいっぱいな人たちにとって\n魔法少女は希望になるからな
+CharacterOff
+	オルタ魔法少女	笑い						はいっ♪
+CharacterOff
+	ハジマリ	通常						ふふ♪\n悪の組織かどうかはともかく\n立派な司令官だね♪
+CharacterOff
+	ディーア	怪しい4						悠長なことを言ってる場合じゃない
+	ディーア	怪しい4						ハジマリ、\nいくらキュービたちのためでも\nここまで混乱させるのは良くないぞ
+CharacterOff
+	ハジマリ	通常						なにを言っているんだい？\nこの台本は\nキミが考えたんじゃないのかい？
+CharacterOff
+	ディーア	怪しい4						ん……？
+CharacterOff
+	ハジマリ	本気						あれ？
+CharacterOff
+	ディーア	驚き4						えっ……ハジマリじゃないの？
+CharacterOff
+	ハジマリ	通常						いかにも\nラスボスがやりそうなことだけど、\nボクじゃないよ♪
+CharacterOff
+	ディーア	絶望4
+Tween	ディーア	PunchPosition	y=30				NoWait
+	ディーア	絶望4						じゃあ誰が、何の目的で!?\n本当に魔界が大変な事態なのか!?
+CharacterOff
+	ハジマリ	通常						そうみたいだね♪
+	ハジマリ	通常						ただ……\n封印されていた魔物や古代兵器とは\nボクらに縁が深いものばかり
+	ハジマリ	通常						それらが一斉に動き出したのは\nボクら悪役の動きと\nまったく無関係とは思えないね
+CharacterOff
+	ディーア	怒り4						そうだな……
+	ディーア	怒り4						悪役、か
+	ディーア	怪しい4						あの時、ハジマリから<dash=2>
+StopBgm
+Se	回想
+FadeOut	white					.3
+ImageEffect	SpriteCamera	Sepia
+CharacterOff						0
+Bg	市街地B					0
+	ミニマリ	笑い				0
+Wait						1
+FadeIn	white					.3
+Bgm	図書館
+	ミニマリ	笑い						残る悪役たちも救ってほしい♪\n頼むよ、魔剣王♪
+	ミニマリ	通常						それに、\nあの子たちが悪役になったのは\nキミにも大いに責任があるんだから
+CharacterOff
+	ディーア	驚き4						それって、どういう意味なんだ？
+CharacterOff
+	ミニマリ	通常						そもそも悪や悪役の定義は様々だ
+	ミニマリ	通常						社会が定める正道からあえて外れ\n邪道を征く誇り高き悪もいれば
+	ミニマリ	通常						得られるべきだった救いがなく\n望まないのに悪になってしまった者も\nたくさんいるんだ
+CharacterOff
+	ディーア	驚き4						それが……\nオレに助けてほしい悪役たち？
+	ディーア	驚き4						でもどうしてオレの責任になる？
+CharacterOff
+	ミニマリ	通常						決まっているじゃないか、\nキミの使った悪魔の鍵のせいだよ
+	ミニマリ	通常						キミはアレを使って、\n幾千幾万の並行世界を旅して\n彼女を救うただ一つの正解を探した
+	ミニマリ	通常						その中で決めたはずだ\n正解に辿り着くために必要な犠牲を
+CharacterOff
+	ディーア	怒り4						…………
+FadeOut	black					.3
+CharacterOff						0
+ImageEffect	SpriteCamera	GrayScale
+Bg	魔術空間					0
+	嘆き土塊の獣マーガリート	通常	monster			0
+	          	<Off>	1_2			0
+FadeIn	black					.3
+Wait						1
+FadeOut	black					.3
+CharacterOff						0
+Bg	大灯台B					0
+	異変ツヴァイク		エフェクト表			0
+	          	<Off>	1_2			0
+FadeIn	black					.3
+Wait						1
+FadeOut	black					.3
+CharacterOff						0
+Bg	山岳B2					0
+	嵐神アリア					0
+	          	<Off>	1_2			0
+FadeIn	black					.3
+Wait						1
+FadeOut	black					.3
+ImageEffectOff	SpriteCamera	GrayScale
+CharacterOff						0
+Bg	市街地B					0
+	ディーア	悔しい4				0
+FadeIn	black					.3
+	ディーア	悔しい4						それ、は……
+CharacterOff
+	ミニマリ	通常						気に病むことはないよ\n実際にキミの行った試行錯誤こそ\n魔界も欲していたものだからね
+	ミニマリ	通常						魔王獣という確実な滅びを回避し\n世界を存続させるための方法を\nキミは見つけ出した
+	ミニマリ	通常						真魔王が自らを犠牲にしたとはいえ\nあれほどの権能を\n悪魔の鍵として一個人に渡したのは
+	ミニマリ	通常						世界に必要な行いだったからだと\nボクは考えている
+	ミニマリ	通常						まあ世界意思が想定していた以上に\n反動も大きかったみたいだけれど\nそれは今は置いておこう
+CharacterOff
+	ディーア	悔しい4						つまりキュービやコキュートスは\nオレのせいで悪になった？
+CharacterOff
+	ミニマリ	通常						キミを通して世界が認識した\n倒されるべき者、\nそして救われてはいけない者
+	ミニマリ	通常						魔剣王の道を阻んだ悪役への\n嫌悪と恐怖から生まれた魔剣こそが\n彼女たちだよ
+FadeOut	white					.3
+StopBgm
+ImageEffectOff	SpriteCamera	Sepia
+CharacterOff						0
+Bg	神殿B					0
+	ディーア	目閉じ4				0
+FadeIn	white					.3
+Bgm	作戦会議
+	ディーア	目閉じ4
+	ディーア	目閉じ4						だからオルタたちに\n魔法少女を続けてもらいながら\nオレは悪の大首領になった
+	ディーア	怒り4						オレにはまだ、\nあの子たちのためになにができるか\nわかってはいないけれど
+	ディーア	怒り4						あの子たちを支え、力になりたい
+	ディーア	怒り4						かつての旅で、\n救うという選択肢を取れなかった\n愚かなる卑怯者として
+	ディーア	怒り4						そして魔剣たちと共に歩む王として
+	ディーア	怒り4						誰の仕業かしらないが、\nオレたちの邪魔はさせない……！
+CharacterOff
+	ハジマリ	通常						いい目だ♪
+	ハジマリ	通常						キミが悪の大首領になると決めたのは\nボクも驚きだったけれど
+	ハジマリ	通常						キミならこの異常事態も\n良いきっかけにできるかもしれないね
+CharacterOff
+	ディーア	笑い4						そうだな！\nそして魔界を守るためにも行ってくる
+	ディーア	笑い4						キュービ！ 出撃だっ！
+Se	走る
+Tween	ディーア	MoveBy	x=700 time=1				NoWait
+Wait						.5
+CharacterOff
+	ハジマリ	笑い						いってらっしゃい♪
+	ハジマリ	通常						さてさて
+	ハジマリ	通常						これほどの細工を行うのなら\n黒幕はかなりの準備をしてきたはずだ\nそのカードを今切るとは<dash=2>
+	ハジマリ	通常						相手の狙いはまさか<dash=2>
+StopBgm
+	wipe		wipe_start			0
+Tween	wipe	MoveTo	x=-800 islocal=true time=1.2	linear
+FadeOut	black					.1
+CharacterOff						0
+Bg	遺跡C					0
+	冥獣		p3			0
+Wait						2
+FadeIn	black					.3
+Bgm	バトル
+	冥獣							■■■■■■■■!!
+CharacterOff
+	キュービ	泣き
+Tween	キュービ	PunchPosition	y=30				NoWait
+	キュービ	泣き						ふえぇええええええええええ!?
+CharacterOff
+	ディーア	本気4						目を閉じるな、前をちゃんと見ろ！\nキュービ！
+Tween	ディーア	PunchPosition	y=30				NoWait
+	ディーア	本気4						逃げてばかりじゃ\n立派な悪の幹部になれないぞ……！
+CharacterOff
+	キュービ	泣き						そんなこと言われましてもぉ！
+	キュービ	泣き						わたし、\nちゃんと戦ったことないですしぃ！
+Tween	キュービ	PunchPosition	y=30				NoWait
+	キュービ	泣き						魔剣として生まれた後も\nずっと暗いところで一人で……！
+	キュービ	泣き						こんな時、どうしたら<dash=2>
+	ディーア	本気4	画面外_左
+Se	走る
+Tween	ディーア	MoveBy	x=550 time=0.5
+	ディーア	本気4						大丈夫！ オレを信じろ！
+Param	character_grayout=true
+Tween	キュービ	MoveBy	x=150				NoWait
+	キュービ	通常2						っ、魔剣王様!?
+	ディーア	本気4						ああ！ オレはお前たちのボス！\nそして魔剣使いで魔剣王だ！
+	ディーア	本気4						悪の幹部らしく、\n堂々と戦えるように支えてみせる！
+Tween	ディーア	PunchPosition	y=30				NoWait
+	ディーア	本気4						だから安心して、\nオレに力を預けてくれ……！
+	キュービ	通常2						それ、は<dash=2>
+Se	回想
+FadeOut	white					.3
+Param	character_grayout=false
+ImageEffect	SpriteCamera	Sepia
+CharacterOff						0
+Bg	神社（昼）					0
+	威厳のある声	<Off>				0
+FadeIn	white					.3
+	威厳のある声	<Off>						妾こそが由緒正しき神に仕えし魔剣
+	威厳のある声	<Off>						それを手に取ろうとは\nなんと傲慢で愚かなる女であろうか
+	優雅な声	<Off>						貴女がどう思おうと\n私は貴女の使い手……魔剣使いです
+	優雅な声	<Off>						証は貴女を使いこなすことで\n立てるとしましょう
+FadeOut	white					.3
+ImageEffectOff	SpriteCamera	Sepia
+CharacterOff						0
+Bg	遺跡C					0
+	キュービ	通常2	p7b			0
+	ディーア	本気4	p3			0
+Param	character_grayout=true
+FadeIn	white					.3
+	ディーア	本気4						キュービ！
+Tween	キュービ	PunchPosition	y=30				NoWait
+	キュービ	通常2						っ……！
+Param	character_grayout=false
+Se	チャージ
+	オーラ青		エフェクト表			1
+	キュービ	本気						はああああああああああ！
+StopBgm
+CharacterOff						0
+ImageEffect	SpriteCamera	MotionBlur
+Se	シャキーン
+Bg	黒背景					0
+	黒背景		エフェクト表			0
+	斬撃(393C)		エフェクト裏			0
+Tween	黒背景	MoveBy	y=-3000 time=1
+Wait						.3
+Bg	遺跡C					0
+CharacterOff						0
+ImageEffectOff	SpriteCamera	MotionBlur
+	冥獣		p3					オォオオオオ……！
+CharacterOff	冥獣					1
+Wait						1
+Param	character_grayout=true
+CharacterOff
+	キュービ	通常2	p7b			0
+	ディーア	笑い4	p3			0
+	キュービ	通常2						はぁ、はぁ、はぁ……
+Bgm	神秘
+Tween	ディーア	PunchPosition	y=30				NoWait
+	ディーア	笑い4						よくやったな、キュービ！
+	キュービ	笑い						え、えへへ♪\nそんなに褒められることでは……♪
+	キュービ	笑い						でも、ありがとうございま<dash=2>
+Param	character_grayout=false
+Se	マイクノイズ
+Se	回想
+FadeOut	white					.3
+ImageEffect	SpriteCamera	Sepia
+CharacterOff						0
+Bg	戦場跡					0
+	苦悶の声	<Off>	1_2			0
+FadeIn	white					.3
+	苦悶の声	<Off>						嫌だ……！
+	苦悶の声	<Off>						妾はまだ<dash=2>
+FadeOut	white					.3
+Param	character_grayout=true
+StopSe
+ImageEffectOff	SpriteCamera	Sepia
+CharacterOff						0
+Bg	遺跡C					0
+	ディーア	驚き4	p3			0
+	キュービ	悲しい	p7b			0
+FadeIn	white					.3
+	キュービ	悲しい						…………
+	ディーア	驚き4						キュービ？
+Shake	キュービ		x=3				NoWait
+	キュービ	悲しい						ご、ごめんなさい、\nでもやっぱりわたしは喜んだり\n嬉しい気持ちにはなれません……
+	キュービ	悲しい						だってわたしは悪役で、\nとても罪深い魔剣なんですから……
+	キュービ	悲しい						ただ自分が消えたくて、\n美学とかなんにもなくて……
+	キュービ	悲しい						なのに魔物を退治して回るなんて\n正義の味方みたいなこと……
+	ディーア	怪しい4						するべきじゃないって思うのか？
+	キュービ	悲しい						え、ええ……\nだってどう見てもおかしいですよ
+	ディーア	笑い4						そうかな？\nオレはすごく悪役らしいと思うぞ？
+Tween	キュービ	PunchPosition	y=30				NoWait
+	キュービ	通常2						ど、どうしてですか？
+	ディーア	通常4						確かに魔物を退治したけれど\nオレたちは誰の依頼も受けていない
+	ディーア	通常4						自分たちの目的があって、\n邪魔だからって理由で戦ったんだ
+	ディーア	笑い4						それはとても自分勝手で我儘な\n悪役らしいことじゃないか？
+	キュービ	通常2						でも周りの人は、\nそれで喜んだりするかもしれませんよ
+	ディーア	通常4						喜ぶ人も入れば、\n戦闘の余波を受けて迷惑だって\n怒り狂う人もいるかもしれない
+	ディーア	通常4						それはその人の捉え方の話だ\nオレは今、そんなことを気にしない
+	ディーア	目閉じ4						そうだな……\nキュービはもっと自分勝手になっても\n良いのかもしれないな
+	ディーア	通常4						人のことを気にしすぎていたら、\n立派な悪役になれないぞ？
+Tween	キュービ	PunchPosition	y=30				NoWait
+	キュービ	通常2						自分勝手……ど、どうやって？
+	ディーア	笑い4						好きな食べ物ってあるか？
+Shake	キュービ		x=3				NoWait
+	キュービ	通常2						油揚げ……とか
+Tween	ディーア	PunchPosition	y=30				NoWait
+	ディーア	笑い4						それなら\n魔界中の油揚げを独占してやる！\nとか自分勝手な悪事だな！
+	ディーア	笑い4						もしくはクリスマスはチキンじゃなく\n油揚げを食べろって\n魔界の習慣自体を変えてしまったり！
+	キュービ	笑い						それは……すごく迷惑ですね……
+	ディーア	笑い4						でも、\nそういうのワクワクしないか？\n叶えたいと思わないか？
+Tween	キュービ	PunchPosition	y=30				NoWait
+	キュービ	通常2						……っ
+	キュービ	通常2						じゃ、じゃあ、\n魔界を一枚の大きな油揚げにして\n食べちゃったりしたい、とか？
+	ディーア	驚き4						いきなりスケールがでかいなっ！
+Tween	ディーア	PunchPosition	y=30				NoWait
+	ディーア	笑い4						でも！ 悪の組織らしい野望だ!!
+	キュービ	笑い						…………ふふふ♪
+	キュービ	笑い						想像するだけで\n恐れ多くてドキドキしちゃうけれど\n面白い野望ですね……
+	キュービ	通常2						でも、私には……
+	キュービ	通常2						私はもう背負っているから……\nそんな我儘……
+StopBgm
+	ディーア	驚き4						キュービ？
+Se	闇1
+Bgm	魔獣バトル
+CharacterOff
+	霊獣姫タマモノマエ	通常	monster			1		ほう？\n妾の伝承を受け継ぐ者だというから\n顔を見に来てみたら<dash=2>
+	霊獣姫タマモノマエ	通常						なんとまあ、\n小さく情けない小娘であろうか
+CharacterOff
+	ディーア	悔しい4	p3
+	キュービ	通常2	p7b
+	キュービ	通常2						っ……！
+	ディーア	悔しい4						霊獣姫タマモノマエ!?\nお前まで復活させられたのか？
+CharacterOff
+	霊獣姫タマモノマエ	通常	monster					久しいのう、魔鍵使い
+	霊獣姫タマモノマエ	通常						あのまま深き闇の中で\n眠り続けると思っておったが
+	霊獣姫タマモノマエ	通常						どこぞの痴者が\n妾の眠りを妨げたらしい
+	霊獣姫タマモノマエ	通常						ならばいっそ、\nまたブリジットに挑むのも一興と\n貴様を探しておったのじゃが……
+	霊獣姫タマモノマエ	通常						まさか共にいる小娘が、\n我に連なる者\n我が獣としての伝承を継ぐ魔剣とは
+	霊獣姫タマモノマエ	通常						のう？\n霊獣刀タマモノマエ=ハクビ？
+CharacterOff
+	タマハクビ	通常						あ、う……っ
+Shake	タマハクビ		x=3				NoWait
+	タマハクビ	通常						白眉……、タマモノマエ様……
+CharacterOff
+	霊獣姫タマモノマエ	通常	monster					小さく弱く、\n妾を見るだけで震えが隠せぬ……
+	霊獣姫タマモノマエ	通常						貴様のような者は妾の誇りを穢すだけ
+	霊獣姫タマモノマエ	通常						ブリジットの前に\nまずは貴様を滅ぼしてくれよう……！
+If	isdebug==true
+CharacterOff
+Jump	*E_1283_04
+EndIf
+EndScenario
+
+# E_1283_04
+Command	Arg1	Arg2	Arg3	Arg4	Arg5	Arg6	WaitType	Text	PageCtrl	Voice	WindowType
+Param	quest_name="クエスト名"
+ShowMessageWindow
+FadeOut	black					0
+StopSound
+Bgm	魔獣バトル
+Bg	遺跡C					0
+Param	character_grayout=false
+	霊獣姫タマモノマエ	通常	monster			0
+FadeIn	black					1
+	霊獣姫タマモノマエ	通常						はははは！\nどうしたどうした、小娘っ！
+	霊獣姫タマモノマエ	通常						そのタマモノマエの名は……！\nハクビの名は飾りか？
+	霊獣姫タマモノマエ	通常						ならば疾く消えよっ！
+CharacterOff
+	タマハクビ	通常						わ、わたしは……
+	黒グラデーション		エフェクト表
+	タマハクビ	通常						やっぱり……\nわたしは罰が当たったのかな……
+	タマハクビ	通常						タマモノマエが言う通り、\nわたしは彼女たちの誇りを穢すだけ
+	タマハクビ	通常						わたしなんかが\nどうにかしたいなんて願っても、\nなにもできなかった
+	タマハクビ	通常						だったらこのまま、\n本物の二人にやられる方が<dash=2>
+CharacterOff	黒グラデーション					1
+	ディーア	悔しい4	画面外_右
+Tween	ディーア	MoveBy	x=-550 time=0.5				NoWait
+	ディーア	悔しい4						ハクビ……！
+	タマハクビ	通常						魔剣王様……!?
+	ディーア	悔しい4						いったん退くぞ！
+Se	走る
+StopBgm
+	wipe		wipe_start			0
+Tween	wipe	MoveTo	x=-800 islocal=true time=1.2	linear
+FadeOut	black					.1
+CharacterOff						0
+Bg	遺跡C					0
+	ディーア	怒り4				0
+Wait						2
+FadeIn	black					.3
+Bgm	図書館
+	ディーア	怒り4						ここなら、少しは休めるかな？
+CharacterOff
+	タマハクビ	通常						…………
+	タマハクビ	通常						わたしのこと、いつから？
+CharacterOff
+	ディーア	怒り4						大首領になってからだよ
+Se	回想
+FadeOut	white					.3
+ImageEffect	SpriteCamera	Sepia
+CharacterOff						0
+Bg	遺跡C					0
+	ハクビ	通常	monster			0
+FadeIn	white					.3
+	ハクビ	通常						妾は【神刀白眉】\n由緒正しき、神に仕えし魔剣よ
+	ハクビ	通常						妾は何もしておらぬぞ…むしろ、\n先に仕掛けてきたのは、\nそちらではないか、魔剣使いよ？
+FadeOut	white					.3
+ImageEffectOff	SpriteCamera	Sepia
+CharacterOff						0
+Bg	遺跡C					0
+	ディーア	怒り4				0
+FadeIn	white					.3
+	ディーア	怒り4						お前の魔力は\nいつか戦った霊獣姫にそっくりだ
+	ディーア	怒り4						でもお前は\n霊獣となった神刀白眉本体じゃない
+	ディーア	怒り4						霊獣と化して、\n魔界の脅威となったタマモノマエから\nお前は生まれたんだな……
+CharacterOff
+	タマハクビ	通常						………はい
+Se	回想
+FadeOut	white					.3
+ImageEffect	SpriteCamera	GrayScale
+CharacterOff						0
+Bg	戦場跡					0
+	霊獣姫タマモノマエ	通常	monster			0
+	タマモノマエ=ハクビ	<Off>	1_2			0
+FadeIn	white					.3
+	タマモノマエ=ハクビ	<Off>						恐ろしいものを目の当たりにした時\n人間は安心を得るために\nそれを支配したくなるものです
+	タマモノマエ=ハクビ	<Off>						多くの物語で\n悪役が正義の味方に倒されるように
+	タマモノマエ=ハクビ	<Off>						そして魔界では、\n魔剣伝承という形で\n兵器に変えることができました
+	タマモノマエ=ハクビ	<Off>						恐ろしい伝承ほど、\n魔剣となるのはきっとそんな理由から
+	タマモノマエ=ハクビ	<Off>						偉大な王さえも苦しめたあの霊獣姫が\n魔剣となったら……
+	タマモノマエ=ハクビ	<Off>						そんな人の欲望が\n関わっているのでしょう……
+CharacterOff	霊獣姫タマモノマエ					1
+	タマハクビ	通常				1
+	タマハクビ	通常						わたしは、\n神刀白眉とタマモノマエ様の伝承から\n製造された魔剣です
+	タマハクビ	通常						おぞましい怪物を制御して\n人間の力に変えるために造られた魔刀
+	タマハクビ	通常						わたしの中には\n彼女たちが歩んだ伝承がありました
+	タマハクビ	通常						"剣聖"白面九尾タマモノマエと\nその魔剣白眉の物語
+	タマハクビ	通常						信頼できる主とともに歩んだ冒険と\n神の使いとして称えられた誇り
+	タマハクビ	通常						そして……\n獣に敗れて主さえも呑み込み……\n永劫苦しみ続ける結末……
+	タマハクビ	通常						暴れ狂う化生として\n魔界に災厄を振りまくという恥辱も\nすべてわたしの中に……
+	タマハクビ	通常						オルタちゃんと違って\n本物の誇りになれるわけがない\nその罪の具現がわたし
+	タマハクビ	通常						だからわたしは、\nわたしの前世とも呼べる\n彼女たちのために……
+FadeOut	white					.3
+ImageEffectOff	SpriteCamera	GrayScale
+CharacterOff						0
+Bg	遺跡C					0
+	ディーア	怒り4				0
+FadeIn	white					.3
+	ディーア	怒り4						ハジマリの力を借りて、\n伝承自体を終わらせようとしたのか？
+	ディーア	怪しい4						だけどタマモノマエの伝承から\n生まれたと言っても\nハクビと霊獣姫は別の存在だ
+	ディーア	怒り4						仮にお前が終わりを迎えたとしても
+CharacterOff
+	タマハクビ	通常						ええ、わかっています……
+	タマハクビ	通常						でも「もしかしたら」\nわたしごと霊獣姫タマモノマエを\n葬ることができるかもしれない
+	タマハクビ	通常						安らぎを届けられるかもしれない
+	タマハクビ	悲しい						失敗したとしても……\nわたしみたいなおぞましい魔剣が\n消えるだけですから……
+CharacterOff
+	ディーア	怒り4						…………
+StopBgm
+	ディーア	怒り4						でもそれは<dash=2>
+Se	闇1
+Bgm	魔獣バトル
+CharacterOff
+	霊獣姫タマモノマエ	通常	monster			1		ハハハハハハハハハ！！！！！！
+Wait						.5
+CharacterOff
+	タマハクビ	通常						っ……！
+CharacterOff
+	霊獣姫タマモノマエ	通常	monster					なんという愚かしさよ！\nなんというあさましさよ……！
+	霊獣姫タマモノマエ	通常						貴様のような矮小な存在が\nこの妾の幕引きを行うなど笑止千万！\n釣り合うとでも思うてか？
+	霊獣姫タマモノマエ	通常						妾は神に仕えし魔剣
+	霊獣姫タマモノマエ	通常						化生に堕ちたとしても\nその誇りに何ら陰りなど無い……！
+	霊獣姫タマモノマエ	通常						そのような同情で\n妾を救おうなどと舐められたものよ
+CharacterOff
+	タマハクビ	通常						…………っ
+Tween	タマハクビ	PunchPosition	y=30				NoWait
+	タマハクビ	通常						なんでそんなに、強がるんですか！
+CharacterOff
+	霊獣姫タマモノマエ	通常	monster					なんじゃと？
+CharacterOff
+	タマハクビ	通常						わ、わたしにはわかります！\nあなたが抱えた苦しみも痛みも……！
+	タマハクビ	通常						魔界のために戦ったのに、\n魔王獣を止めるために身を捧げたのに
+	タマハクビ	通常						大切なタマモノマエ様を道連れに\n霊獣になってしまった……
+	タマハクビ	通常						守りたかった魔界の人たちに蔑まれて\n研究のために身を弄ばれた
+	タマハクビ	通常						最後は……\n魔剣王様の敵として……
+	タマハクビ	通常						こんな、\nわたしみたいな魔剣が造られるほど\n悪役の伝承が刻まれて……
+	タマハクビ	通常						わたしと違ってあなたは\nとても誇り高い魔剣だから……
+	タマハクビ	通常						今もずっと苦しんでる……\nタマモノマエ様も苦しめている……
+	タマハクビ	通常						そんな尊大な態度をしているのも\n悲しいのを隠しているから……
+StopBgm
+CharacterOff
+	霊獣姫タマモノマエ	通常	monster					…………
+	霊獣姫タマモノマエ	通常						だからどうした？
+CharacterOff
+	タマハクビ	通常						えっ……？
+Bgm	和の国ボス
+CharacterOff
+	霊獣姫タマモノマエ	通常	monster					なるほど確かに、\n妾にとって今の姿は屈辱そのもの
+	霊獣姫タマモノマエ	通常						タマモノマエのことも\n成仏させられぬままで\n生き恥を晒しておる
+	霊獣姫タマモノマエ	通常						そう、強がりよ
+	霊獣姫タマモノマエ	通常						無念じゃ、悲しい……\n叶うなら我が身を裂いて償いたい
+	霊獣姫タマモノマエ	通常						だがそれでも、\n妾は誇り高い神刀白眉であり続ける
+	霊獣姫タマモノマエ	通常						いかに他者に\n蔑まれようと悪と呼ばれようとも\n誇りは決して捨てぬ……！
+	霊獣姫タマモノマエ	通常						もし自身がそれを認めてしまえば\n主に申し訳がたたん
+	霊獣姫タマモノマエ	通常						心まで獣に染まりはしない……！
+CharacterOff
+	タマハクビ	通常						白眉……
+CharacterOff
+	霊獣姫タマモノマエ	通常	monster					愚かで小心で、優しい小娘よ\n貴様が罪悪感など持つ必要はない
+	霊獣姫タマモノマエ	通常						それでも妾を終わらせるというなら\nせめて誇らしくあれ！
+	霊獣姫タマモノマエ	通常						妾たちの名に恥じぬよう\n己の名を魔界に知らしめるのじゃ
+	霊獣姫タマモノマエ	通常						その悪名を恥辱のまま終わらせず\n功績で隠してみせよ
+	霊獣姫タマモノマエ	通常						妾のように使い手と伝承を刻み\n誇らしくしたたかに生きよ
+	霊獣姫タマモノマエ	通常						新たな伝承は\n今生きる貴様にしか創れぬのだから
+CharacterOff
+	タマハクビ	通常						…………ああ
+	タマハクビ	通常						あなたは、そこまで……
+CharacterOff
+	ディーア	笑い4						そうだな、\nなんて誇り高い魔剣たちだ
+	ディーア	怒り4						霊獣姫タマモノマエ
+	ディーア	怒り4						多くの並行世界で\nあなたはオレの難敵であり続けた
+	ディーア	怒り4						オレとリディに\n進むべき道を示し続けてくれた
+	ディーア	怒り4						そのことに感謝している
+	ディーア	怒り4						ありがとう
+CharacterOff
+	霊獣姫タマモノマエ	通常	monster					ふっ♪\n謝罪を口にしなかったのは褒めよう
+	霊獣姫タマモノマエ	通常						一言でも謝っていたら\nその首を括り切っておったぞ？
+Param	character_grayout=true
+CharacterOff
+	タマハクビ	本気	p7b
+	ディーア	怒り4	p3
+	タマハクビ	本気						魔剣王様……
+	ディーア	怒り4						ハクビ、\nお前は自分をおぞましいと言ったけど\nそれは間違っているよ
+	ディーア	通常4						タマモノマエはどんな姿になっても\n誇りを捨てなかった
+	ディーア	笑い4						そしてお前は優しく繊細で\n偉大な魔剣の伝承を受け継いでいる
+	ディーア	通常4						彼女たちに報いたいというのなら、\n人知れず消えるより、\n誇り高く生きるべきなんじゃないか？
+	ディーア	通常4						タマモノマエ=ハクビの名が\n未来永劫、魔界で称えられるように
+	ディーア	通常4						これからもお前のことを\n霊獣の魔剣だと蔑む者はいると思う\n悪だと詰る者も現れるはずだ
+	ディーア	本気4						それでも、\n彼女たちの生まれ変わりとして、\n新たな魔剣として……！
+	タマハクビ	本気						誇りと共に、生きる……
+	タマハクビ	本気						わたしは偉大な\n神刀白眉とタマモノマエ様から\n生まれた魔剣だって誇る……
+Tween	タマハクビ	PunchPosition	y=30				NoWait
+	タマハクビ	本気						前世の悪名が消えるほどに……！
+	タマハクビ	本気						わたし、生きてていいのですか？
+	ディーア	本気4						ああ、もちろん！
+	ディーア	本気4						悪の大首領として\nタマモノマエたちと相対した王として
+	ディーア	本気4						魔剣王として、\nオレはハクビを認めて支え続ける！
+	ディーア	本気4						その決意を、彼女に示そう！
+Tween	タマハクビ	PunchPosition	y=30				NoWait
+	タマハクビ	本気						っ、はい……！
+CharacterOff
+	霊獣姫タマモノマエ	通常	monster					ようやっと、\nまともに見れる顔になったのう♪
+	霊獣姫タマモノマエ	通常						《神狐艶天に栄えし白眉》\n《白き魔魅たる一閃の闇》\n《数え九つ白暝の神刀》
+	霊獣姫タマモノマエ	通常						神刀白眉、玉藻前…！
+CharacterOff
+	タマハクビ	本気						その伝承を受け継ぎし、\n誇りある霊獣刀！
+	タマハクビ	本気						タマモノマエ=ハクビ……！
+	タマハクビ	本気						貴殿の相手になりましょう！
+If	isdebug==true
+CharacterOff
+Jump	*E_1283_05
+EndIf
+EndScenario
+
+# E_1283_05
+Command	Arg1	Arg2	Arg3	Arg4	Arg5	Arg6	WaitType	Text	PageCtrl	Voice	WindowType
+Param	quest_name="クエスト名"
+ShowMessageWindow
+FadeOut	black					0
+StopSound
+Bgm	和の国ボス
+Bg	遺跡C					0
+	霊獣姫タマモノマエ	通常	monster			0
+FadeIn	black					1
+	霊獣姫タマモノマエ	通常						くくく、ははは……！
+	霊獣姫タマモノマエ	通常						妾の炎を\n霊水で清めてまで使おうとは……！
+	霊獣姫タマモノマエ	通常						そこまで妾に恐怖したか、魔界よ！
+	霊獣姫タマモノマエ	通常						その傲慢さも、\n我が偉大さの証明としてやろう！
+CharacterOff
+	タマハクビ	通常	p7b
+	ディーア	怒り4	p3
+	タマハクビ	通常						本当に、\nあなたは気高い魔剣ですね……
+CharacterOff
+	霊獣姫タマモノマエ	通常	monster					妾だけではない
+	霊獣姫タマモノマエ	通常						タマモノマエもまた、\nそれほどに気高き魔剣使いであった
+	霊獣姫タマモノマエ	通常						神の刀をその手に取ろうなどと\n高慢にも願ったように
+	霊獣姫タマモノマエ	通常						妾には自身と主の二つの誇りがある\nどのような姿になろうとも\n無くすことはできん
+CharacterOff
+	タマハクビ	通常	p7b
+	ディーア	本気4	p3
+	タマハクビ	通常						わたしにはまだ、\nあなたみたいに自分を誇ることは\nできないかもしれません……
+	タマハクビ	通常						まだわたしはなにも為していない\n獣から生まれた悪人だから
+	タマハクビ	本気						でも、それでも……
+	ディーア	本気4						オレと一緒に、\nこれから積み重ねていけばいい！
+	タマハクビ	本気						はい……！
+	タマハクビ	本気						あなたはかつてのわたしを倒し、\n誇り高く自分の道をいく人
+	タマハクビ	本気						魔剣王様……いいえ、旦那様！
+Param	character_grayout=false
+Se	チャージ
+	オーラ青		エフェクト表			1
+	タマハクビ	本気						どうかわたしと一緒に……！
+	ディーア	本気4						ああ、いくぞ……！
+CharacterOff						0
+ImageEffect	SpriteCamera	MotionBlur
+StopBgm
+Se	火3
+Se	光3
+Bg	黒背景					0
+	黒背景		エフェクト表			0
+	射撃(青)		エフェクト裏			0
+Tween	黒背景	MoveBy	y=-3000 time=1
+Wait						.3
+FadeOut	black					1
+Bg	遺跡C					0
+CharacterOff						0
+ImageEffectOff	SpriteCamera	MotionBlur
+	霊獣姫タマモノマエ	通常	monster			0
+	オーラ赤		エフェクト表			0
+FadeIn	black					1
+Bgm	凱旋
+	霊獣姫タマモノマエ	通常	monster					くく♪\nいつかまた妾は蘇るであろう……
+	霊獣姫タマモノマエ	通常						その時は、\nこのように敗れはせんぞ……？
+	霊獣姫タマモノマエ	通常						強く、誇り高き魔剣となって……\n妾の前に立つがよい……
+CharacterOff	霊獣姫タマモノマエ					1
+Wait						1
+Param	character_grayout=true
+CharacterOff
+	タマハクビ	本気	p7b
+	ディーア	通常4	p3
+	タマハクビ	本気						…………
+	タマハクビ	笑い						ありがとうございました
+	タマハクビ	笑い						すごい魔剣だったんですね\nわたしの前世……
+	ディーア	笑い4						ああ、\n彼女たちと戦えたのが誇らしい
+	ディーア	通常4						そしてお前は、\nあの偉大な魔剣から生まれて\n打ち勝つことができる力も持っている
+	タマハクビ	通常						なのにわたしったら\n自分で自分を悪いって決めつけて\n彼女たちの誇りを見なかった
+	タマハクビ	本気						でもこれからは、\n彼女たちに誇れる自分になるように
+	タマハクビ	笑い						まずは……\n旦那様が誇れる魔剣になりたいです
+	タマハクビ	笑い						わたしなんかには分不相応で、\nわがままなことかもしれないけれど
+	タマハクビ	笑い						タマモノマエ様にとって\n白眉がそうであったように……
+	タマハクビ	笑い						悪役としての誇り、\nあなたが言ったことがわかりました
+Tween	ディーア	PunchPosition	y=30				NoWait
+	ディーア	笑い4						それは嬉しいな！
+	ディーア	笑い4						タマモノマエの力が\nオレたちに協力してくれるのなら\n頼もしい！
+	タマハクビ	笑い						そうなれるように、がんばります
+	タマハクビ	笑い						ですから……♪
+Tween	タマハクビ	MoveBy	x=-20				NoWait
+	タマハクビ	怪しい						既成事実、つくっていきますね？
+	ディーア	驚き4						は、ハクビ？ それって……？
+	タマハクビ	笑い						実績のことです、実績♪
+Tween	タマハクビ	PunchPosition	y=30				NoWait
+	タマハクビ	笑い						あなたの魔剣として誇れるように♪
+	ディーア	汗4						あ、ああ……びっくりしたぁ……
+	タマハクビ	笑い						…………ふふふ♪
+	タマハクビ	笑い						見ていてくださいね、タマモノマエ
+Se	フォーン
+	ハジマリの声	<Off>	1_2					タマモノマエを撃破したようだね
+	ディーア	驚き4						ハジマリ？
+	ハジマリの声	<Off>						喜びのところ申し訳ないけれど\n悪い知らせだ
+StopBgm
+CharacterOff						0
+Bg	黒背景					0
+	ハジマリの声	<Off>	1_2					コキュートスからの連絡が途絶えた
+FadeOut	black					1
+CharacterOff						0
+Bg	海岸					0
+	コキュートス	本気				0
+Wait						2
+FadeIn	black					.3
+Bgm	図書館
+	コキュートス	本気						はあ……！
+CharacterOff						0
+ImageEffect	SpriteCamera	MotionBlur
+Se	シャキーン
+Bg	黒背景					0
+	黒背景		エフェクト表			0
+	斬撃(393C)		エフェクト裏			0
+Tween	黒背景	MoveBy	y=-3000 time=1
+Wait						.3
+Bg	海岸					0
+CharacterOff						0
+	冥獣Ω級	通常
+ImageEffectOff	SpriteCamera	MotionBlur
+Shake	冥獣Ω級		x=3				NoWait
+	冥獣Ω級							ぐぉおおおお！
+CharacterOff
+	コキュートス	本気						さあ、今のうちに早く！
+CharacterOff
+	村の男性	通常						は、はい！
+CharacterOff
+	村の少女	通常						お姉さん、ありがとー！
+CharacterOff
+	コキュートス	悲しい						…………
+Se	回想
+FadeOut	white					.3
+ImageEffect	SpriteCamera	Sepia
+CharacterOff						0
+Bg	研究所A					0
+	？？？？	<Off>				0
+FadeIn	white					.3
+	？？？？	<Off>						ありがとう、■■■■■
+FadeOut	white					.3
+ImageEffectOff	SpriteCamera	Sepia
+CharacterOff						0
+Bg	海岸					0
+	コキュートス	悲しい				0
+FadeIn	white					.3
+	コキュートス	悲しい						その言葉を聞くたびに、\n胸の奥で喜びが生まれていく……
+	コキュートス	悲しい						私が生まれた理由を実感する……
+	コキュートス	悲しい						でも私に、礼を言われる資格はない
+	コキュートス	悲しい						だって私は……
+Se	フォーン
+CharacterOff
+	アリエッタ	笑い				1		ドゥルガー海岸♪
+	アリエッタ	通常						ここがそう呼ばれているのを\nご存知ですか？
+	アリエッタ	通常						魔界を守るために活躍した貴女を\n称えるための海岸です♪
+CharacterOff
+	コキュートス	通常2						あなたは、何者？
+CharacterOff
+	アリエッタ	通常						警戒をしないでくださいませ♪
+	アリエッタ	通常						私は貴女のお手伝いをしたくて\n馳せ参じたのです♪
+	アリエッタ	笑い						暁の竜機ドゥルガー様？
+	アリエッタ	笑い						貴女は真実を知りたくはないですか？
+CharacterOff
+	ドゥルガー	通常						…………
+If	isdebug==true
+CharacterOff
+Jump	*E_1283_06
+EndIf
+EndScenario
+
+# E_1283_06
+Command	Arg1	Arg2	Arg3	Arg4	Arg5	Arg6	WaitType	Text	PageCtrl	Voice	WindowType
+Param	quest_name="クエスト名"
+ShowMessageWindow
+FadeOut	black					0
+StopSound
+Bgm	図書館
+Bg	海岸					0
+Param	character_grayout=false
+	アリエッタ	笑い				0
+FadeIn	black					1
+	アリエッタ	笑い						六聖杯神の一柱、\n暁の竜機ドゥルガー様
+	アリエッタ	笑い						世界の礎たる五聖剣を、\nこの魔界を守るために造られた\n機械仕掛けの守護者たち
+	アリエッタ	笑い						神話の時代に\n天界からの大侵攻を防いでみせた\n対天使用超古代兵器♪
+	アリエッタ	嬉しい						貴女はその功績から生まれた魔剣\nなんと立派なことでしょう♪
+	アリエッタ	嬉しい						私がこうして生きていられるのも\n貴女のおかげ♪
+	アリエッタ	嬉しい						そして私が神への信仰を得たのも\n貴女が魔界を残したから
+	アリエッタ	嬉しい						感謝してもしきれません♪
+CharacterOff
+	ドゥルガー	通常						心の無い賛辞で私が揺らぐと思うなら\n合理的ではないわね
+	ドゥルガー	通常						あなたからは血と穢れを感じるわ\n魔界に仇なす者
+	ドゥルガー	通常						なんの真実を語るつもりかは\nわからないけれど、\n私は一切容赦をしないわ……
+CharacterOff
+	アリエッタ	通常						あら、私を倒すというのですか？\nこの人類の一員を？
+CharacterOff
+	ドゥルガー	通常						ドゥルガーはすでに忌み名よ
+	ドゥルガー	通常						平和な海岸を地獄に変え、\n魔剣王によって倒された魔界の敵
+	ドゥルガー	通常						もうこの手は汚れているのだから\n造作もない
+	ドゥルガー	通常						それが合理的な判断よ
+CharacterOff
+	アリエッタ	笑い						素晴らしい♪
+	アリエッタ	通常						ですが、本心ではないでしょう？
+CharacterOff
+	ドゥルガー	怪しい						なんですって……？
+CharacterOff
+	アリエッタ	通常						私は魔人機関と魔獣同盟で\n数多くの悩める魔剣を見てきました
+	アリエッタ	通常						誰もが言います、\n「私は兵器だから、武器だから」
+	アリエッタ	通常						生まれを呪う否定の言葉♪
+	アリエッタ	通常						ですが同時に肯定してほしいのです\n生きる価値があるのだと
+	アリエッタ	通常						だって貴女方は少女なのですから、\n当然の感情です
+CharacterOff
+	ドゥルガー	怪しい						だから、なんだというの？
+CharacterOff
+	アリエッタ	笑い						確かめたくはありませんか？
+	アリエッタ	通常						あなたは本当に悪なのか、\n消え去るしかない災厄でしかないのか
+	アリエッタ	通常						ドゥルガーは本当に、\n暴走して災厄と成り果てただけなのか
+	アリエッタ	通常						真実を知りたくはありませんか？
+	アリエッタ	通常						貴女はそのために、\n機械仕掛けの兵器から心ある少女へと\n生まれ変わったのです♪
+StopBgm
+CharacterOff
+	ドゥルガー	怪しい						っ…………
+Se	回想
+FadeOut	white					1
+ImageEffect	SpriteCamera	Sepia
+CharacterOff						0
+Bg	戦場跡					0
+	真ドゥルガー	通常				0
+Wait						1
+FadeIn	white					1
+Bgm	神秘
+	真ドゥルガー	通常						《対天使級兵装\n　code:竜戦騎ドゥルガー起動》
+	真ドゥルガー	通常						《索敵完了\n　生命体反応あり、天使と認定》
+	真ドゥルガー	通常						《周囲の人間は離れてください》
+	真ドゥルガー	通常						《これより単独での\n　掃討作戦を開始します》
+	真ドゥルガー	通常						《繰り返します》
+	真ドゥルガー	通常						《周囲の人間は離れてくださ―――》
+Param	character_grayout=true
+	ドゥルガー	<Off>	1_2					最後に覚えているのは、\nそんな無機質なメッセージと、\n守るべき人々に凶刃を向けたこと
+	ドゥルガー	<Off>						天使も人間も見境なく、\n<ruby=ドゥルガー>私</ruby>は傷つけてしまった
+	ドゥルガー	<Off>						そして<ruby=ドゥルガー>私</ruby>は、\n<ruby=コキュートス>無限凍結</ruby>の氷の中に\n封じ込められた
+	ドゥルガー	<Off>						どうして、なぜ……？
+	ドゥルガー	<Off>						私は人を守るはずだったのに……！
+FadeOut	white					1
+StopBgm
+ImageEffectOff	SpriteCamera	Sepia
+CharacterOff						0
+Bg	洞窟C					0
+	アリエッタ	通常				0
+Wait						1
+FadeIn	white					1
+Bgm	海底
+	アリエッタ	通常						ドゥルガー様
+CharacterOff
+	ドゥルガー	通常
+Tween	ドゥルガー	PunchPosition	y=30				NoWait
+	ドゥルガー	通常						っ……！
+CharacterOff
+	アリエッタ	通常						なにやら考え込まれた様子ですが\n着きましたよ♪
+	アリエッタ	通常						貴女の根源、\nドゥルガーを封印する永遠の氷\nコキュートスの中心部
+	アリエッタ	通常						私も長居はできませんが、\nほらそこに♪
+CharacterOff
+	真ドゥルガー	通常				1		…………
+CharacterOff
+	ドゥルガー	通常						ドゥルガー……
+CharacterOff
+	アリエッタ	嬉しい						なんという美しい姿♪\n眠っているのがもったいない♪
+CharacterOff
+	ドゥルガー	通常						此処まで連れてきてくれたことには\n礼を言うわ
+	ドゥルガー	通常						だけれど、アリエッタ？\nもしドゥルガーを使って妙なことを\n企てているなら
+	ドゥルガー	通常						その命は無くなると思いなさい
+CharacterOff
+	アリエッタ	通常						ええ、肝に命じます
+	アリエッタ	通常						私はドゥルガーには手を出しません
+Param	character_grayout=false
+CharacterOff
+	ドゥルガー	怪しい						…………
+	黒グラデーション		エフェクト裏			1
+	ドゥルガー	怪しい						嘘を言っている様子はない
+	ドゥルガー	通常						本心か、\n嘘と真実に境界がない狂人か……
+	ドゥルガー	通常						仮に妙なことを考えていても、\n私は今ハジマリの力で\nマスター無しで活動ができる
+	ドゥルガー	通常						この程度なら対応できるわ……
+CharacterOff
+	アリエッタ	通常						しかし、\n妙な話だとは思いませんか？
+	アリエッタ	通常						魔剣機関も世界図書館も\nドゥルガーを魔界の脅威と認定した
+	アリエッタ	通常						だというのに、\nドゥルガーから貴女という魔剣を\n彼らは生み出したのです
+	アリエッタ	通常						今度こそ人類を守る\n守護者になってくれるとでも、\n盲信したのでしょうか？
+	アリエッタ	通常						それが貴女に\n大いなる煩悶をもたらすとも知らず\n人類とは良い気なものですね♪
+CharacterOff
+	ドゥルガー	通常						御託はもう良いから、\nはやく私とドゥルガーを繋げなさい
+	ドゥルガー	通常						私が知りたいのは合理的な真実よ
+CharacterOff
+	アリエッタ	通常						わかりました♪
+Se	チャージ
+	オーラ青		エフェクト表			1
+	アリエッタ	通常						では<dash=2>
+CharacterOff
+	オーラ青		エフェクト表			1
+	ドゥルガー	悲しい						っ……!!
+FadeOut	white					1
+StopBgm						0
+StopSe						0
+Se	チャージ
+CharacterOff						0
+	           	<Off>	1_2
+Se	雨	TRUE
+ImageEffect	SpriteCamera	Sepia
+Bg	遺跡C_過去
+FadeIn	white					.3
+Wait						.1
+Bg	山岳B_過去
+Wait						.1
+ImageEffectOff	SpriteCamera	Sepia
+ImageEffect	SpriteCamera	GrayScale
+Bg	魔術空間_過去
+Wait						.1
+ImageEffectOff	SpriteCamera	GrayScale
+ImageEffect	SpriteCamera	Sepia
+Bg	宝石鉱山_過去
+Wait						.1
+ImageEffectOff	SpriteCamera	Sepia
+ImageEffect	SpriteCamera	GrayScale
+Bg	教会内部
+Wait						.1
+ImageEffectOff	SpriteCamera	GrayScale
+ImageEffect	SpriteCamera	Sepia
+Bg	市街地C
+Wait						.1
+ImageEffectOff	SpriteCamera	Sepia
+ImageEffect	SpriteCamera	GrayScale
+Bg	遺跡C_過去
+Wait						.1
+ImageEffectOff	SpriteCamera	GrayScale
+ImageEffect	SpriteCamera	Sepia
+Bg	山岳B_過去
+Wait						.1
+ImageEffectOff	SpriteCamera	Sepia
+ImageEffect	SpriteCamera	GrayScale
+Bg	魔術空間_過去
+Wait						.1
+ImageEffectOff	SpriteCamera	GrayScale
+ImageEffect	SpriteCamera	Sepia
+Bg	宝石鉱山_過去
+Wait						.1
+ImageEffectOff	SpriteCamera	Sepia
+ImageEffect	SpriteCamera	GrayScale
+Bg	教会内部
+Wait						.1
+ImageEffectOff	SpriteCamera	GrayScale
+ImageEffect	SpriteCamera	Sepia
+Bg	海底
+Wait						.1
+ImageEffectOff	SpriteCamera	Sepia
+FadeOut	white					2
+Wait						1
+CharacterOff						0
+Bg	黒背景					0
+	掠れた機械音	<Off>	1_2			0
+Wait						3
+FadeIn	black					1
+	掠れた機械音	<Off>	1_2					天使軍接近
+	掠れた機械音	<Off>						殲滅
+	掠れた機械音	<Off>						敵の増援感知
+	掠れた機械音	<Off>						殲滅
+	掠れた機械音	<Off>						友軍、消滅
+	掠れた機械音	<Off>						支援、途絶
+	掠れた機械音	<Off>						……作戦、続行
+	掠れた機械音	<Off>						我が使命は魔界の存続
+	掠れた機械音	<Off>						殲滅
+	掠れた機械音	<Off>						殲滅
+	掠れた機械音	<Off>						殲滅
+	掠れた機械音	<Off>						せん、めつ……
+	掠れた機械音	<Off>						私は、いつまで……？
+Se	回想
+FadeOut	white					1
+StopSe
+CharacterOff						0
+Bg	洞窟C					0
+	ドゥルガー	悲しい				0
+Wait						1
+FadeIn	white					1
+	ドゥルガー	悲しい						っ……いま、のは……
+Bgm	絶望
+Shake	ドゥルガー		x=3				NoWait
+	ドゥルガー	悲しい						私は、そんな……？
+CharacterOff
+	アリエッタ	通常						悪い夢でも見てしまいましたか？
+	アリエッタ	通常						真実とは時としてそういうもの\n善きにせよ悪きにせよ\n覆せぬものこそが絶対の真実♪
+	アリエッタ	通常						では私も<dash=2>
+CharacterOff						0
+ImageEffect	SpriteCamera	MotionBlur
+Se	シャキーン
+Bg	黒背景					0
+	黒背景		エフェクト表			0
+	斬撃(393C)		エフェクト裏			0
+Tween	黒背景	MoveBy	y=-3000 time=1
+Wait						.3
+Bg	洞窟C					0
+CharacterOff						0
+ImageEffectOff	SpriteCamera	MotionBlur
+	アリエッタ	笑い
+Tween	アリエッタ	PunchPosition	y=10				NoWait
+	アリエッタ	笑い						おっと♪
+CharacterOff
+	ドゥルガー	通常						させないわ……！\nドゥルガーを利用させたり<dash=2>
+CharacterOff
+	アリエッタ	笑い						ええ、もちろん♪
+StopBgm
+	アリエッタ	通常						ドゥルガーになど興味はありません
+Bgm	魔獣バトル
+CharacterOff
+	オーラ光		エフェクト表
+Wait						1
+Se	光1
+	天使兵極	通常				1		オォオオオオオオオオオ！！！！
+Wait						.5
+CharacterOff
+	ドゥルガー	怪しい						なっ……!?
+	ドゥルガー	怪しい						どうして、天使兵がここにっ!?
+CharacterOff
+	アリエッタ	通常						ただの天使兵ではありませんよ？
+	アリエッタ	通常						天界の傑作、\n最も完成体に近い天使の中の天使\n真のマルアフ=ノフェル
+	アリエッタ	通常						どうしても欲しかったのですが、\nドゥルガーに紐づく\n封印が施されておりましたからね
+	アリエッタ	笑い						貴女を通して解除したのです♪
+	アリエッタ	通常						貴女は無事に真実を知れたのですから\n報酬としてくださいませ
+	アリエッタ	笑い						それにしても……\nこのようなことにも気づけないとは\n自分のことで手一杯だったのですね
+	アリエッタ	笑い						感情とはなんて脆い♪
+CharacterOff
+	ドゥルガー	怪しい						くっ……！
+	ドゥルガー	通常						アリエッタを敵性対象と断定！\n殲滅開始……！
+CharacterOff
+	アリエッタ	笑い						こわいこわい♪
+	アリエッタ	通常						そんなに縋りたかったのですか？\nご自分は無実かもしれない可能性に
+	アリエッタ	通常						ですが残念です♪\nやはり貴女は悪役のようですよ？
+	アリエッタ	通常						天使が目覚めれば兵器も目覚め、\n暴走が始まる♪
+	アリエッタ	通常						過去がそうであったように
+CharacterOff
+	真ドゥルガー	通常
+Shake	真ドゥルガー		x=2 y=3				NoWait
+	真ドゥルガー	通常						■■■■■■■■！！！！
+CharacterOff
+	ドゥルガー	悲しい						そん、な……！
+CharacterOff
+	天使兵極	通常	p3b
+	アリエッタ	通常	p7
+	アリエッタ	通常						では私はこれにて♪
+Se	フォーン
+CharacterOff	天使兵極					1
+CharacterOff	アリエッタ					1
+Wait						1
+CharacterOff
+	ドゥルガー	通常						待ちなさい……！
+CharacterOff
+	真ドゥルガー	通常						《魔力反応を検知》
+CharacterOff
+	ドゥルガー	悲しい						ドゥル、ガー……
+CharacterOff
+	真ドゥルガー	通常						《天使と断定》
+CharacterOff
+	ドゥルガー	悲しい						あなたは、本当に……？
+CharacterOff
+	真ドゥルガー	通常						《殲滅開始》
+CharacterOff
+	ドゥルガー	悲しい						魔界を憎んでいたの……？
+StopBgm
+	ドゥルガー	悲しい						なら、私は<dash=2>
+Bgm	バトル
+CharacterOff
+	ディーア	本気4				1		そこまでだ……！
+CharacterOff
+	ドゥルガー	通常						魔剣王……!?\nあなた、どうして……？
+CharacterOff
+	ディーア	怒り4						それはこちらのセリフだぞ！\n"殲滅"のコキュートス！
+Tween	ディーア	PunchPosition	y=30				NoWait
+	ディーア	本気4						立ち上がれ……！\n悪の幹部らしく堂々と……！
+If	isdebug==true
+CharacterOff
+Jump	*E_1283_07
+EndIf
+EndScenario
+
+# E_1283_07
+Command	Arg1	Arg2	Arg3	Arg4	Arg5	Arg6	WaitType	Text	PageCtrl	Voice	WindowType
+Param	quest_name="クエスト名"
+ShowMessageWindow
+FadeOut	black					0
+StopSound
+Bgm	魔獣バトル
+Bg	遺跡C					0
+Param	character_grayout=false
+	真ドゥルガー	通常				0
+FadeIn	black					1
+	真ドゥルガー	通常						オォオオオオオオオ！！！！
+Se	光1
+FadeOut	white					.2
+FadeIn	white					.2
+Wait						.5
+Se	光1
+FadeOut	white					.2
+FadeIn	white					.2
+Wait						.5
+Se	光1
+FadeOut	white					.2
+FadeIn	white					.2
+Wait						.5
+FadeOut	white					.5
+Se	光3
+CharacterOff						0
+	ディーア	悔しい4				0
+FadeIn	white					.5
+Shake	ディーア		x=2				NoWait
+	ディーア	悔しい4						なんだっ!?\nやたらめったら攻撃してくるぞ!?
+	ディーア	悔しい4						だが悪の大首領は負けない！\n野望を果たすその日まで……！
+	ディーア	本気4						コキュートス、お前も<dash=2>
+StopBgm
+CharacterOff
+	ドゥルガー	悲しい						もう、いいのよ……
+CharacterOff
+	ディーア	驚き4						なんだって……？
+Bgm	ロルリアンレットB
+CharacterOff
+	ドゥルガー	悲しい						もういいの、\n悪の組織も本当の最終回もないわ
+	ドゥルガー	悲しい						悪の大首領のフリもやめて
+	ドゥルガー	悲しい						私が守りたかった\nドゥルガーの誇りはどこにもない
+	ドゥルガー	悲しい						元々、私には記録しかなかった
+	ドゥルガー	悲しい						人類の守護者であるドゥルガーが\n謎の暴走で封じられたことが\n私を構成する伝承だったから……
+	ドゥルガー	悲しい						だからその暴走を止めたい、\n苦しみから解き放って停止させたい
+	ドゥルガー	悲しい						それが、\nドゥルガーへの恐怖から生まれた私が\n終わりを望んだ理由
+CharacterOff
+	ディーア	怒り4						ドゥルガー……
+CharacterOff
+	ドゥルガー	悲しい						だけど、違ったのよ
+	ドゥルガー	悲しい						ドゥルガーは自ら暴走を選んだ\nあの破壊は彼女の望んだことだった
+	ドゥルガー	悲しい						接続した時に私に流れ込んだのは\n論理判断を歪めるほどの\n苦痛と疲労と諦観
+	ドゥルガー	悲しい						天界との終りが見えない戦いの中で\nドゥルガーは摩耗していった
+Shake	ドゥルガー		x=3				NoWait
+	ドゥルガー	悲しい						だからきっと……\n天使も人間もどうでもよくなったの\nなにもかも壊したくなったの
+	ドゥルガー	悲しい						だから、\n私が終わろうともなにをしようとも\n救いはどこにもない……
+StopBgm
+	ドゥルガー	悲しい						もしかしたら私も、\nドゥルガーと同じように暴走を<dash=2>
+Bgm	雪の街
+CharacterOff
+	ディーア	怒り4						だから諦めるのか？\nそれくらいで理想を捨てるのか？
+CharacterOff
+	ドゥルガー	怪しい						また悪の組織を持ち出すの？
+	ドゥルガー	怪しい						その前提さえ崩れて、\n私はまた魔界に危機を招いてしまった
+	ドゥルガー	怪しい						この期に及んで悪の組織だなんて\nおかしなことを言って、\nどうにかなると思うのかしら……？
+	ドゥルガー	怪しい						非合理的<dash=2>
+CharacterOff
+	ディーア	怒り4						いいや、合理的だ
+CharacterOff
+	ドゥルガー	通常						えっ……？
+CharacterOff
+	ディーア	怒り4						お前はまだ生きて動けているし\n隣にはオレがいる\nまだまだ手はいくらでもあるんだ
+	ディーア	怪しい4						なのに過去の真実くらいに囚われて、\n諦めるのが合理的？
+Tween	ディーア	PunchPosition	y=30				NoWait
+	ディーア	悔しい4						違う……！\n何度負けても失敗したとしても\n挑めばいいだろう！
+	ディーア	怒り4						お前が守りたかった理想は\n人類の守護者としてのドゥルガー！
+	ディーア	怒り4						たとえ真実がそれを否定したとして\n世界が認めなかったとして
+	ディーア	悔しい4						お前がそれを諦める理由にはならない
+	ディーア	悔しい4						存在が過ちだったというのなら\n悪役のまま理想を貫けばいい……！
+	ディーア	怒り4						オレはそうしてきた
+	ディーア	怒り4						何千、何万と失敗して\nお前たちを救うこともできず放置して\n申し訳なくも思っている
+Tween	ディーア	PunchPosition	y=30				NoWait
+	ディーア	本気4						だからって、止まらない！
+	ディーア	本気4						夢と理想のために、\nどんな手を使ってでも戦い続ける！
+	ディーア	怒り4						魔界の守護者、\n天界から魔界を守り抜いた英雄\n暁の竜機ドゥルガー……！
+	ディーア	本気4						自分を消してでも\nその誇りを守り抜きたかったのなら\n今すべきことは一つだ！
+	ディーア	怒り4						魔界を守ること
+	ディーア	怒り4						そうじゃないのか？\nこのまま諦めていい程度の理想か？\nお前たちが夢見たことは
+CharacterOff
+	ドゥルガー	悲しい						わた、しは……
+	ドゥルガー	悲しい						私の夢、理想……
+CharacterOff
+	真ドゥルガー	通常						《敵反応の活発化を確認》
+	真ドゥルガー	通常						《攻撃強化》
+Se	光2
+	魔法陣1	青	effect_c			.5
+Tween	魔法陣1	ScaleBy	x=5 y=5				NoWait
+Wait						.5
+Se	光2
+	魔法陣2	青	effect_b			.5
+Tween	魔法陣2	ScaleBy	x=6 y=6				NoWait
+Wait						.5
+Se	光2
+	魔法陣3	青	effect_a			.5
+Tween	魔法陣3	ScaleBy	x=7 y=7				NoWait
+Wait						1
+CharacterOff
+	ディーア	悔しい4						まずいっ……!?
+CharacterOff
+	ドゥルガー	通常						っ…………！
+StopBgm
+	黒グラデーション		エフェクト表			1
+	ドゥルガー	通常						でも、私なんかじゃ<dash=2>
+Se	回想
+FadeOut	white					.3
+ImageEffect	SpriteCamera	Sepia
+CharacterOff						0
+Bg	市街地A					0
+	喜びの声	<Off>	1_2			0
+FadeIn	white					.3
+	喜びの声	<Off>	1_2					助けてくれて、\n守ってくれてありがとう！
+FadeOut	white					.3
+ImageEffectOff	SpriteCamera	Sepia
+CharacterOff						0
+Bg	洞窟C					0
+	ドゥルガー	本気				0
+Se	チャージ
+FadeIn	white					.3
+	ドゥルガー	本気						っ…………！
+Bgm	BlazeA
+	オーラ青		エフェクト表			1
+	ドゥルガー	本気						はああああああっ！！！！
+CharacterOff						0
+ImageEffect	SpriteCamera	MotionBlur
+Se	火3
+Bg	黒背景					0
+	黒背景		エフェクト表			0
+	射撃(青)		エフェクト裏			0
+Tween	黒背景	MoveBy	y=-3000 time=1
+Wait						.3
+Bg	洞窟C					0
+CharacterOff						0
+ImageEffectOff	SpriteCamera	MotionBlur
+	真ドゥルガー	通常
+Shake	真ドゥルガー		x=3				NoWait
+	真ドゥルガー	通常						ッ……!?
+CharacterOff
+	ディーア	通常4						ドゥルガー……
+CharacterOff
+	ドゥルガー	本気						わからない……\nこれが、合理的かどうかなんて……\nでも理屈じゃなく、動いた……
+	ドゥルガー	本気						さっき見た記録の奥底に……\n人々の声があったの
+	ドゥルガー	悲しい						もう映像も掠れて見えなくなった\n声だけの断片
+	ドゥルガー	悲しい						それでも、残っていた……
+	ドゥルガー	本気						孤独で傷ついて、\n最後は耐えられなかったとしても\nその記録は消さなかった
+	ドゥルガー	本気						どれだけ摩耗しても持ち続けたソレが\n私にも力をくれた
+	ドゥルガー	本気						私はあなたの伝承を継いだ魔剣\n暁の竜機ドゥルガー
+	ドゥルガー	本気						私の使命も魔界を守り抜くことよ
+	ドゥルガー	本気						あなたがそうしたように
+	ドゥルガー	本気						だから、マスター力を貸して
+CharacterOff
+	ディーア	通常4						いいのか？
+CharacterOff
+	ドゥルガー	本気						かつての私を止めたあなたなら、\n魔剣の王なら私を使いこなせるはず
+	ドゥルガー	本気						そしてこの暴走を止めてちょうだい
+	ドゥルガー	本気						それが合理的な判断よ
+	ドゥルガー	本気						悪の幹部になる必要があるかは\nわからないけれど
+	ドゥルガー	本気						どんな手を使ってでも、\nこの身を犠牲にしてでも守り抜く！\nその理想は変わりはしない
+CharacterOff
+	ドゥルガー	拡大通常	エフェクト表					殲滅、開始……！
+If	isdebug==true
+CharacterOff
+Jump	*E_1283_08
+EndIf
+EndScenario
+
+# E_1283_08
+Command	Arg1	Arg2	Arg3	Arg4	Arg5	Arg6	WaitType	Text	PageCtrl	Voice	WindowType
+Param	quest_name="クエスト名"
+ShowMessageWindow
+FadeOut	black					0
+StopSound
+Bgm	決戦
+Bg	遺跡C					0
+	真ドゥルガー	通常				0
+FadeIn	black					1
+	真ドゥルガー	通常						オォ、オオオオ……！
+CharacterOff
+	ドゥルガー	通常	p7b
+	ディーア	悔しい4	p3
+	ディーア	悔しい4						まだ止まらないのか？
+	ディーア	本気4						だったら、もう一度<dash=2>
+Param	character_grayout=false
+CharacterOff
+Wait						.3
+Se	闇1
+	天使		p3b			.3
+Wait						.3
+Se	闇1
+	天使A		p5			.3
+Wait						.3
+Se	闇1
+	天使B		p7b			.3
+Wait						.3
+	第零式天使兵	<Off>						■■■■■■■■！！！！
+Param	character_grayout=true
+CharacterOff
+	ドゥルガー	通常	p7b
+	ディーア	悔しい4	p3
+	ディーア	悔しい4						天使兵がコキュートスの中から!?\n囲まれた……!!
+	ドゥルガー	本気						私から絶対に離れないで、マスター
+	ドゥルガー	本気						今度こそ私は人類を……\nあなたを守り抜いてみせる……！
+Param	character_grayout=false
+CharacterOff
+	真ドゥルガー	通常						…………
+Se	チャージ
+	オーラ光		エフェクト表			1
+	真ドゥルガー	通常						オオオオ……！
+StopBgm
+CharacterOff						0
+ImageEffect	SpriteCamera	MotionBlur
+Se	シャキーン
+Bg	黒背景					0
+	黒背景		エフェクト表			0
+	斬撃(393C)		エフェクト裏			0
+Tween	黒背景	MoveBy	y=-3000 time=1
+Wait						.3
+Bg	遺跡C					0
+ImageEffectOff	SpriteCamera	MotionBlur
+CharacterOff						0
+	天使		p3b
+	天使A		p5
+	天使B		p7b
+Wait						1
+Se	倒れる
+CharacterOff	天使					1
+CharacterOff	天使A					1
+CharacterOff	天使B					1
+Wait						1
+CharacterOff
+	オーラ光
+	真ドゥルガー	通常
+CharacterOff	オーラ光					.5
+Wait						.5
+	真ドゥルガー	通常						…………
+Bgm	雪の街
+Param	character_grayout=true
+CharacterOff
+	ドゥルガー	本気	p7b
+	ディーア	驚き4	p3
+	ディーア	驚き4						え……？
+	ディーア	驚き4						ドゥルガーが天使を倒した……？
+CharacterOff
+	真ドゥルガー	通常						《天使兵の沈黙を確認\n　戦闘停止、します……》
+Se	フォーン
+CharacterOff	真ドゥルガー					1
+Wait						1
+CharacterOff
+	ドゥルガー	悲しい	p7b
+	ディーア	驚き4	p3
+	ドゥルガー	悲しい						…………
+	ドゥルガー	悲しい						今のうちに、\nコキュートスの封印を強化しましょう
+	ディーア	驚き4						でもどうして、\nドゥルガーはオレたちのことを\n見逃したんだ？
+	ドゥルガー	悲しい						わからないわ
+	ドゥルガー	悲しい						天使の出現で、\n攻撃の優先順位が変わったのか……
+	ディーア	通常4						あるいはお前の姿を見て、\n自分の使命を思い出したのかも
+	ドゥルガー	通常						それは、楽観的な意見ね
+	ディーア	通常4						そうかな？
+	ディーア	通常4						天使兵の残骸を見たけれど、\nどれもひどく傷つき弱っていたよ
+	ディーア	通常4						全盛期の力の半分も\n使えなかったんじゃないかな？
+	ディーア	目閉じ4						どれも万全の状態なら、\nオレたちでも危なかったと思う
+Tween	ドゥルガー	PunchPosition	y=30				NoWait
+	ドゥルガー	通常						まさか、ドゥルガーが？
+	ディーア	通常4						暴走しながらも天使を道連れにして\n共に封印されることを選んだ
+	ディーア	通常4						傷つき絶望しても、\n魔界を守る最大限の貢献をしてくれた
+	ディーア	笑い4						そう解釈することもできるだろ？
+	ディーア	笑い4						そしてその解釈を、\nお前なら本当にすることだってできる
+	ディーア	通常4						これからオレと\n魔界を守るために大活躍して\nドゥルガーの忌み名を上書きする
+	ディーア	通常4						昔も今も魔界の守護者だったって
+	ディーア	笑い4						どうだ？
+	ドゥルガー	通常						……ええ、合理的ね
+	ドゥルガー	笑い						あなたと一緒なら、できるかも
+	ディーア	笑い4						ああ！ がんばろう！
+	ドゥルガー	笑い						……ふふ♪
+StopBgm
+	ドゥルガー	通常						でもその前に、\nあの女……アリエッタを追わないと
+Bgm	絶望
+	ドゥルガー	通常						彼女は強大な天使兵を連れ出したわ\nなにをするかわからない
+	ディーア	怪しい4						そうだな、\n状況から見て一連の騒動の原因は\nアリエッタの可能性が高い
+	ディーア	怪しい4						だけど天使兵の回収が目的なら\nここまで大事にする必要はないはずだ
+	ディーア	怪しい4						それになにより、\nアイツはオレたちがしていたことを\n把握したうえで動いている
+	ドゥルガー	通常						各地で一斉に騒動を起こした理由、\nそれは例えば<dash=2>
+	ドゥルガー	通常						戦力の分散
+	ディーア	怒り4						あいつ、まさか……！
+StopBgm
+FadeOut	black					1
+CharacterOff						0
+Bg	神殿B					0
+	マナアリス	通常				0
+Wait						1
+Param	character_grayout=false
+FadeIn	black					1
+Bgm	図書館
+	マナアリス	通常						ふわあ♪\nでは出発してきますけどぉ……
+	マナアリス	通常						本当に一人でいいんですかぁ？
+CharacterOff
+	ハジマリ	通常						ああ、問題ないよ
+	ハジマリ	笑い						なにせほら、ボクはラスボスだから
+CharacterOff
+	マナアリス	通常						その前に、\nあなたはマナ.ALICEたちとおんなじ\n悪の組織の幹部だということも
+	マナアリス	通常						忘れないでくださいね？
+CharacterOff
+	ハジマリ	通常						もちろん♪
+CharacterOff
+	マナアリス	通常						それではー
+Se	フォーン
+CharacterOff	マナアリス					1
+Wait						1
+CharacterOff
+	ハジマリ	通常						…………
+	ハジマリ	通常						さてキミが懸念していたであろう\n眠りネズミも離れた
+	ハジマリ	通常						そろそろ出てきたらどうだい？\nトートネクロ
+CharacterOff
+	アリエッタ	通常				1		おやおや♪\n我が愛しき魔剣のこともお気づきとは
+	アリエッタ	通常						流石は全魔剣の母を\n標榜するだけのことはありますね
+	アリエッタ	通常						ハジマリ様？
+CharacterOff
+	ハジマリ	通常						魔人機関……今は魔獣同盟か\nトートネクロのマスター\nアリエッタ
+	ハジマリ	通常						やはり狙いはボクだったんだね、\nなにが望みかな？
+CharacterOff
+	アリエッタ	笑い						そうですね……\n柄にもなく宣言するならば、\n正義の味方になることでしょうか？
+	アリエッタ	通常						この魔界にラスボスなど不要
+	アリエッタ	通常						あなたを亡き者にし、\n魔界に真の平和を取り戻すのです
+If	isdebug==true
+CharacterOff
+Jump	*E_1283_09
+EndIf
+EndScenario
+
+# E_1283_09
+Command	Arg1	Arg2	Arg3	Arg4	Arg5	Arg6	WaitType	Text	PageCtrl	Voice	WindowType
+Param	quest_name="クエスト名"
+ShowMessageWindow
+FadeOut	black					0
+StopSound
+Bgm	図書館
+Bg	神殿B					0
+Param	character_grayout=false
+	ハジマリ	通常				0
+FadeIn	black					1
+	ハジマリ	通常						ボクを倒し、\n魔界を滅亡から救いたい……か
+	ハジマリ	通常						とても英雄的な行いだけど\nキミはそういう役には見えないよ？
+	ハジマリ	通常						人を見た目で判断するべきでないけど\nキミの魂は歪んでいる
+	ハジマリ	通常						神や未来を語っているけれど\nキミは……終わりたくないだけだ
+	ハジマリ	通常						そうだろう？
+	ハジマリ	通常						だからトートネクロを、\n自らの魔剣を肉体と融合させている
+	ハジマリ	通常						魔剣王との数々の戦いを経ても\n肉体が朽ちていないのはそのせいだ
+CharacterOff
+	アリエッタ	笑い						そこまで分かるとは流石ですね♪
+	アリエッタ	嬉しい						ええ、トートネクロの愛がなければ\nこの命はとうに尽きています
+	アリエッタ	嬉しい						その愛に応えるためにも\n私は生き続けなければいけません
+CharacterOff
+	ハジマリ	怪しい						とうのトートネクロは\nずいぶんと苦しそうな様子だけど……
+	ハジマリ	怪しい						魔人機関や魔獣同盟、\n自らの神として彼女を信奉するのも\nより強い存在への憧れか……
+	ハジマリ	通常						そこまでして生きたい？
+	ハジマリ	通常						ボクは完全な終わりというのも\n美しいと思うけれど？
+CharacterOff
+	アリエッタ	笑い						もちろんですとも
+	アリエッタ	通常						貴女と違い、\n不満足な躰で生まれ落ちた時から\n変わらず抱いていた願い
+	アリエッタ	通常						消えたくない、生きたい……
+	アリエッタ	通常						自らの躰を死霊術で動かし、\n魔剣の愛で補強してもまだ足りない
+	アリエッタ	嬉しい						あの神のように……！\nすべてを破壊し尽くす御姿に……！
+	アリエッタ	通常						だからまずは<dash=2>
+CharacterOff
+	天使兵極	通常				1		…………
+CharacterOff
+	ハジマリ	通常						天使か
+CharacterOff
+	アリエッタ	通常						魔剣の不死性と人間の魔力を併せた\n完全なる生命体
+	アリエッタ	通常						私の理想にはまだ遠いですが、\nまずはこの躰と\n私自身を融合させるのが第一歩
+	アリエッタ	通常						私はまた一歩、神に近づける
+	アリエッタ	通常						貴女たちの悪の組織ごっこは\n私に天使をくださり\n貴女を屠る絶好の機会をくれました
+	アリエッタ	通常						貴女は<ruby=ネセサリー>必要</ruby>が生まれた時に\n魔界を滅ぼす者と聞きました
+	アリエッタ	笑い						いかに完全な命でも\n世界ごと滅ぼされてしまえば\n台無しです♪
+CharacterOff
+	ハジマリ	笑い						なるほどね\n確かにボクはキミにとって大悪役だ\n排除したい気持ちはわかる
+	ハジマリ	通常						今のタイミングも実に正しい
+	ハジマリ	通常						みんなの終わりの舞台のために、\n権限を歪なカタチで使っているから\nかなり消耗してしまっている
+	ハジマリ	通常						中の様子は……\nシズカニーの意識を操ったのかな？
+	ハジマリ	通常						彼らは朽ちた魔物たちの\n残留思念から生まれているからね\n死霊術の影響をうけやすい
+	ハジマリ	笑い						そしてボクの出現と動きを\nキミに知らせたのは……絶望王？
+CharacterOff
+	アリエッタ	笑い						ノーコメントです♪
+CharacterOff
+	ハジマリ	本気
+Wait						.5
+Se	光1
+Se	コインロック
+FadeOut	white					.2
+	鎖エフェクト前		エフェクト表			0
+	鎖エフェクト後ろ		エフェクト裏			0
+FadeIn	white					.2
+Shake	ハジマリ		x=5				NoWait
+	ハジマリ	本気						これ、は……
+CharacterOff
+	アリエッタ	通常						貴女の力を天使に吸収する術式
+	アリエッタ	通常						魔帝アリス様を含め、\n貴女を気にかけていた存在は数多い
+	アリエッタ	通常						貴女たちの生存を知った\n神々の中にも心変わりした者もいます
+	アリエッタ	通常						それはその方にいただいたもの
+CharacterOff
+	鎖エフェクト前		エフェクト表
+	鎖エフェクト後ろ		エフェクト裏
+	ハジマリ	本気						…………
+CharacterOff
+	アリエッタ	通常						貴女の権限を得て、私は完全になる
+CharacterOff
+	鎖エフェクト前		エフェクト表
+	鎖エフェクト後ろ		エフェクト裏
+	ハジマリ	笑い						ふふふ♪
+	ハジマリ	笑い						完全だなんて……面白い冗談だ
+	ハジマリ	笑い						確かにボクは\nいかにも全知全能という風体だし\nラスボスで世界の生みの親
+	ハジマリ	怪しい						だけれど……\n結局はボクも自分の世界を救えずに\nこうするしかなかった敗者だ
+	ハジマリ	通常						アリエッタ、\n貪欲に完全を求める哀れな子
+	ハジマリ	通常						キミが求めるものはどこにもないよ\nラスボスが保証する
+CharacterOff
+	アリエッタ	蔑み						なんですって……？
+CharacterOff
+	鎖エフェクト前		エフェクト表
+	鎖エフェクト後ろ		エフェクト裏
+	ハジマリ	通常						そしてもう一つ、\nラスボスと戦う相手には格が必要だ\n例えば<dash=2>
+StopBgm
+	ハジマリ	笑い						彼のような
+Bgm	勇者バトル
+CharacterOff
+	ディーア	本気4				1		ハジマリ……！
+CharacterOff
+	アリエッタ	通常						マルアフ=ノフェル
+CharacterOff
+	天使兵極	通常						■■■■■■!!
+CharacterOff						0
+ImageEffect	SpriteCamera	MotionBlur
+Se	シャキーン
+Bg	黒背景					0
+	黒背景		エフェクト表			0
+	斬撃(393C)		エフェクト裏			0
+Tween	黒背景	MoveBy	y=-3000 time=1
+Wait						.3
+Bg	神殿B					0
+CharacterOff						0
+ImageEffectOff	SpriteCamera	MotionBlur
+	ディーア	悔しい4
+Shake	ディーア		x=2				NoWait
+	ディーア	悔しい4						ぐっ……！
+CharacterOff
+	アリエッタ	通常						やはり貴方でしたか、魔剣王様
+CharacterOff
+	ディーア	悔しい4
+Tween	ディーア	PunchPosition	y=30				NoWait
+	ディーア	悔しい4						アリエッタ！ ハジマリを放せ!!
+CharacterOff
+	アリエッタ	通常						なぜ、どうして？
+	アリエッタ	笑い						この方は魔界を滅ぼすラスボスです\n倒すことこそが正義♪
+Tween	アリエッタ	PunchPosition	y=30				NoWait
+	アリエッタ	笑い						きっと世界も運命も、\n私に味方してくれるでしょう♪
+	アリエッタ	通常						邪魔をするのなら、悪です
+CharacterOff
+	タマハクビ	通常						この天使兵、\nハジマリちゃんの力まで持ってます
+CharacterOff
+	ドゥルガー	通常						それでも、諦める理由はないわ
+CharacterOff
+	ディーア	怒り4						ああ！
+	ディーア	本気4						アリエッタ！\nお前の野望はここで止める……！
+If	isdebug==true
+CharacterOff
+Jump	*E_1283_10
+EndIf
+EndScenario
+
+# E_1283_10
+Command	Arg1	Arg2	Arg3	Arg4	Arg5	Arg6	WaitType	Text	PageCtrl	Voice	WindowType
+Param	quest_name="クエスト名"
+ShowMessageWindow
+FadeOut	black					0
+StopSound
+Bgm	魔獣バトル
+Bg	神殿B					0
+Param	character_grayout=false
+	アリエッタ	通常				0
+FadeIn	black					1
+	アリエッタ	通常						愚かなことです
+	アリエッタ	通常						以前とは違い、\n私は完全なる天使を支配しました
+	アリエッタ	通常						四大兵器のマスターピース
+	アリエッタ	笑い						それを相手にするというのに、\nそのような魔剣たちで挑もうなんて♪
+CharacterOff
+	ディーア	怒り4						ハクビたちが、どうした？
+CharacterOff
+	アリエッタ	通常						貴方は以前に、\n私が魔剣をまるで分かっていないと\n嘲りましたけれど
+	アリエッタ	通常						分かっていないのはどちらでしょう？
+	アリエッタ	通常						伝承を力に変える魔剣として\n彼女たちはどうしようもない落伍者
+	アリエッタ	通常						貴方がかつて倒した敵の残骸\n敗北者の伝承を受け継いだ悪役たち
+	アリエッタ	通常						世界に必要ないと認められた者です\nなんの役に立つのでしょう？
+CharacterOff
+	タマハクビ	通常						っ……
+CharacterOff
+	アリエッタ	通常						そして貴方が助けようとしている\nハジマリ様は\n魔界を滅ぼすと公言する敵ですよ？
+	アリエッタ	通常						魔界の王を名乗るのなら、\n私に協力するのが筋ではないですか？
+	アリエッタ	笑い						魔界を滅びから救い、\n神の威光と愛を世界中に広げる♪
+	アリエッタ	笑い						それこそが理想の魔界です♪
+StopBgm
+CharacterOff
+	ディーア	笑い4						……はは
+Bgm	神秘
+	ディーア	笑い4						なんだアリエッタ、\nお前は世界に認められたかったのか
+CharacterOff
+	アリエッタ	蔑み						なんですって……？
+CharacterOff
+	ディーア	通常4						組織や立ち位置を変えて\nいったいなに考えてるんだって\nずっと思ってきたけれど
+	ディーア	通常4						ようやくわかったよ
+	ディーア	通常4						神に仕えるとか完全な肉体とか\n御託は達者だけど
+	ディーア	通常4						お前は自分に自信がないから、\n仮初の安全を得て安心したいだけだ
+	ディーア	通常4						世界にいてもいいと安心したいだけ
+	ディーア	笑い4						自分のことしかないから、\n信念も信条も乗り換えても平気な\nただの三流の悪党
+	ディーア	笑い4						お前がハクビやドゥルガー、\nハジマリのことを笑おうだなんて\nオレの方が笑えてくる
+CharacterOff
+	アリエッタ	蔑み						私は天使を得ました、\n先史の権限も奪い、\n貴方でさえも私を止められません
+	アリエッタ	蔑み						そんな私が彼女たちに劣ると？\nいったいどこが？
+StopBgm
+CharacterOff
+	ディーア	怒り4						格だよ
+Bgm	凱旋
+	ディーア	怒り4						悪役だとしても、\nこの子たちは不要な存在じゃない
+	ディーア	怒り4						自分よりも大きな理想のために戦う\n誇り高い悪役だ
+CharacterOff
+	タマハクビ	本気						確かにわたしは、\n堕ちた獣から生まれた魔剣です
+	タマハクビ	本気						一度は自分で終わろうとした小心者
+	タマハクビ	本気						ですが今は、\nタマモノマエ様の誇りを受け継いで\n生きていくと決めました
+	タマハクビ	本気						誰に悪と言われようと、必ず……
+CharacterOff
+	ドゥルガー	通常						私もそうよ
+	ドゥルガー	通常						結局真実はわからないままで\nドゥルガーは悪役として存在し続ける
+	ドゥルガー	通常						でもだからこそ、\n悪名さえ上書きできるように\n私はその名を継いで戦い続けるわ
+	ドゥルガー	通常						そして魔界とマスターを守るの
+CharacterOff
+	ディーア	怒り4						ハジマリだってそうだ
+	ディーア	怒り4						怪しくて、正体不明で\nなにを考えているかわからなくて
+	ディーア	怒り4						でも魔剣たちの母として、\n悪役となった子を救うのも諦めない
+	ディーア	通常4						いつか本当にラスボスとして\n立ちふさがるかもしれないけれど\nその時は堂々と相対したい
+CharacterOff
+	鎖エフェクト前		エフェクト表
+	鎖エフェクト後ろ		エフェクト裏
+	ハジマリ	笑い						ふふ♪
+CharacterOff
+	ディーア	怒り4						世間に認められない？\n世界から見たら悪？
+	ディーア	本気4						だからどうした！\nそんなの関係ないっ！
+	ディーア	怒り4						誰かが悪だと決めつけようと、\n諦めず進み続ける！
+	ディーア	怒り4						夢と野望を叶えてみせる……！
+	ディーア	本気4						そんなオレたちが集まった、\n悪の組織を侮ったのがお前の敗因だ
+CharacterOff
+	アリエッタ	蔑み						敗因……？
+	アリエッタ	蔑み						いったい、なんのことを？
+StopBgm
+CharacterOff
+	ディーア	笑い4						悪役らしいずるい時間稼ぎだよ
+Bgm	風属性バトル
+	ディーア	本気4						マナ.ALICE！
+Se	フォーン
+CharacterOff
+	マナアリス	嬉しい				1		はーい♪
+Wait						.3
+CharacterOff
+	鎖エフェクト前		エフェクト表
+	鎖エフェクト後ろ		エフェクト裏
+	ハジマリ	通常
+Wait						.5
+FadeOut	white					.2
+Se	パリン
+CharacterOff	鎖エフェクト前					0
+CharacterOff	鎖エフェクト後ろ					0
+FadeIn	white					.2
+Tween	ハジマリ	PunchPosition	y=30				NoWait
+	ハジマリ	通常						おっと！
+CharacterOff
+	マナアリス	笑い						大丈夫ですか、ハジマリちゃん？
+CharacterOff
+	ハジマリ	通常						力は抜けちゃったけどね
+CharacterOff
+	マナアリス	嬉しい						救出任務はこれにて完了♪\nそれから<dash=2>
+Se	チャージ
+	オーラ光		エフェクト表			1
+	マナアリス	嬉しい						今まで集めたモエネルギー♪\nぜーんぶもってきましたよぉー♪
+CharacterOff
+	アリエッタ	蔑み						モエ、ネルギー？
+	アリエッタ	蔑み						それは茶番劇のための設定では？\nなにをふざけたことを……
+CharacterOff
+	ディーア	怒り4						ふざけてなんかいない\n悪の組織はいつだって大真面目だ
+	ディーア	怒り4						これは魔界から集めた活力そのもの\n生きるためのエネルギー
+	ディーア	怒り4						ハジマリの終焉とは対極の力！\nこれだけあれば、\nその天使相手でも対抗できる！
+CharacterOff
+	アリエッタ	蔑み						なぜ、そんなものを……!?
+CharacterOff
+	ハジマリ	笑い						さあ♪ どうしてだろうね？
+	ハジマリ	笑い						でも悪の幹部だから、\nこういうセリフを言っておこう
+Tween	ハジマリ	PunchPosition	y=30				NoWait
+	ハジマリ	笑い						すべてボクらの計画通りだ♪
+	ハジマリ	通常						そして今なら、\nこの名乗りがふさわしいかな？
+	ハジマリ	通常						悪の組織クワイエットが四天王\n"終焉"のハジマリ
+CharacterOff
+	マナアリス	通常						"熟睡"のスリーピーこと\nマナガルム.ALICE♪
+CharacterOff
+	タマハクビ	本気						"沈黙"のキュービこと\nタマモノマエ=ハクビ……！
+CharacterOff
+	ドゥルガー	通常						"殲滅"のコキュートスこと\nドゥルガー
+CharacterOff
+	ディーア	怒り4						そして……！\n悪の組織クワイエットの大首領！
+	ディーア	本気4						魔剣王！\n<param=name>!!
+	ディーア	本気4						魔界を支配するのはオレたちだ！
+If	isdebug==true
+CharacterOff
+Jump	*E_1283_11
+EndIf
+EndScenario
+
+# E_1283_11
+Command	Arg1	Arg2	Arg3	Arg4	Arg5	Arg6	WaitType	Text	PageCtrl	Voice	WindowType
+Param	quest_name="クエスト名"
+ShowMessageWindow
+FadeOut	black					0
+StopSound
+Bgm	風属性バトル
+Bg	神殿B					0
+Param	character_grayout=false
+	アリエッタ	蔑み				0
+FadeIn	black					1
+	アリエッタ	蔑み						なんですか、これは……？
+	アリエッタ	蔑み						ふざけるのも大概にしなさい……！
+	アリエッタ	蔑み						なにが悪の組織、なにが悪の幹部！\nそんなくだらないものに……！
+CharacterOff
+	ディーア	本気4						くだらなくなんてない！\n悪と呼ばれようと理想を捨てない！\nどんな敵が相手でも挑み続ける！
+	ディーア	悔しい4						これまでも、これからも……！
+	ディーア	本気4						理想が叶うその時まで！\nオレたちは歩みを絶対に止めない!!
+CharacterOff
+	サイレンサー							俺たちも協力しますよ！
+CharacterOff
+	シズカニーA	通常	p3
+	シズカニーB	通常	p7b
+	シズカニーA	通常						シズカニー！
+	シズカニーB	通常						シズカニー！
+CharacterOff
+	サイレンサー	通常						あんなにうるさいのに支配されたら\nゆっくりできませんからね！
+CharacterOff
+	オルタ魔法少女	通常
+Tween	オルタ魔法少女	PunchPosition	y=30				NoWait
+	オルタ魔法少女	通常						私たち魔法少女もお手伝いします！\n愛と希望を届けるために……！
+CharacterOff
+	ディーア	通常4						ふふ♪\n予定とはだいぶ違っちゃったけど、\nいい最終決戦じゃないか？
+CharacterOff
+	ハジマリ	通常						そうだね♪
+	ハジマリ	笑い						それじゃあ、大首領\n最後の言葉はキミに任せるよ♪
+CharacterOff
+	ディーア	本気4						ここまでだ、アリエッタ……！
+Se	光3
+FadeOut	white					2						音とともに光が広がる
+CharacterOff						0
+Se	光3											Seを重ねて派手に
+Se	闇3											光の裏で攻撃が起こる意図
+Se	火事
+	天使兵極	通常				0
+Param	character_grayout=true
+FadeIn	white					.2						戻る時はパッと
+Shake	天使兵極		x=3				NoWait
+	天使兵極	通常						…………っ
+CharacterOff	天使兵極					1
+Wait						1
+Bgm	凱旋
+CharacterOff
+	ドゥルガー	通常						天使の消滅を確認したわ
+CharacterOff
+	ディーア	怒り4						アリエッタは？
+CharacterOff
+	タマハクビ	本気						姿が見えません……\nもしかして逃げたのかも……
+CharacterOff
+	マナアリス	通常						だとしても、\nあの威力ならただではすみません\n要の天使も消滅しました
+	マナアリス	通常						もうマナ.ALICEたちに\nなにかすることはできませんよ
+CharacterOff
+	ディーア	通常4						それなら<dash=2>
+Tween	ディーア	PunchPosition	y=30				NoWait
+	ディーア	笑い4						オレたちの大勝利だな！
+CharacterOff
+	タマハクビ	笑い						はい……！
+	タマハクビ	笑い						また一つ、\n旦那様と立派な功績を……♪
+Tween	タマハクビ	PunchPosition	y=30				NoWait
+	タマハクビ	笑い						既成事実をつくれました♪
+CharacterOff
+	ドゥルガー	笑い						私もドゥルガーの名を\nその伝承を上書きできたかしら？
+	ドゥルガー	笑い						でも……すべてはこれから
+	ドゥルガー	笑い						私が最高の魔剣だと\nマスターの認識も上書きしてみせる
+CharacterOff
+	ディーア	汗4						ふ、二人とも……？\nなんだか誤解される言い方のような？
+CharacterOff
+	マナアリス	嬉しい						だんな様？\nマナ.ALICEへの報酬の準備は\nできていますかぁ？
+Tween	マナアリス	PunchPosition	y=30				NoWait
+	マナアリス	嬉しい						一日独占♪ 楽しみにしています♪
+CharacterOff
+	タマハクビ	怪しい						…………
+CharacterOff
+	ドゥルガー	通常						…………
+CharacterOff
+	マナアリス	本気						…………
+CharacterOff
+	ディーア	汗4
+Tween	ディーア	PunchPosition	y=30				NoWait
+	ディーア	汗4						み、みんな！\nせっかく戦いが終わったんだから！\nもっと楽しくはしゃごう！
+CharacterOff
+	シズカニーA	通常
+Tween	シズカニーA	PunchPosition	y=30				NoWait
+	シズカニーA	通常						シズカニー！
+CharacterOff
+	ディーア	汗4						ご、ごめん……！
+	ディーア	通常4						それでハクビとドゥルガーも\n最終回はもう<dash=2>
+CharacterOff
+	タマハクビ	笑い						はい、あるとしてもまだ先です
+CharacterOff
+	ドゥルガー	笑い						悪役を背負いながら、\nマスターと共に歩んでいくわ
+CharacterOff
+	ディーア	通常4						よかった！
+	ディーア	通常4						それなら\n悪の組織クワイエットも解散だな！
+	ディーア	笑い4						魔界を騒がせた異変を解決できて\n静かになって目的達成♪
+StopBgm
+CharacterOff
+	オルタ魔法少女	笑い						えへへ♪ 大団円ですね♪
+CharacterOff
+	ディーア	怪しい4						…………
+Bgm	コメディ
+	ディーア	本気4						いや、まだだ！\nまだオレの野望は叶っていない！
+	ディーア	本気4						まだ魔法少女を捕まえて\nあんなことやこんなことできてない！
+Tween	ディーア	PunchPosition	y=30				NoWait
+	ディーア	本気4						悪の大首領はまだ続けるぞ!!!!
+CharacterOff
+	オルタ魔法少女
+Tween	オルタ魔法少女	PunchPosition	y=30				NoWait
+	オルタ魔法少女	驚き						ふえっ!?
+CharacterOff
+	ハジマリ	通常						…………
+	ハジマリ	笑い						ふふ♪
+Param	character_grayout=false
+CharacterOff
+	オルタ魔法少女	驚き
+	ナレーション？	<Off>	1_2					こうして魔法少女と悪の組織の\n最終決戦は幕を閉じた
+CharacterOff
+	マナアリス	嬉しい
+	ナレーション？	<Off>	1_2					魔界を揺るがす大異変を\n一緒に止めて\n希望あふれる未来へと向かう
+CharacterOff
+	タマハクビ	笑い
+	ナレーション？	<Off>	1_2					魔法少女も悪役も、\n遠くに輝く理想を叶えるために\nこれからも進んでいく
+CharacterOff
+	ドゥルガー	笑い
+	ナレーション？	<Off>	1_2					魔法少女と悪の組織の物語、\nその続きはまたいつか
+FadeOut	white					1
+StopBgm
+CharacterOff						0
+Bg	草原A					0
+	ハジマリ	笑い				0
+FadeIn	white					1
+	ハジマリ	笑い						じゃあ、みんな元気で<dash=2>
+Bgm	結婚
+CharacterOff
+	ディーア	驚き4	画面外_右
+Se	走る
+Tween	ディーア	MoveBy	x=-700 time=1				NoWait
+	ディーア	驚き4						待て待て待て！
+Tween	ディーア	PunchPosition	y=30				NoWait
+	ディーア	驚き4						一人でこっそり\nどこに行くつもりなんだ!?
+CharacterOff
+	ハジマリ	通常						…………バレちゃったか
+CharacterOff
+	ディーア	汗4						バレバレだって
+	ディーア	通常4						……体はもう大丈夫なのか？
+CharacterOff
+	ハジマリ	通常						問題ないよ\n奪われた力もじきに回復するはずだ
+	ハジマリ	通常						だけど魔剣王？\n本当にあるだけ全部使っちゃったの？\nあのモエネルギー
+	ハジマリ	通常						だってアレは<dash=2>
+CharacterOff
+	ディーア	通常4						お前を倒すためのものだった、か？
+CharacterOff
+	ハジマリ	通常						なんだ、気づいていたの？
+CharacterOff
+	ディーア	通常4						最高の最終回を目指すためとはいえ\nループと錯覚させながら、\n毎回モエネルギーを集めていたからな
+	ディーア	通常4						お前が始めた最終回のための舞台\nその最後にお前も終わろうとしていた
+	ディーア	通常4						前に進むと決めたみんなとオレが\nラスボスのお前を倒す
+	ディーア	通常4						それがお前の描いた筋書きか？
+CharacterOff
+	ハジマリ	通常						そう、\nアリエッタが来なければ\nボクがああいうことをするはずだった
+	ハジマリ	笑い						ハクビやドゥルガーたちに\nボクを倒した伝承を\n贈ることもできるからね
+	ハジマリ	通常						やっぱりボクは早く目覚めすぎたんだ
+	ハジマリ	通常						悲劇は多いけれど、\nまだまだ魔界は希望を捨てていないし\n魔剣たちに寄り添う王もいる
+	ハジマリ	通常						それならボクは邪魔者だ
+	ハジマリ	怪しい						アリエッタのように\n良からぬことを企む者もいることだし\n一時退場するべきだって……
+	ハジマリ	通常						でもキミは<dash=2>
+CharacterOff
+	ディーア	通常4						ダメだ
+Tween	ディーア	PunchPosition	y=30				NoWait
+	ディーア	笑い4						ハジマリが始めた物語なんだから\nお前がいないエンドカードでなんて\n終わらせたくない！
+	ディーア	通常4						それに実は味方がラスボスだった\nなんて物語も多いし
+	ディーア	通常4						ラスボスが味方になってくれても\n良いんじゃないか？
+CharacterOff
+	ハジマリ	通常						ボクは終わらせ専用だよ？\n魔剣としての出力調整は大変なんだ
+CharacterOff
+	ディーア	笑い4						それでも良いさ
+CharacterOff
+	ハジマリ	笑い						まったくキミは、\nラスボスを使いこなそうだなんて\n裏ボスにでもなるつもり？
+	ハジマリ	笑い						でもそうだね……\nキミは悪役さえ救った魔剣の王だ
+	ハジマリ	拡大通常	エフェクト表					ボクもまだまだ、\nエンドカードじゃ終わらせられないね
+FadeOut	white					2
+StopBgm
+CharacterOff						0
+Bg	荒野					0
+	アリエッタ	蔑み				0
+Wait						2
+FadeIn	white					2
+Bgm	図書館
+	アリエッタ	蔑み						はぁ、はぁ、はぁ……
+	アリエッタ	蔑み						まだ、私は終わりはしませんよ……
+	アリエッタ	蔑み						必ず私という存在を永遠に……
+CharacterOff
+	ヘヴン	通常						随分な有様だな、アリエッタ
+CharacterOff
+	アリエッタ	蔑み						絶望、王……なぜ？
+CharacterOff
+	ヘヴン	通常						それはこちらの質問だ
+	ヘヴン	通常						貴様に命じたのはあくまで監視
+	ヘヴン	通常						だが命令を逸脱し、\n魔獣同盟が準備した仕掛けを使い\n独断行動を起こした……
+	ヘヴン	通常						弁明はあるか？
+CharacterOff
+	アリエッタ	蔑み						っ…………
+	アリエッタ	通常						私は、ここで終わりですか？
+CharacterOff
+	ヘヴン	通常						…………
+	ヘヴン	通常						そう言いつつも\n目はまるで絶望をしていないな
+	ヘヴン	通常						そうであるなら、\n貴様にはまだ役目が残されている
+	ヘヴン	通常						御伽血継へ向かえ
+	ヘヴン	通常						暗黒王カグヤを我らに引き入れろ
+FadeOut	white					2
+CharacterOff						0
+Bg	魔術空間					0
+	リコさまちゃん	通常				0
+Wait						2
+FadeIn	white					2
+	リコさまちゃん	通常						…………あら♪
+CharacterOff
+	リディ	通常3						どうしたの、リコさまちゃん？
+CharacterOff
+	リコさまちゃん	通常						懐かしいお友達が来てくれたのよ♪\nあなたにも紹介するわ♪
+CharacterOff
+	ハジマリ	通常						やあ、リコさまちゃん
+CharacterOff
+	リコさまちゃん	通常						■■……こほん、ハジマリちゃん♪\nこの呼び方で良いのね？
+	リコさまちゃん	通常						まさかあなたも目覚めちゃうなんて\n魔界はどうなるのかしら？
+CharacterOff
+	ハジマリ	通常						さあ、ボクにもまだ分からないよ
+	ハジマリ	通常						ラスボスの出番はすぐかもしれないし\n魔界自体が形を変えるかもしれない
+	ハジマリ	笑い						でもボクは、\nキミたちと一緒に見届けたくなった\nこれから起こる物語を
+	ハジマリ	通常						彼と<dash=2>
+CharacterOff						0
+StopBgm						0
+Bg	黒背景					0
+	ハジマリ	<Off>						五聖剣を巡る戦いを
+If	isdebug==true
+CharacterOff
+Jump	*E_1283_11
+EndIf
+EndScenario
