@@ -2464,5 +2464,17 @@
         "ts_source": "rss"
       }
     ]
+  },
+  "4868": {
+    "slug": "event_1283_main",
+    "canonical": "04868_20251112.html",
+    "versions": [
+      {
+        "ts": "2026/11/12 16:00:00",
+        "file": "04868_20251112.html",
+        "hash": "ccd46de9876ffd28854f6fa750c388e6e98da21cc54a5a2d0e6af94266358f3c",
+        "ts_source": "rss"
+      }
+    ]
   }
 }

@@ -1,6 +1,6 @@
 {
-  "latest_id": 4867,
-  "last_change_at": "2026-11-11T10:05:00+00:00",
+  "latest_id": 4868,
+  "last_change_at": "2026-11-12T07:02:43+00:00",
   "rss": {
     "yokoku_MachinaHeartBeating": {
       "pubDate": "Wed, 10 Jun 2026 18:00:00 +0900",
@@ -589,6 +589,10 @@
     "info_4koma_600": {
       "pubDate": "Wed, 11 Nov 2026 19:00:00 +0900",
       "id": 4866
+    },
+    "event_1283_main": {
+      "pubDate": "Thu, 12 Nov 2026 16:00:00 +0900",
+      "id": 4868
     }
   }
 }

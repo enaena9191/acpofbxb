@@ -4876,6 +4876,17 @@ bxb-assets/images/topics/events/1282/leaflet_11282_6.jpg
 bxb-assets/images/topics/events/1282/leaflet_11282_7.jpg
 bxb-assets/images/topics/events/1282/title.jpg
 bxb-assets/images/topics/events/1282/yokoku_AkunoHimitsusoshiki.jpg
+bxb-assets/images/topics/events/1283/leaflet_11283_1.jpg
+bxb-assets/images/topics/events/1283/leaflet_11283_10.jpg
+bxb-assets/images/topics/events/1283/leaflet_11283_2.jpg
+bxb-assets/images/topics/events/1283/leaflet_11283_3.jpg
+bxb-assets/images/topics/events/1283/leaflet_11283_4.jpg
+bxb-assets/images/topics/events/1283/leaflet_11283_5.jpg
+bxb-assets/images/topics/events/1283/leaflet_11283_6.jpg
+bxb-assets/images/topics/events/1283/leaflet_11283_7.jpg
+bxb-assets/images/topics/events/1283/leaflet_11283_8.jpg
+bxb-assets/images/topics/events/1283/leaflet_11283_9.jpg
+bxb-assets/images/topics/events/1283/title.jpg
 bxb-assets/images/topics/events/1283/yokoku_AkunoHimitsusoshiki2.jpg
 bxb-assets/images/topics/events/2001/title_2001.jpg
 bxb-assets/images/topics/events/2001/title_2001_1.jpg
@@ -10232,6 +10243,7 @@ bxb-assets/images/topics/materials/42030050/large.png
 bxb-assets/images/topics/materials/42030051/large.png
 bxb-assets/images/topics/materials/42030053/large.png
 bxb-assets/images/topics/materials/42030057/large.png
+bxb-assets/images/topics/materials/42030061/large.png
 bxb-assets/images/topics/materials/42050014/large.png
 bxb-assets/images/topics/materials/42050015/large.png
 bxb-assets/images/topics/materials/42050016/large.png
@@ -10631,6 +10643,7 @@ bxb-assets/images/topics/materials/53020278/large.png
 bxb-assets/images/topics/materials/53020283/large.png
 bxb-assets/images/topics/materials/53020292/large.png
 bxb-assets/images/topics/materials/53020303/large.png
+bxb-assets/images/topics/materials/53020306/large.png
 bxb-assets/images/topics/materials/53030026/large.png
 bxb-assets/images/topics/materials/53030027/large.png
 bxb-assets/images/topics/materials/53030028/large.png
@@ -11818,6 +11831,7 @@ bxb-assets/images/topics/souls/1573/stand_ll.png
 bxb-assets/images/topics/souls/1574/stand_ll.png
 bxb-assets/images/topics/souls/1575/stand_ll.png
 bxb-assets/images/topics/souls/1576/stand_ll.png
+bxb-assets/images/topics/souls/1577/stand_ll.png
 bxb-assets/images/topics/tape_04.jpg
 bxb-assets/images/topics/tape_04_soul.jpg
 bxb-assets/images/topics/title/info_header_gr_questionnaire.jpg
