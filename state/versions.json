@@ -2488,5 +2488,17 @@
         "ts_source": "rss"
       }
     ]
+  },
+  "4870": {
+    "slug": "yokoku_854",
+    "canonical": "04870_20251116.html",
+    "versions": [
+      {
+        "ts": "2026/11/16 17:00:00",
+        "file": "04870_20251116.html",
+        "hash": "46dc5677e1573a2c359aba739e03ab502bbde452444e96b72d9b31a82afee020",
+        "ts_source": "rss"
+      }
+    ]
   }
 }
