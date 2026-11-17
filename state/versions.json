@@ -2500,5 +2500,17 @@
         "ts_source": "rss"
       }
     ]
+  },
+  "4871": {
+    "slug": "g_854",
+    "canonical": "04871_20251117.html",
+    "versions": [
+      {
+        "ts": "2026/11/17 16:00:00",
+        "file": "04871_20251117.html",
+        "hash": "fb0fe6151175bfb0518077396e6bacdda14dc99e8af19c1de8fa161ebc71403a",
+        "ts_source": "rss"
+      }
+    ]
   }
 }
