@@ -2524,5 +2524,29 @@
         "ts_source": "rss"
       }
     ]
+  },
+  "4873": {
+    "slug": "info_4koma_601",
+    "canonical": "04873_20251118.html",
+    "versions": [
+      {
+        "ts": "2026/11/18 19:00:00",
+        "file": "04873_20251118.html",
+        "hash": "89296f262e0b27014d12dbcf7161410d2b78635695aae5293e030cd1221951db",
+        "ts_source": "rss"
+      }
+    ]
+  },
+  "4874": {
+    "slug": null,
+    "canonical": "04874_20251118.html",
+    "versions": [
+      {
+        "ts": "2025/11/18 19:00:00",
+        "file": "04874_20251118.html",
+        "hash": "a62ed2e82556a2af3da72104cb977f4d71b897398180814eea4ab2a154940982",
+        "ts_source": "page_time"
+      }
+    ]
   }
 }
