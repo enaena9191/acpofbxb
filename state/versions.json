@@ -2512,5 +2512,17 @@
         "ts_source": "rss"
       }
     ]
+  },
+  "4872": {
+    "slug": "info_kaini_202611",
+    "canonical": "04872_20251118.html",
+    "versions": [
+      {
+        "ts": "2026/11/18 16:00:00",
+        "file": "04872_20251118.html",
+        "hash": "e89aa8911e76ec4b46832c7dcf7c011b5787ac2b2a64ed7ddfa3e930661cf73b",
+        "ts_source": "rss"
+      }
+    ]
   }
 }

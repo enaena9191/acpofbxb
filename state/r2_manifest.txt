@@ -10070,6 +10070,7 @@ bxb-assets/images/topics/kaini/202607/title_header.jpg
 bxb-assets/images/topics/kaini/202608/title_header.jpg
 bxb-assets/images/topics/kaini/202609/title_header.jpg
 bxb-assets/images/topics/kaini/202610/title_header.jpg
+bxb-assets/images/topics/kaini/202611/title_header.jpg
 bxb-assets/images/topics/loginbonus/32801/sheet_loginbonus.png
 bxb-assets/images/topics/loginbonus/32802/sheet_loginbonus.png
 bxb-assets/images/topics/loginbonus/32803/sheet_loginbonus.png
@@ -14741,6 +14742,7 @@ bxb-assets/images/topics/weapons/134601.jpg
 bxb-assets/images/topics/weapons/134603.jpg
 bxb-assets/images/topics/weapons/1346702.jpg
 bxb-assets/images/topics/weapons/134702.jpg
+bxb-assets/images/topics/weapons/134703.jpg
 bxb-assets/images/topics/weapons/1348009.jpg
 bxb-assets/images/topics/weapons/134801.jpg
 bxb-assets/images/topics/weapons/134803.jpg
@@ -15485,6 +15487,7 @@ bxb-assets/images/topics/weapons/157901.jpg
 bxb-assets/images/topics/weapons/157902.jpg
 bxb-assets/images/topics/weapons/158001.jpg
 bxb-assets/images/topics/weapons/158002.jpg
+bxb-assets/images/topics/weapons/158003.jpg
 bxb-assets/images/topics/weapons/1581005.jpg
 bxb-assets/images/topics/weapons/158101.jpg
 bxb-assets/images/topics/weapons/158102.jpg
