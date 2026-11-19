@@ -1,0 +1,751 @@
+# E_1283_ex01
+Command	Arg1	Arg2	Arg3	Arg4	Arg5	Arg6	WaitType	Text	PageCtrl	Voice	WindowType
+Param	quest_name="クエスト名"
+ShowMessageWindow
+FadeOut	white					0
+StopSound
+Bgm	わくわく
+Bg	白背景					0
+Param	character_grayout=false
+	マナアリス	拡大足	エフェクト表			0
+	           	<Off>				0
+FadeIn	white					1
+Wait						2
+FadeOut	white					.3
+CharacterOff						0
+	マナアリス	拡大胸	エフェクト表			0
+	           	<Off>				0
+FadeIn	white					.3
+Wait						2
+FadeOut	white					.3
+Bg	酒場_宿屋					0
+CharacterOff						0
+	マナアリス	嬉しい				0
+FadeIn	white					.3
+Tween	マナアリス	PunchPosition	y=30				NoWait
+	マナアリス	嬉しい						改めまして、ぱんぱかぱーん♪\nマナ.ALICEとの\n専属契約が成立しましたぁー♪
+	マナアリス	嬉しい						マナ.ALICEとの\nギブ＆テイクな関係のために
+	マナアリス	嬉しい						だんな様は\nよーく契約書を読んでくださいねー？
+CharacterOff
+	ディーア	絶望4						はあ、はあ……\nあんな数の書類にサインをするの、\nはじめてだった……
+	ディーア	絶望4						手首が、もげそうだった……
+	ディーア	汗4						こんなに厳重に、\n契約を結ばないとダメだったのか？
+CharacterOff
+	マナアリス	笑い						もちろんです♪
+	マナアリス	笑い						ギブ&テイク、\n労働と報酬はとっても大事なこと♪
+	マナアリス	笑い						契約通りの報酬をもらえるからこそ、\n責任あるお仕事ができるんです
+	マナアリス	笑い						マナ.ALICEは\n報酬をしっかりともらう代わりに、\nだんな様を失望させません♪
+Tween	マナアリス	PunchPosition	y=30				NoWait
+	マナアリス	笑い						それが契約というものです♪
+CharacterOff
+	ディーア	驚き4						す、すごい、大人な考えだ……！
+	ディーア	目閉じ4						でもたしかに、\nマナ.ALICEのいうことは正しい\nこの契約も必要なものに思えてきた
+	ディーア	笑い4						じゃあさっそく、\n依頼にあった魔物の討伐に向かおう！
+CharacterOff
+	マナアリス	笑い						はい♪
+StopBgm
+	マナアリス	笑い						では遠征分のオプションを追加して\n100万ヘルいただきますね♪
+Bgm	緊迫
+CharacterOff
+	ディーア	絶望4
+Tween	ディーア	PunchPosition	y=30				NoWait
+	ディーア	絶望4						高いっ!!
+Bgm	魔剣の日常
+	ディーア	絶望4						100万ヘルって！\n討伐の報酬の倍以上の値段だぞっ!?
+	ディーア	絶望4						マナ.ALICEに報酬を払ったら、\nすっからかんになっちゃうって！
+CharacterOff
+	マナアリス	通常						でもだんな様にお渡しした、\n契約書にはしっかり書いてますよ？
+CharacterOff
+	ディーア	驚き4						えっ……ど、どこに……？
+CharacterOff
+	マナアリス	通常						ほら♪ そこのすみっコに♪
+CharacterOff
+	ディーア	絶望4						ある……けど、小さいっ！\nこんなの虫眼鏡じゃないと読めない！
+	ディーア	汗4						ま、マナ.ALICE？\nもう少し安くなったりしないかな？
+CharacterOff
+	マナアリス	通常						マナ.ALICEはベテランさんですから\nだめですよぉ
+	マナアリス	通常						命令とあらばどんな敵でも任務でも\n必ずこなしてきました
+	マナアリス	笑い						潜入、蹂躙、殲滅、\nだんな様のためならなんでもします♪
+	マナアリス	通常						アリス様からも\nマナ.ALICEはファミリーの\nリーサル・ウェポンと評価されました
+	マナアリス	通常						そんなマナ.ALICEを\nこのくらいの費用で雇用できるのは\nすっごくオトクなんですよ？
+	マナアリス	通常						アリス様には\nこちらの金額の十倍以上、\nお支払いいただいていました♪
+CharacterOff
+	ディーア	絶望4						うっ……\nさすがアリス様、金持ちだ……！
+Shake	ディーア		x=3				NoWait
+	ディーア	絶望4						こ、こうなったら……！\nなにか分割払いとか、\n利子付きでお金を借りられたり……
+CharacterOff
+	マナアリス	本気						だ、だんな様が\n道を踏み外そうとしています……！
+Tween	マナアリス	PunchPosition	y=30				NoWait
+	マナアリス	本気						契約相手がアブナイ道に行くのは\n絶対にダメです！
+	マナアリス	本気						ですがだんな様？\nよーく契約書を読んでください♪\n割引オプションがありますよ？
+CharacterOff
+	ディーア	驚き4
+Tween	ディーア	PunchPosition	y=30				NoWait
+	ディーア	驚き4						割引!?
+CharacterOff
+	マナアリス	嬉しい						はい♪\n一時間ベッドでナデナデしてくれたら\n料金はなんと半額に♪
+CharacterOff
+	ディーア	きらーん4						半額!? なんてオトクな！
+	ディーア	絶望4						だけど、\n半額になっても依頼の報酬は\nほとんど残らない……
+CharacterOff
+	マナアリス	嬉しい						さらにさらに♪\n夜も添い寝オプションをつければ\n料金を九割引きします♪
+CharacterOff
+	ディーア	きらーん4
+Tween	ディーア	PunchPosition	y=30				NoWait
+	ディーア	きらーん4						九割っ！
+CharacterOff
+	マナアリス	嬉しい						どうしますかぁ？
+CharacterOff
+	ディーア	きらーん4						しますっ！\nベッドでナデナデも夜添い寝もっ！
+CharacterOff
+	マナアリス	嬉しい						えへへ♪\nこれでギブ＆テイク成立ですねぇ♪
+CharacterOff
+	ディーア	きらーん4						やったぁ！
+	ディーア	怪しい4						…………あれ？
+	ディーア	怪しい4						でもそもそも、\nマナ.ALICEへの依頼をしなければ\n費用はゼロになるんじゃ<dash=2>
+CharacterOff
+	マナアリス	通常						では初依頼のだんな様には♪\n初回のお得なオプションとして……！
+	マナアリス	笑い						マナ.ALICEによる、\n戦闘後の癒しの膝枕をつけますよぉ♪
+CharacterOff
+	ディーア	驚き4						なんだって……！
+CharacterOff
+	マナアリス	笑い						しかも初回の魔力補給をしてくれたら\n尻尾もふもふもつけます♪
+CharacterOff
+	ディーア	きらーん4
+Tween	ディーア	PunchPosition	y=30				NoWait
+	ディーア	きらーん4						やります！ 魔力補給やりますっ！
+	ディーア	笑い4						なんだ♪\n最初はすごく高いと思ったけれど\nオプションもいれたら格安だな！
+CharacterOff
+	マナアリス	通常						ただ<dash=2>
+CharacterOff
+	ディーア	絶望4						た、ただ……？
+CharacterOff
+	マナアリス	通常						膝枕オプションをつけた場合、\n自動的に次回の依頼も義務となります
+	マナアリス	通常						尻尾もふもふオプションもつけると、\nさらに次次回の依頼も
+CharacterOff
+	ディーア	絶望4						ということは！\n自動的に追加で200万ヘルの支払い！\nそんなに払えないぞ!?
+CharacterOff
+	マナアリス	笑い						ですがご安心を♪
+CharacterOff
+	ディーア	笑い4						おぉ……！
+CharacterOff
+	マナアリス	笑い						一ヶ月毎日、\nマナ.ALICEとお昼寝してくれましたら\n十回分の料金が八割引♪
+	マナアリス	笑い						そのあと二十回分のご依頼にも、\n添い寝と引き換えの割引オプションが\nついてきますからねぇ♪
+	マナアリス	笑い						とーっても、お得です！
+CharacterOff
+	ディーア	きらーん4						やったぁ！\nお得なオプションだいすきっ！
+CharacterOff
+	マナアリス	嬉しい						それではギブ＆テイク成立ですね♪
+	マナアリス	嬉しい						ナデナデもふもふ先払いで、\nさらに割引期間延長しますけど<dash=2>
+StopBgm
+CharacterOff
+	ディーア	きらーん4						やるー♪
+	wipe		wipe_start			0
+Tween	wipe	MoveTo	x=-800 islocal=true time=1.2	linear
+FadeOut	black					.1
+CharacterOff						0
+	酒場_宿屋(夜)					0
+	マナアリス	嬉しい				0
+Wait						2
+FadeIn	black					.3
+Bgm	平和
+	マナアリス	嬉しい						ふわぁ♪\nたくさんナデナデもふもふ\nしてもらいました♪
+CharacterOff
+	ディーア	笑い4						オレも、\n契約が無事にまとまって良かった♪\nじゃあ任務に<dash=2>
+	ディーア	怪しい4						あ、あれ？
+	ディーア	怪しい4						一回任務に行くだけのはずだったのに\nいつのまにか二十回分の契約を？
+Shake	ディーア		x=3				NoWait
+	ディーア	絶望4						お、オトクなオプションって\n結局何回分になったんだっけ……!?
+CharacterOff
+	マナアリス	笑い						ふふふ♪\n契約はとーっても大事なんですよぉ？
+	マナアリス	笑い						ちゃーんと読んでおかないと
+CharacterOff
+	マナアリス	拡大通常	エフェクト表					ずるい女の子に、\nだまされちゃうかもしれません♪
+FadeOut	white					2
+If	isdebug==true
+CharacterOff
+Jump	*E_1283_ex02
+EndIf
+EndScenario
+
+# E_1283_ex02
+Command	Arg1	Arg2	Arg3	Arg4	Arg5	Arg6	WaitType	Text	PageCtrl	Voice	WindowType
+Param	quest_name="クエスト名"
+ShowMessageWindow
+FadeOut	black					0
+StopSound
+Bgm	平和
+Bg	酒場_宿屋					0
+Param	character_grayout=false
+	ディーア	通常4				1
+Se	走る
+FadeIn	black					1
+	ディーア	通常4						ただいまー
+	ディーア	驚き4						あれ？
+FadeOut	white					2
+Bg	白背景					0
+CharacterOff						0
+	ハジマリ	拡大足	エフェクト表			0
+	          	<Off>	1_2
+FadeIn	white					.3
+Wait						2
+FadeOut	white					.3
+CharacterOff						0
+	ハジマリ	拡大胸	エフェクト表			0
+	          	<Off>	1_2
+FadeIn	white					.3
+Wait						2
+FadeOut	white					.3
+Bg	酒場_宿屋					0
+CharacterOff						0
+	ハジマリ	通常				0
+	          	<Off>	1_2
+FadeIn	white					.3
+	ハジマリ	通常						やあ、おかえりなさい♪
+CharacterOff
+	ディーア	驚き4						ハジマリ！\nオレの部屋でなにをしているんだ？
+CharacterOff
+	ハジマリ	通常						ご覧の通り、本を読んでいるよ♪
+CharacterOff
+	ディーア	通常4						勉強か？\nてっきりお前なら魔界のことは\nなんでも知っていると思ってたけど
+CharacterOff
+	ハジマリ	通常						たしかに\nそういう風体なのは否定しないけど\nボクは早起きしすぎたラスボスだ
+	ハジマリ	通常						世界を壊す力はあっても\n今の魔界で生きるための知恵なんて\n持ち合わせていない
+	ハジマリ	笑い						その点では、\nキミたちとボクに差は存在しないよ
+CharacterOff
+	ディーア	通常4						ちなみに何の本を読んでいるんだ？
+CharacterOff
+	ハジマリ	通常						ふふ♪ 気になるかい？
+	ハジマリ	通常						ちょうどいい、\nキミの意見も聞いておきたかったんだ
+CharacterOff
+	ディーア	驚き4						オレの意見？
+CharacterOff
+	ハジマリ	笑い						うん、大事だろう？
+StopBgm
+CharacterOff
+	ハジマリ	拡大通常	エフェクト表					子どもの名前、どれがいい？
+	ハジマリ	拡大通常						ねえ、パパさん？
+Bgm	コメディ
+CharacterOff
+	ディーア	絶望4
+Tween	ディーア	PunchPosition	y=30				NoWait
+	ディーア	絶望4						ちょっと待てぇええええええ!?
+	ディーア	絶望4						こ、子どもの名前って!?\nいつどこで、オレがなにをした!?
+CharacterOff
+	ハジマリ	笑い						そんなに慌てないでくれよ、\nキミはラスボスであるママのツガイ\nつまり裏ボスでパパになるんだ♪
+	ハジマリ	笑い						もう少し堂々としてもらいたいな♪
+CharacterOff
+	ディーア	絶望4
+Tween	ディーア	PunchPosition	y=30				NoWait
+	ディーア	絶望4						堂々もなにも、身に覚えがないけど!?
+CharacterOff
+	ハジマリ	怪しい						身に覚えがあろうとなかろうと、\nそうなるのは決定事項なんだから\n覚悟は決めてほしいけどね……
+	ハジマリ	通常						あ、それとも\n後戻りできなくなった方が気が楽？
+	ハジマリ	通常						だったら今からでもいいよ♪\nボクの方も準備はすぐにするから
+Tween	ハジマリ	PunchPosition	y=30				NoWait
+	ハジマリ	笑い						パパになっちゃおう♪
+CharacterOff
+	集中線		エフェクト表
+	ディーア	絶望4						ダメですっ！
+StopBgm
+	wipe		wipe_start			0
+Tween	wipe	MoveTo	x=-800 islocal=true time=1.2	linear
+FadeOut	black					.1
+CharacterOff						0
+Wait						2
+	ディーア	絶望4				1
+FadeIn	black					.3
+Bgm	平和
+	ディーア	絶望4						はあ、昨日は\nハジマリがまた変なことをいうから\n任務中も気が散っちゃったな……
+	ディーア	通常4						ただいま<dash=2>
+CharacterOff
+	ハジマリ	笑い						やあ、おかえり♪
+CharacterOff
+	ディーア	驚き4
+Tween	ディーア	PunchPosition	y=30				NoWait
+	ディーア	驚き4						なんでまたいるのっ!?
+CharacterOff
+	ハジマリ	通常						ラスボスからは逃げられないものさ♪
+	ハジマリ	通常						なーんて、\nただキミの部屋は読書にちょうどいい\nというだけの理由だよ♪
+CharacterOff
+	ディーア	驚き4						ど、読書？
+CharacterOff
+	ハジマリ	通常						そうだ、\nキミの意見も聞いておきたかったんだ
+CharacterOff
+	ディーア	絶望4						子どもの名前はまだ早いぞっ!?
+CharacterOff
+	ハジマリ	通常						大丈夫、キミを急かすつもりはないし\n今日は別の話だよ♪
+CharacterOff
+	ディーア	悔しい4						べ、別の……？
+CharacterOff
+	ハジマリ	笑い						うん♪
+	ハジマリ	通常						子どもの入学先はどこが<dash=2>
+CharacterOff
+	ディーア	悔しい4
+Tween	ディーア	PunchPosition	y=30				NoWait
+	ディーア	絶望4						早すぎるって！！？？
+StopBgm
+FadeOut	black					1
+CharacterOff						0
+Bg	黒背景					0
+	ディーア	絶望4				0
+Wait						1
+FadeIn	black					1
+Bgm	カジノ
+	ディーア	絶望4						その後もハジマリは、\nオレの部屋で意味深な本を<dash=2>
+FadeOut	black					.3
+CharacterOff						0
+Bg	酒場_宿屋					0
+	ハジマリ	通常				0
+Wait						1
+FadeIn	black					.3
+	ハジマリ	通常						子どもの将来の\n職業はどれがいいかな？\n男の子なら勇者も<dash=2>
+CharacterOff
+	ディーア	絶望4						いつのまに学校を卒業した!?
+FadeOut	black					.3
+CharacterOff						0
+Bg	酒場_宿屋					0
+	ハジマリ	笑い				0
+Wait						1
+FadeIn	black					.3
+	ハジマリ	笑い						子どもが巣立った後の\nセカンドライフにメルトナはどう？\n風がとても気持ちいいらしいよ♪
+CharacterOff
+	ディーア	絶望4
+Tween	ディーア	PunchPosition	y=30				NoWait
+	ディーア	絶望4						まだオレはバリバリ現役だって！
+FadeOut	black					.3
+CharacterOff						0
+Bg	酒場_宿屋					0
+	ハジマリ	通常				0
+Wait						1
+FadeIn	black					.3
+	ハジマリ	通常						コレを見てくれないかい？
+	ハジマリ	通常						キミの墓碑にするのに、\nこの大きな魔石はちょうど良<dash=2>
+CharacterOff
+	ディーア	絶望4						なんで没後の話まで飛んだ!?
+FadeOut	black					.3
+CharacterOff						0
+Bg	黒背景					0
+	ディーア	絶望4				0
+Wait						1
+FadeIn	black					.3
+	ディーア	絶望4						ハジマリに振り回され続けた……
+StopBgm
+	wipe		wipe_start			0
+Tween	wipe	MoveTo	x=-800 islocal=true time=1.2	linear
+FadeOut	black					.1
+CharacterOff						0
+Bg	酒場_宿屋					0
+	ディーア	絶望4				0
+Wait						2
+FadeIn	black					.3
+Bgm	平和
+	ディーア	絶望4						はあ、はあ……\nなんかなにもしてないのに疲れた……
+CharacterOff
+	ハジマリ	笑い						やあ、お疲れ様♪
+CharacterOff
+	ディーア	絶望4						…………ただいま
+	ディーア	怪しい4						今度は何の本を読んでいるんだ？\n墓碑の話までしたから
+	ディーア	怪しい4						転生とか天地創造とか……？
+StopBgm
+CharacterOff
+	ハジマリ	通常						いや、今日はこれだよ♪
+Bgm	凱旋
+	ハジマリ	通常						流行りのデートスポット特集♪
+CharacterOff
+	ディーア	驚き4						で、デート？
+CharacterOff
+	ハジマリ	笑い						ふふ♪\n意外そうな顔をしているね♪
+	ハジマリ	通常						でもボクも少し反省をしたんだ
+	ハジマリ	通常						ボクにはラスボスとしての役目がある\n今はただ早く目覚めただけ
+	ハジマリ	通常						だからかな？\n今の魔界にいる理由と役目を\n早く確立したかったのかもしれない
+	ハジマリ	通常						ボク自身の不安に、\nキミを付き合わせてしまった……
+CharacterOff
+	ディーア	驚き4						ハジマリ……
+CharacterOff
+	ハジマリ	通常						でもキミを見ていて、\nもっと人間や魔剣と同じスケールで\n世界を楽しんでも良いんだって
+	ハジマリ	通常						デートを楽しんだり\nボクが捨てた女の子らしいことを\nしてもいいんじゃないかって思った
+	ハジマリ	通常						だから、\nもしキミさえよければ<dash=2>
+CharacterOff
+	ディーア	笑い4						喜んで、デートに付き合うよ
+	ディーア	笑い4						ハジマリがこの魔界を、\nもっともっと楽しめるように
+CharacterOff
+	ハジマリ	笑い						そう言ってくれると思っていたけど\nうれしいね♪
+	ハジマリ	笑い						それにラスボス相手に、\nこんな気楽にデートをしてくれるとは\nキミは大した役者だよ♪
+	ハジマリ	通常						じゃあさっそく出発しよう、\nちゃんとプランは立てて来たんだ
+	ハジマリ	通常						観光ツアーに参加して\n六大異変を見て回る予定だし、
+	ハジマリ	通常						ディナーはコースを予約したよ
+CharacterOff
+	ディーア	笑い4						おおっ！
+Tween	ディーア	PunchPosition	y=30				NoWait
+	ディーア	きらーん4						それで夜景を見ながら乾杯、とか！
+CharacterOff
+	ハジマリ	通常						うん♪ そして最後に<dash=2>
+StopBgm
+	ハジマリ	笑い						パパになろう♪
+CharacterOff
+	ディーア	怪しい4						………………ん？
+Bgm	コメディ
+CharacterOff
+	ハジマリ	笑い						ツガイの男女がデートをするのなら\n最後はそういうものだろう？
+	ハジマリ	笑い						大丈夫、\nちゃんとボクも勉強してきたから♪
+CharacterOff
+	ハジマリ	拡大通常	エフェクト表					安心して、パパになっちゃえ♪
+FadeOut	white					2
+If	isdebug==true
+CharacterOff
+Jump	*E_1283_ex03
+EndIf
+EndScenario
+
+# E_1283_ex03
+Command	Arg1	Arg2	Arg3	Arg4	Arg5	Arg6	WaitType	Text	PageCtrl	Voice	WindowType
+Param	quest_name="クエスト名"
+ShowMessageWindow
+FadeOut	black					0
+StopSound
+Bgm	平和
+Bg	酒場_宿屋					0
+Param	character_grayout=false
+	タマハクビ	通常				0
+	黒グラデーション		エフェクト表			0
+FadeIn	black					1
+	タマハクビ	通常						わたしは、\n霊獣刀タマモノマエ=ハクビ……
+	タマハクビ	通常						旦那様や仲間のみんなのおかげで\nもう一度魔剣としてやり直そうと\n決めることができて
+	タマハクビ	通常						元の白眉やタマモノマエ様のように\n立派な魔剣になるため修行中
+	タマハクビ	通常						ですけど<dash=2>
+CharacterOff	黒グラデーション					1
+	タマハクビ	通常						立派な魔剣になるためには\nどういうことをすればいいでしょう？
+CharacterOff
+	ディーア	通常4						そうだなぁ……\n魔剣によって適正とかはあるけど
+	ディーア	通常4						やっぱり魔剣使いと一緒に戦うのは\n魔剣らしいことだと思う
+	ディーア	通常4						人々を困っている魔物から救えば、\n褒められることも多いし
+Tween	ディーア	PunchPosition	y=30				NoWait
+	ディーア	笑い4						お前が目指しているように\n霊獣の悪い噂や伝承を消すことにも\nつながるかもしれない！
+CharacterOff
+	タマハクビ	通常						そうですね、\nわたしはまだ霊獣の刀……\n霊獣刀のままですけれど
+	タマハクビ	笑い						いつかあの二人にあやかって\n神獣刀なんて呼ばれるようになると\nうれしいかも……♪
+CharacterOff
+	ディーア	笑い4						そういう夢はいいな！\n戦うたびにそう名乗ったりしたら\n伝承として成り立つかもしれない
+CharacterOff
+	タマハクビ	笑い						でしたら旦那様、\n早速ですけど任務に行きましょう♪
+	タマハクビ	笑い						魔剣機関からのご依頼の中から、\nちょうど良さそうな任務を\n見つけたんです！
+CharacterOff
+	ディーア	通常4						準備が良いな、ハクビ！
+	ディーア	怪しい4						どれどれ……？
+	ディーア	怪しい4						ちょっと離れた場所だけれど、\nキノコリオンの討伐か
+	ディーア	通常4						魔剣としての戦いに慣れるために\nちょうどいいかもしれないな！
+CharacterOff
+	タマハクビ	笑い						はい♪
+	タマハクビ	本気						旦那様の魔剣として戦って<dash=2>
+	タマハクビ	怪しい						既成事実つくりますね♪
+StopBgm
+	wipe		wipe_start			0
+Tween	wipe	MoveTo	x=-800 islocal=true time=1.2	linear
+FadeOut	black					.1
+CharacterOff						0
+Bg	草原A(夜)					0
+	キノコリオン					0
+Wait						2
+FadeIn	black					.3
+Bgm	バトル
+Tween	キノコリオン	PunchPosition	y=30				NoWait
+	キノコリオン							ノコーっ！
+CharacterOff
+	タマハクビ	本気						はぁあああああああああ……！
+CharacterOff						0
+ImageEffect	SpriteCamera	MotionBlur
+Se	シャキーン
+Bg	黒背景					0
+	黒背景		エフェクト表			0
+	斬撃(393C)		エフェクト裏			0
+Tween	黒背景	MoveBy	y=-3000 time=1
+Wait						.3
+Bg	草原A(夜)					0
+CharacterOff						0
+ImageEffectOff	SpriteCamera	MotionBlur
+	キノコリオン							ノコぉー……！
+Se	倒れる
+CharacterOff	キノコリオン					1
+StopBgm						1
+Wait						1
+Bgm	平和
+CharacterOff
+	ディーア	通常4						よし、任務は完了だな！
+	ディーア	通常4						どうだった、ハクビ？
+CharacterOff
+	タマハクビ	本気						そ、そうですね……\n旦那様の魔力を体の奥で感じて……
+Tween	タマハクビ	PunchPosition	y=30				NoWait
+	タマハクビ	怪しい						昔の白眉や霊獣みたいに、\n自分をさらけだしたくなって……♪
+	タマハクビ	怪しい						もっともっと<dash=2>
+CharacterOff
+	ディーア	驚き4						は、ハクビ？
+CharacterOff
+	タマハクビ	本気						はっ……！
+Tween	タマハクビ	PunchPosition	y=30				NoWait
+	タマハクビ	本気						ご、ごめんなさい！\n戦いの熱に浮かれちゃったみたいです
+	タマハクビ	本気						わたしったらはしたない<dash=2>
+CharacterOff
+	ディーア	通常4						大丈夫！\n戦いの間は魔剣としての伝承が\n激しく影響するから
+	ディーア	通常4						他の魔剣でも同じように\n興奮しちゃうことも多いんだ！
+	ディーア	笑い4						時々、\n自分で立てなくなっちゃったりして\n肩を貸すことも<dash=2>
+CharacterOff
+	タマハクビ	本気						………………
+CharacterOff
+	ディーア	驚き4						は、ハクビ？ どうかしたか？
+CharacterOff
+	タマハクビ	通常						い、いいえ！\nなんでもありません……！
+	黒グラデーション		エフェクト裏			1
+	タマハクビ	怪しい						……やっぱり、\n他の皆さんともこういうこと……
+	タマハクビ	怪しい						わたしももっと、\n大胆に既成事実をつくらないと……
+CharacterOff	黒グラデーション					1
+	タマハクビ	通常						そ、そうだ！\nもう夜も遅くなってきましたね……
+CharacterOff
+	ディーア	通常4						ああ、そうだな
+	ディーア	通常4						今から城に帰ると\n明け方になっちゃうと思うから\n今日は近場で泊まるとしようか！
+CharacterOff
+	タマハクビ	通常						は、はい……！
+StopBgm
+	wipe		wipe_start			0
+Tween	wipe	MoveTo	x=-800 islocal=true time=1.2	linear
+FadeOut	black					.1
+CharacterOff						0
+Bg	酒場1F					0
+	酒場のおばちゃん					0
+Wait						2
+FadeIn	black					.3
+Bgm	緊迫
+	酒場のおばちゃん							ごめんね！ 今日は満員なんだ！
+FadeOut	black					.3
+CharacterOff						0
+Bg	市街地A(夜)					0
+	旅人					0
+FadeIn	black					.3
+	旅人							予約してないのかい？\n今の時期、それは厳しいって！
+	旅人							寝袋だったら貸すよ？
+FadeOut	black					.3
+CharacterOff						0
+Bg	草原A(夜)					0
+	ディーア	絶望4				0
+FadeIn	black					.3
+Bgm	わくわく
+Tween	ディーア	PunchPosition	y=30				NoWait
+	ディーア	絶望4						なんでだっ!?\nなんでどこも満員なんだっ!?
+	ディーア	絶望4						こんなに宿屋があったら\n一部屋くらい空いてるもんだろう!?
+CharacterOff
+	タマハクビ	通常						旦那様、これを見てください！
+CharacterOff
+	ディーア	怪しい4						この地方の観光マップか？\nどれどれ……？
+	ディーア	怪しい4						今は数百年に一度の、\n超珍しい星空が見える季節!?\n観光にはうってつけ!?
+Tween	ディーア	PunchPosition	y=30				NoWait
+	ディーア	驚き4						そうだったのか!?
+CharacterOff
+	タマハクビ	通常						あのキノコリオン討伐も、\n観光の邪魔にならないようにって\n依頼が出されたみたいですね
+	タマハクビ	通常						だからどのお宿も\n予約のお客さんでいっぱいみたいです
+CharacterOff
+	ディーア	悔しい4						困ったな\n野宿するには外は寒すぎるし\n帰ろうにもエイビシュタットは遠いし
+	ディーア	悔しい4						ロサに連絡して、\n迎えに来てもらうとか<dash=2>
+CharacterOff
+	タマハクビ	通常
+Tween	タマハクビ	PunchPosition	y=30				NoWait
+	タマハクビ	通常						だ、旦那様！
+CharacterOff
+	ディーア	驚き4						ハクビ？
+CharacterOff
+	タマハクビ	通常						じ、実は、\n一軒だけお部屋がとれて……
+CharacterOff
+	ディーア	笑い4						本当か!? そこに泊まろう!!
+StopBgm
+	wipe		wipe_start			0
+Tween	wipe	MoveTo	x=-800 islocal=true time=1.2	linear
+FadeOut	black					.1
+CharacterOff						0
+Bg	和風市街（夜）					0
+	魔女					0
+Wait						2
+FadeIn	black					.3
+Bgm	神秘
+	魔女							うふふふ♪\nあら、お若いカップルね♪
+	魔女							今夜はお楽しみかしら♪
+StopBgm
+CharacterOff
+	ディーア	絶望4						………………
+Bgm	カジノ
+Tween	ディーア	PunchPosition	y=30				NoWait
+	ディーア	絶望4						な、なんか怪しい宿なんだけど!?
+	ディーア	絶望4						すごくアダルティで、\nジトッと湿ってる感じするし！
+	ディーア	絶望4						他のお客さんも\nなんかワケありな人ばっかりだし！
+CharacterOff
+	タマハクビ	通常						えーっと……\n密やかな愛にオススメな秘湯って\n書いてありますね……
+CharacterOff
+	ディーア	絶望4						密やかな愛ってなんだ!?\nオレたちも誤解されているぞ!?
+	ディーア	悔しい4						こんなところにいられるか！\nオレは外で<dash=2>
+CharacterOff
+	タマハクビ	通常						で、でも！\nもう外は暗くて危険ですし……！
+	タマハクビ	笑い						わたしなら、いいですよ？
+CharacterOff
+	ディーア	驚き4						えっ……？
+CharacterOff
+	タマハクビ	笑い						こういうところ、\n他の魔剣さんとも泊まったこと、\nないですよね……？
+	黒グラデーション		エフェクト裏			1
+	タマハクビ	笑い						旦那様とわたしだけ……\n二人だけの秘密のお泊り……♪
+	タマハクビ	怪しい						ちゃんと調べてきてよかった♪
+CharacterOff	黒グラデーション					1
+	タマハクビ	笑い						旦那様？
+CharacterOff
+	ディーア	絶望4						は、はい……！
+CharacterOff
+	タマハクビ	拡大笑い	エフェクト表					今夜は二人っきりで、\n既成事実をつくりましょうね♪
+FadeOut	white					2
+If	isdebug==true
+CharacterOff
+Jump	*E_1283_ex03
+EndIf
+EndScenario
+
+# E_1283_ex04
+Command	Arg1	Arg2	Arg3	Arg4	Arg5	Arg6	WaitType	Text	PageCtrl	Voice	WindowType
+Param	quest_name="クエスト名"
+ShowMessageWindow
+FadeOut	black					0
+StopSound
+Bgm	平和
+Bg	酒場_宿屋					0
+Param	character_grayout=false
+	ドゥルガー	通常
+FadeIn	black					1
+	ドゥルガー	通常						このままだと、非合理的だわ
+CharacterOff
+	ディーア	驚き4						どうしたんだ、ドゥルガー
+CharacterOff
+	ドゥルガー	通常						落ち着いて考えてみたのだけど\n今の状態は良くないと思うの
+	ドゥルガー	通常						私は元々、\n魔剣ではなくて機械仕掛けの兵器よ
+	ドゥルガー	通常						それがドゥルガーの伝承によって、\n魔剣少女として生まれた
+	ドゥルガー	通常						こういう体になったのも、\nマスターと共に戦うのも経験不足なの
+	ドゥルガー	通常						この状態は早く解消すべきよ
+CharacterOff
+	ディーア	目閉じ4						たしかにそうだな
+	ディーア	通常4						ちなみにドゥルガー、\n魔剣になった感覚ってどうなんだ？
+CharacterOff
+	ドゥルガー	怪しい						そう、ね……\n不慣れなことがたくさんあるわ……
+	ドゥルガー	怪しい						例えば、\n誰かの魔力が体を巡る感覚だったり\n戦う中で貴方と並ぶこともそう
+	ドゥルガー	怪しい						かつてのドゥルガーの戦場は、\n天から降り立つ無数の天使に対する\n広域殲滅だったから
+	ドゥルガー	怪しい						近くに護るべき人がいることには\n少しだけ不安も感じている
+CharacterOff
+	ディーア	通常4						なるほどな……
+	ディーア	怒り4						でも、ドゥルガー？\nお前は一つ勘違いをしているぞ？
+CharacterOff
+	ドゥルガー	通常						勘違い？
+CharacterOff
+	ディーア	笑い4						オレは\nただ護られるだけの人間じゃなくて\n一緒に戦うお前のマスターだ！
+	ディーア	笑い4						お前の足りないところはオレが補うし\nその逆もあり得る
+	ディーア	笑い4						そういう関係を\nこれから一緒につくっていこう！
+CharacterOff
+	ドゥルガー	照れ						……私の、マスター
+Shake	ドゥルガー		x=3				NoWait
+	ドゥルガー	照れ						マイマスター……
+	ドゥルガー	照れ						なにかしら、胸が温かいわ……
+	ドゥルガー	照れ						誰かと共に戦えるということで、\n力も湧いてくる……
+	ドゥルガー	照れ						それに一人より二人の方が\n戦力が増すというのは合理的結論ね
+	ドゥルガー	通常						ま、マイマスター？\n良ければこれから私と<dash=2>
+CharacterOff
+	ロサ	通常				1		こんなところのにいたのですね、\nご主人様！
+	ロサ	通常						お仕事がまだ残っております！\n私も手伝いますから早くしましょう！
+CharacterOff
+	ディーア	汗4						ご、ごめん……！
+	ディーア	通常4						じゃあ、ドゥルガーまたな
+Se	走る
+CharacterOff	ディーア					1
+Wait						1
+CharacterOff
+	ドゥルガー	通常						え、ええ……
+	ドゥルガー	怪しい						………………
+	ドゥルガー	怪しい						私の、マスターなのに……
+	ドゥルガー	怪しい						この胸のざわめきは、\nもしかして独占欲というものなの？
+Tween	ドゥルガー	PunchPosition	y=30				NoWait
+	ドゥルガー	怪しい						ダメよ……！\nそれは戦場で邪魔になる非合理的感情
+	ドゥルガー	怪しい						私はマイマスターを護るためにも、\nもっと合理的に……
+	ドゥルガー	怪しい						そう、合理的に……
+StopBgm
+FadeOut	black					.3
+CharacterOff						0
+Bg	酒場の地下					0
+	集中線		エフェクト表			0
+	ドゥルガー	拡大通常	エフェクト裏			0
+Wait						1
+FadeIn	black					.3
+Bgm	コメディ
+	ドゥルガー	拡大通常						合理的に考えて、\n私が貴方を独占するべきよ……！
+CharacterOff
+	ディーア	絶望4
+Tween	ディーア	PunchPosition	y=30				NoWait
+	ディーア	絶望4						いきなりどうした?!
+CharacterOff
+	ドゥルガー	通常						なぜそんなに慌てるの？
+CharacterOff
+	ディーア	絶望4						ドゥルガーこそ！\nどうしてそんな結論に……!?
+	ディーア	絶望4						地下室に呼ばれたと思ったら、\n鍵まで閉めちゃったし！
+CharacterOff
+	ドゥルガー	通常						たしかに説明はするべきね
+	ドゥルガー	通常						マイマスター、\n私は魔界を護る切り札だったわよね？
+	ドゥルガー	通常						つまり、\n魔界よりも小さい貴方を護ることは\n造作もないことであるし
+	ドゥルガー	通常						私一人がいれば、\nマスターを護る戦力には十分なのよ
+	ドゥルガー	本気						だから独占するわ！
+Tween	ドゥルガー	PunchPosition	y=30				NoWait
+	ドゥルガー	本気						そして！\n貴方の中の魔剣との思い出も\n私が上書きするの！
+	ドゥルガー	本気						それが合理的な結論よ……！
+CharacterOff
+	ディーア	絶望4
+Tween	ディーア	PunchPosition	y=30				NoWait
+	ディーア	絶望4						考えがジャンプしすぎてる!?
+CharacterOff
+	ドゥルガー	通常						とにかく、マイマスター？
+	ドゥルガー	怪しい						まずは昨日、他の魔剣としたことを\nリストアップしてちょうだい
+	ドゥルガー	怪しい						私が今から同じことを貴方とするわ
+CharacterOff
+	ディーア	怪しい4						同じことを、どうして……？
+CharacterOff
+	ドゥルガー	通常						もちろん、貴方を護るためよ
+	ドゥルガー	笑い						対象の行動パターンの解析は、\n基本中の基本\n貴方を護るための合理的な行動よ
+	ドゥルガー	笑い						それに貴方の趣味嗜好を学習すれば\n私一人で代行できる
+	ドゥルガー	笑い						魔剣をとっかえひっかえするよりも\n私が継続的に護衛する方が合理的
+	ドゥルガー	笑い						そうでしょう？
+CharacterOff
+	ディーア	怪しい4						そ、そうかな……
+CharacterOff
+	ドゥルガー	笑い						そうなの
+	ドゥルガー	笑い						大丈夫、すぐに貴方もわかるはず
+	ドゥルガー	通常						まずは早くリストアップして？
+CharacterOff
+	ディーア	怒り4						…………よしっ
+	ディーア	怪しい4						書けたぞ！\nでもこれ本当に全部するのか？
+StopBgm
+CharacterOff
+	ドゥルガー	通常						ええ、もちろ<dash=2>
+Bgm	キノコリオン
+Tween	ドゥルガー	PunchPosition	y=30				NoWait
+	ドゥルガー	照れ						っ!?
+	ドゥルガー	照れ						え、なに、この、なに……？
+	ドゥルガー	怪しい						どうしてこんな、\n意味不明で非合理的な行動まで!?
+CharacterOff
+	ディーア	にやけ4						い、いやー、成り行きで……♪
+CharacterOff
+	ドゥルガー	怪しい						成り行きでそんな……！\nこんなことを他の魔剣も許すなんて
+CharacterOff
+	ディーア	にやけ4						ま、まあ、\nやってしまったものは仕方ない
+	ディーア	汗4						それで、\nドゥルガーも望むならするけど、\n……どうする？
+CharacterOff
+	ドゥルガー	照れ						うっ……
+Tween	ドゥルガー	PunchPosition	y=30				NoWait
+	ドゥルガー	照れ						も、もちろんよ！ するわ！
+	ドゥルガー	照れ						貴方は私のマイマスター
+	ドゥルガー	照れ						貴方を護ることこそが私の使命で\n私はその最適解
+	ドゥルガー	照れ						だからどんなに非合理的なことでも\n必ずしてみせる……！
+CharacterOff
+	ドゥルガー	拡大通常	エフェクト表					私が一番だって、上書きするから
+FadeOut	white					2
+If	isdebug==true
+CharacterOff
+Jump	*E_1283_ex01
+EndIf
+EndScenario
