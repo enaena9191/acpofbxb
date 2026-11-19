@@ -2237,8 +2237,14 @@
     "versions": [
       {
         "ts": "2026/10/30 18:00:00",
-        "file": "04850_20261030.html",
+        "file": "04850_20261030_v20261030180000.html",
         "hash": "9b29ebd84d390959dd66cad5fc57a2d1c6eb1682432c541336b87ff6f20b59a7",
+        "ts_source": "rss"
+      },
+      {
+        "ts": "2026/11/19 18:01:07",
+        "file": "04850_20261030.html",
+        "hash": "6465d8b4fd8e6456d9c26a12167205fb358b9b0a0a54a41a8f2ab834d1beeeef",
         "ts_source": "rss"
       }
     ]
