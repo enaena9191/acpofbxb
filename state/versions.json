@@ -2554,5 +2554,17 @@
         "ts_source": "page_time"
       }
     ]
+  },
+  "4875": {
+    "slug": "guildbattle_261120",
+    "canonical": "04875_20251120.html",
+    "versions": [
+      {
+        "ts": "2026/11/20 16:00:00",
+        "file": "04875_20251120.html",
+        "hash": "ac6f10c0cbc3b2b8074501b93d1256f5a0a9e3b6b2e7ac230f394a0676d9a236",
+        "ts_source": "rss"
+      }
+    ]
   }
 }

@@ -9481,6 +9481,7 @@ bxb-assets/images/topics/item/1195008/icon.png
 bxb-assets/images/topics/item/1195904/icon.png
 bxb-assets/images/topics/item/1197040/icon.png
 bxb-assets/images/topics/item/1198005/icon.png
+bxb-assets/images/topics/item/1198022/icon.png
 bxb-assets/images/topics/item/1198028/icon.png
 bxb-assets/images/topics/item/1199022/icon.png
 bxb-assets/images/topics/item/1199028/icon.png
@@ -11845,6 +11846,7 @@ bxb-assets/images/topics/souls/1575/stand_ll.png
 bxb-assets/images/topics/souls/1576/stand_ll.png
 bxb-assets/images/topics/souls/1577/stand_ll.png
 bxb-assets/images/topics/souls/1578/stand_ll.png
+bxb-assets/images/topics/souls/1579/stand_ll.png
 bxb-assets/images/topics/tape_04.jpg
 bxb-assets/images/topics/tape_04_soul.jpg
 bxb-assets/images/topics/title/info_header_gr_questionnaire.jpg
@@ -14336,6 +14338,7 @@ bxb-assets/images/topics/weapons/1197040.jpg
 bxb-assets/images/topics/weapons/1198005.jpg
 bxb-assets/images/topics/weapons/119801.jpg
 bxb-assets/images/topics/weapons/119802.jpg
+bxb-assets/images/topics/weapons/1198022.jpg
 bxb-assets/images/topics/weapons/1198028.jpg
 bxb-assets/images/topics/weapons/119803.jpg
 bxb-assets/images/topics/weapons/119901.jpg
