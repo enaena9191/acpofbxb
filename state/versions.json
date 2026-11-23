@@ -2263,11 +2263,11 @@
   },
   "4852": {
     "slug": "loginbonus_202611",
-    "canonical": "04852_20141101.html",
+    "canonical": "04852_20261101.html",
     "versions": [
       {
         "ts": "2026/11/01 00:00:00",
-        "file": "04852_20141101.html",
+        "file": "04852_20261101.html",
         "hash": "3d9025d2f3d947317e7972de9b71b85f4eb2f8a24dbe118b42472ac225bca477",
         "ts_source": "rss"
       }
@@ -2473,11 +2473,11 @@
   },
   "4868": {
     "slug": "event_1283_main",
-    "canonical": "04868_20251112.html",
+    "canonical": "04868_20261112.html",
     "versions": [
       {
         "ts": "2026/11/12 16:00:00",
-        "file": "04868_20251112.html",
+        "file": "04868_20261112.html",
         "hash": "ccd46de9876ffd28854f6fa750c388e6e98da21cc54a5a2d0e6af94266358f3c",
         "ts_source": "rss"
       }
@@ -2485,11 +2485,11 @@
   },
   "4869": {
     "slug": "advance_diapack_20261116",
-    "canonical": "04869_20251116.html",
+    "canonical": "04869_20261116.html",
     "versions": [
       {
         "ts": "2026/11/16 16:00:00",
-        "file": "04869_20251116.html",
+        "file": "04869_20261116.html",
         "hash": "3b56d0ced0f0662e434a0e4123762bf1cfdd9e49c66de8d23f4662b3b008546d",
         "ts_source": "rss"
       }
@@ -2497,11 +2497,11 @@
   },
   "4870": {
     "slug": "yokoku_854",
-    "canonical": "04870_20251116.html",
+    "canonical": "04870_20261116.html",
     "versions": [
       {
         "ts": "2026/11/16 17:00:00",
-        "file": "04870_20251116.html",
+        "file": "04870_20261116.html",
         "hash": "46dc5677e1573a2c359aba739e03ab502bbde452444e96b72d9b31a82afee020",
         "ts_source": "rss"
       }
@@ -2509,11 +2509,11 @@
   },
   "4871": {
     "slug": "g_854",
-    "canonical": "04871_20251117.html",
+    "canonical": "04871_20261117.html",
     "versions": [
       {
         "ts": "2026/11/17 16:00:00",
-        "file": "04871_20251117.html",
+        "file": "04871_20261117.html",
         "hash": "fb0fe6151175bfb0518077396e6bacdda14dc99e8af19c1de8fa161ebc71403a",
         "ts_source": "rss"
       }
@@ -2521,11 +2521,11 @@
   },
   "4872": {
     "slug": "info_kaini_202611",
-    "canonical": "04872_20251118.html",
+    "canonical": "04872_20261118.html",
     "versions": [
       {
         "ts": "2026/11/18 16:00:00",
-        "file": "04872_20251118.html",
+        "file": "04872_20261118.html",
         "hash": "e89aa8911e76ec4b46832c7dcf7c011b5787ac2b2a64ed7ddfa3e930661cf73b",
         "ts_source": "rss"
       }
@@ -2533,11 +2533,11 @@
   },
   "4873": {
     "slug": "info_4koma_601",
-    "canonical": "04873_20251118.html",
+    "canonical": "04873_20261118.html",
     "versions": [
       {
         "ts": "2026/11/18 19:00:00",
-        "file": "04873_20251118.html",
+        "file": "04873_20261118.html",
         "hash": "89296f262e0b27014d12dbcf7161410d2b78635695aae5293e030cd1221951db",
         "ts_source": "rss"
       }
@@ -2545,11 +2545,11 @@
   },
   "4874": {
     "slug": null,
-    "canonical": "04874_20251118.html",
+    "canonical": "04874_20261118.html",
     "versions": [
       {
-        "ts": "2025/11/18 19:00:00",
-        "file": "04874_20251118.html",
+        "ts": "2026/11/18 19:00:00",
+        "file": "04874_20261118.html",
         "hash": "a62ed2e82556a2af3da72104cb977f4d71b897398180814eea4ab2a154940982",
         "ts_source": "page_time"
       }
@@ -2557,11 +2557,11 @@
   },
   "4875": {
     "slug": "guildbattle_261120",
-    "canonical": "04875_20251120.html",
+    "canonical": "04875_20261120.html",
     "versions": [
       {
         "ts": "2026/11/20 16:00:00",
-        "file": "04875_20251120.html",
+        "file": "04875_20261120.html",
         "hash": "ac6f10c0cbc3b2b8074501b93d1256f5a0a9e3b6b2e7ac230f394a0676d9a236",
         "ts_source": "rss"
       }
@@ -2569,11 +2569,11 @@
   },
   "4878": {
     "slug": "maintenance_20261130",
-    "canonical": "04878_20251123.html",
+    "canonical": "04878_20261123.html",
     "versions": [
       {
         "ts": "2026/11/23 15:00:00",
-        "file": "04878_20251123.html",
+        "file": "04878_20261123.html",
         "hash": "184658e88b847f4bd8735ba7e25a3f2962867f0cfe933c1b46baaf828cec6a51",
         "ts_source": "rss"
       }
@@ -2581,11 +2581,11 @@
   },
   "4876": {
     "slug": "advance_diapack_20261123",
-    "canonical": "04876_20251123.html",
+    "canonical": "04876_20261123.html",
     "versions": [
       {
         "ts": "2026/11/23 16:00:00",
-        "file": "04876_20251123.html",
+        "file": "04876_20261123.html",
         "hash": "0539dc8a2f9909ef052694fef44cbe94a3941c5a50b521a1bacf9629cc8d6d9e",
         "ts_source": "rss"
       }
@@ -2593,11 +2593,11 @@
   },
   "4877": {
     "slug": "yokoku_855",
-    "canonical": "04877_20251123.html",
+    "canonical": "04877_20261123.html",
     "versions": [
       {
         "ts": "2026/11/23 17:00:00",
-        "file": "04877_20251123.html",
+        "file": "04877_20261123.html",
         "hash": "b2bdc21c6c52074634509c73d20d1f1d5ddc40579b170da121abb8805cd39a73",
         "ts_source": "rss"
       }

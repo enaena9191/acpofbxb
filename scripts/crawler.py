@@ -4,6 +4,7 @@ import glob
 import os
 import re
 from copy import deepcopy
+from datetime import date
 from urllib.parse import urljoin, urlparse
 
 import requests
@@ -222,7 +223,38 @@ def stage_r2_assets(r2_needed, manifest):
     return staged
 
 
-# ---------------------------------------------------------------- 日期推断（沿用旧逻辑）
+# ---------------------------------------------------------------- 日期推断
+# 官网页面只有 MM/DD hh:mm:能对上 RSS 的用 RSS pubDate 定年份,对不上才沿用前一篇往下推
+
+def _is_comic_episode(soup):
+    title_a = soup.find("a", class_="title_text")
+    title = title_a.get_text(strip=True) if title_a else ""
+    return title[:5] == "【四コマ】" and bool(COMIC_EPISODE_RE.match(title))
+
+
+def _closest_year(ref_ts, month, day, fallback):
+    # ref_ts = 'YYYY/MM/DD ...';取让 (月, 日) 离 ref 最近的年份 (RSS pubDate 可能随编辑后移)
+    try:
+        ry = int(ref_ts[:4])
+        ref = date(ry, int(ref_ts[5:7]), int(ref_ts[8:10]))
+    except (TypeError, ValueError):
+        return fallback
+    best = None
+    for y in (ry - 1, ry, ry + 1):
+        try:
+            d = abs((date(y, month, day) - ref).days)
+        except ValueError:
+            continue
+        if best is None or d < best[0]:
+            best = (d, y)
+    return best[1] if best else fallback
+
+
+def _set_page_time(soup, year, month, day, hhmm):
+    time_div = soup.find("div", class_="time")
+    if time_div:
+        time_div.string = f"{year:04d}/{month:02d}/{day:02d} {hhmm}"
+
 
 def infer_datetime(soup, year, month, day, hhmm):
     """对新 id：从页面 MM/DD hh:mm 推断完整日期（跨年/四格继承）。"""
@@ -231,9 +263,7 @@ def infer_datetime(soup, year, month, day, hhmm):
     new_month = int(new_date[:2])
     new_day = int(new_date[3:5])
     new_hhmm = new_date[-5:]
-    title_a = soup.find("a", class_="title_text")
-    title = title_a.get_text(strip=True) if title_a else ""
-    if title[:5] == "【四コマ】" and COMIC_EPISODE_RE.match(title):
+    if _is_comic_episode(soup):
         # 日期恒为01/01的四格：继承上一个 topic 的日期
         new_month, new_day, new_hhmm = month, day, hhmm
     elif new_month in (1, 2) and month in (11, 12):
@@ -315,12 +345,17 @@ def save_new_version(num, fresh_raw, base_url, entry, ts, ts_source, versions, r
     last["file"] = versioned
 
     soup = BeautifulSoup(fresh_raw, "lxml")
-    # 日期：年份沿用 canonical 文件名，不因编辑改名（链接不死）
-    year = int(canonical[6:10])
+    # 文件名不因编辑改名（链接不死）;显示时间:四格官方恒为 01/01、沿用存档里继承来的日期,
+    # 其余用官方 MM/DD、年份取离本版 ts 最近的
     time_div = soup.find("div", class_="time")
     if time_div:
         t = time_div.get_text(strip=True)
-        time_div.string = f"{year:04d}/{t[:5]} {t[-5:]}"
+        stored = page_time_str(HTML_DIR / versioned)
+        if _is_comic_episode(soup) and stored:
+            time_div.string = stored
+        else:
+            year = _closest_year(ts, int(t[:2]), int(t[3:5]), int(canonical[6:10]))
+            time_div.string = f"{year:04d}/{t[:5]} {t[-5:]}"
 
     r2_needed |= process_page(soup, base_url)
     write_page(HTML_DIR / canonical, soup)
@@ -497,9 +532,19 @@ def _match_rss_item(title, time_mmdd_hhmm, rss_items, used_slugs):
     return cands[0] if cands else None
 
 
+def _year_from_rss(soup, item, year, month, day, hhmm):
+    if item is None or _is_comic_episode(soup):
+        return year
+    y = _closest_year(item.get("jst_ts"), month, day, year)
+    if y != year:
+        _set_page_time(soup, y, month, day, hhmm)
+    return y
+
+
 def prev_date_context(latest_id):
     """从最新 canonical 推出 (year, month, day, hhmm) 上下文。"""
-    canonical = find_canonical(latest_id)
+    # 官方乱序发布、前一个 id 可能还没存档 → 往前找最近一篇
+    canonical = next((c for k in range(latest_id, max(0, latest_id - 200), -1) if (c := find_canonical(k))), None)
     if not canonical:
         return 2015, 1, 1, "00:00"
     ts = page_time_str(HTML_DIR / canonical)  # 'YYYY/MM/DD hh:mm'
@@ -532,12 +577,12 @@ def crawl_new(state, versions, rss_items, r2_needed):
         fresh_raw, base_url = result
         soup = BeautifulSoup(fresh_raw, "lxml")
         year, month, day, hhmm = infer_datetime(soup, year, month, day, hhmm)
-        ymd = f"{year:04d}{month:02d}{day:02d}"
-        canonical = canonical_name(i, ymd)
 
         title_a = soup.find("a", class_="title_text")
         title = title_a.get_text(strip=True) if title_a else ""
         item = _match_rss_item(title, f"{month:02d}/{day:02d} {hhmm}", rss_items, used_slugs)
+        year = _year_from_rss(soup, item, year, month, day, hhmm)
+        canonical = canonical_name(i, f"{year:04d}{month:02d}{day:02d}")
         if item:
             used_slugs.add(item["slug"])
             slug, ts, ts_source = item["slug"], item["jst_ts"], "rss"
@@ -601,14 +646,15 @@ def backfill_ids(ids, state, versions, rss_items, r2_needed):
             continue                       # 仍未上线（或是真空洞）,下轮再探
         fresh_raw, base_url = result
         soup = BeautifulSoup(fresh_raw, "lxml")
-        # 日期上下文取前一个 id 的存档页；取不到就退回该页自身的 MM/DD 配当前年份
+        # 日期上下文取前面最近一篇已存档的页;能对上 RSS 时年份以 RSS 为准
         year, month, day, hhmm = prev_date_context(i - 1)
         year, month, day, hhmm = infer_datetime(soup, year, month, day, hhmm)
-        canonical = canonical_name(i, f"{year:04d}{month:02d}{day:02d}")
 
         title_a = soup.find("a", class_="title_text")
         title = title_a.get_text(strip=True) if title_a else ""
         item = _match_rss_item(title, f"{month:02d}/{day:02d} {hhmm}", rss_items, used_slugs)
+        year = _year_from_rss(soup, item, year, month, day, hhmm)
+        canonical = canonical_name(i, f"{year:04d}{month:02d}{day:02d}")
         if item:
             used_slugs.add(item["slug"])
             slug, ts, ts_source = item["slug"], item["jst_ts"], "rss"
