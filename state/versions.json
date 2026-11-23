@@ -2566,5 +2566,17 @@
         "ts_source": "rss"
       }
     ]
+  },
+  "4878": {
+    "slug": "maintenance_20261130",
+    "canonical": "04878_20251123.html",
+    "versions": [
+      {
+        "ts": "2026/11/23 15:00:00",
+        "file": "04878_20251123.html",
+        "hash": "184658e88b847f4bd8735ba7e25a3f2962867f0cfe933c1b46baaf828cec6a51",
+        "ts_source": "rss"
+      }
+    ]
   }
 }
