@@ -2578,5 +2578,17 @@
         "ts_source": "rss"
       }
     ]
+  },
+  "4876": {
+    "slug": "advance_diapack_20261123",
+    "canonical": "04876_20251123.html",
+    "versions": [
+      {
+        "ts": "2026/11/23 16:00:00",
+        "file": "04876_20251123.html",
+        "hash": "0539dc8a2f9909ef052694fef44cbe94a3941c5a50b521a1bacf9629cc8d6d9e",
+        "ts_source": "rss"
+      }
+    ]
   }
 }

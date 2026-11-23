@@ -11934,6 +11934,7 @@ bxb-assets/images/topics/updates/premium/title_510101.jpg
 bxb-assets/images/topics/updates/premium/title_510102.jpg
 bxb-assets/images/topics/updates/premium/title_510104.jpg
 bxb-assets/images/topics/updates/premium/title_510105.jpg
+bxb-assets/images/topics/updates/premium/title_510106.jpg
 bxb-assets/images/topics/updates/premium/title_51027.jpg
 bxb-assets/images/topics/updates/premium/title_51029.jpg
 bxb-assets/images/topics/updates/premium/title_51030.jpg
