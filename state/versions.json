@@ -2602,5 +2602,29 @@
         "ts_source": "rss"
       }
     ]
+  },
+  "4879": {
+    "slug": "g_855",
+    "canonical": "04879_20261124.html",
+    "versions": [
+      {
+        "ts": "2026/11/24 16:00:00",
+        "file": "04879_20261124.html",
+        "hash": "90a2681a9dedd7c16a220fed5b64ccfa804142c2f2f9afe4e21baec9f87dba32",
+        "ts_source": "rss"
+      }
+    ]
+  },
+  "4880": {
+    "slug": "medal_202611",
+    "canonical": "04880_20261124.html",
+    "versions": [
+      {
+        "ts": "2026/11/24 16:00:00",
+        "file": "04880_20261124.html",
+        "hash": "abdcff112d818793ee5fa428dc710a6251236280ae167b5f635556abac30e9fe",
+        "ts_source": "rss"
+      }
+    ]
   }
 }
