@@ -1927,6 +1927,8 @@ bxb-assets/images/topics/4koma/comic_600_tn_280_open.png
 bxb-assets/images/topics/4koma/comic_600_tn_280_soon.png
 bxb-assets/images/topics/4koma/comic_601_pieaheta.png
 bxb-assets/images/topics/4koma/comic_601_tn_280_open.png
+bxb-assets/images/topics/4koma/comic_602_fheaegaeit.png
+bxb-assets/images/topics/4koma/comic_602_tn_280_open.png
 bxb-assets/images/topics/4koma/comic_60_tn_280_open.png
 bxb-assets/images/topics/4koma/comic_61_tn_280_open.png
 bxb-assets/images/topics/4koma/comic_62_tn_280_open.png
